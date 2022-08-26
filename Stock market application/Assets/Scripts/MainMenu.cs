@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
             var tName = refName.text.ToUpper();
             var tUsername = refUsername.text.ToUpper();
             var tPincode = regPincode.text.ToUpper();
-            MongoDB.CommitRegister(tName, tUsername, tPincode);
+            MongoDBDatabase.CommitRegister(tName, tUsername, tPincode);
         }
         catch
         {
@@ -49,7 +49,7 @@ public class MainMenu : MonoBehaviour
             return;
         }
            
-        MongoDB.CheckLogin(tUsername,tPincode);
+        MongoDBDatabase.CheckLogin(tUsername,tPincode);
     }
     private void ErrorText(string displaytext)
     {

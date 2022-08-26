@@ -1,2 +1,0 @@
-C:\GitHub\Stock-Market\Stock market application\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
-C:\GitHub\Stock-Market\Stock market application\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
