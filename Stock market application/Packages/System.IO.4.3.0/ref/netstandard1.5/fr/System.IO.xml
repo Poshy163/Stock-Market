@@ -1923,7 +1923,8 @@
         </member>
         <member name="M:System.IO.StreamReader.Read">
             <summary>Lit le caractère suivant dans le flux d'entrée et avance la position d'un caractère.</summary>
-            <returns>Caractère suivant du flux d'entrée, représenté sous la forme d'un objet<see cref="T:System.Int32"/>
+            <returns>Caractère suivant du flux d'entrée, représenté sous la forme d'un objet
+                <see cref="T:System.Int32"/>
                 , ou -1 s'il n'y a plus de caractère disponible.
             </returns>
             <exception cref="T:System.IO.IOException">Une erreur d'E/S se produit.</exception>

@@ -176,7 +176,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -351,7 +350,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -980,7 +978,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -2920,7 +2917,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3669,6 +3665,7 @@ GameObject:
   - component: {fileID: 1217460273}
   - component: {fileID: 1217460272}
   - component: {fileID: 1217460275}
+  - component: {fileID: 1217460276}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -3737,11 +3734,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logUsername: {fileID: 1402620084}
-  logPincode: {fileID: 0}
-  refName: {fileID: 0}
-  refUsername: {fileID: 0}
-  regPincode: {fileID: 0}
+  logPincode: {fileID: 1578087988}
+  refName: {fileID: 65005657}
+  refUsername: {fileID: 1556613633}
+  regPincode: {fileID: 1595716}
   error: {fileID: 472521154}
+--- !u!114 &1217460276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217460271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7beed7f96840647a3ceea5b489a409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1348717293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,7 +3856,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -4047,7 +4055,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
 --- !u!223 &1491462614
 Canvas:
   m_ObjectHideFlags: 0
@@ -4292,7 +4299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -4467,7 +4473,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
-    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}

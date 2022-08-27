@@ -12,7 +12,8 @@
         <member name="M:System.Action.EndInvoke(System.IAsyncResult)"></member>
         <member name="M:System.Action.Invoke"></member>
         <member name="T:System.Action`1">
-            <summary>単一のパラメーターを受け取り、戻り値を持たないメソッドをカプセル化します。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source
+            <summary>単一のパラメーターを受け取り、戻り値を持たないメソッドをカプセル化します。この型に対応する .NET Framework のソース コードを参照するには、「Reference
+                Source
                 (ソースの参照)」を参照してください。
             </summary>
             <typeparam name="T">
@@ -310,7 +311,9 @@
         <member name="M:System.Action`9.EndInvoke(System.IAsyncResult)"></member>
         <member name="M:System.Action`9.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8)"></member>
         <member name="T:System.Activator">
-            <summary>オブジェクトの型をローカル サイトまたはリモート サイトに作成するメソッド、または既存のリモート オブジェクトへの参照を取得するメソッドを保持します。このクラスは継承できません。</summary>
+            <summary>オブジェクトの型をローカル サイトまたはリモート サイトに作成するメソッド、または既存のリモート
+                オブジェクトへの参照を取得するメソッドを保持します。このクラスは継承できません。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Activator.CreateInstance``1">
@@ -367,7 +370,8 @@
                 を使用して取得されていません。
             </exception>
             <exception cref="T:System.MissingMethodException">.NET for Windows Store apps または ポータブル クラス ライブラリ,
-                、基本クラスの例外をキャッチ<see cref="T:System.MissingMemberException"/>, 、代わりにします。一致するパブリック コンストラクターが見つかりませんでした。
+                、基本クラスの例外をキャッチ<see cref="T:System.MissingMemberException"/>, 、代わりにします。一致するパブリック
+                コンストラクターが見つかりませんでした。
             </exception>
             <exception cref="T:System.Runtime.InteropServices.COMException">
                 <paramref name="type"/>
@@ -434,7 +438,8 @@
                 を使用して取得されていません。
             </exception>
             <exception cref="T:System.MissingMethodException">.NET for Windows Store apps または ポータブル クラス ライブラリ,
-                、基本クラスの例外をキャッチ<see cref="T:System.MissingMemberException"/>, 、代わりにします。一致するパブリック コンストラクターが見つかりませんでした。
+                、基本クラスの例外をキャッチ<see cref="T:System.MissingMemberException"/>, 、代わりにします。一致するパブリック
+                コンストラクターが見つかりませんでした。
             </exception>
             <exception cref="T:System.Runtime.InteropServices.COMException">
                 <paramref name="type"/>
@@ -525,7 +530,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="T:System.ArgumentNullException">
-            <summary>null 参照 (Visual Basic では Nothing) を有効な引数として受け付けないメソッドに null 参照を渡した場合にスローされる例外。</summary>
+            <summary>null 参照 (Visual Basic では Nothing) を有効な引数として受け付けないメソッドに null 参照を渡した場合にスローされる例外。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.ArgumentNullException.#ctor">
@@ -547,7 +553,9 @@
                 クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="message">この例外の原因を説明するエラー メッセージ。</param>
-            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic では、Nothing)。</param>
+            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic
+                では、Nothing)。
+            </param>
         </member>
         <member name="M:System.ArgumentNullException.#ctor(System.String,System.String)">
             <summary>指定したエラー メッセージと、この例外の原因である引数の名前を使用して、
@@ -580,7 +588,9 @@
                 クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="message">この例外の原因を説明するエラー メッセージ。</param>
-            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic では、Nothing)。</param>
+            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic
+                では、Nothing)。
+            </param>
         </member>
         <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)">
             <summary>パラメーター名、引数の値、および指定されたエラー メッセージを使用して、
@@ -651,7 +661,8 @@
             </param>
         </member>
         <member name="T:System.Array">
-            <summary>配列の作成、操作、検索、および並べ替えを行うメソッドを提供します。これにより、共通言語ランタイムのすべての配列の基本クラスとして機能します。この種類の .NET Framework ソース
+            <summary>配列の作成、操作、検索、および並べ替えを行うメソッドを提供します。これにより、共通言語ランタイムのすべての配列の基本クラスとして機能します。この種類の
+                .NET Framework ソース
                 コードを参照して、次を参照してください。、参照ソースです。
             </summary>
             <filterpriority>1</filterpriority>
@@ -1398,7 +1409,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.CopyTo(System.Array,System.Int32)">
-            <summary>現在の 1 次元配列のすべての要素を、指定したコピー先配列インデックスで開始する指定の 1 次元配列にコピーします。インデックスは 32 ビット整数値として指定します。</summary>
+            <summary>現在の 1 次元配列のすべての要素を、指定したコピー先配列インデックスで開始する指定の 1 次元配列にコピーします。インデックスは 32
+                ビット整数値として指定します。
+            </summary>
             <param name="array">現在の配列からコピーされる要素のコピー先である 1 次元配列。</param>
             <param name="index">コピーを開始する
                 <paramref name="array"/>
@@ -1633,8 +1646,9 @@
         </member>
         <member name="M:System.Array.FindAll``1(``0[],System.Predicate{``0})">
             <summary>指定された述語によって定義された条件と一致するすべての要素を取得します。</summary>
-            <returns>見つかった場合は、指定された述語によって定義された条件と一致するすべての要素を格納した<see cref="T:System.Array"/>。それ以外の場合は、空の<see
-                    cref="T:System.Array"/>。
+            <returns>見つかった場合は、指定された述語によって定義された条件と一致するすべての要素を格納した<see cref="T:System.Array"/>
+                。それ以外の場合は、空の<see
+                        cref="T:System.Array"/>。
             </returns>
             <param name="array">検索する 1 次元の<see cref="T:System.Array"/>。インデックス番号が 0 から始まる必要があります。
             </param>
@@ -1651,7 +1665,8 @@
         <member name="M:System.Array.FindIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})">
             <summary>
                 <see cref="T:System.Array"/>
-                の指定したインデックスから指定した要素数までの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の小さい要素の 0 から始まるインデックスを返します。
+                の指定したインデックスから指定した要素数までの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の小さい要素の
+                0 から始まるインデックスを返します。
             </summary>
             <returns>
                 <paramref name="match"/>
@@ -1688,7 +1703,8 @@
         <member name="M:System.Array.FindIndex``1(``0[],System.Int32,System.Predicate{``0})">
             <summary>
                 <see cref="T:System.Array"/>
-                の指定したインデックスから最後の要素までの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の小さい要素の 0 から始まるインデックスを返します。
+                の指定したインデックスから最後の要素までの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の小さい要素の 0
+                から始まるインデックスを返します。
             </summary>
             <returns>
                 <paramref name="match"/>
@@ -1758,7 +1774,8 @@
         <member name="M:System.Array.FindLastIndex``1(``0[],System.Int32,System.Int32,System.Predicate{``0})">
             <summary>
                 <see cref="T:System.Array"/>
-                の指定したインデックスで終わる指定した要素数の範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の大きい要素の 0 から始まるインデックスを返します。
+                の指定したインデックスで終わる指定した要素数の範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の大きい要素の
+                0 から始まるインデックスを返します。
             </summary>
             <returns>
                 <paramref name="match"/>
@@ -1795,7 +1812,8 @@
         <member name="M:System.Array.FindLastIndex``1(``0[],System.Int32,System.Predicate{``0})">
             <summary>
                 <see cref="T:System.Array"/>
-                の先頭の要素から指定したインデックスまでの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の大きい要素の 0 から始まるインデックスを返します。
+                の先頭の要素から指定したインデックスまでの範囲内で、指定した述語によって定義される条件に一致する要素を検索し、最もインデックス番号の大きい要素の 0
+                から始まるインデックスを返します。
             </summary>
             <returns>
                 <paramref name="match"/>
@@ -1960,7 +1978,8 @@
         </member>
         <member name="M:System.Array.IndexOf(System.Array,System.Object)">
             <summary>指定したオブジェクトを検索し、1 次元配列でそのオブジェクトが最初に見つかった位置のインデックス番号を返します。</summary>
-            <returns>最初に見つかった位置のインデックス<paramref name="value"/>で<paramref name="array"/>場合は、見つかったそれ以外の場合、配列の下限から 1
+            <returns>最初に見つかった位置のインデックス<paramref name="value"/>で<paramref name="array"/>場合は、見つかったそれ以外の場合、配列の下限から
+                1
                 を引いたします。
             </returns>
             <param name="array">検索対象となる 1 次元配列。</param>
@@ -1981,8 +2000,9 @@
         <member name="M:System.Array.IndexOf(System.Array,System.Object,System.Int32)">
             <summary>指定されたオブジェクトを 1 次元配列の要素範囲内で検索し、最初に見つかったオブジェクトのインデックスを返します。要素範囲は、指定されたインデックスから、配列の最後までの範囲です。
             </summary>
-            <returns>最初に見つかった位置のインデックス<paramref name="value"/>内の要素の範囲内で見つかった場合、<paramref name="array"/>から拡張する<paramref
-                    name="startIndex"/>を最後の要素です。それ以外の場合、配列の下限から 1 を引いたします。
+            <returns>最初に見つかった位置のインデックス<paramref name="value"/>内の要素の範囲内で見つかった場合、<paramref name="array"/>
+                から拡張する<paramref
+                        name="startIndex"/>を最後の要素です。それ以外の場合、配列の下限から 1 を引いたします。
             </returns>
             <param name="array">検索対象となる 1 次元配列。</param>
             <param name="value">
@@ -2009,8 +2029,9 @@
         <member name="M:System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)">
             <summary>指定されたオブジェクトを 1 次元配列の要素範囲内で検索し、最初に見つかったオブジェクトのインデックスを返します。要素範囲は、指定されたインデックスから始まり、指定された数の要素を含む範囲です。
             </summary>
-            <returns>最初に見つかった位置のインデックス<paramref name="value"/>、それが見つかった場合に、<paramref name="array"/>インデックスから<paramref
-                    name="startIndex"/>に<paramref name="startIndex"/>+
+            <returns>最初に見つかった位置のインデックス<paramref name="value"/>、それが見つかった場合に、<paramref name="array"/>インデックスから
+                <paramref
+                        name="startIndex"/>に<paramref name="startIndex"/>+
                 <paramref name="count"/>
                 - 1 です。それ以外の場合、配列の下限から 1 を引いたします。
             </returns>
@@ -2047,7 +2068,8 @@
         </member>
         <member name="M:System.Array.IndexOf``1(``0[],``0)">
             <summary>指定したオブジェクトを検索し、1 次元配列でそのオブジェクトが最初に見つかった位置のインデックス番号を返します。</summary>
-            <returns>最初に見つかった位置の 0 から始まるインデックス<paramref name="value"/>全体で<paramref name="array"/>場合は、見つかったそれ以外の場合、– 1
+            <returns>最初に見つかった位置の 0 から始まるインデックス<paramref name="value"/>全体で<paramref name="array"/>
+                場合は、見つかったそれ以外の場合、– 1
                 です。
             </returns>
             <param name="array">検索する 1 次元の配列。インデックス番号が 0 から始まる必要があります。</param>
@@ -2373,7 +2395,8 @@
         </member>
         <member name="M:System.Array.Resize``1(``0[]@,System.Int32)">
             <summary>1 次元配列の要素数を、指定した新しいサイズに変更します。</summary>
-            <param name="array">サイズ変更の対象となる、インデックス番号が 0 から始まる 1 次元配列。指定したサイズの新しい配列を作成する場合は null。</param>
+            <param name="array">サイズ変更の対象となる、インデックス番号が 0 から始まる 1 次元配列。指定したサイズの新しい配列を作成する場合は null。
+            </param>
             <param name="newSize">新しい配列のサイズ。</param>
             <typeparam name="T">配列要素の型。</typeparam>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -3562,7 +3585,8 @@
             <summary>配列内のすべての要素が、指定された述語によって定義された条件と一致するかどうかを調べます。</summary>
             <returns>
                 <paramref name="array"/>
-                内のすべての要素が、指定された述語によって定義された条件と一致する場合は true。それ以外の場合は false。配列内に要素がない場合、戻り値は true です。
+                内のすべての要素が、指定された述語によって定義された条件と一致する場合は true。それ以外の場合は false。配列内に要素がない場合、戻り値は
+                true です。
             </returns>
             <param name="array">条件が一致するかどうかをチェックする 1 次元の<see cref="T:System.Array"/>。インデックス番号が 0 から始まる必要があります。
             </param>
@@ -3712,7 +3736,8 @@
         </member>
         <member name="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)">
             <summary>指定した配列インデックスを開始位置として、配列セグメントの要素を配列にコピーします。</summary>
-            <param name="array">配列セグメントからコピーされる要素のコピー先である 1 次元配列。配列には、0 から始まるインデックスが設定されている必要があります。</param>
+            <param name="array">配列セグメントからコピーされる要素のコピー先である 1 次元配列。配列には、0 から始まるインデックスが設定されている必要があります。
+            </param>
             <param name="arrayIndex">コピーの開始位置となる、
                 <paramref name="array"/>
                 内の 0 から始まるインデックス。
@@ -4135,7 +4160,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Boolean.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="obj"/>
                 の相対順序を示す符号付き整数。戻り値状態0 より小さい値このインスタンスが false で、
@@ -4241,7 +4268,8 @@
         </member>
         <member name="M:System.Boolean.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.Boolean.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>この Boolean オブジェクトの値と等価の値を持つ指定した型のオブジェクト。</returns>
@@ -4683,7 +4711,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Byte.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Description Less than zero This instance precedes
@@ -4797,7 +4827,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Byte.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -5201,7 +5232,8 @@
                 <see cref="T:System.Char"/>
                 オブジェクトが、上位サロゲートであるかどうかを示します。
             </summary>
-            <returns>true パラメーターに指定された文字の数値が U+D800 から U+DBFF の範囲内にある場合は<paramref name="s"/>。それ以外の場合は false。
+            <returns>true パラメーターに指定された文字の数値が U+D800 から U+DBFF の範囲内にある場合は<paramref name="s"/>。それ以外の場合は
+                false。
             </returns>
             <param name="s">文字列。</param>
             <param name="index">
@@ -5325,7 +5357,8 @@
                 <see cref="T:System.Char"/>
                 オブジェクトが、下位サロゲートであるかどうかを示します。
             </summary>
-            <returns>true パラメーターに指定された文字の数値が U+DC00 から U+DFFF の範囲内にある場合は<paramref name="s"/>。それ以外の場合は false。
+            <returns>true パラメーターに指定された文字の数値が U+DC00 から U+DFFF の範囲内にある場合は<paramref name="s"/>。それ以外の場合は
+                false。
             </returns>
             <param name="s">文字列。</param>
             <param name="index">
@@ -5633,7 +5666,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Char.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>並べ替え順序における、
                 <paramref name="value"/>
                 パラメーターに対するこのインスタンスの相対位置を示す符号付き整数。戻り値 説明 0 より小さい値 このインスタンスの位置が、並べ替え順序において
@@ -5756,7 +5791,8 @@
         </member>
         <member name="M:System.Char.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.Char.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>指定した型のオブジェクト。</returns>
@@ -5930,7 +5966,8 @@
         <member name="M:System.Comparison`1.EndInvoke(System.IAsyncResult)"></member>
         <member name="M:System.Comparison`1.Invoke(`0,`0)"></member>
         <member name="T:System.DateTime">
-            <summary>通常、日付や時刻として表現される瞬間を表します。この種類の .NET Framework ソース コードを参照して、次を参照してください。、 Reference Sourceです。
+            <summary>通常、日付や時刻として表現される瞬間を表します。この種類の .NET Framework ソース コードを参照して、次を参照してください。、 Reference
+                Sourceです。
             </summary>
             <filterpriority>1</filterpriority>
         </member>
@@ -6115,7 +6152,8 @@
                 <see cref="T:System.DateTime"/>
                 構造体の新しいインスタンスを、指定したタイマー刻み数に初期化します。
             </summary>
-            <param name="ticks">日時をグレゴリオ暦の 0001 年 1 月 1 日の 00:00:00.000 以降の経過時間 (100 ナノ秒単位) で表した値。</param>
+            <param name="ticks">日時をグレゴリオ暦の 0001 年 1 月 1 日の 00:00:00.000 以降の経過時間 (100 ナノ秒単位) で表した値。
+            </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="ticks"/>
                 が
@@ -6130,7 +6168,8 @@
                 <see cref="T:System.DateTime"/>
                 構造体の新しいインスタンスを、指定したタイマー刻み数と世界協定時刻 (UTC) または現地時刻に初期化します。
             </summary>
-            <param name="ticks">日時をグレゴリオ暦の 0001 年 1 月 1 日の 00:00:00.000 以降の経過時間 (100 ナノ秒単位) で表した値。</param>
+            <param name="ticks">日時をグレゴリオ暦の 0001 年 1 月 1 日の 00:00:00.000 以降の経過時間 (100 ナノ秒単位) で表した値。
+            </param>
             <param name="kind">
                 <paramref name="ticks"/>
                 が、現地時刻、世界協定時刻 (UTC)、またはそのどちらでもない時刻のうち、どれを指定するかを示す列挙値の 1 つ。
@@ -6557,7 +6596,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.GetDateTimeFormats(System.Char,System.IFormatProvider)">
-            <summary>このインスタンスの値を、指定した標準日時形式指定子およびカルチャ固有の書式情報によってサポートされる、すべての文字列形式に変換します。</summary>
+            <summary>このインスタンスの値を、指定した標準日時形式指定子およびカルチャ固有の書式情報によってサポートされる、すべての文字列形式に変換します。
+            </summary>
             <returns>要素を格納した文字列配列。要素は、標準日時形式指定子のいずれかで書式指定されたインスタンスの値を表します。</returns>
             <param name="format">日時書式指定文字列 (「解説」を参照してください)。</param>
             <param name="provider">このインスタンスに関するカルチャ固有の書式情報を提供するオブジェクト。</param>
@@ -6568,7 +6608,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.GetDateTimeFormats(System.IFormatProvider)">
-            <summary>このインスタンスの値を、標準日時形式指定子および指定したカルチャ固有の書式情報によってサポートされる、すべての文字列形式に変換します。</summary>
+            <summary>このインスタンスの値を、標準日時形式指定子および指定したカルチャ固有の書式情報によってサポートされる、すべての文字列形式に変換します。
+            </summary>
             <returns>要素を格納した文字列配列。要素は、標準日時形式指定子のいずれかで書式指定されたインスタンスの値を表します。</returns>
             <param name="provider">このインスタンスに関するカルチャ固有の書式情報を提供するオブジェクト。</param>
             <filterpriority>2</filterpriority>
@@ -7106,7 +7147,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、このインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、このインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き数値。値 説明 0 より小さい値 このインスタンスの位置が、並べ替え順序において
@@ -7322,7 +7365,9 @@
         </member>
         <member name="P:System.DateTime.Ticks">
             <summary>このインスタンスの日付と時刻を表すタイマー刻み数を取得します。</summary>
-            <returns>このインスタンスの日付と時刻を表すタイマー刻み数。値は DateTime.MinValue.Ticks から DateTime.MaxValue.Ticks までの間にあります。</returns>
+            <returns>このインスタンスの日付と時刻を表すタイマー刻み数。値は DateTime.MinValue.Ticks から DateTime.MaxValue.Ticks
+                までの間にあります。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="P:System.DateTime.TimeOfDay">
@@ -7359,7 +7404,8 @@
                 <see cref="T:System.DateTime"/>
                 オブジェクトの値を Windows ファイル時刻で表した値。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻が、西暦 1601 年 1 月 1 日深夜 12:00 時 (UTC)
+            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻が、西暦 1601 年 1 月 1 日深夜 12:00 時
+                (UTC)
                 よりも前の日時を表すことがあります。
             </exception>
             <filterpriority>2</filterpriority>
@@ -7373,7 +7419,8 @@
                 <see cref="T:System.DateTime"/>
                 オブジェクトの値を Windows ファイル時刻で表した値。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻が、西暦 1601 年 1 月 1 日深夜 12:00 時 (UTC)
+            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻が、西暦 1601 年 1 月 1 日深夜 12:00 時
+                (UTC)
                 よりも前の日時を表すことがあります。
             </exception>
             <filterpriority>2</filterpriority>
@@ -7410,7 +7457,9 @@
                 <see cref="T:System.DateTime"/>
                 オブジェクトの値の文字列形式。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.ToString(System.IFormatProvider)">
@@ -7451,7 +7500,9 @@
                 <paramref name="format"/>
                 に、有効なカスタム書式パターンが格納されていません。
             </exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.ToString(System.String,System.IFormatProvider)">
@@ -8270,7 +8321,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.FromUnixTimeMilliseconds(System.Int64)">
-            <summary>1970 年から経過したミリ秒数で表した、Unix の時刻に変換-01-に 01T00:00:00Z、<see cref="T:System.DateTimeOffset"/>値。
+            <summary>1970 年から経過したミリ秒数で表した、Unix の時刻に変換-01-に 01T00:00:00Z、<see cref="T:System.DateTimeOffset"/>
+                値。
             </summary>
             <returns>Unix の時刻として、同じ時点を表す日付と時刻の値。</returns>
             <param name="milliseconds">1970-01-01T00:00:00Z (1970 年 1 月 1 日、12:00 AM UTC) からの経過時間をミリ秒で示す Unix
@@ -8287,7 +8339,8 @@
             <summary>1970 年から経過した秒数で表した、Unix の時刻に変換-01-に 01T00:00:00Z、<see cref="T:System.DateTimeOffset"/>値。
             </summary>
             <returns>Unix の時刻として、同じ時点を表す日付と時刻の値。</returns>
-            <param name="seconds">1970-01-01T00:00:00Z (1970 年 1 月 1 日、12:00 AM UTC) からの経過時間を秒で示す Unix 時間。これ以前の場合、Unix
+            <param name="seconds">1970-01-01T00:00:00Z (1970 年 1 月 1 日、12:00 AM UTC) からの経過時間を秒で示す Unix
+                時間。これ以前の場合、Unix
                 時間は負の値になります。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -8908,7 +8961,8 @@
                 <see cref="T:System.DateTimeOffset"/>
                 オブジェクトの値を Windows ファイル時刻で表した値。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻は、世界協定時刻 (UTC) の西暦 1601 年 1 月 1 日深夜 12:00
+            <exception cref="T:System.ArgumentOutOfRangeException">結果のファイル時刻は、世界協定時刻 (UTC) の西暦 1601 年 1 月
+                1 日深夜 12:00
                 時よりも前の日時を世界協定時刻 (UTC: Coordinated Universal Time)。
             </exception>
         </member>
@@ -8973,7 +9027,9 @@
                 <see cref="T:System.DateTimeOffset"/>
                 オブジェクトの文字列形式。文字列の末尾にオフセットが追加されています。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。
+            </exception>
         </member>
         <member name="M:System.DateTimeOffset.ToString(System.IFormatProvider)">
             <summary>指定したカルチャ固有の書式情報を使用して、現在の
@@ -9010,7 +9066,9 @@
                 <paramref name="format"/>
                 に、有効なカスタム書式パターンが格納されていません。
             </exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                日付と時刻が、現在のカルチャで使用する暦でサポートされている日付の範囲外です。
+            </exception>
         </member>
         <member name="M:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)">
             <summary>指定した書式およびカルチャ固有の書式情報を使用して、現在の
@@ -9461,7 +9519,8 @@
             </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return value Meaning Less than zero This instance is less than<paramref name="value"/>.
+                の相対値を示す符号付き数値。Return value Meaning Less than zero This instance is less than<paramref
+                        name="value"/>.
                 Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -10381,7 +10440,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Decimal.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -10515,7 +10576,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Decimal.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -10932,7 +10994,9 @@
         <member name="M:System.Delegate.DynamicInvoke(System.Object[])">
             <summary>現在のデリゲートが表すメソッドを動的に呼び出します (遅延バインディング)。</summary>
             <returns>デリゲートが表すメソッドによって返されるオブジェクト。</returns>
-            <param name="args">現在のデリゲートが表すメソッドに渡される引数であるオブジェクトの配列。または 現在のデリゲートが表すメソッドが引数を必要としない場合は null。</param>
+            <param name="args">現在のデリゲートが表すメソッドに渡される引数であるオブジェクトの配列。または 現在のデリゲートが表すメソッドが引数を必要としない場合は
+                null。
+            </param>
             <exception cref="T:System.MemberAccessException">The caller does not have access to the method represented
                 by the delegate (for example, if the method is private).-or- The number, order, or type of parameters
                 listed in
@@ -11079,7 +11143,8 @@
         </member>
         <member name="P:System.Delegate.Target">
             <summary>現在のデリゲートがインスタンス メソッドを呼び出す対象のクラス インスタンスを取得します。</summary>
-            <returns>現在のデリゲートがインスタンス メソッドを表す場合は、デリゲートがインスタンス メソッドを呼び出す対象のオブジェクト。デリゲートが静的メソッドを表す場合は null。</returns>
+            <returns>現在のデリゲートがインスタンス メソッドを表す場合は、デリゲートがインスタンス メソッドを呼び出す対象のオブジェクト。デリゲートが静的メソッドを表す場合は null。
+            </returns>
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.DivideByZeroException">
@@ -11116,10 +11181,13 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.CompareTo(System.Double)">
-            <summary>このインスタンスと指定した倍精度浮動小数点数を比較し、このインスタンスの値が指定した倍精度浮動小数点数の値よりも小さいか、同じか、または大きいかを示す整数を返します。</summary>
+            <summary>
+                このインスタンスと指定した倍精度浮動小数点数を比較し、このインスタンスの値が指定した倍精度浮動小数点数の値よりも小さいか、同じか、または大きいかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 .-or- This instance is not a number (<see cref="F:System.Double.NaN"/>) and
                 <paramref name="value"/>
                 is a number. Zero This instance is equal to<paramref name="value"/>.-or- Both this instance and
@@ -11463,7 +11531,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -11577,7 +11647,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -11681,7 +11752,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)">
-            <summary>指定したスタイルおよびカルチャ固有の書式での数値の文字列形式を、等価の倍精度浮動小数点数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>
+                指定したスタイルおよびカルチャ固有の書式での数値の文字列形式を、等価の倍精度浮動小数点数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を格納する文字列。</param>
@@ -11974,7 +12047,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Enum.Parse(System.Type,System.String,System.Boolean)">
-            <summary>文字列形式での 1 つ以上の列挙定数の名前または数値を、等価の列挙オブジェクトに変換します。演算で大文字と小文字を区別しないかどうかをパラメーターで指定します。</summary>
+            <summary>文字列形式での 1
+                つ以上の列挙定数の名前または数値を、等価の列挙オブジェクトに変換します。演算で大文字と小文字を区別しないかどうかをパラメーターで指定します。
+            </summary>
             <returns>値が
                 <paramref name="value"/>
                 により表される
@@ -12197,7 +12272,8 @@
             </exception>
         </member>
         <member name="M:System.Enum.TryParse``1(System.String,``0@)">
-            <summary>文字列形式での 1 つ以上の列挙定数の名前または数値を、等価の列挙オブジェクトに変換します。戻り値は、変換が成功したかどうかを示します。</summary>
+            <summary>文字列形式での 1 つ以上の列挙定数の名前または数値を、等価の列挙オブジェクトに変換します。戻り値は、変換が成功したかどうかを示します。
+            </summary>
             <returns>
                 <paramref name="value"/>
                 パラメーターが正常に変換された場合は true。それ以外の場合は false。
@@ -12286,7 +12362,9 @@
                 クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="message">例外の原因を説明するエラー メッセージ。</param>
-            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic では、Nothing)。</param>
+            <param name="innerException">現在の例外の原因である例外。内部例外が指定されていない場合は null 参照 (Visual Basic
+                では、Nothing)。
+            </param>
         </member>
         <member name="P:System.Exception.Data">
             <summary>例外に関する追加のユーザー定義情報を提供する、キー/値ペアのコレクションを取得します。</summary>
@@ -12449,7 +12527,8 @@
         <member name="M:System.FormattableString.GetArgument(System.Int32)">
             <summary>指定したインデックス位置の引数を返します。</summary>
             <returns>引数。</returns>
-            <param name="index">引数のインデックス。その値の範囲は 1 つの値より小さい値の 0<see cref="P:System.FormattableString.ArgumentCount"/>
+            <param name="index">引数のインデックス。その値の範囲は 1 つの値より小さい値の 0
+                <see cref="P:System.FormattableString.ArgumentCount"/>
                 です。
             </param>
         </member>
@@ -12478,7 +12557,8 @@
             <returns>現在のカルチャの規則を使用して書式設定された結果文字列を返します。</returns>
         </member>
         <member name="M:System.FormattableString.ToString(System.IFormatProvider)">
-            <summary>指定されたカルチャの書式指定規則を使用して、複合書式指定文字列と引数の書式設定の結果として得られる文字列を返します。</summary>
+            <summary>指定されたカルチャの書式指定規則を使用して、複合書式指定文字列と引数の書式設定の結果として得られる文字列を返します。
+            </summary>
             <returns>結果の文字列形式の規則を使用して<paramref name="formatProvider"/>です。
             </returns>
             <param name="formatProvider">カルチャ固有の書式情報を提供するオブジェクト。</param>
@@ -12956,7 +13036,8 @@
                 または<see cref="F:System.GCCollectionMode.Forced"/>) か、最適化になっている (<see
                         cref="F:System.GCCollectionMode.Optimized"/>) かを示す列挙値。
             </param>
-            <param name="blocking">ブロッキング ガベージ コレクションを実行する場合は true。可能な限りバックグラウンド ガベージ コレクションを実行する場合は false。</param>
+            <param name="blocking">ブロッキング ガベージ コレクションを実行する場合は true。可能な限りバックグラウンド ガベージ コレクションを実行する場合は false。
+            </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="generation"/>
                 が無効です。または
@@ -12994,7 +13075,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.GC.KeepAlive(System.Object)">
-            <summary>指定したオブジェクトを参照することにより、現在のルーチンの開始時からこのメソッドが呼び出される時点までの間、そのオブジェクトをガベージ コレクションの対象から外します。</summary>
+            <summary>指定したオブジェクトを参照することにより、現在のルーチンの開始時からこのメソッドが呼び出される時点までの間、そのオブジェクトをガベージ
+                コレクションの対象から外します。
+            </summary>
             <param name="obj">参照するオブジェクト。</param>
             <filterpriority>1</filterpriority>
         </member>
@@ -13061,7 +13144,8 @@
             <summary>オブジェクトを再利用するのに現在が最適なときかどうかをガベージ コレクターが判断できるようにします。</summary>
         </member>
         <member name="T:System.Guid">
-            <summary>グローバル一意識別子 (GUID) を表します。この種類の .NET Framework ソース コードを参照して、次を参照してください。、参照ソースです。</summary>
+            <summary>グローバル一意識別子 (GUID) を表します。この種類の .NET Framework ソース コードを参照して、次を参照してください。、参照ソースです。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Guid.#ctor(System.Byte[])">
@@ -13120,7 +13204,8 @@
                 構造体の新しいインスタンスを初期化します。
             </summary>
             <param name="g">次のいずれかの形式の GUID を保持する文字列 ("d" は、大文字と小文字が区別されない 16 進数の文字を表します)。連続する 32
-                桁:ddddddddddddddddddddddddddddddddまたは間をハイフン (-) で区切った 8 桁、4 桁、4 桁、4 桁、12 桁のグループ。左右が対応している中かっこや丸かっこで GUID
+                桁:ddddddddddddddddddddddddddddddddまたは間をハイフン (-) で区切った 8 桁、4 桁、4 桁、4 桁、12
+                桁のグループ。左右が対応している中かっこや丸かっこで GUID
                 全体を囲むこともできます。dddddddd-dddd-dddd-dddd-ddddddddddddまたは{dddddddd-dddd-dddd-dddd-dddddddddddd}または(dddddddd-dddd-dddd-dddd-dddddddddddd)または8
                 桁、4 桁、4 桁のグループと、2 桁のグループ 8 個で構成されるサブセット。各グループは "0x" または "0X" で始まり、コンマで区切ります。GUID
                 全体およびサブセットは、左右が対応している中かっこで囲みます。{0xdddddddd, 0xdddd,
@@ -13337,8 +13422,10 @@
             <summary>このインスタンスの値の文字列形式をレジストリ形式で返します。</summary>
             <returns>この
                 <see cref="T:System.Guid"/>
-                の値で、"D" 書式指定子で次のように書式設定されています。 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx ここで、GUID の値は、ハイフンで 8 桁、4 桁、4 桁、4
-                桁、および 12 桁のグループに区切られた小文字の 16 進数で表されます。戻り値は、たとえば "382c74c3-721d-4f34-80e5-57657b6cbc27" のようになります。16 進数の数字
+                の値で、"D" 書式指定子で次のように書式設定されています。 xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx ここで、GUID の値は、ハイフンで 8 桁、4
+                桁、4 桁、4
+                桁、および 12 桁のグループに区切られた小文字の 16 進数で表されます。戻り値は、たとえば "382c74c3-721d-4f34-80e5-57657b6cbc27"
+                のようになります。16 進数の数字
                 a から f を大文字に変換するには、返された文字列に
                 <see cref="M:System.String.ToUpper"/>
                 メソッドを呼び出します。
@@ -13441,7 +13528,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IComparable.CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>比較対象オブジェクトの相対順序を示す値。戻り値の意味は次のとおりです。Value説明0 より小さい値このインスタンスの位置が、並べ替え順序において
                 <paramref name="obj"/>
                 よりも前です。0並べ替え順序における、このインスタンスと
@@ -13465,7 +13554,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IComparable`1.CompareTo(`0)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>比較対象オブジェクトの相対順序を示す値。戻り値の意味は次のとおりです。値説明0 より小さい値このインスタンスの位置が、並べ替え順序において
                 <paramref name="other"/>
                 よりも前です。0並べ替え順序における、このインスタンスと
@@ -13693,7 +13784,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.IEquatable`1">
-            <summary>2 つのインスタンスが等しいかどうかを判断するための型固有のメソッドを作成するために値型またはクラスで実装する、汎用の比較メソッドを定義します。</summary>
+            <summary>2 つのインスタンスが等しいかどうかを判断するための型固有のメソッドを作成するために値型またはクラスで実装する、汎用の比較メソッドを定義します。
+            </summary>
             <typeparam name="T">比較するオブジェクトの型。</typeparam>
         </member>
         <member name="M:System.IEquatable`1.Equals(`0)">
@@ -13730,7 +13822,8 @@
                 <see cref="T:System.IFormattable"/>
                 実装の型に対して定義されている既定の書式を使用する場合は、null 参照 (Visual Basic の場合は Nothing)。
             </param>
-            <param name="formatProvider">値の書式付けに使用するプロバイダー。またはオペレーティング システムの現在のロケール設定から数値書式情報を取得する場合は、null 参照 (Visual
+            <param name="formatProvider">値の書式付けに使用するプロバイダー。またはオペレーティング システムの現在のロケール設定から数値書式情報を取得する場合は、null
+                参照 (Visual
                 Basic の場合は Nothing)。
             </param>
             <filterpriority>2</filterpriority>
@@ -13795,11 +13888,13 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.CompareTo(System.Int16)">
-            <summary>このインスタンスと指定した 16 ビット符号付き整数を比較し、このインスタンスの値が指定した 16 ビット符号付き整数の値よりも小さいか、同じか、それとも大きいかを示す整数を返します。
+            <summary>このインスタンスと指定した 16 ビット符号付き整数を比較し、このインスタンスの値が指定した 16
+                ビット符号付き整数の値よりも小さいか、同じか、それとも大きいかを示す整数を返します。
             </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -13988,7 +14083,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -14102,7 +14199,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Int16.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -14179,7 +14277,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int16@)">
-            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 16 ビット符号付き整数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 16
+                ビット符号付き整数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を格納する文字列。文字列は、
@@ -14255,7 +14355,8 @@
             <summary>指定した 32 ビット符号付き整数とこのインスタンスを比較し、これらの相対値を示す値を返します。</summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -14444,7 +14545,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int32.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -14558,7 +14661,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -14642,7 +14746,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
-            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 32 ビット符号付き整数に変換します。戻り値は、変換が成功したかどうかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 32
+                ビット符号付き整数に変換します。戻り値は、変換が成功したかどうかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を格納する文字列。文字列は、
@@ -14718,7 +14824,8 @@
             <summary>指定した 64 ビット符号付き整数とこのインスタンスを比較し、これらの相対値を示す値を返します。</summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -14907,7 +15014,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int64.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -15021,7 +15130,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Int64.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -15109,7 +15219,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int64@)">
-            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 64 ビット符号付き整数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価の 64
+                ビット符号付き整数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を格納する文字列。文字列は、
@@ -15612,7 +15724,8 @@
                 <see cref="T:System.Lazy`1"/>
                 クラスの新しいインスタンスを初期化します。遅延初期化が発生した場合、対象の型の既定のコンストラクターと指定された初期化モードが使用されます。
             </summary>
-            <param name="isThreadSafe">このインスタンスを複数のスレッドで同時に使用できるようにする場合は true。インスタンスを一度に 1 つのスレッドでしか使用できないようにする場合は
+            <param name="isThreadSafe">このインスタンスを複数のスレッドで同時に使用できるようにする場合は true。インスタンスを一度に 1
+                つのスレッドでしか使用できないようにする場合は
                 false。
             </param>
         </member>
@@ -15633,7 +15746,8 @@
                 クラスの新しいインスタンスを初期化します。遅延初期化が発生した場合、指定された初期化関数および初期化モードが使用されます。
             </summary>
             <param name="valueFactory">必要時に遅延初期化される値を生成するために呼び出されるデリゲート。</param>
-            <param name="isThreadSafe">このインスタンスを複数のスレッドで同時に使用できるようにする場合は true。このインスタンスを一度に 1 つのスレッドでしか使用できないようにする場合は
+            <param name="isThreadSafe">このインスタンスを複数のスレッドで同時に使用できるようにする場合は true。このインスタンスを一度に 1
+                つのスレッドでしか使用できないようにする場合は
                 false。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -16055,7 +16169,9 @@
             </param>
         </member>
         <member name="T:System.NotSupportedException">
-            <summary>呼び出されたメソッドがサポートされていない場合、または呼び出された機能を備えていないストリームに対して読み取り、シーク、書き込みが試行された場合にスローされる例外。</summary>
+            <summary>
+                呼び出されたメソッドがサポートされていない場合、または呼び出された機能を備えていないストリームに対して読み取り、シーク、書き込みが試行された場合にスローされる例外。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.NotSupportedException.#ctor">
@@ -16469,7 +16585,8 @@
         </member>
         <member name="T:System.Object">
             <summary>.NET Framework クラス階層のすべてのクラスをサポートし、派生クラスに下位レベルのサービスを提供します。これは、.NET Framework
-                の全クラスの基本クラスであり、型階層のルートです。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source (ソースの参照)」を参照してください。
+                の全クラスの基本クラスであり、型階層のルートです。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source
+                (ソースの参照)」を参照してください。
             </summary>
             <filterpriority>1</filterpriority>
         </member>
@@ -17255,7 +17372,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.SByte.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -17369,7 +17488,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.SByte.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -17532,10 +17652,13 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.CompareTo(System.Single)">
-            <summary>このインスタンスと指定した単精度浮動小数点数を比較し、このインスタンスの値が指定した単精度浮動小数点数の値よりも小さいか、同じか、それとも大きいかを示す整数を返します。</summary>
+            <summary>
+                このインスタンスと指定した単精度浮動小数点数を比較し、このインスタンスの値が指定した単精度浮動小数点数の値よりも小さいか、同じか、それとも大きいかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 .-or- This instance is not a number (<see cref="F:System.Single.NaN"/>) and
                 <paramref name="value"/>
                 is a number. Zero This instance is equal to<paramref name="value"/>.-or- Both this instance and
@@ -17874,7 +17997,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -17988,7 +18113,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.Single.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -18068,7 +18194,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)">
-            <summary>指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価な単精度浮動小数点数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>
+                指定したスタイルおよびカルチャに固有の書式による数値の文字列形式を、それと等価な単精度浮動小数点数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を表す文字列。</param>
@@ -18148,7 +18276,8 @@
             </summary>
         </member>
         <member name="T:System.String">
-            <summary>テキストを一連の Unicode 文字として表現します。この種類の .NET Framework ソース コードを参照するには、参照ソースをご覧ください。</summary>
+            <summary>テキストを一連の Unicode 文字として表現します。この種類の .NET Framework ソース コードを参照するには、参照ソースをご覧ください。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.#ctor(System.Char*)">
@@ -18517,7 +18646,8 @@
             </summary>
             <returns>並べ替え順序において、このインスタンスの位置が
                 <paramref name="strB"/>
-                パラメーターよりも前、後ろ、または同じのいずれであるかを示す 32 ビット符号付き整数。Value Condition Less than zero This instance precedes
+                パラメーターよりも前、後ろ、または同じのいずれであるかを示す 32 ビット符号付き整数。Value Condition Less than zero This instance
+                precedes
                 <paramref name="strB"/>. Zero This instance has the same position in the sort order as<paramref
                         name="strB"/>. Greater than zero This instance follows<paramref name="strB"/>.-or-
                 <paramref name="strB"/>
@@ -18857,7 +18987,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object)">
-            <summary>指定した文字列の 1 つまたは複数の書式項目を、対応するオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。</summary>
+            <summary>指定した文字列の 1
+                つまたは複数の書式項目を、対応するオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。
+            </summary>
             <returns>書式項目が
                 <paramref name="format"/>
                 の文字列形式に置換された
@@ -18879,7 +19011,9 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object)">
-            <summary>指定した文字列の書式項目を、指定した 2 つのオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。</summary>
+            <summary>指定した文字列の書式項目を、指定した 2
+                つのオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。
+            </summary>
             <returns>書式項目が
                 <paramref name="format"/>
                 と
@@ -18903,7 +19037,9 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)">
-            <summary>指定した文字列の書式項目を、指定した 3 つのオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式設定情報を指定します。</summary>
+            <summary>指定した文字列の書式項目を、指定した 3
+                つのオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式設定情報を指定します。
+            </summary>
             <returns>書式項目が<paramref name="format"/>、<paramref name="arg0"/>、および
                 <paramref name="arg1"/>
                 の文字列形式に置換された
@@ -18926,7 +19062,9 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object[])">
-            <summary>指定した文字列の書式項目を、指定した配列内の対応するオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。</summary>
+            <summary>
+                指定した文字列の書式項目を、指定した配列内の対応するオブジェクトの文字列形式に置換します。パラメーターにより、カルチャに固有の書式情報が指定されます。
+            </summary>
             <returns>書式項目が
                 <paramref name="format"/>
                 の対応するオブジェクトの文字列形式に置換された
@@ -19056,7 +19194,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.Char,System.Int32)">
-            <summary>指定した Unicode 文字がこの文字列内で最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。</summary>
+            <summary>指定した Unicode 文字がこの文字列内で最初に見つかった位置の 0
+                から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。
+            </summary>
             <returns>その文字が見つかった場合は、
                 <paramref name="value"/>
                 の 0 から始まるインデックスでの位置。見つからなかった場合は -1。
@@ -19070,7 +19210,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.Char,System.Int32,System.Int32)">
-            <summary>指定文字がこのインスタンス内で最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は指定した文字位置から開始され、指定した数の文字位置が検査されます。</summary>
+            <summary>指定文字がこのインスタンス内で最初に見つかった位置の 0
+                から始まるインデックスをレポートします。検索は指定した文字位置から開始され、指定した数の文字位置が検査されます。
+            </summary>
             <returns>その文字が見つかった場合は、
                 <paramref name="value"/>
                 の 0 から始まるインデックスでの位置。見つからなかった場合は -1。
@@ -19108,7 +19250,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.String,System.Int32)">
-            <summary>指定された文字列がこのインスタンス内で最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。</summary>
+            <summary>指定された文字列がこのインスタンス内で最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。
+            </summary>
             <returns>その文字列が見つかった場合は、
                 <paramref name="value"/>
                 の 0 から始まるインデックスでの位置。見つからなかった場合は -1。
@@ -19132,7 +19275,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.String,System.Int32,System.Int32)">
-            <summary>指定された文字列がこのインスタンス内で最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は指定した文字位置から開始され、指定した数の文字位置が検査されます。</summary>
+            <summary>指定された文字列がこのインスタンス内で最初に見つかった位置の 0
+                から始まるインデックスをレポートします。検索は指定した文字位置から開始され、指定した数の文字位置が検査されます。
+            </summary>
             <returns>その文字列が見つかった場合は、
                 <paramref name="value"/>
                 の 0 から始まるインデックスでの位置。見つからなかった場合は -1。
@@ -19278,7 +19423,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.IndexOfAny(System.Char[],System.Int32)">
-            <summary>Unicode 文字の指定した配列内にある文字がこのインスタンスで最初に見つかった位置の 0 から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。</summary>
+            <summary>Unicode 文字の指定した配列内にある文字がこのインスタンスで最初に見つかった位置の 0
+                から始まるインデックスをレポートします。検索は、指定した文字位置から開始されます。
+            </summary>
             <returns>
                 <paramref name="anyOf"/>
                 内の文字がこのインスタンスで最初に見つかった場所の 0 から始まるインデックスでの位置。
@@ -19536,7 +19683,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.Char,System.Int32)">
-            <summary>このインスタンス内で最後に出現する指定 Unicode 文字の 0 から始まるインデックス位置をレポートします。検索は、指定された文字位置から開始され、文字列の先頭に向かって逆方向に進みます。
+            <summary>このインスタンス内で最後に出現する指定 Unicode 文字の 0
+                から始まるインデックス位置をレポートします。検索は、指定された文字位置から開始され、文字列の先頭に向かって逆方向に進みます。
             </summary>
             <returns>その文字が見つかった場合は、
                 <paramref name="value"/>
@@ -19602,7 +19750,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.String,System.Int32)">
-            <summary>指定された文字列がこのインスタンス内で最後に見つかった 0 から始まるインデックス位置をレポートします。検索は、指定された文字位置から開始され、文字列の先頭に向かって逆方向に進みます。
+            <summary>指定された文字列がこのインスタンス内で最後に見つかった 0
+                から始まるインデックス位置をレポートします。検索は、指定された文字位置から開始され、文字列の先頭に向かって逆方向に進みます。
             </summary>
             <returns>その文字列が見つかった場合は、
                 <paramref name="value"/>
@@ -19924,7 +20073,9 @@
                 <paramref name="totalWidth"/>
                 がこのインスタンスの長さと等しい場合、メソッドはこのインスタンスと同一の新しい文字列を返します。
             </returns>
-            <param name="totalWidth">結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。</param>
+            <param name="totalWidth">
+                結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。
+            </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="totalWidth"/>
                 is less than zero.
@@ -19932,7 +20083,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.PadLeft(System.Int32,System.Char)">
-            <summary>指定された文字数になるまで左側に指定された Unicode 文字を埋め込むことで、このインスタンス内の文字を右寄せした新しい文字列を返します。</summary>
+            <summary>指定された文字数になるまで左側に指定された Unicode 文字を埋め込むことで、このインスタンス内の文字を右寄せした新しい文字列を返します。
+            </summary>
             <returns>このインスタンスと等価な新しい文字列。ただし右揃えであり、
                 <paramref name="paddingChar"/>
                 の長さになるまで左側に
@@ -19943,7 +20095,9 @@
                 <paramref name="totalWidth"/>
                 がこのインスタンスの長さと等しい場合、メソッドはこのインスタンスと同一の新しい文字列を返します。
             </returns>
-            <param name="totalWidth">結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。</param>
+            <param name="totalWidth">
+                結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。
+            </param>
             <param name="paddingChar">Unicode 埋め込み文字。</param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="totalWidth"/>
@@ -19961,7 +20115,9 @@
                 <paramref name="totalWidth"/>
                 がこのインスタンスの長さと等しい場合、メソッドはこのインスタンスと同一の新しい文字列を返します。
             </returns>
-            <param name="totalWidth">結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。</param>
+            <param name="totalWidth">
+                結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。
+            </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="totalWidth"/>
                 is less than zero.
@@ -19969,7 +20125,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.PadRight(System.Int32,System.Char)">
-            <summary>指定された文字数になるまで右側に指定された Unicode 文字を埋め込むことで、この文字列内の文字を左寄せした新しい文字列を返します。</summary>
+            <summary>指定された文字数になるまで右側に指定された Unicode 文字を埋め込むことで、この文字列内の文字を左寄せした新しい文字列を返します。
+            </summary>
             <returns>このインスタンスと等価な新しい文字列。ただし左揃えであり、
                 <paramref name="paddingChar"/>
                 の長さになるまで右側に
@@ -19980,7 +20137,9 @@
                 <paramref name="totalWidth"/>
                 がこのインスタンスの長さと等しい場合、メソッドはこのインスタンスと同一の新しい文字列を返します。
             </returns>
-            <param name="totalWidth">結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。</param>
+            <param name="totalWidth">
+                結果として生成される文字列の文字数。これは、元の文字数と、埋め込み文字がある場合はその数を加えた数に等しくなります。
+            </param>
             <param name="paddingChar">Unicode 埋め込み文字。</param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="totalWidth"/>
@@ -20065,17 +20224,21 @@
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">このインスタンスから部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または null。
+            <param name="separator">このインスタンスから部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または
+                null。
             </param>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.Char[],System.Int32)">
-            <summary>このインスタンス内の、指定された Unicode 文字の配列の要素で区切られた部分文字列を格納する文字列配列を返します。取得する部分文字列の最大数をパラメーターで指定します。</summary>
+            <summary>このインスタンス内の、指定された Unicode
+                文字の配列の要素で区切られた部分文字列を格納する文字列配列を返します。取得する部分文字列の最大数をパラメーターで指定します。
+            </summary>
             <returns>このインスタンスを、
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">このインスタンスから部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または null。
+            <param name="separator">このインスタンスから部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または
+                null。
             </param>
             <param name="count">返される最大の部分文字列数。</param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -20092,9 +20255,12 @@
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または null。</param>
+            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または
+                null。
+            </param>
             <param name="count">返される最大の部分文字列数。</param>
-            <param name="options">返される配列から空の配列要素を省略する場合は<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">返される配列から空の配列要素を省略する場合は
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 。返される配列に空の配列要素も含める場合は<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -20110,13 +20276,18 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.Char[],System.StringSplitOptions)">
-            <summary>指定された Unicode 文字の配列の要素で区切られた、この文字列の部分文字列を格納する文字列配列を返します。空の配列要素を返すかどうかをパラメーターで指定します。</summary>
+            <summary>指定された Unicode
+                文字の配列の要素で区切られた、この文字列の部分文字列を格納する文字列配列を返します。空の配列要素を返すかどうかをパラメーターで指定します。
+            </summary>
             <returns>この文字列を、
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または null。</param>
-            <param name="options">返される配列から空の配列要素を省略する場合は<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する Unicode 文字の配列。区切り文字が含まれていない空の配列。または
+                null。
+            </param>
+            <param name="options">返される配列から空の配列要素を省略する場合は
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 。返される配列に空の配列要素も含める場合は<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentException">
@@ -20134,9 +20305,12 @@
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字列) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する文字列配列。区切り文字が含まれていない空の配列。または null。</param>
+            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する文字列配列。区切り文字が含まれていない空の配列。または
+                null。
+            </param>
             <param name="count">返される最大の部分文字列数。</param>
-            <param name="options">返される配列から空の配列要素を省略する場合は<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">返される配列から空の配列要素を省略する場合は
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 。返される配列に空の配列要素も含める場合は<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -20152,13 +20326,18 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.String[],System.StringSplitOptions)">
-            <summary>指定された文字列の配列の要素で区切られた、この文字列の部分文字列を格納する文字列配列を返します。空の配列要素を返すかどうかをパラメーターで指定します。</summary>
+            <summary>
+                指定された文字列の配列の要素で区切られた、この文字列の部分文字列を格納する文字列配列を返します。空の配列要素を返すかどうかをパラメーターで指定します。
+            </summary>
             <returns>この文字列を、
                 <paramref name="separator"/>
                 配列のいずれかまたは複数の要素 (文字列) で区切ることによって取り出された部分文字列を格納する配列。詳細については、「解説」を参照してください。
             </returns>
-            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する文字列配列。区切り文字が含まれていない空の配列。または null。</param>
-            <param name="options">返される配列から空の配列要素を省略する場合は<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="separator">この文字列から部分文字列を取り出すために区切り文字として使用する文字列配列。区切り文字が含まれていない空の配列。または
+                null。
+            </param>
+            <param name="options">返される配列から空の配列要素を省略する場合は
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 。返される配列に空の配列要素も含める場合は<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentException">
@@ -20261,7 +20440,9 @@
             <returns>現在の文字列を反復処理するために使用できる列挙子。</returns>
         </member>
         <member name="M:System.String.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -20284,8 +20465,9 @@
         <member name="M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider)">
             <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToBoolean(System.IFormatProvider)"/>」を参照してください。
             </summary>
-            <returns>現在の文字列の値が true の場合は<see cref="F:System.Boolean.TrueString"/>。現在の文字列の値が false の場合は<see
-                    cref="F:System.Boolean.FalseString"/>。
+            <returns>現在の文字列の値が true の場合は<see cref="F:System.Boolean.TrueString"/>。現在の文字列の値が false の場合は
+                <see
+                        cref="F:System.Boolean.FalseString"/>。
             </returns>
             <param name="provider">このパラメーターは無視されます。</param>
             <exception cref="T:System.FormatException">The value of the current string is not
@@ -20437,7 +20619,8 @@
         </member>
         <member name="M:System.String.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>現在の
@@ -20507,7 +20690,8 @@
         </member>
         <member name="M:System.String.ToCharArray">
             <summary>このインスタンスの文字を Unicode 文字配列へコピーします。</summary>
-            <returns>このインスタンスの各文字を要素とする Unicode 文字配列。このインスタンスが空の文字列である場合、返される配列は空で、長さは 0 になります。</returns>
+            <returns>このインスタンスの各文字を要素とする Unicode 文字配列。このインスタンスが空の文字列である場合、返される配列は空で、長さは 0 になります。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.ToCharArray(System.Int32,System.Int32)">
@@ -20591,7 +20775,9 @@
                 <see cref="T:System.String"/>
                 オブジェクトの先頭および末尾にある空白文字をすべて削除します。
             </summary>
-            <returns>現在の文字列の先頭および末尾から空白文字をすべて削除した後に残った文字列。現在のインスタンスから文字をトリムできない場合は、メソッドは現在のインスタンスを変更せずに返します。</returns>
+            <returns>
+                現在の文字列の先頭および末尾から空白文字をすべて削除した後に残った文字列。現在のインスタンスから文字をトリムできない場合は、メソッドは現在のインスタンスを変更せずに返します。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Trim(System.Char[])">
@@ -20649,7 +20835,8 @@
             <summary>カルチャに依存した並べ替え規則および現在のカルチャを使用して文字列を比較します。</summary>
         </member>
         <member name="F:System.StringComparison.CurrentCultureIgnoreCase">
-            <summary>カルチャに依存した並べ替え規則および現在のカルチャを使用し、比較対象の文字列の大文字と小文字の違いは無視して文字列を比較します。</summary>
+            <summary>カルチャに依存した並べ替え規則および現在のカルチャを使用し、比較対象の文字列の大文字と小文字の違いは無視して文字列を比較します。
+            </summary>
         </member>
         <member name="F:System.StringComparison.Ordinal">
             <summary>序数の並べ替え規則を使用して文字列を比較します。</summary>
@@ -20709,7 +20896,9 @@
             </param>
         </member>
         <member name="T:System.TimeSpan">
-            <summary>時間間隔を表します。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source (ソースの参照)」を参照してください。</summary>
+            <summary>時間間隔を表します。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source
+                (ソースの参照)」を参照してください。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.#ctor(System.Int32,System.Int32,System.Int32)">
@@ -21516,7 +21705,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。戻り値説明0 より小さい値このインスタンスの位置が、並べ替え順序において
@@ -21983,7 +22174,8 @@
                 オブジェクトの読み取り専用のコレクション。
             </returns>
             <exception cref="T:System.OutOfMemoryException">タイム ゾーン情報をすべて格納するには、メモリが不足しています。</exception>
-            <exception cref="T:System.Security.SecurityException">タイム ゾーン情報が格納されているレジストリ キーを読み取るためのアクセス許可が、ユーザーにありません。
+            <exception cref="T:System.Security.SecurityException">タイム ゾーン情報が格納されているレジストリ
+                キーを読み取るためのアクセス許可が、ユーザーにありません。
             </exception>
         </member>
         <member name="M:System.TimeZoneInfo.GetUtcOffset(System.DateTime)">
@@ -23517,7 +23709,8 @@
             <summary>現在の入れ子にされた型またはジェネリック型パラメーターを宣言する型を取得します。</summary>
             <returns>現在の型が入れ子にされた型である場合、包含する型を表す
                 <see cref="T:System.Type"/>
-                オブジェクト。現在の型がジェネリック型の型パラメーターである場合、ジェネリック型定義。現在の型がジェネリック メソッドの型パラメーターである場合、ジェネリック メソッドを宣言する型。それ以外の場合、null。
+                オブジェクト。現在の型がジェネリック型の型パラメーターである場合、ジェネリック型定義。現在の型がジェネリック メソッドの型パラメーターである場合、ジェネリック
+                メソッドを宣言する型。それ以外の場合、null。
             </returns>
             <filterpriority>1</filterpriority>
         </member>
@@ -23638,7 +23831,8 @@
                 を取得します。
             </summary>
             <returns>存在する場合は、指定した名前を持つ型。それ以外の場合は null。</returns>
-            <param name="typeName">取得する型のアセンブリ修飾名。「<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">取得する型のアセンブリ修飾名。「
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 」を参照してください。型が現在実行されているアセンブリ内または Mscorlib.dll にある場合は、名前空間で修飾された型名を提供するだけで十分です。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -23684,7 +23878,8 @@
                 <paramref name="throwOnError"/>
                 の値に関係なく、例外がスローされます。「例外」を参照してください。
             </returns>
-            <param name="typeName">取得する型のアセンブリ修飾名。「<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">取得する型のアセンブリ修飾名。「
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 」を参照してください。型が現在実行されているアセンブリ内または Mscorlib.dll にある場合は、名前空間で修飾された型名を提供するだけで十分です。
             </param>
             <param name="throwOnError">型が見つからなかったときに例外をスローする場合は true。false を返す場合は null。また、false
@@ -23755,13 +23950,15 @@
                 <paramref name="throwOnError"/>
                 の値に関係なく、例外がスローされます。「例外」を参照してください。
             </returns>
-            <param name="typeName">取得する型のアセンブリ修飾名。「<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">取得する型のアセンブリ修飾名。「
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 」を参照してください。型が現在実行されているアセンブリ内または Mscorlib.dll にある場合は、名前空間で修飾された型名を提供するだけで十分です。
             </param>
             <param name="throwOnError">型が見つからないときに例外をスローする場合は true。false を返す場合は null。false
                 を指定すると、他の一部の例外条件も抑制されることがあります。「例外」を参照してください。
             </param>
-            <param name="ignoreCase">大文字と小文字を区別せずに true の検索を実行するには<paramref name="typeName"/>。大文字と小文字を区別して false
+            <param name="ignoreCase">大文字と小文字を区別せずに true の検索を実行するには<paramref name="typeName"/>。大文字と小文字を区別して
+                false
                 の検索を実行するには<paramref name="typeName"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -23867,7 +24064,8 @@
                 <see cref="T:System.Type"/>
                 がジェネリック型またはジェネリック メソッドの定義の型パラメーターを表しているかどうかを示す値を取得します。
             </summary>
-            <returns>true オブジェクトがジェネリック型定義またはジェネリック メソッド定義の型パラメーターを表している場合は<see cref="T:System.Type"/>。それ以外の場合は false。
+            <returns>true オブジェクトがジェネリック型定義またはジェネリック メソッド定義の型パラメーターを表している場合は<see cref="T:System.Type"/>。それ以外の場合は
+                false。
             </returns>
             <filterpriority>2</filterpriority>
         </member>
@@ -23901,7 +24099,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23921,7 +24120,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -23941,7 +24141,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23998,7 +24199,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -24199,7 +24401,8 @@
             <summary>指定した 16 ビット符号なし整数とこのインスタンスを比較し、これらの相対値を示す値を返します。</summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -24391,7 +24594,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt16.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -24510,7 +24715,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.UInt16.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -24589,7 +24795,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16@)">
-            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 16 ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 16
+                ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を表す文字列。文字列は、
@@ -24665,7 +24873,8 @@
             <summary>指定した 32 ビット符号なし整数とこのインスタンスを比較し、これらの相対値を示す値を返します。</summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -24857,7 +25066,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt32.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -24976,7 +25187,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.UInt32.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -25057,7 +25269,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)">
-            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 32 ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 32
+                ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を表す文字列。文字列は、
@@ -25133,7 +25347,8 @@
             <summary>指定した 64 ビット符号なし整数とこのインスタンスを比較し、これらの相対値を示す値を返します。</summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
-                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than<paramref name="value"/>
+                の相対値を示す符号付き数値。Return Value Description Less than zero This instance is less than
+                <paramref name="value"/>
                 . Zero This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater
                 than<paramref name="value"/>.
             </returns>
@@ -25328,7 +25543,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt64.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。Return value Meaning Less than zero This instance precedes
@@ -25447,7 +25664,8 @@
             <param name="provider">このパラメーターは無視されます。</param>
         </member>
         <member name="M:System.UInt64.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>このメンバーの詳細については、「<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
+            <summary>このメンバーの詳細については、「
+                <see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>
                 」を参照してください。
             </summary>
             <returns>
@@ -25528,7 +25746,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt64@)">
-            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 64 ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。</summary>
+            <summary>指定したスタイルおよびカルチャ固有の書式による数値の文字列形式を、それと等価な 64
+                ビット符号なし整数に変換します。戻り値は、変換が成功したか失敗したかを示します。
+            </summary>
             <returns>true が正常に変換された場合は<paramref name="s"/>。それ以外の場合は false。
             </returns>
             <param name="s">変換する数値を表す文字列。文字列は、
@@ -25796,7 +26016,8 @@
         </member>
         <member name="P:System.UIntPtr.Size">
             <summary>このインスタンスのサイズを取得します。</summary>
-            <returns>このプラットフォームでのポインターまたはハンドルのサイズ (バイト)。このプロパティの値は 32 ビット プラットフォームでは 4、64 ビット プラットフォームでは 8 です。</returns>
+            <returns>このプラットフォームでのポインターまたはハンドルのサイズ (バイト)。このプロパティの値は 32 ビット プラットフォームでは 4、64 ビット プラットフォームでは 8 です。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UIntPtr.Subtract(System.UIntPtr,System.Int32)">
@@ -26172,7 +26393,8 @@
         </member>
         <member name="M:System.Uri.CheckHostName(System.String)">
             <summary>指定したホスト名が有効な DNS 名であるかどうかを判断します。</summary>
-            <returns>ホスト名の型を示す<see cref="T:System.UriHostNameType"/>。ホスト名の型を判断できない場合、またはホスト名が null か長さ 0 の文字列の場合、このメソッドは
+            <returns>ホスト名の型を示す<see cref="T:System.UriHostNameType"/>。ホスト名の型を判断できない場合、またはホスト名が null か長さ 0
+                の文字列の場合、このメソッドは
                 <see cref="F:System.UriHostNameType.Unknown"/>
                 を返します。
             </returns>
@@ -26238,7 +26460,8 @@
         </member>
         <member name="P:System.Uri.DnsSafeHost">
             <summary>DNS の解決に安全に使用できるエスケープ解除されたホスト名を取得します。</summary>
-            <returns>DNS の解決に適した URI のエスケープ解除されたホスト部分を格納している<see cref="T:System.String"/>
+            <returns>DNS の解決に適した URI のエスケープ解除されたホスト部分を格納している
+                <see cref="T:System.String"/>
                 。または、エスケープ解除された元のホスト文字列が解決に適している場合はその文字列。
             </returns>
             <exception cref="T:System.InvalidOperationException">このインスタンスは相対 URI を表します。このプロパティは、絶対 URI でのみ有効です。
@@ -26497,7 +26720,8 @@
             </returns>
         </member>
         <member name="M:System.Uri.IsWellFormedUriString(System.String,System.UriKind)">
-            <summary>文字列を使用して URI を作成する際に、文字列の形式が正しいかどうかを示し、文字列をそれ以上エスケープする必要がないことを確認します。</summary>
+            <summary>文字列を使用して URI を作成する際に、文字列の形式が正しいかどうかを示し、文字列をそれ以上エスケープする必要がないことを確認します。
+            </summary>
             <returns>文字列が整形式である場合は<see cref="T:System.Boolean"/>、それ以外の場合は true である false 値。
             </returns>
             <param name="uriString">
@@ -26584,7 +26808,8 @@
             </summary>
             <returns>2 つの
                 <see cref="T:System.Boolean"/>
-                インスタンスが等しくない場合は true 値が<see cref="T:System.Uri"/>。それ以外の場合は false。どちらかのパラメーターが null の場合、このメソッドは true
+                インスタンスが等しくない場合は true 値が<see cref="T:System.Uri"/>。それ以外の場合は false。どちらかのパラメーターが null の場合、このメソッドは
+                true
                 を返します。
             </returns>
             <param name="uri1">
@@ -26828,7 +27053,8 @@
         </member>
         <member name="P:System.Uri.UserInfo">
             <summary>指定した URI に関連付けられているユーザー名、パスワードなどのユーザー固有の情報を取得します。</summary>
-            <returns>URI に関連付けられたユーザー情報を格納する<see cref="T:System.String"/>。戻り値には、URI のユーザー情報部分の区切り記号として予約されている '@'
+            <returns>URI に関連付けられたユーザー情報を格納する<see cref="T:System.String"/>。戻り値には、URI のユーザー情報部分の区切り記号として予約されている
+                '@'
                 文字が含まれません。
             </returns>
             <exception cref="T:System.InvalidOperationException">このインスタンスは相対 URI を表します。このプロパティは、絶対 URI でのみ有効です。
@@ -26850,7 +27076,8 @@
         <member name="F:System.UriComponents.AbsoluteUri">
             <summary>
                 <see cref="P:System.Uri.Scheme"/>、<see cref="P:System.Uri.UserInfo"/>、<see cref="P:System.Uri.Host"/>、
-                <see cref="P:System.Uri.Port"/>、<see cref="P:System.Uri.LocalPath"/>、<see cref="P:System.Uri.Query"/>
+                <see cref="P:System.Uri.Port"/>、<see cref="P:System.Uri.LocalPath"/>、
+                <see cref="P:System.Uri.Query"/>
                 、および
                 <see cref="P:System.Uri.Fragment"/>
                 の各データ。
@@ -27451,7 +27678,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Version.System#IComparable#CompareTo(System.Object)">
-            <summary>現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。</summary>
+            <summary>
+                現在のインスタンスを同じ型の別のオブジェクトと比較し、現在のインスタンスの並べ替え順序での位置が、比較対象のオブジェクトと比べて前か、後か、または同じかを示す整数を返します。
+            </summary>
             <returns>このインスタンスと
                 <paramref name="value"/>
                 の相対順序を示す符号付き整数。戻り値説明0 より小さい値このインスタンスの位置が、並べ替え順序において
@@ -27484,7 +27713,8 @@
                 オブジェクトの各構成要素 (メジャー、マイナー、ビルド、リビジョン) の値を、次に説明する書式で表した
                 <see cref="T:System.String"/>
                 形式。各構成要素はピリオド文字 (.) で区切ります。角かっこ ("[" および "]")
-                は、定義されていない場合は戻り値に現れない構成要素を示します。major.minor[.build[.revision]]たとえば、コンストラクター Version(1,1) を使用して
+                は、定義されていない場合は戻り値に現れない構成要素を示します。major.minor[.build[.revision]]たとえば、コンストラクター Version(1,1)
+                を使用して
                 <see cref="T:System.Version"/>
                 オブジェクトを作成した場合は、文字列 "1.1" が返されます。コンストラクター Version(1,3,4,2) を使用して
                 <see cref="T:System.Version"/>
@@ -27619,7 +27849,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.WeakReference`1">
-            <summary>型指定された "弱い参照" を表します。弱い参照は、オブジェクトがガベージ コレクションによるクリアの対象になっている状態のままで、そのオブジェクトを参照します。</summary>
+            <summary>型指定された "弱い参照" を表します。弱い参照は、オブジェクトがガベージ コレクションによるクリアの対象になっている状態のままで、そのオブジェクトを参照します。
+            </summary>
             <typeparam name="T">参照されるオブジェクトの型。</typeparam>
         </member>
         <member name="M:System.WeakReference`1.#ctor(`0)">
@@ -27635,7 +27866,9 @@
                 クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="target">参照するオブジェクト、または null。</param>
-            <param name="trackResurrection">オブジェクトを終了後に追跡する場合は true。オブジェクトを終了時点まで追跡し、終了後は追跡しない場合は false。</param>
+            <param name="trackResurrection">オブジェクトを終了後に追跡する場合は true。オブジェクトを終了時点まで追跡し、終了後は追跡しない場合は
+                false。
+            </param>
         </member>
         <member name="M:System.WeakReference`1.Finalize">
             <summary>現在の
@@ -28002,7 +28235,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.Collections.IEnumerable">
-            <summary>非ジェネリック コレクションに対する単純な反復処理をサポートする列挙子を公開します。この型に対応する .NET Framework のソース コードを参照するには、「Reference Source
+            <summary>非ジェネリック コレクションに対する単純な反復処理をサポートする列挙子を公開します。この型に対応する .NET Framework のソース
+                コードを参照するには、「Reference Source
                 (ソースの参照)」を参照してください。
             </summary>
             <filterpriority>1</filterpriority>
@@ -28557,7 +28791,8 @@
             </returns>
         </member>
         <member name="T:System.Collections.Generic.IEnumerable`1">
-            <summary>指定した型のコレクションに対する単純な反復処理をサポートする列挙子を公開します。この種類の .NET Framework ソース コードを参照して、次を参照してください。、参照ソースです。
+            <summary>指定した型のコレクションに対する単純な反復処理をサポートする列挙子を公開します。この種類の .NET Framework ソース
+                コードを参照して、次を参照してください。、参照ソースです。
             </summary>
             <typeparam name="T">
                 列挙するオブジェクトの型。このパラメーターが共変の型パラメーターです。つまり、その指定した型を使用するか、それよりも強い任意の派生型を使用することができます。共変性と反変性の詳細については、「ジェネリックの共変性と反変性」を参照してください。
@@ -28855,7 +29090,8 @@
             </exception>
         </member>
         <member name="M:System.Collections.Generic.ISet`1.SymmetricExceptWith(System.Collections.Generic.IEnumerable{`0})">
-            <summary>現在のセットを、そのセットと指定されたコレクションの (両方に存在するのではなく) どちらか一方に存在する要素だけが格納されるように変更します。</summary>
+            <summary>現在のセットを、そのセットと指定されたコレクションの (両方に存在するのではなく) どちらか一方に存在する要素だけが格納されるように変更します。
+            </summary>
             <param name="other">現在のセットと比較するコレクション。</param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="other"/>
@@ -30026,7 +30262,8 @@
             <summary>Just-In-Time (JIT) コンパイラ用のデバッグ モードを指定します。</summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.Default">
-            <summary>最適化の有効化、エディット コンティニュのサポートの無効化、シンボル ストア シーケンス ポイントの使用 (存在する場合) など、既定の動作を使用するよう Just-In-Time (JIT)
+            <summary>最適化の有効化、エディット コンティニュのサポートの無効化、シンボル ストア シーケンス ポイントの使用 (存在する場合) など、既定の動作を使用するよう
+                Just-In-Time (JIT)
                 コンパイラに指示します。.NET Framework Version 2.0 では、JIT 追跡情報 (メソッド内のネイティブ コード オフセットに対する MSIL (Microsoft
                 Intermediate Language) オフセットの情報) が常に生成されます。
             </summary>
@@ -30043,8 +30280,10 @@
             </summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints">
-            <summary>プログラム データベース (PDB) シーケンス ポイントではなく、暗黙の MSIL シーケンス ポイントを使用します。通常、シンボリック情報には、ソース行ごとに少なくとも 1 つの MSIL
-                オフセットが含まれています。ジャスト イン タイム (JIT) コンパイラは、メソッドをコンパイルするとき、保存する必要がある MSIL オフセットのリストをプロファイリング サービスに要求します。この
+            <summary>プログラム データベース (PDB) シーケンス ポイントではなく、暗黙の MSIL シーケンス ポイントを使用します。通常、シンボリック情報には、ソース行ごとに少なくとも 1
+                つの MSIL
+                オフセットが含まれています。ジャスト イン タイム (JIT) コンパイラは、メソッドをコンパイルするとき、保存する必要がある MSIL オフセットのリストをプロファイリング
+                サービスに要求します。この
                 MSIL オフセットをシーケンス ポイントと呼びます。
             </summary>
         </member>
@@ -30128,7 +30367,8 @@
             </summary>
         </member>
         <member name="T:System.Globalization.NumberStyles">
-            <summary>整数数値型と浮動小数点数値型の Parse メソッドおよび TryParse メソッドに渡される数値文字列引数で使用できるスタイルを決定します。</summary>
+            <summary>整数数値型と浮動小数点数値型の Parse メソッドおよび TryParse メソッドに渡される数値文字列引数で使用できるスタイルを決定します。
+            </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowCurrencySymbol">
             <summary>数値文字列に通貨記号を含めることができることを示します。有効な通貨記号は、
@@ -30151,7 +30391,8 @@
         <member name="F:System.Globalization.NumberStyles.AllowExponent">
             <summary>数値文字列に指数表記を使用できることを示します。
                 <see cref="F:System.Globalization.NumberStyles.AllowExponent"/>
-                フラグを使用すると、"E" または "e" で始まり、その後に省略可能な正または負の符号と整数が続く指数を、解析対象文字列に含めることができます。つまり、nnnExx、nnnE+xx、および nnnE-xx
+                フラグを使用すると、"E" または "e" で始まり、その後に省略可能な正または負の符号と整数が続く指数を、解析対象文字列に含めることができます。つまり、nnnExx、nnnE+xx、および
+                nnnE-xx
                 形式の文字列を正常に解析します。仮数または仮数部では小数点記号または符号を使用することはできません。解析対象の文字列にこれらの要素を含めるには、
                 <see cref="F:System.Globalization.NumberStyles.AllowDecimalPoint"/>
                 フラグと
@@ -30185,7 +30426,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowLeadingWhite">
-            <summary>先行する空白文字を解析対象の文字列に使用できることを示します。有効な空白文字の Unicode 値は、U+0009、U+000A、U+000B、U+000C、U+000D、および U+0020
+            <summary>先行する空白文字を解析対象の文字列に使用できることを示します。有効な空白文字の Unicode
+                値は、U+0009、U+000A、U+000B、U+000C、U+000D、および U+0020
                 です。これは、
                 <see cref="M:System.Char.IsWhiteSpace(System.Char)"/>
                 メソッドが true を返す文字のサブセットです。
@@ -30219,7 +30461,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowTrailingWhite">
-            <summary>末尾の空白文字を解析対象の文字列に使用できることを示します。有効な空白文字の Unicode 値は、U+0009、U+000A、U+000B、U+000C、U+000D、および U+0020
+            <summary>末尾の空白文字を解析対象の文字列に使用できることを示します。有効な空白文字の Unicode
+                値は、U+0009、U+000A、U+000B、U+000C、U+000D、および U+0020
                 です。これは、
                 <see cref="M:System.Char.IsWhiteSpace(System.Char)"/>
                 メソッドが true を返す文字のサブセットです。
@@ -30266,7 +30509,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.None">
-            <summary>スタイル要素 (先行する空白、後続の空白、桁区切り記号、小数点の記号など) を解析対象の文字列に含めることができないことを示します。解析対象の文字列は、整数部のみで構成されている必要があります。
+            <summary>スタイル要素 (先行する空白、後続の空白、桁区切り記号、小数点の記号など)
+                を解析対象の文字列に含めることができないことを示します。解析対象の文字列は、整数部のみで構成されている必要があります。
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.Number">
@@ -30394,7 +30638,8 @@
         </member>
         <member name="P:System.IO.FileLoadException.FileName">
             <summary>現在の例外の原因であるファイルの名前を取得します。</summary>
-            <returns>イメージが無効であるファイルの名前を含んでいる<see cref="T:System.String"/>。現在のインスタンスのコンストラクターにファイル名が渡されなかった場合は null 参照。
+            <returns>イメージが無効であるファイルの名前を含んでいる<see cref="T:System.String"/>。現在のインスタンスのコンストラクターにファイル名が渡されなかった場合は
+                null 参照。
             </returns>
             <filterpriority>2</filterpriority>
         </member>
@@ -30745,7 +30990,8 @@
             <summary>厳密な名前を生成するために使用するキー ペアを格納しているファイルの名前を指定します。</summary>
         </member>
         <member name="M:System.Reflection.AssemblyKeyFileAttribute.#ctor(System.String)">
-            <summary>属性を付けるアセンブリの厳密な名前を生成するために、キー ペアを格納しているファイルの名前を使用して、AssemblyKeyFileAttribute クラスの新しいインスタンスを初期化します。
+            <summary>属性を付けるアセンブリの厳密な名前を生成するために、キー ペアを格納しているファイルの名前を使用して、AssemblyKeyFileAttribute
+                クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="keyFile">キー ペアを格納しているファイルの名前。</param>
         </member>
@@ -30888,7 +31134,8 @@
             </summary>
             <param name="memberName">
                 呼び出すメンバーの名前を保持している文字列。コンストラクター、メソッド、プロパティ、フィールドなどを指定できます。メンバーを呼び出す場合は、適切な呼び出し属性を指定する必要があります。メンバーの名前として空の
-                String を渡すことによって、クラスの既定のメンバーを指定できます。型の既定のメンバーは、DefaultMemberAttribute カスタム属性でマークされるか、通常の方法で COM
+                String を渡すことによって、クラスの既定のメンバーを指定できます。型の既定のメンバーは、DefaultMemberAttribute カスタム属性でマークされるか、通常の方法で
+                COM
                 内でマークされます。
             </param>
         </member>
@@ -30918,7 +31165,8 @@
             <summary>32 ビット Intel プロセッサ (ネイティブまたは 64 ビット プラットフォーム上の Windows on Windows (WOW64) 環境)。</summary>
         </member>
         <member name="T:System.Runtime.GCLargeObjectHeapCompactionMode">
-            <summary>[.NET Framework 4.5.1 以上でサポート]次のブロッキング ガベージ コレクションが大きなオブジェクト ヒープ (LOH) を圧縮するかどうかを示します。</summary>
+            <summary>[.NET Framework 4.5.1 以上でサポート]次のブロッキング ガベージ コレクションが大きなオブジェクト ヒープ (LOH) を圧縮するかどうかを示します。
+            </summary>
         </member>
         <member name="F:System.Runtime.GCLargeObjectHeapCompactionMode.CompactOnce">
             <summary>次のブロッキング generation 2 ガベージ コレクション中に圧縮される大きなオブジェクト ヒープ (LOH) です。</summary>
@@ -30933,7 +31181,8 @@
             <summary>ガベージ コレクションの同時実行を無効にし、バッチ呼び出しでオブジェクトを解放します。これは、関与するレベルが最も高いモードです。</summary>
         </member>
         <member name="F:System.Runtime.GCLatencyMode.Interactive">
-            <summary>ガベージ コレクションの同時実行を有効にし、アプリケーションの実行中にオブジェクトを解放します。これは、ワークステーション上のガベージ コレクションの既定のモードで、関与するレベルは
+            <summary>ガベージ コレクションの同時実行を有効にし、アプリケーションの実行中にオブジェクトを解放します。これは、ワークステーション上のガベージ
+                コレクションの既定のモードで、関与するレベルは
                 <see cref="F:System.Runtime.GCLatencyMode.Batch"/>
                 より低くなります。応答とスループットのバランスが保たれます。
             </summary>
@@ -30956,7 +31205,8 @@
             <returns>サーバーのガベージ コレクションが有効な場合は true。それ以外の場合は false。</returns>
         </member>
         <member name="P:System.Runtime.GCSettings.LargeObjectHeapCompactionMode">
-            <summary>[.NET Framework 4.5.1 以上でサポート]フル ブロッキング ガベージ コレクションが大きなオブジェクト ヒープ (LOH) を圧縮するかどうかを示す値を取得または設定します。
+            <summary>[.NET Framework 4.5.1 以上でサポート]フル ブロッキング ガベージ コレクションが大きなオブジェクト ヒープ (LOH)
+                を圧縮するかどうかを示す値を取得または設定します。
             </summary>
             <returns>フル ブロッキング ガベージ コレクションが LOH を圧縮するかどうかを示す、列挙値の 1 つです。</returns>
         </member>
@@ -30973,7 +31223,8 @@
             <summary>属性付きフィールドにアクセスするプロパティの名前を指定します。</summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.#ctor(System.String)">
-            <summary>属性付きフィールドにアクセスするために使用するプロパティの名前を指定して、AccessedThroughPropertyAttribute クラスの新しいインスタンスを初期化します。
+            <summary>属性付きフィールドにアクセスするために使用するプロパティの名前を指定して、AccessedThroughPropertyAttribute
+                クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="propertyName">属性付きフィールドにアクセスするために使用するプロパティの名前。</param>
         </member>
@@ -31104,7 +31355,8 @@
             </exception>
         </member>
         <member name="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)">
-            <summary>テーブルで指定されたキーをアトミックに検索し、対応する値を返します。キーがテーブルに存在しない場合は、メソッドがコールバック メソッドを呼び出して、指定されたキーにバインドされる値を作成します。
+            <summary>テーブルで指定されたキーをアトミックに検索し、対応する値を返します。キーがテーブルに存在しない場合は、メソッドがコールバック
+                メソッドを呼び出して、指定されたキーにバインドされる値を作成します。
             </summary>
             <returns>
                 <paramref name="key"/>
@@ -31190,7 +31442,8 @@
             </summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.DateTimeConstantAttribute.#ctor(System.Int64)">
-            <summary>DateTimeConstantAttribute クラスの新しいインスタンスの日時を表す 100 ナノ秒刻みの数値を指定して、そのインスタンスを初期化します。</summary>
+            <summary>DateTimeConstantAttribute クラスの新しいインスタンスの日時を表す 100 ナノ秒刻みの数値を指定して、そのインスタンスを初期化します。
+            </summary>
             <param name="ticks">インスタンスの日時を表す 100 ナノ秒刻みの数値。</param>
         </member>
         <member name="P:System.Runtime.CompilerServices.DateTimeConstantAttribute.Value">
@@ -31254,7 +31507,8 @@
             <summary>アセンブリの型に含まれる任意のプライベート メンバーがリフレクションを使用できないことを示します。</summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.DisablePrivateReflectionAttribute.#ctor">
-            <summary>新しいインスタンスを初期化、<see cref="T:System.Runtime.CompilerServices.DisablePrivateReflectionAttribute"/>
+            <summary>新しいインスタンスを初期化、
+                <see cref="T:System.Runtime.CompilerServices.DisablePrivateReflectionAttribute"/>
                 クラスです。
             </summary>
         </member>
@@ -31390,7 +31644,8 @@
             <summary>メソッドをインライン展開できません。インライン展開とは、メソッド呼び出しをメソッド本体に置換する最適化のことです。</summary>
         </member>
         <member name="F:System.Runtime.CompilerServices.MethodImplOptions.NoOptimization">
-            <summary>コード生成の問題をデバッグする場合に、メソッドを最適化するために Just-In-Time (JIT) コンパイラまたはネイティブ コードによる生成を使用しません (Ngen.exe を参照)。
+            <summary>コード生成の問題をデバッグする場合に、メソッドを最適化するために Just-In-Time (JIT) コンパイラまたはネイティブ コードによる生成を使用しません
+                (Ngen.exe を参照)。
             </summary>
         </member>
         <member name="F:System.Runtime.CompilerServices.MethodImplOptions.PreserveSig">
@@ -31846,7 +32101,9 @@
             </param>
         </member>
         <member name="T:System.Text.StringBuilder">
-            <summary>可変型の文字列を表します。このクラスは継承できません。この種類の .NET Framework ソース コードを参照して、次を参照してください。、参照ソースです。</summary>
+            <summary>可変型の文字列を表します。このクラスは継承できません。この種類の .NET Framework ソース
+                コードを参照して、次を参照してください。、参照ソースです。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.#ctor">
@@ -32221,8 +32478,9 @@
             <summary>0
                 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、指定された書式プロバイダーを使用して単一の引数の文字列形式に置換されます。
             </summary>
-            <returns>追加操作が完了した後のこのインスタンスへの参照。このインスタンス、追加操作の後にサフィックスをコピーし、操作の前に存在していたすべてのデータが含まれている<paramref
-                    name="format"/>する任意の形式での文字列表現によって仕様が置き換えられます<paramref name="arg0"/>です。
+            <returns>追加操作が完了した後のこのインスタンスへの参照。このインスタンス、追加操作の後にサフィックスをコピーし、操作の前に存在していたすべてのデータが含まれている
+                <paramref
+                        name="format"/>する任意の形式での文字列表現によって仕様が置き換えられます<paramref name="arg0"/>です。
             </returns>
             <param name="provider">カルチャ固有の書式情報を提供するオブジェクト。</param>
             <param name="format">複合書式指定文字列 (「解説」を参照)。</param>
@@ -32241,7 +32499,8 @@
             </exception>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object)">
-            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、指定された書式プロバイダーを使用して 2
+            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、指定された書式プロバイダーを使用して
+                2
                 つの引数のいずれかの文字列形式に置換されます。
             </summary>
             <returns>追加操作が完了した後のこのインスタンスへの参照。追加操作の完了後、このインスタンスには、操作前に存在していたデータの末尾に
@@ -32266,7 +32525,8 @@
             </exception>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)">
-            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、指定された書式プロバイダーを使用して 3
+            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、指定された書式プロバイダーを使用して
+                3
                 つの引数のいずれかの文字列形式に置換されます。
             </summary>
             <returns>追加操作が完了した後のこのインスタンスへの参照。追加操作の完了後、このインスタンスには、操作前に存在していたデータの末尾に
@@ -32319,7 +32579,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object)">
-            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、単一の引数の文字列形式に置換されます。</summary>
+            <summary>0
+                個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、単一の引数の文字列形式に置換されます。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 が追加されたこのインスタンスへの参照。
@@ -32345,7 +32607,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object)">
-            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、2 つの引数のどちらかの文字列形式に置換されます。</summary>
+            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、2
+                つの引数のどちらかの文字列形式に置換されます。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 が追加されたこのインスタンスへの参照。
@@ -32370,7 +32634,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object)">
-            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、3 つの引数のいずれかの文字列形式に置換されます。</summary>
+            <summary>0 個以上の書式項目を含んでいる複合書式指定文字列を処理することで返される文字列を、このインスタンスに付加します。各書式項目は、3
+                つの引数のいずれかの文字列形式に置換されます。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 が追加されたこのインスタンスへの参照。
@@ -32451,7 +32717,8 @@
         </member>
         <member name="P:System.Text.StringBuilder.Capacity">
             <summary>現在のインスタンスによって割り当てられたメモリに格納できる最大文字数を取得または設定します。</summary>
-            <returns>現在のインスタンスによって割り当てられたメモリに格納できる最大文字数。その値の範囲は<see cref="P:System.Text.StringBuilder.Length"/>に<see
+            <returns>現在のインスタンスによって割り当てられたメモリに格納できる最大文字数。その値の範囲は<see
+                    cref="P:System.Text.StringBuilder.Length"/>に<see
                     cref="P:System.Text.StringBuilder.MaxCapacity"/>です。
             </returns>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -33154,7 +33421,9 @@
                 <see cref="T:System.Threading.WaitHandle"/>
                 によって使用されているアンマネージ リソースを解放し、オプションでマネージ リソースも解放します。
             </summary>
-            <param name="explicitDisposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は false。</param>
+            <param name="explicitDisposing">マネージ リソースとアンマネージ リソースの両方を解放する場合は true。アンマネージ リソースだけを解放する場合は
+                false。
+            </param>
         </member>
         <member name="F:System.Threading.WaitHandle.InvalidHandle">
             <summary>無効なネイティブ オペレーティング システム ハンドルを表します。このフィールドは読み取り専用です。</summary>
@@ -33214,7 +33483,8 @@
                 内のすべての要素がシグナルを受信した場合は
                 true、それ以外の場合は false。
             </returns>
-            <param name="waitHandles">現在のインスタンスが待機する対象のオブジェクトを格納している WaitHandle 配列。この配列には、同一オブジェクトに対する複数の参照 (重複)
+            <param name="waitHandles">現在のインスタンスが待機する対象のオブジェクトを格納している WaitHandle 配列。この配列には、同一オブジェクトに対する複数の参照
+                (重複)
                 を含めることはできません。
             </param>
             <param name="millisecondsTimeout">待機するミリ秒数。無制限に待機する場合は

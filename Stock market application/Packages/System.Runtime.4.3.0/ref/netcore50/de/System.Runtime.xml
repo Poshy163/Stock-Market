@@ -383,7 +383,8 @@
                 <paramref name="type"/>
                 ist keine RuntimeType. - oder -
                 <paramref name="type"/>
-                ist ein offener generischer Typ (d. h., die<see cref="P:System.Type.ContainsGenericParameters"/>
+                ist ein offener generischer Typ (d. h., die
+                <see cref="P:System.Type.ContainsGenericParameters"/>
                 -Eigenschaft gibt true zurück).
             </exception>
             <exception cref="T:System.NotSupportedException">
@@ -457,7 +458,8 @@
                 <paramref name="type"/>
                 ist keine RuntimeType. - oder -
                 <paramref name="type"/>
-                ist ein offener generischer Typ (d. h., die<see cref="P:System.Type.ContainsGenericParameters"/>
+                ist ein offener generischer Typ (d. h., die
+                <see cref="P:System.Type.ContainsGenericParameters"/>
                 -Eigenschaft gibt true zurück).
             </exception>
             <exception cref="T:System.NotSupportedException">
@@ -806,7 +808,8 @@
             <param name="length">Die Länge des zu durchsuchenden Bereichs.</param>
             <param name="value">Das Objekt, nach dem gesucht werden soll.</param>
             <param name="comparer">Die<see cref="T:System.Collections.IComparer"/>-Implementierung, die beim Vergleich
-                von Elementen verwendet werden soll.- oder - null, wenn die<see cref="T:System.IComparable"/>
+                von Elementen verwendet werden soll.- oder - null, wenn die
+                <see cref="T:System.IComparable"/>
                 -Implementierung des jeweiligen Elements verwendet werden soll.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -925,7 +928,8 @@
             </param>
             <param name="value">Das Objekt, nach dem gesucht werden soll.</param>
             <param name="comparer">Die<see cref="T:System.Collections.IComparer"/>-Implementierung, die beim Vergleich
-                von Elementen verwendet werden soll.- oder - null, wenn die<see cref="T:System.IComparable"/>
+                von Elementen verwendet werden soll.- oder - null, wenn die
+                <see cref="T:System.IComparable"/>
                 -Implementierung des jeweiligen Elements verwendet werden soll.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -1016,7 +1020,8 @@
         </member>
         <member name="M:System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})">
             <summary>Durchsucht einen Bereich von Elementen in einem sortierten eindimensionalen Array nach einem Wert,
-                mithilfe der angegebenen generischen Schnittstelle<see cref="T:System.Collections.Generic.IComparer`1"/>
+                mithilfe der angegebenen generischen Schnittstelle
+                <see cref="T:System.Collections.Generic.IComparer`1"/>
                 .
             </summary>
             <returns>Der Index des angegebenen
@@ -1900,7 +1905,8 @@
             </summary>
             <returns>Der Wert an der angegebenen Position des eindimensionalen<see cref="T:System.Array"/>.
             </returns>
-            <param name="index">Eine 32-Bit-Ganzzahl, die die Position des abzurufenden<see cref="T:System.Array"/>
+            <param name="index">Eine 32-Bit-Ganzzahl, die die Position des abzurufenden
+                <see cref="T:System.Array"/>
                 -Elements darstellt.
             </param>
             <exception cref="T:System.ArgumentException">Das aktuelle
@@ -2417,7 +2423,8 @@
                 auf einen Wert fest.Der Index wird als 32-Bit-Ganzzahl angegeben.
             </summary>
             <param name="value">Der neue Wert für das angegebene Element.</param>
-            <param name="index">Eine 32-Bit-Ganzzahl, die die Position des festzulegenden<see cref="T:System.Array"/>
+            <param name="index">Eine 32-Bit-Ganzzahl, die die Position des festzulegenden
+                <see cref="T:System.Array"/>
                 -Elements darstellt.
             </param>
             <exception cref="T:System.ArgumentException">Das aktuelle
@@ -2550,7 +2557,8 @@
                 sortiert werden soll.
             </param>
             <param name="comparer">Die<see cref="T:System.Collections.IComparer"/>-Implementierung, die beim Vergleich
-                von Elementen verwendet werden soll.- oder - null, wenn die<see cref="T:System.IComparable"/>
+                von Elementen verwendet werden soll.- oder - null, wenn die
+                <see cref="T:System.IComparable"/>
                 -Implementierung des jeweiligen Elements verwendet werden soll.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -2585,7 +2593,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32)">
-            <summary>Sortiert einen Bereich von Elementen in einem Paar von eindimensionalen<see cref="T:System.Array"/>
+            <summary>Sortiert einen Bereich von Elementen in einem Paar von eindimensionalen
+                <see cref="T:System.Array"/>
                 -Objekten (das eine enthält die Schlüssel und das andere die entsprechenden Werte) nach den Schlüsseln
                 im ersten
                 <see cref="T:System.Array"/>
@@ -2653,7 +2662,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32,System.Collections.IComparer)">
-            <summary>Sortiert einen Bereich von Elementen in einem Paar von eindimensionalen<see cref="T:System.Array"/>
+            <summary>Sortiert einen Bereich von Elementen in einem Paar von eindimensionalen
+                <see cref="T:System.Array"/>
                 -Objekten (das eine enthält die Schlüssel und das andere die entsprechenden Werte) nach den Schlüsseln
                 im ersten
                 <see cref="T:System.Array"/>
@@ -2674,7 +2684,8 @@
             <param name="index">Der Startindex des zu sortierenden Bereichs.</param>
             <param name="length">Die Anzahl der Elemente im zu sortierenden Bereich.</param>
             <param name="comparer">Die<see cref="T:System.Collections.IComparer"/>-Implementierung, die beim Vergleich
-                von Elementen verwendet werden soll.- oder - null, wenn die<see cref="T:System.IComparable"/>
+                von Elementen verwendet werden soll.- oder - null, wenn die
+                <see cref="T:System.IComparable"/>
                 -Implementierung des jeweiligen Elements verwendet werden soll.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -2814,7 +2825,8 @@
             <param name="index">Der Startindex des zu sortierenden Bereichs.</param>
             <param name="length">Die Anzahl der Elemente im zu sortierenden Bereich.</param>
             <param name="comparer">Die<see cref="T:System.Collections.IComparer"/>-Implementierung, die beim Vergleich
-                von Elementen verwendet werden soll.- oder - null, wenn die<see cref="T:System.IComparable"/>
+                von Elementen verwendet werden soll.- oder - null, wenn die
+                <see cref="T:System.IComparable"/>
                 -Implementierung des jeweiligen Elements verwendet werden soll.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -2960,7 +2972,8 @@
         <member name="M:System.Array.Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})">
             <summary>Sortiert die Elemente in einem Bereich von Elementen in der
                 <see cref="T:System.Array"/>
-                mithilfe der angegebenen generischen<see cref="T:System.Collections.Generic.IComparer`1"/>
+                mithilfe der angegebenen generischen
+                <see cref="T:System.Collections.Generic.IComparer`1"/>
                 -Schnittstelle.
             </summary>
             <param name="array">Das zu sortierende eindimensionale und nullbasierte<see cref="T:System.Array"/>.
@@ -3006,7 +3019,8 @@
             <summary>Sortiert ein Paar von<see cref="T:System.Array"/>-Objekten (das eine enthält die Schlüssel und das
                 andere die entsprechenden Werte) nach den Schlüsseln im ersten
                 <see cref="T:System.Array"/>
-                und verwendet dabei die Implementierung der generischen<see cref="T:System.IComparable`1"/>
+                und verwendet dabei die Implementierung der generischen
+                <see cref="T:System.IComparable`1"/>
                 -Schnittstelle jedes Schlüssels.
             </summary>
             <param name="keys">Das eindimensionale nullbasierte
@@ -3045,7 +3059,8 @@
             <summary>Sortiert ein Paar von<see cref="T:System.Array"/>-Objekten (das eine enthält die Schlüssel und das
                 andere die entsprechenden Werte) nach den Schlüsseln im ersten
                 <see cref="T:System.Array"/>
-                und verwendet dabei die angegebene generische<see cref="T:System.Collections.Generic.IComparer`1"/>
+                und verwendet dabei die angegebene generische
+                <see cref="T:System.Collections.Generic.IComparer`1"/>
                 -Schnittstelle.
             </summary>
             <param name="keys">Das eindimensionale nullbasierte
@@ -3095,7 +3110,8 @@
             <summary>Sortiert einen Bereich von Elementen in einem Paar von<see cref="T:System.Array"/>-Objekten (das
                 eine enthält die Schlüssel und das andere die entsprechenden Werte) nach den Schlüsseln im ersten
                 <see cref="T:System.Array"/>
-                und verwendet dabei die Implementierung der generischen<see cref="T:System.IComparable`1"/>
+                und verwendet dabei die Implementierung der generischen
+                <see cref="T:System.IComparable`1"/>
                 -Schnittstelle jedes Schlüssels.
             </summary>
             <param name="keys">Das eindimensionale nullbasierte
@@ -3158,7 +3174,8 @@
             <summary>Sortiert einen Bereich von Elementen in einem Paar von<see cref="T:System.Array"/>-Objekten (das
                 eine enthält die Schlüssel und das andere die entsprechenden Werte) nach den Schlüsseln im ersten
                 <see cref="T:System.Array"/>
-                und verwendet dabei die angegebene generische<see cref="T:System.Collections.Generic.IComparer`1"/>
+                und verwendet dabei die angegebene generische
+                <see cref="T:System.Collections.Generic.IComparer`1"/>
                 -Schnittstelle.
             </summary>
             <param name="keys">Das eindimensionale nullbasierte
@@ -4333,7 +4350,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Byte.Equals(System.Byte)">
-            <summary>Gibt einen Wert zurück, der angibt, ob diese Instanz und ein angegebenes<see cref="T:System.Byte"/>
+            <summary>Gibt einen Wert zurück, der angibt, ob diese Instanz und ein angegebenes
+                <see cref="T:System.Byte"/>
                 -Objekt den gleichen Wert darstellen.
             </summary>
             <returns>true, wenn
@@ -4375,7 +4393,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Byte.Parse(System.String)">
-            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre<see cref="T:System.Byte"/>
+            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre
+                <see cref="T:System.Byte"/>
                 -Entsprechung um.
             </summary>
             <returns>Ein Bytewert, der der Zahl in
@@ -4726,7 +4745,8 @@
                 der angegebenen kulturspezifischen Formatierungsinformationen in die entsprechende
                 Zeichenfolgendarstellung.
             </summary>
-            <returns>Die Zeichenfolgendarstellung des Werts dieses Objekts in dem vom<paramref name="provider"/>
+            <returns>Die Zeichenfolgendarstellung des Werts dieses Objekts in dem vom
+                <paramref name="provider"/>
                 -Parameter angegebenen Format.
             </returns>
             <param name="provider">Ein Objekt, das kulturspezifische Formatierungsinformationen bereitstellt.</param>
@@ -4875,7 +4895,8 @@
         <member name="M:System.Char.ConvertToUtf32(System.Char,System.Char)">
             <summary>Konvertiert den Wert eines UTF-16-codierten Ersatzzeichenpaars in einen Unicode-Codepunkt.
             </summary>
-            <returns>Der durch den<paramref name="highSurrogate"/>-Parameter und den<paramref name="lowSurrogate"/>
+            <returns>Der durch den<paramref name="highSurrogate"/>-Parameter und den
+                <paramref name="lowSurrogate"/>
                 -Parameter dargestellte 21-Bit-Unicode-Codepunkt.
             </returns>
             <param name="highSurrogate">Eine hohe Ersatzzeichen-Codeeinheit (d. h. eine Codeeinheit zwischen U+D800 und
@@ -6283,7 +6304,8 @@
             <returns>Ein Objekt, das dem<see cref="T:System.DateTime"/>-Objekt entspricht, das von der<see
                     cref="M:System.DateTime.ToBinary"/>-Methode serialisiert wurde.
             </returns>
-            <param name="dateData">Eine 64-Bit-Ganzzahl mit Vorzeichen, die die<see cref="P:System.DateTime.Kind"/>
+            <param name="dateData">Eine 64-Bit-Ganzzahl mit Vorzeichen, die die
+                <see cref="P:System.DateTime.Kind"/>
                 -Eigenschaft in ein 2-Bit-Feld und die<see cref="P:System.DateTime.Ticks"/>-Eigenschaft in ein
                 62-Bit-Feld codiert.
             </param>
@@ -6336,7 +6358,8 @@
             <summary>Konvertiert den Wert dieser Instanz in alle Zeichenfolgendarstellungen, die von den angegebenen
                 Standardformatbezeichnern für Datum und Uhrzeit unterstützt werden.
             </summary>
-            <returns>Ein Array von Zeichenfolgen, in dem jedes Element eine mit dem<paramref name="format"/>
+            <returns>Ein Array von Zeichenfolgen, in dem jedes Element eine mit dem
+                <paramref name="format"/>
                 -Standardformatbezeichner für Datum und Uhrzeit formatierte Darstellung des Werts dieser Instanz ist.
             </returns>
             <param name="format">Eine standardmäßige Formatzeichenfolge für Datum und Uhrzeit (siehe Hinweise).</param>
@@ -6522,7 +6545,8 @@
         </member>
         <member name="M:System.DateTime.op_GreaterThanOrEqual(System.DateTime,System.DateTime)">
             <summary>Bestimmt, ob eine vorliegende<see cref="T:System.DateTime"/>-Angabe eine Datums- und Uhrzeitangabe
-                darstellt, die gleichzeitig oder später als eine andere vorliegende<see cref="T:System.DateTime"/>
+                darstellt, die gleichzeitig oder später als eine andere vorliegende
+                <see cref="T:System.DateTime"/>
                 -Angabe ist.
             </summary>
             <returns>true wenn
@@ -6569,7 +6593,8 @@
         </member>
         <member name="M:System.DateTime.op_LessThanOrEqual(System.DateTime,System.DateTime)">
             <summary>Bestimmt, ob eine vorliegende<see cref="T:System.DateTime"/>-Angabe eine Datums- und Uhrzeitangabe
-                darstellt, die gleichzeitig oder früher als eine andere vorliegende<see cref="T:System.DateTime"/>
+                darstellt, die gleichzeitig oder früher als eine andere vorliegende
+                <see cref="T:System.DateTime"/>
                 -Angabe ist.
             </summary>
             <returns>true wenn
@@ -6695,7 +6720,8 @@
             </exception>
             <exception cref="T:System.ArgumentException">
                 <paramref name="styles"/>
-                enthält eine ungültige Kombination von<see cref="T:System.Globalization.DateTimeStyles"/>
+                enthält eine ungültige Kombination von
+                <see cref="T:System.Globalization.DateTimeStyles"/>
                 -Werten.Beispielsweise sowohl
                 <see cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>
                 als auch<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>.
@@ -6796,7 +6822,8 @@
             </exception>
             <exception cref="T:System.ArgumentException">
                 <paramref name="style"/>
-                enthält eine ungültige Kombination von<see cref="T:System.Globalization.DateTimeStyles"/>
+                enthält eine ungültige Kombination von
+                <see cref="T:System.Globalization.DateTimeStyles"/>
                 -Werten.Beispielsweise sowohl
                 <see cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>
                 als auch<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>.
@@ -6849,7 +6876,8 @@
             </exception>
             <exception cref="T:System.ArgumentException">
                 <paramref name="style"/>
-                enthält eine ungültige Kombination von<see cref="T:System.Globalization.DateTimeStyles"/>
+                enthält eine ungültige Kombination von
+                <see cref="T:System.Globalization.DateTimeStyles"/>
                 -Werten.Beispielsweise sowohl
                 <see cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>
                 als auch<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>.
@@ -7260,7 +7288,8 @@
             <returns>true, wenn der<paramref name="s"/>-Parameter erfolgreich konvertiert wurde, andernfalls false.
             </returns>
             <param name="s">Eine Zeichenfolge, die eine zu konvertierende Datums- und Zeitangabe enthält.</param>
-            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den<see cref="T:System.DateTime"/>
+            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den
+                <see cref="T:System.DateTime"/>
                 -Wert zurück, der dem Datum und der Zeit in
                 <paramref name="s"/>
                 entspricht, oder<see cref="F:System.DateTime.MinValue"/>, wenn die Konvertierung nicht durchgeführt
@@ -7288,7 +7317,8 @@
                 Datum in Bezug auf die aktuelle Zeitzone oder das aktuelle Datum interpretiert werden soll.Ein häufig
                 angegebener Wert ist<see cref="F:System.Globalization.DateTimeStyles.None"/>.
             </param>
-            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den<see cref="T:System.DateTime"/>
+            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den
+                <see cref="T:System.DateTime"/>
                 -Wert zurück, der dem Datum und der Zeit in
                 <paramref name="s"/>
                 entspricht, oder<see cref="F:System.DateTime.MinValue"/>, wenn die Konvertierung nicht durchgeführt
@@ -7333,7 +7363,8 @@
                 <paramref name="s"/>
                 zulässige Format angeben.
             </param>
-            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den<see cref="T:System.DateTime"/>
+            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den
+                <see cref="T:System.DateTime"/>
                 -Wert zurück, der dem Datum und der Zeit in
                 <paramref name="s"/>
                 entspricht, oder<see cref="F:System.DateTime.MinValue"/>, wenn die Konvertierung nicht durchgeführt
@@ -7374,7 +7405,8 @@
                 <paramref name="s"/>
                 angibt.Ein häufig angegebener Wert ist<see cref="F:System.Globalization.DateTimeStyles.None"/>.
             </param>
-            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den<see cref="T:System.DateTime"/>
+            <param name="result">Diese Methode gibt bei erfolgreicher Konvertierung den
+                <see cref="T:System.DateTime"/>
                 -Wert zurück, der dem Datum und der Zeit in
                 <paramref name="s"/>
                 entspricht, oder<see cref="F:System.DateTime.MinValue"/>, wenn die Konvertierung nicht durchgeführt
@@ -7440,7 +7472,8 @@
             </summary>
             <param name="dateTime">Ein Datum und eine Uhrzeit.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Das UTC (Coordinated Universal Time)-Datum und die
-                UTC-Uhrzeit nach der Anwendung des Offsets liegen vor<see cref="F:System.DateTimeOffset.MinValue"/>
+                UTC-Uhrzeit nach der Anwendung des Offsets liegen vor
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Das UTC-Datum und die UTC-Uhrzeit nach der Anwendung des Offsets liegen nach<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7505,7 +7538,8 @@
                 <paramref name="millisecond"/>
                 ist kleiner als 0 oder größer als 999.- oder -
                 <paramref name="offset"/>
-                ist kleiner als -14 oder größer als 14.- oder - Die<see cref="P:System.DateTimeOffset.UtcDateTime"/>
+                ist kleiner als -14 oder größer als 14.- oder - Die
+                <see cref="P:System.DateTimeOffset.UtcDateTime"/>
                 -Eigenschaft liegt vor
                 <see cref="F:System.DateTimeOffset.MinValue"/>
                 oder nach<see cref="F:System.DateTimeOffset.MaxValue"/>.
@@ -7559,7 +7593,8 @@
                 <paramref name="offset"/>
                 ist nicht in ganzen Minuten angegeben.
             </exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">Die<see cref="P:System.DateTimeOffset.UtcDateTime"/>
+            <exception cref="T:System.ArgumentOutOfRangeException">Die
+                <see cref="P:System.DateTimeOffset.UtcDateTime"/>
                 -Eigenschaft liegt vor
                 <see cref="F:System.DateTimeOffset.MinValue"/>
                 oder nach<see cref="F:System.DateTimeOffset.MaxValue"/>.- oder -
@@ -7583,7 +7618,8 @@
                 Zeitintervall darstellt.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7601,7 +7637,8 @@
                 negativ oder positiv sein.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7619,7 +7656,8 @@
                 negativ oder positiv sein.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7637,7 +7675,8 @@
                 besteht.Die Zahl kann negativ oder positiv sein.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7655,7 +7694,8 @@
                 negativ oder positiv sein.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7671,7 +7711,8 @@
             </returns>
             <param name="months">Eine Anzahl von ganzen Monaten.Die Zahl kann negativ oder positiv sein.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7689,7 +7730,8 @@
                 kann negativ oder positiv sein.
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7705,7 +7747,8 @@
             </returns>
             <param name="ticks">Eine Anzahl von 100-Nanosekunden-Ticks.Die Zahl kann negativ oder positiv sein.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7721,7 +7764,8 @@
             </returns>
             <param name="years">Eine Anzahl von Jahren.Die Zahl kann negativ oder positiv sein.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -7789,7 +7833,8 @@
             <summary>Ruft den Tag der Woche ab, der durch das aktuelle<see cref="T:System.DateTimeOffset"/>-Objekt
                 dargestellt wird.
             </summary>
-            <returns>Einer der Enumerationswerte, der den Wochentag des aktuellen<see cref="T:System.DateTimeOffset"/>
+            <returns>Einer der Enumerationswerte, der den Wochentag des aktuellen
+                <see cref="T:System.DateTimeOffset"/>
                 -Objekts angibt.
             </returns>
         </member>
@@ -7897,7 +7942,8 @@
             <returns>Ein 32-Bit-Hashcode als ganze Zahl mit Vorzeichen.</returns>
         </member>
         <member name="P:System.DateTimeOffset.Hour">
-            <summary>Ruft die Stundenkomponente der Zeit ab, die durch das aktuelle<see cref="T:System.DateTimeOffset"/>
+            <summary>Ruft die Stundenkomponente der Zeit ab, die durch das aktuelle
+                <see cref="T:System.DateTimeOffset"/>
                 -Objekt dargestellt wird.
             </summary>
             <returns>Die Stundenkomponente des aktuellen<see cref="T:System.DateTimeOffset"/>-Objekts.Diese Eigenschaft
@@ -7930,7 +7976,8 @@
             </returns>
         </member>
         <member name="P:System.DateTimeOffset.Minute">
-            <summary>Ruft die Minutenkomponente der Zeit ab, die durch das aktuelle<see cref="T:System.DateTimeOffset"/>
+            <summary>Ruft die Minutenkomponente der Zeit ab, die durch das aktuelle
+                <see cref="T:System.DateTimeOffset"/>
                 -Objekt dargestellt wird.
             </summary>
             <returns>Die Minutenkomponente des aktuellen<see cref="T:System.DateTimeOffset"/>-Objekts als eine Ganzzahl
@@ -7979,7 +8026,8 @@
             <param name="dateTimeOffset">Das Objekt, dem das Zeitintervall hinzugefügt werden soll.</param>
             <param name="timeSpan">Das hinzuzufügende Zeitintervall.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -8027,7 +8075,8 @@
             <returns>Das konvertierte Objekt.</returns>
             <param name="dateTime">Das zu konvertierende Objekt.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Das UTC (Coordinated Universal Time)-Datum und die
-                UTC-Uhrzeit nach der Anwendung des Offsets liegen vor<see cref="F:System.DateTimeOffset.MinValue"/>
+                UTC-Uhrzeit nach der Anwendung des Offsets liegen vor
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Das UTC-Datum und die UTC-Uhrzeit nach der Anwendung des Offsets liegen nach<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -8356,7 +8405,8 @@
             <param name="value">Ein Objekt, das den zu subtrahierenden Wert darstellt.</param>
         </member>
         <member name="M:System.DateTimeOffset.Subtract(System.TimeSpan)">
-            <summary>Subtrahiert ein angegebenes Zeitintervall vom aktuellen<see cref="T:System.DateTimeOffset"/>
+            <summary>Subtrahiert ein angegebenes Zeitintervall vom aktuellen
+                <see cref="T:System.DateTimeOffset"/>
                 -Objekt.
             </summary>
             <returns>Ein Objekt, das gleich der vom aktuellen<see cref="T:System.DateTimeOffset"/>-Objekt dargestellten
@@ -8366,7 +8416,8 @@
             </returns>
             <param name="value">Das Zeitintervall, das subtrahiert werden soll.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">Der sich ergebende<see
-                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als<see cref="F:System.DateTimeOffset.MinValue"/>
+                    cref="T:System.DateTimeOffset"/>-Wert ist kleiner als
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .- oder - Der sich ergebende<see cref="T:System.DateTimeOffset"/>-Wert ist größer als<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -9576,7 +9627,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.Decimal.Parse(System.String)">
-            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre<see cref="T:System.Decimal"/>
+            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre
+                <see cref="T:System.Decimal"/>
                 -Entsprechung um.
             </summary>
             <returns>Die Entsprechung der in
@@ -10191,7 +10243,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Decimal.TryParse(System.String,System.Decimal@)">
-            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre<see cref="T:System.Decimal"/>
+            <summary>Wandelt die angegebene Zeichenfolgendarstellung einer Zahl in ihre
+                <see cref="T:System.Decimal"/>
                 -Entsprechung um.Ein Rückgabewert gibt an, ob die Konvertierung erfolgreich war oder nicht.
             </summary>
             <returns>true, wenn
@@ -11162,7 +11215,8 @@
                 <paramref name="target"/>
                 angibt.Wert Bedeutung Kleiner als 0 (null) Der Wert dieser Instanz ist kleiner als der Wert von<paramref
                         name="target"/>. Zero Der Wert dieser Instanz ist gleich dem Wert von<paramref name="target"/>.
-                Größer als 0 (null) Der Wert dieser Instanz ist größer als der Wert von<paramref name="target"/>
+                Größer als 0 (null) Der Wert dieser Instanz ist größer als der Wert von
+                <paramref name="target"/>
                 .- oder -
                 <paramref name="target"/>
                 ist null.
@@ -12717,7 +12771,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Guid.Equals(System.Guid)">
-            <summary>Gibt einen Wert zurück, der angibt, ob diese Instanz und ein angegebenes<see cref="T:System.Guid"/>
+            <summary>Gibt einen Wert zurück, der angibt, ob diese Instanz und ein angegebenes
+                <see cref="T:System.Guid"/>
                 -Objekt den gleichen Wert darstellen.
             </summary>
             <returns>true, wenn
@@ -12776,7 +12831,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.Guid.Parse(System.String)">
-            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende<see cref="T:System.Guid"/>
+            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende
+                <see cref="T:System.Guid"/>
                 -Struktur.
             </summary>
             <returns>Eine Struktur, die den analysierten Wert enthält.</returns>
@@ -12791,7 +12847,8 @@
             </exception>
         </member>
         <member name="M:System.Guid.ParseExact(System.String,System.String)">
-            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende<see cref="T:System.Guid"/>
+            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende
+                <see cref="T:System.Guid"/>
                 -Struktur, vorausgesetzt, dass die Zeichenfolge das angegebene Format hat.
             </summary>
             <returns>Eine Struktur, die den analysierten Wert enthält.</returns>
@@ -12886,7 +12943,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Guid.TryParse(System.String,System.Guid@)">
-            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende<see cref="T:System.Guid"/>
+            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende
+                <see cref="T:System.Guid"/>
                 -Struktur.
             </summary>
             <returns>true, wenn der Analysevorgang erfolgreich war, andernfalls false.</returns>
@@ -12900,7 +12958,8 @@
             </param>
         </member>
         <member name="M:System.Guid.TryParseExact(System.String,System.String,System.Guid@)">
-            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende<see cref="T:System.Guid"/>
+            <summary>Konvertiert die Zeichenfolgendarstellung einer GUID in die entsprechende
+                <see cref="T:System.Guid"/>
                 -Struktur, vorausgesetzt, dass die Zeichenfolge das angegebene Format hat.
             </summary>
             <returns>true, wenn der Analysevorgang erfolgreich war, andernfalls false.</returns>
@@ -13304,18 +13363,21 @@
             </summary>
         </member>
         <member name="M:System.InsufficientExecutionStackException.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.InsufficientExecutionStackException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.InsufficientExecutionStackException"/>
                 -Klasse.
             </summary>
         </member>
         <member name="M:System.InsufficientExecutionStackException.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.InsufficientExecutionStackException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.InsufficientExecutionStackException"/>
                 -Klasse mit einer angegebenen Fehlermeldung.
             </summary>
             <param name="message">Die Fehlermeldung, in der die Ursache der Ausnahme erklärt wird.</param>
         </member>
         <member name="M:System.InsufficientExecutionStackException.#ctor(System.String,System.Exception)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.InsufficientExecutionStackException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.InsufficientExecutionStackException"/>
                 -Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die diese
                 Ausnahme ausgelöst hat.
             </summary>
@@ -14915,7 +14977,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.IntPtr.op_Explicit(System.Int32)~System.IntPtr">
-            <summary>Konvertiert den Wert einer 32-Bit-Ganzzahl mit Vorzeichen in einen<see cref="T:System.IntPtr"/>
+            <summary>Konvertiert den Wert einer 32-Bit-Ganzzahl mit Vorzeichen in einen
+                <see cref="T:System.IntPtr"/>
                 -Konstruktor.
             </summary>
             <returns>Eine neue, mit
@@ -14926,7 +14989,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.IntPtr.op_Explicit(System.Int64)~System.IntPtr">
-            <summary>Konvertiert den Wert einer 64-Bit-Ganzzahl mit Vorzeichen in einen<see cref="T:System.IntPtr"/>
+            <summary>Konvertiert den Wert einer 64-Bit-Ganzzahl mit Vorzeichen in einen
+                <see cref="T:System.IntPtr"/>
                 -Konstruktor.
             </summary>
             <returns>Eine neue, mit
@@ -15717,7 +15781,8 @@
                 <paramref name="n2"/>
                 sind true, und der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für
                 <paramref name="n1"/>
-                ist kleiner als der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für<paramref name="n2"/>
+                ist kleiner als der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für
+                <paramref name="n2"/>
                 .ZeroDie<see cref="P:System.Nullable`1.HasValue"/>-Eigenschaften für
                 <paramref name="n1"/>
                 und
@@ -15728,7 +15793,8 @@
                 <paramref name="n2"/>
                 sind true, und der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für
                 <paramref name="n1"/>
-                ist gleich dem Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für<paramref name="n2"/>
+                ist gleich dem Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für
+                <paramref name="n2"/>
                 .Größer als 0 (null)Die<see cref="P:System.Nullable`1.HasValue"/>-Eigenschaft für
                 <paramref name="n1"/>
                 ist true, und die<see cref="P:System.Nullable`1.HasValue"/>-Eigenschaft für
@@ -15814,7 +15880,8 @@
             <returns>true, wenn der<paramref name="other"/>-Parameter gleich dem aktuellen<see
                     cref="T:System.Nullable`1"/>-Objekt ist, andernfalls false. Diese Tabelle beschreibt, wie Gleichheit
                 für die verglichenen Werte definiert wird: RückgabewertBeschreibungtrueDie<see
-                        cref="P:System.Nullable`1.HasValue"/>-Eigenschaft ist false, und der<paramref name="other"/>
+                        cref="P:System.Nullable`1.HasValue"/>-Eigenschaft ist false, und der
+                <paramref name="other"/>
                 -Parameter ist null.Das heißt, zwei NULL-Werte sind per Definition gleich.- oder - Die<see
                         cref="P:System.Nullable`1.HasValue"/>-Eigenschaft ist true, und der von der<see
                         cref="P:System.Nullable`1.Value"/>-Eigenschaft zurückgegebene Wert ist gleich dem<paramref
@@ -15859,7 +15926,8 @@
                     cref="P:System.Nullable`1.HasValue"/>-Eigenschaft true ist, andernfalls der<paramref
                     name="defaultValue"/>-Parameter.
             </returns>
-            <param name="defaultValue">Ein zurückzugebender Wert, wenn die<see cref="P:System.Nullable`1.HasValue"/>
+            <param name="defaultValue">Ein zurückzugebender Wert, wenn die
+                <see cref="P:System.Nullable`1.HasValue"/>
                 -Eigenschaft false ist.
             </param>
         </member>
@@ -15875,7 +15943,8 @@
             <summary>Definiert eine explizite Konvertierung einer<see cref="T:System.Nullable`1"/>-Instanz in den
                 zugrunde liegenden Wert.
             </summary>
-            <returns>Der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für den<paramref name="value"/>
+            <returns>Der Wert der<see cref="P:System.Nullable`1.Value"/>-Eigenschaft für den
+                <paramref name="value"/>
                 -Parameter.
             </returns>
             <param name="value">Ein Wert, der NULL-Werte zulässt.</param>
@@ -15884,7 +15953,8 @@
             <summary>Erstellt ein neues<see cref="T:System.Nullable`1"/>-Objekt, das mit einem angegebenen Wert
                 initialisiert wurde.
             </summary>
-            <returns>Ein<see cref="T:System.Nullable`1"/>-Objekt, dessen<see cref="P:System.Nullable`1.Value"/>
+            <returns>Ein<see cref="T:System.Nullable`1"/>-Objekt, dessen
+                <see cref="P:System.Nullable`1.Value"/>
                 -Eigenschaft mit dem<paramref name="value"/>-Parameter initialisiert wird.
             </returns>
             <param name="value">Ein Werttyp.</param>
@@ -15906,7 +15976,8 @@
                     cref="P:System.Nullable`1.HasValue"/>-Eigenschaft true ist.Eine Ausnahme wird ausgelöst, wenn die
                 <see cref="P:System.Nullable`1.HasValue"/>-Eigenschaft false ist.
             </returns>
-            <exception cref="T:System.InvalidOperationException">Die<see cref="P:System.Nullable`1.HasValue"/>
+            <exception cref="T:System.InvalidOperationException">Die
+                <see cref="P:System.Nullable`1.HasValue"/>
                 -Eigenschaft ist false.
             </exception>
         </member>
@@ -18009,7 +18080,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String})">
-            <summary>Verkettet die Member einer erstellten<see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            <summary>Verkettet die Member einer erstellten
+                <see cref="T:System.Collections.Generic.IEnumerable`1"/>
                 -Auflistung vom Typ<see cref="T:System.String"/>.
             </summary>
             <returns>Die verketteten Zeichenfolgen in<paramref name="values"/>.
@@ -18030,7 +18102,8 @@
             </summary>
             <returns>Die verketteten Zeichenfolgen in<paramref name="values"/>.
             </returns>
-            <param name="values">Ein Auflistungsobjekt, das die<see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            <param name="values">Ein Auflistungsobjekt, das die
+                <see cref="T:System.Collections.Generic.IEnumerable`1"/>
                 -Schnittstelle implementiert.
             </param>
             <typeparam name="T">Der Typ der Member von<paramref name="values"/>.
@@ -18827,7 +18900,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IsNullOrEmpty(System.String)">
-            <summary>Gibt an, ob die angegebene Zeichenfolge null oder eine<see cref="F:System.String.Empty"/>
+            <summary>Gibt an, ob die angegebene Zeichenfolge null oder eine
+                <see cref="F:System.String.Empty"/>
                 -Zeichenfolge ist.
             </summary>
             <returns>true, wenn der<paramref name="value"/>-Parameter null oder eine leere Zeichenfolge ("") ist;
@@ -18848,7 +18922,8 @@
             <param name="value">Die zu testende Zeichenfolge.</param>
         </member>
         <member name="M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String})">
-            <summary>Verkettet die Member einer erstellten<see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            <summary>Verkettet die Member einer erstellten
+                <see cref="T:System.Collections.Generic.IEnumerable`1"/>
                 -Auflistung vom Typ
                 <see cref="T:System.String"/>
                 und verwendet das angegebene Trennzeichen zwischen den einzelnen Membern.
@@ -19804,7 +19879,8 @@
             </summary>
             <returns>Ein
                 <see cref="T:System.Collections.Generic.IEnumerator`1"/>
-                vom Typ<see cref="T:System.Char"/>, der zum Durchlaufen des aktuellen<see cref="T:System.String"/>
+                vom Typ<see cref="T:System.Char"/>, der zum Durchlaufen des aktuellen
+                <see cref="T:System.String"/>
                 -Objekts verwendet werden kann.
             </returns>
         </member>
@@ -20148,7 +20224,8 @@
                 aktuellen<see cref="T:System.String"/>-Objekt.
             </summary>
             <returns>Die resultierende Zeichenfolge, nachdem alle im<paramref name="trimChars"/>-Parameter übergebenen
-                Zeichen am Anfang und Ende der aktuellen Zeichenfolge entfernt wurden.Wenn<paramref name="trimChars"/>
+                Zeichen am Anfang und Ende der aktuellen Zeichenfolge entfernt wurden.Wenn
+                <paramref name="trimChars"/>
                 null oder ein leeres Array ist, werden stattdessen Leerzeichen entfernt.Wenn keine Zeichen in der
                 aktuellen Instanz gekürzt werden können, gibt die Methode die aktuelle Instanz unverändert zurück.
             </returns>
@@ -20364,7 +20441,8 @@
             <summary>Gibt ein neues<see cref="T:System.TimeSpan"/>-Objekt zurück, dessen Wert den absoluten Wert des
                 aktuellen<see cref="T:System.TimeSpan"/>-Objekts darstellt.
             </summary>
-            <returns>Ein neues Objekt, dessen Wert den absoluten Wert des aktuellen<see cref="T:System.TimeSpan"/>
+            <returns>Ein neues Objekt, dessen Wert den absoluten Wert des aktuellen
+                <see cref="T:System.TimeSpan"/>
                 -Objekts darstellt.
             </returns>
             <exception cref="T:System.OverflowException">The value of this instance is<see
@@ -21093,7 +21171,8 @@
             <returns>Die Zeichenfolgendarstellung des aktuellen<see cref="T:System.TimeSpan"/>-Werts im durch den
                 <paramref name="format"/>-Parameter angegebenen Format.
             </returns>
-            <param name="format">Eine standardmäßige oder benutzerdefinierte<see cref="T:System.TimeSpan"/>
+            <param name="format">Eine standardmäßige oder benutzerdefinierte
+                <see cref="T:System.TimeSpan"/>
                 -Formatierungszeichenfolge.
             </param>
             <exception cref="T:System.FormatException">The
@@ -21112,7 +21191,8 @@
                 <paramref name="formatProvider"/>
                 angegeben.
             </returns>
-            <param name="format">Eine standardmäßige oder benutzerdefinierte<see cref="T:System.TimeSpan"/>
+            <param name="format">Eine standardmäßige oder benutzerdefinierte
+                <see cref="T:System.TimeSpan"/>
                 -Formatierungszeichenfolge.
             </param>
             <param name="formatProvider">Ein Objekt, das kulturspezifische Formatierungsinformationen bereitstellt.
@@ -21344,7 +21424,8 @@
             <exception cref="T:System.ArgumentException">Der Wert des<paramref name="dateTime"/>-Parameters stellt eine
                 ungültige Zeit dar.
             </exception>
-            <exception cref="T:System.ArgumentNullException">Der Wert des<paramref name="destinationTimeZone"/>
+            <exception cref="T:System.ArgumentNullException">Der Wert des
+                <paramref name="destinationTimeZone"/>
                 -Parameters ist null.
             </exception>
         </member>
@@ -21364,9 +21445,11 @@
                 <paramref name="dateTime"/>-Parameters ist<see cref="F:System.DateTimeKind.Local"/>, der<paramref
                         name="sourceTimeZone"/>-Parameter entspricht jedoch nicht<see
                         cref="F:System.DateTimeKind.Local"/>.Weitere Informationen finden Sie im Abschnitt
-                "Hinweise".- oder -Die<see cref="P:System.DateTime.Kind"/>-Eigenschaft des<paramref name="dateTime"/>
+                "Hinweise".- oder -Die<see cref="P:System.DateTime.Kind"/>-Eigenschaft des
+                <paramref name="dateTime"/>
                 -Parameters ist<see cref="F:System.DateTimeKind.Utc"/>, der<paramref name="sourceTimeZone"/>-Parameter
-                entspricht jedoch nicht<see cref="P:System.TimeZoneInfo.Utc"/>.- oder -Der<paramref name="dateTime"/>
+                entspricht jedoch nicht<see cref="P:System.TimeZoneInfo.Utc"/>.- oder -Der
+                <paramref name="dateTime"/>
                 -Parameter ist eine ungültige Zeit (d. h. er stellt eine Zeit dar, die aufgrund der Anpassungsregeln
                 einer Zeitzone nicht vorhanden ist).
             </exception>
@@ -21382,7 +21465,8 @@
                 <paramref name="dateTime"/>
                 konvertiert werden soll.
             </param>
-            <exception cref="T:System.ArgumentNullException">Der Wert des<paramref name="destinationTimeZone"/>
+            <exception cref="T:System.ArgumentNullException">Der Wert des
+                <paramref name="destinationTimeZone"/>
                 -Parameters ist null.
             </exception>
         </member>
@@ -21462,7 +21546,8 @@
         </member>
         <member name="M:System.TimeZoneInfo.GetHashCode">
             <summary>Wird als Hashfunktion für Hashalgorithmen und Datenstrukturen wie Hashtabellen verwendet.</summary>
-            <returns>Eine 32-Bit-Ganzzahl mit Vorzeichen, die als Hash für dieses<see cref="T:System.TimeZoneInfo"/>
+            <returns>Eine 32-Bit-Ganzzahl mit Vorzeichen, die als Hash für dieses
+                <see cref="T:System.TimeZoneInfo"/>
                 -Objekt verwendet wird.
             </returns>
             <filterpriority>2</filterpriority>
@@ -23157,7 +23242,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23178,7 +23264,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -23196,7 +23283,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23253,7 +23341,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -25944,7 +26033,8 @@
         <member name="M:System.Uri.op_Inequality(System.Uri,System.Uri)">
             <summary>Bestimmt, ob zwei<see cref="T:System.Uri"/>-Instanzen verschiedene Werte haben.
             </summary>
-            <returns>Ein<see cref="T:System.Boolean"/>-Wert, der true ist, wenn die beiden<see cref="T:System.Uri"/>
+            <returns>Ein<see cref="T:System.Boolean"/>-Wert, der true ist, wenn die beiden
+                <see cref="T:System.Uri"/>
                 -Instanzen ungleich sind, andernfalls false.Wenn einer der Parameter null ist, gibt diese Methode true
                 zurück.
             </returns>
@@ -25981,7 +26071,8 @@
             </PermissionSet>
         </member>
         <member name="P:System.Uri.PathAndQuery">
-            <summary>Ruft die durch ein Fragezeichen (?) getrennten Werte der<see cref="P:System.Uri.AbsolutePath"/>
+            <summary>Ruft die durch ein Fragezeichen (?) getrennten Werte der
+                <see cref="P:System.Uri.AbsolutePath"/>
                 -Eigenschaft und der<see cref="P:System.Uri.Query"/>-Eigenschaft ab.
             </summary>
             <returns>Ein<see cref="T:System.String"/>, der die durch ein Fragezeichen (?) getrennten Werte der<see
@@ -26156,7 +26247,8 @@
             <summary>Gibt an, dass die URI-Zeichenfolge vor dem Erstellen der<see cref="T:System.Uri"/>-Instanz
                 vollständig mit Escapezeichen versehen war.
             </summary>
-            <returns>Ein<see cref="T:System.Boolean"/>-Wert, der true ist, wenn der<paramref name="dontEscape"/>
+            <returns>Ein<see cref="T:System.Boolean"/>-Wert, der true ist, wenn der
+                <paramref name="dontEscape"/>
                 -Parameter auf true festgelegt wurde, als die<see cref="T:System.Uri"/>-Instanz erstellt wurde,
                 andernfalls false.
             </returns>
@@ -26325,7 +26417,8 @@
             </param>
         </member>
         <member name="T:System.UriHostNameType">
-            <summary>Definiert die Typen von Hostnamen für die<see cref="M:System.Uri.CheckHostName(System.String)"/>
+            <summary>Definiert die Typen von Hostnamen für die
+                <see cref="M:System.Uri.CheckHostName(System.String)"/>
                 -Methode.
             </summary>
             <filterpriority>2</filterpriority>
@@ -26462,7 +26555,8 @@
             </exception>
         </member>
         <member name="P:System.Version.Build">
-            <summary>Ruft den Wert der Buildkomponente der Versionsnummer für das aktuelle<see cref="T:System.Version"/>
+            <summary>Ruft den Wert der Buildkomponente der Versionsnummer für das aktuelle
+                <see cref="T:System.Version"/>
                 -Objekt ab.
             </summary>
             <returns>Die Buildnummer oder -1, wenn diese nicht definiert ist.</returns>
@@ -26523,7 +26617,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="P:System.Version.Major">
-            <summary>Ruft den Wert der Hauptkomponente der Versionsnummer für das aktuelle<see cref="T:System.Version"/>
+            <summary>Ruft den Wert der Hauptkomponente der Versionsnummer für das aktuelle
+                <see cref="T:System.Version"/>
                 -Objekt ab.
             </summary>
             <returns>Die Hauptversionsnummer.</returns>
@@ -26534,7 +26629,8 @@
             <returns>Eine 16-Bit-Ganzzahl mit Vorzeichen.</returns>
         </member>
         <member name="P:System.Version.Minor">
-            <summary>Ruft den Wert der Nebenkomponente der Versionsnummer für das aktuelle<see cref="T:System.Version"/>
+            <summary>Ruft den Wert der Nebenkomponente der Versionsnummer für das aktuelle
+                <see cref="T:System.Version"/>
                 -Objekt ab.
             </summary>
             <returns>Die Nebenversionsnummer.</returns>
@@ -26757,7 +26853,8 @@
             <param name="result">Die Rückgabe dieser Methode enthält die<see cref="T:System.Version"/>-Entsprechung der
                 in
                 <paramref name="input"/>
-                enthaltenen Nummer, wenn die Konvertierung erfolgreich war, oder ein<see cref="T:System.Version"/>
+                enthaltenen Nummer, wenn die Konvertierung erfolgreich war, oder ein
+                <see cref="T:System.Version"/>
                 -Objekt, dessen Haupt- und Nebenversionsnummer 0 (null) ist, wenn die Konvertierung fehlgeschlagen
                 ist.Wenn<paramref name="input"/>null oder
                 <see cref="F:System.String.Empty"/>
@@ -26791,7 +26888,8 @@
             </param>
         </member>
         <member name="M:System.WeakReference.Finalize">
-            <summary>Verwirft den Verweis auf das Ziel, das durch das aktuelle<see cref="T:System.WeakReference"/>
+            <summary>Verwirft den Verweis auf das Ziel, das durch das aktuelle
+                <see cref="T:System.WeakReference"/>
                 -Objekt dargestellt wird.
             </summary>
         </member>
@@ -26850,7 +26948,8 @@
             </param>
         </member>
         <member name="M:System.WeakReference`1.Finalize">
-            <summary>Verwirft den Verweis auf das Ziel, das durch das aktuelle<see cref="T:System.WeakReference`1"/>
+            <summary>Verwirft den Verweis auf das Ziel, das durch das aktuelle
+                <see cref="T:System.WeakReference`1"/>
                 -Objekt dargestellt wird.
             </summary>
         </member>
@@ -26860,7 +26959,8 @@
             <param name="target">Das neue Zielobjekt.</param>
         </member>
         <member name="M:System.WeakReference`1.TryGetTarget(`0@)">
-            <summary>Versucht, das Zielobjekt abzurufen, auf das das aktuelle<see cref="T:System.WeakReference`1"/>
+            <summary>Versucht, das Zielobjekt abzurufen, auf das das aktuelle
+                <see cref="T:System.WeakReference`1"/>
                 -Objekt verweist.
             </summary>
             <returns>true, wenn das Ziel abgerufen wurde; andernfalls false.</returns>
@@ -27881,7 +27981,8 @@
         </member>
         <member name="M:System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)">
             <summary>Ruft den Wert ab, der dem angegebenen Schlüssel zugeordnet ist.</summary>
-            <returns>true, wenn das Objekt, das die<see cref="T:System.Collections.Generic.IReadOnlyDictionary`2"/>
+            <returns>true, wenn das Objekt, das die
+                <see cref="T:System.Collections.Generic.IReadOnlyDictionary`2"/>
                 -Schnittstelle implementiert, ein Element mit dem angegebenen Schlüssel enthält, andernfalls false.
             </returns>
             <param name="key">Der zu suchende Schlüssel.</param>
@@ -28046,18 +28147,21 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Collections.Generic.KeyNotFoundException.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Collections.Generic.KeyNotFoundException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Collections.Generic.KeyNotFoundException"/>
                 -Klasse mit den Standardeigenschaftswerten.
             </summary>
         </member>
         <member name="M:System.Collections.Generic.KeyNotFoundException.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Collections.Generic.KeyNotFoundException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Collections.Generic.KeyNotFoundException"/>
                 -Klasse mit der angegebenen Fehlermeldung.
             </summary>
             <param name="message">Die Meldung, in der der Fehler beschrieben wird.</param>
         </member>
         <member name="M:System.Collections.Generic.KeyNotFoundException.#ctor(System.String,System.Exception)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Collections.Generic.KeyNotFoundException"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Collections.Generic.KeyNotFoundException"/>
                 -Klasse mit der angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die diese Ausnahme
                 ausgelöst hat.
             </summary>
@@ -28074,7 +28178,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Collections.Generic.KeyValuePair`2.#ctor(`0,`1)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
                 -Struktur mit dem angegebenen Schlüssel und Wert.
             </summary>
             <param name="key">Das Objekt, das in jedem Schlüssel-Wert-Paar definiert ist.</param>
@@ -28115,7 +28220,8 @@
             </summary>
         </member>
         <member name="M:System.Collections.ObjectModel.Collection`1.#ctor(System.Collections.Generic.IList{`0})">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Collections.ObjectModel.Collection`1"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Collections.ObjectModel.Collection`1"/>
                 -Klasse als Wrapper für die angegebene Liste.
             </summary>
             <param name="list">Die Liste, die mit der neuen Auflistung umschlossen wird.</param>
@@ -28942,70 +29048,81 @@
             <summary>Gibt den Standardwert für eine Eigenschaft an.</summary>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Boolean)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung eines<see cref="T:System.Boolean"/>-Werts.
             </summary>
             <param name="value">Ein<see cref="T:System.Boolean"/>, der der Standardwert ist.
             </param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Byte)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer vorzeichenlosen 8-Bit-Ganzzahl.
             </summary>
             <param name="value">Eine vorzeichenlose 8-Bit-Ganzzahl, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Char)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung eines Unicode-Zeichens.
             </summary>
             <param name="value">Ein Unicode-Zeichen, das der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Double)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer Gleitkommazahl mit doppelter Genauigkeit.
             </summary>
             <param name="value">Eine Gleitkommazahl mit doppelter Genauigkeit, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Int16)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer 16-Bit-Ganzzahl mit Vorzeichen.
             </summary>
             <param name="value">Eine 16-Bit-Ganzzahl mit Vorzeichen, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Int32)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer 32-Bit-Ganzzahl mit Vorzeichen.
             </summary>
             <param name="value">Eine 32-Bit-Ganzzahl mit Vorzeichen, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Int64)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer 64-Bit-Ganzzahl mit Vorzeichen.
             </summary>
             <param name="value">Eine 64-Bit-Ganzzahl mit Vorzeichen, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Object)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse.
             </summary>
             <param name="value">Ein<see cref="T:System.Object"/>, das den Standardwert darstellt.
             </param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Single)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung einer Gleitkommazahl mit einfacher Genauigkeit.
             </summary>
             <param name="value">Eine Gleitkommazahl mit einfacher Genauigkeit, die der Standardwert ist.</param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse unter Verwendung eines<see cref="T:System.String"/>.
             </summary>
             <param name="value">Ein<see cref="T:System.String"/>, der der Standardwert ist.
             </param>
         </member>
         <member name="M:System.ComponentModel.DefaultValueAttribute.#ctor(System.Type,System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.DefaultValueAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.DefaultValueAttribute"/>
                 -Klasse, wobei der angegebene Wert unter Verwendung einer invarianten Kultur als Übersetzungskontext in
                 den angegebenen Typ konvertiert wird.
             </summary>
@@ -29038,7 +29155,8 @@
             </summary>
         </member>
         <member name="M:System.ComponentModel.EditorBrowsableAttribute.#ctor(System.ComponentModel.EditorBrowsableState)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.ComponentModel.EditorBrowsableAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.ComponentModel.EditorBrowsableAttribute"/>
                 -Klasse mit einem<see cref="T:System.ComponentModel.EditorBrowsableState"/>.
             </summary>
             <param name="state">Der<see cref="T:System.ComponentModel.EditorBrowsableState"/>, auf den
@@ -29191,7 +29309,8 @@
         </member>
         <member name="F:System.Globalization.DateTimeStyles.AllowWhiteSpaces">
             <summary>Zusätzliche Leerzeichen an beliebiger Stelle in der Zeichenfolge müssen während der Analyse
-                ignoriert werden, es sei denn, sie sind in den<see cref="T:System.Globalization.DateTimeFormatInfo"/>
+                ignoriert werden, es sei denn, sie sind in den
+                <see cref="T:System.Globalization.DateTimeFormatInfo"/>
                 -Formatmustern enthalten.Dieser Wert stellt eine Kombination aus den Werten<see
                         cref="F:System.Globalization.DateTimeStyles.AllowLeadingWhite"/>,
                 <see cref="F:System.Globalization.DateTimeStyles.AllowTrailingWhite"/>
@@ -29280,7 +29399,8 @@
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowLeadingSign">
             <summary>Gibt an, dass die numerische Zeichenfolge mit einem Vorzeichen versehen sein kann.Gültige Zeichen
-                für Vorzeichen werden von der<see cref="P:System.Globalization.NumberFormatInfo.PositiveSign"/>
+                für Vorzeichen werden von der
+                <see cref="P:System.Globalization.NumberFormatInfo.PositiveSign"/>
                 -Eigenschaft und der<see cref="P:System.Globalization.NumberFormatInfo.NegativeSign"/>-Eigenschaft
                 bestimmt.
             </summary>
@@ -29702,7 +29822,8 @@
             <summary>Definiert ein benutzerdefiniertes Attribut für den Firmennamen eines Assemblymanifests.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyCompanyAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyCompanyAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyCompanyAttribute"/>
                 -Klasse.
             </summary>
             <param name="company">Die Informationen über den Firmennamen.</param>
@@ -29715,7 +29836,8 @@
             <summary>Gibt die Buildkonfiguration für eine Assembly an, z. B. Retail oder Debug.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyConfigurationAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyConfigurationAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyConfigurationAttribute"/>
                 -Klasse.
             </summary>
             <param name="configuration">Die Assemblykonfiguration.</param>
@@ -29728,7 +29850,8 @@
             <summary>Definiert ein benutzerdefiniertes Attribut für das Copyright eines Assemblymanifests.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyCopyrightAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyCopyrightAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyCopyrightAttribute"/>
                 -Klasse.
             </summary>
             <param name="copyright">Die Informationen über das Copyright.</param>
@@ -29741,7 +29864,8 @@
             <summary>Gibt an, welchen Kulturkreis die Assembly unterstützt.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyCultureAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyCultureAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyCultureAttribute"/>
                 -Klasse mit der Kultur, die von der attributierten Klasse unterstützt wird.
             </summary>
             <param name="culture">Die Kultur, die von der attributierten Assembly unterstützt wird.</param>
@@ -29754,7 +29878,8 @@
             <summary>Definiert einen aussagekräftigen Standardalias für ein Assemblymanifest.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyDefaultAliasAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyDefaultAliasAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyDefaultAliasAttribute"/>
                 -Klasse.
             </summary>
             <param name="defaultAlias">Die Informationen über den Standardalias der Assembly.</param>
@@ -29767,7 +29892,8 @@
             <summary>Gibt an, dass die Assembly beim Erstellen nicht vollständig signiert wurde.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyDelaySignAttribute.#ctor(System.Boolean)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyDelaySignAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyDelaySignAttribute"/>
                 -Klasse.
             </summary>
             <param name="delaySign">true, wenn das von diesem Attribut dargestellte Feature aktiviert ist, andernfalls
@@ -29783,7 +29909,8 @@
             <summary>Stellt eine Textbeschreibung für eine Assembly bereit.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyDescriptionAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyDescriptionAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyDescriptionAttribute"/>
                 -Klasse.
             </summary>
             <param name="description">Die Beschreibung der Assembly.</param>
@@ -29799,7 +29926,8 @@
             </summary>
         </member>
         <member name="M:System.Reflection.AssemblyFileVersionAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyFileVersionAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyFileVersionAttribute"/>
                 -Klasse, wobei die Dateiversion angegeben ist.
             </summary>
             <param name="version">Die Dateiversion.</param>
@@ -29823,7 +29951,8 @@
             <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyFlagsAttribute"/>-Klasse
                 mit der angegebenen Kombination von<see cref="T:System.Reflection.AssemblyNameFlags"/>-Flags.
             </summary>
-            <param name="assemblyFlags">Eine bitweise Kombination von<see cref="T:System.Reflection.AssemblyNameFlags"/>
+            <param name="assemblyFlags">Eine bitweise Kombination von
+                <see cref="T:System.Reflection.AssemblyNameFlags"/>
                 -Flags. Diese stehen für JIT-Compileroptionen (Just In Time) sowie Gültigkeitsdauer und geben an, ob die
                 Assembly erneut zugewiesen werden kann und ob sie einen vollen bzw. einen mit Token versehenen
                 öffentlichen Schlüssel besitzt.
@@ -29874,7 +30003,8 @@
             </summary>
         </member>
         <member name="M:System.Reflection.AssemblyKeyNameAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyKeyNameAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyKeyNameAttribute"/>
                 -Klasse mit dem Namen des Containers, der das Schlüsselpaar zum Generieren eines starken Namens für die
                 Assembly enthält, die mit Attributen versehen wird.
             </summary>
@@ -29891,7 +30021,8 @@
             <summary>Definiert ein Schlüssel-Wert-Metadatenpaar für die ergänzte Assembly.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyMetadataAttribute.#ctor(System.String,System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyMetadataAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyMetadataAttribute"/>
                 -Klasse unter Verwendung des angegebenen Metadatenschlüssels und -werts.
             </summary>
             <param name="key">Der Metadaten-Schlüssel</param>
@@ -29927,7 +30058,8 @@
             <summary>Definiert ein benutzerdefiniertes Produktnamenattribut für ein Assemblymanifest.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyProductAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyProductAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyProductAttribute"/>
                 -Klasse.
             </summary>
             <param name="product">Die Informationen über den Produktnamen.</param>
@@ -29942,7 +30074,8 @@
             </summary>
         </member>
         <member name="M:System.Reflection.AssemblySignatureKeyAttribute.#ctor(System.String,System.String)">
-            <summary>Erstellt eine neue Instanz der<see cref="T:System.Reflection.AssemblySignatureKeyAttribute"/>
+            <summary>Erstellt eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblySignatureKeyAttribute"/>
                 -Klasse, wobei der angegebene öffentliche Schlüssel und die Gegensignatur verwendet werden.
             </summary>
             <param name="publicKey">Die öffentliche Schlüssel oder der Identitätsschlüssel.</param>
@@ -29976,7 +30109,8 @@
             <summary>Definiert ein benutzerdefiniertes Markenattribut für ein Assemblymanifest.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyTrademarkAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Reflection.AssemblyTrademarkAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Reflection.AssemblyTrademarkAttribute"/>
                 -Klasse.
             </summary>
             <param name="trademark">Die Markeninformationen.</param>
@@ -30182,7 +30316,8 @@
             <summary>Ruft die beim Erstellen des aktuellen Objekts angegebenen Lockerungen für die Kompilierung ab.
             </summary>
             <returns>Die beim Erstellen des aktuellen Objekts angegebenen Lockerungen für die Kompilierung.Verwenden Sie
-                die<see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>-Enumeration mit der<see
+                die<see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>-Enumeration mit der
+                <see
                         cref="P:System.Runtime.CompilerServices.CompilationRelaxationsAttribute.CompilationRelaxations"/>
                 -Eigenschaft.
             </returns>
@@ -30240,7 +30375,8 @@
                 <paramref name="key"/>
                 entspricht, wenn
                 <paramref name="key"/>
-                bereits in der Tabelle vorhanden ist, andernfalls ein von dem vom generischen<paramref name="TValue"/>
+                bereits in der Tabelle vorhanden ist, andernfalls ein von dem vom generischen
+                <paramref name="TValue"/>
                 -Typparameter definierten Standardkonstruktor der Klasse erstellter neuer Wert.
             </returns>
             <param name="key">Der zu suchende Schlüssel.
@@ -30266,7 +30402,8 @@
                 <paramref name="key"/>
                 angefügte Wert, wenn
                 <paramref name="key"/>
-                bereits in der Tabelle vorhanden ist, andernfalls der vom<paramref name="createValueCallback"/>
+                bereits in der Tabelle vorhanden ist, andernfalls der vom
+                <paramref name="createValueCallback"/>
                 -Delegaten zurückgegebene neue Wert.
             </returns>
             <param name="key">Der zu suchende Schlüssel.
@@ -30599,7 +30736,8 @@
             </summary>
         </member>
         <member name="P:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute.WrapNonExceptionThrows">
-            <summary>Ruft einen Wert ab, der angibt, ob Ausnahmen, die nicht von der<see cref="T:System.Exception"/>
+            <summary>Ruft einen Wert ab, der angibt, ob Ausnahmen, die nicht von der
+                <see cref="T:System.Exception"/>
                 -Klasse abgeleitet sind, mit einem<see
                         cref="T:System.Runtime.CompilerServices.RuntimeWrappedException"/>-Objekt umschlossen werden
                 sollen, oder legt diesen fest.
@@ -30689,7 +30827,8 @@
             <summary>Initialisiert eine neue StrongBox, die bei einem Verweisaufruf einen Wert akzeptiert.</summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.StrongBox`1.#ctor(`0)">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Runtime.CompilerServices.StrongBox`1"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Runtime.CompilerServices.StrongBox`1"/>
                 -Klasse mit dem bereitgestellten Wert.
             </summary>
             <param name="value">Ein Wert, auf den die
@@ -30870,7 +31009,8 @@
             <summary>Gibt an, dass Daten vom Aufgerufenen zurück an den Aufrufer gemarshallt werden.</summary>
         </member>
         <member name="M:System.Runtime.InteropServices.OutAttribute.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Runtime.InteropServices.OutAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Runtime.InteropServices.OutAttribute"/>
                 -Klasse.
             </summary>
         </member>
@@ -30909,7 +31049,8 @@
             <summary>Gibt die .NET Framework-Version an, mit der eine bestimmte Assembly kompiliert wurde.</summary>
         </member>
         <member name="M:System.Runtime.Versioning.TargetFrameworkAttribute.#ctor(System.String)">
-            <summary>Initialisiert eine Instanz der<see cref="T:System.Runtime.Versioning.TargetFrameworkAttribute"/>
+            <summary>Initialisiert eine Instanz der
+                <see cref="T:System.Runtime.Versioning.TargetFrameworkAttribute"/>
                 -Klasse durch Angabe der .NET Framework-Version, mit der eine Assembly erstellt wurde.
             </summary>
             <param name="frameworkName">Die .NET Framework-Version, mit der die Assembly erstellt wurde.</param>
@@ -30943,7 +31084,8 @@
             <summary>Gibt an, dass Code oder eine Assembly sicherheitsrelevante Vorgänge ausführt.</summary>
         </member>
         <member name="M:System.Security.SecurityCriticalAttribute.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Security.SecurityCriticalAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Security.SecurityCriticalAttribute"/>
                 -Klasse.
             </summary>
         </member>
@@ -30997,7 +31139,8 @@
             </summary>
         </member>
         <member name="M:System.Security.SecuritySafeCriticalAttribute.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Security.SecuritySafeCriticalAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Security.SecuritySafeCriticalAttribute"/>
                 -Klasse.
             </summary>
         </member>
@@ -31005,7 +31148,8 @@
             <summary>Gibt an, dass eine Assembly keine Berechtigungen erweitern kann.</summary>
         </member>
         <member name="M:System.Security.SecurityTransparentAttribute.#ctor">
-            <summary>Initialisiert eine neue Instanz der<see cref="T:System.Security.SecurityTransparentAttribute"/>
+            <summary>Initialisiert eine neue Instanz der
+                <see cref="T:System.Security.SecurityTransparentAttribute"/>
                 -Klasse.
             </summary>
         </member>
@@ -31338,7 +31482,8 @@
             <summary>Fügt eine Kopie einer angegebenen Teilzeichenfolge an diese Instanz an.</summary>
             <returns>Ein Verweis auf diese Instanz, nachdem der Anfügevorgang abgeschlossen wurde.</returns>
             <param name="value">Die Zeichenfolge, die die anzufügende Teilzeichenfolge enthält.</param>
-            <param name="startIndex">Die Anfangsposition der Teilzeichenfolge innerhalb des<paramref name="value"/>
+            <param name="startIndex">Die Anfangsposition der Teilzeichenfolge innerhalb des
+                <paramref name="value"/>
                 -Parameters.
             </param>
             <param name="count">Die Anzahl der anzufügenden Zeichen in<paramref name="value"/>.
@@ -32707,8 +32852,9 @@
             </exception>
         </member>
         <member name="F:System.Threading.WaitHandle.WaitTimeout">
-            <summary>Gibt an, dass ein Timeout für einen<see
-                    cref="M:System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)"/>
+            <summary>Gibt an, dass ein Timeout für einen
+                <see
+                        cref="M:System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)"/>
                 -Vorgang überschritten wurde, bevor ein Signal an eines der WaitHandles gesendet wurde.Dieses Feld ist
                 konstant.
             </summary>

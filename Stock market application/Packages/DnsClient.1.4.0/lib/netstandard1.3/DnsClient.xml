@@ -3055,7 +3055,8 @@
                     <see cref="P:DnsClient.DnsQuerySettings.ThrowDnsErrors"/>
                     are set to <c>True</c>,
                     <see cref="T:DnsClient.ILookupClient"/>
-                    will continue to query all configured<see cref="P:DnsClient.DnsQueryAndServerSettings.NameServers"/>
+                    will continue to query all configured
+                    <see cref="P:DnsClient.DnsQueryAndServerSettings.NameServers"/>
                     .
                     If none of the servers yield a valid response, a
                     <see cref="T:DnsClient.DnsResponseException"/>
@@ -3483,7 +3484,8 @@
         </member>
         <member name="T:DnsClient.DnsRequestMessage">
             <summary>
-                Represents a simple request message which can be send through<see cref="T:DnsClient.DnsMessageHandler"/>
+                Represents a simple request message which can be send through
+                <see cref="T:DnsClient.DnsMessageHandler"/>
                 .
             </summary>
         </member>

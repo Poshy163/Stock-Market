@@ -4084,7 +4084,8 @@
                 <see cref="T:System.Boolean"/>
                 object and returns an integer that indicates their relationship to one another.
             </summary>
-            <returns>A signed integer that indicates the relative values of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative values of this instance and
+                <paramref name="value"/>
                 .Return Value Condition Less than zero This instance is false and
                 <paramref name="value"/>
                 is true. Zero This instance and
@@ -4172,7 +4173,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="obj"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="obj"/>
                 .Return value Condition Less than zero This instance is false and
                 <paramref name="obj"/>
                 is true. Zero This instance and
@@ -4500,7 +4502,8 @@
             <summary>Compares this instance to a specified 8-bit unsigned integer and returns an indication of their
                 relative values.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -4705,7 +4708,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Description Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order. Zero This instance occurs in the same position as
@@ -5674,7 +5678,8 @@
                 <paramref name="value"/>
                 parameter.Return value Description Less than zero This instance precedes
                 <paramref name="value"/>
-                in the sort order. Zero This instance has the same position in the sort order as<paramref name="value"/>
+                in the sort order. Zero This instance has the same position in the sort order as
+                <paramref name="value"/>
                 . Greater than zero This instance follows
                 <paramref name="value"/>
                 in the sort order.-or-
@@ -6821,7 +6826,8 @@
                 as specified by<paramref name="provider"/>.
             </returns>
             <param name="s">A string that contains a date and time to convert.</param>
-            <param name="provider">An object that supplies culture-specific format information about<paramref name="s"/>
+            <param name="provider">An object that supplies culture-specific format information about
+                <paramref name="s"/>
                 .
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -6886,7 +6892,8 @@
             <param name="format">A format specifier that defines the required format of<paramref name="s"/>. For more
                 information, see the Remarks section.
             </param>
-            <param name="provider">An object that supplies culture-specific format information about<paramref name="s"/>
+            <param name="provider">An object that supplies culture-specific format information about
+                <paramref name="s"/>
                 .
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -6973,7 +6980,8 @@
             <param name="formats">An array of allowable formats of<paramref name="s"/>. For more information, see the
                 Remarks section.
             </param>
-            <param name="provider">An object that supplies culture-specific format information about<paramref name="s"/>
+            <param name="provider">An object that supplies culture-specific format information about
+                <paramref name="s"/>
                 .
             </param>
             <param name="style">A bitwise combination of enumeration values that indicates the permitted format of
@@ -7569,7 +7577,8 @@
             <param name="formats">An array of allowable formats of<paramref name="s"/>. See the Remarks section for more
                 information.
             </param>
-            <param name="provider">An object that supplies culture-specific format information about<paramref name="s"/>
+            <param name="provider">An object that supplies culture-specific format information about
+                <paramref name="s"/>
                 .
             </param>
             <param name="style">A bitwise combination of enumeration values that indicates the permitted format of
@@ -7654,7 +7663,8 @@
             </summary>
             <param name="dateTime">A date and time.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">The Coordinated Universal Time (UTC) date and time
-                that results from applying the offset is earlier than<see cref="F:System.DateTimeOffset.MinValue"/>
+                that results from applying the offset is earlier than
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .-or-The UTC date and time that results from applying the offset is later than<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -8351,7 +8361,8 @@
             <returns>The converted object.</returns>
             <param name="dateTime">The object to convert.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">The Coordinated Universal Time (UTC) date and time
-                that results from applying the offset is earlier than<see cref="F:System.DateTimeOffset.MinValue"/>
+                that results from applying the offset is earlier than
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .-or-The UTC date and time that results from applying the offset is later than<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -10092,7 +10103,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -11127,7 +11139,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -11393,7 +11406,8 @@
         <member name="M:System.Enum.CompareTo(System.Object)">
             <summary>Compares this instance to a specified object and returns an indication of their relative values.
             </summary>
-            <returns>A signed number that indicates the relative values of this instance and<paramref name="target"/>
+            <returns>A signed number that indicates the relative values of this instance and
+                <paramref name="target"/>
                 .Value Meaning Less than zero The value of this instance is less than the value of<paramref
                         name="target"/>. Zero The value of this instance is equal to the value of<paramref
                         name="target"/>. Greater than zero The value of this instance is greater than the value of
@@ -13901,7 +13915,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -14347,7 +14362,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -14797,7 +14813,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -16971,7 +16988,8 @@
             <summary>Compares this instance to a specified 8-bit signed integer and returns an indication of their
                 relative values.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -17173,7 +17191,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -17329,7 +17348,8 @@
             <summary>Converts the numeric value of this instance to its equivalent string representation using the
                 specified culture-specific format information.
             </summary>
-            <returns>The string representation of the value of this instance, as specified by<paramref name="provider"/>
+            <returns>The string representation of the value of this instance, as specified by
+                <paramref name="provider"/>
                 .
             </returns>
             <param name="provider">An object that supplies culture-specific formatting information.</param>
@@ -17777,7 +17797,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -20193,7 +20214,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -21410,7 +21432,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -22184,7 +22207,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -22312,7 +22336,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -22452,7 +22477,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -22603,7 +22629,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -22766,7 +22793,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -22941,7 +22969,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -23129,7 +23158,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -23335,7 +23365,8 @@
                 in the sort order, as shown in the following table.ValueDescriptionA negative integerThis instance
                 precedes<paramref name="other"/>.ZeroThis instance and
                 <paramref name="other"/>
-                have the same position in the sort order.A positive integerThis instance follows<paramref name="other"/>
+                have the same position in the sort order.A positive integerThis instance follows
+                <paramref name="other"/>
                 .
             </returns>
             <param name="other">An object to compare with the current instance.</param>
@@ -23829,7 +23860,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
                 Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type. That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23851,7 +23883,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type. That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true. -or-
@@ -23873,7 +23906,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type. That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23935,7 +23969,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type. That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -24349,7 +24384,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -24808,7 +24844,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -25273,7 +25310,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -27398,7 +27436,8 @@
                 indicates whether the current instance precedes, follows, or occurs in the same position in the sort
                 order as the other object.
             </summary>
-            <returns>A signed integer that indicates the relative order of this instance and<paramref name="value"/>
+            <returns>A signed integer that indicates the relative order of this instance and
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance precedes
                 <paramref name="value"/>
                 in the sort order.Zero This instance occurs in the same position as
@@ -30769,8 +30808,9 @@
             <returns>A string containing the assembly version number.</returns>
         </member>
         <member name="T:System.Reflection.DefaultMemberAttribute">
-            <summary>Defines the member of a type that is the default member used by<see
-                    cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
+            <summary>Defines the member of a type that is the default member used by
+                <see
+                        cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
                 .
             </summary>
         </member>

@@ -1800,7 +1800,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.GetValue(System.Int32)">
-            <summary>Получает значение, хранящееся в указанной позиции одномерного массива<see cref="T:System.Array"/>
+            <summary>Получает значение, хранящееся в указанной позиции одномерного массива
+                <see cref="T:System.Array"/>
                 .Индекс задается как 32-битовое целое число.
             </summary>
             <returns>Значение, хранящееся в указанной позиции одномерного массива<see cref="T:System.Array"/>.
@@ -1819,7 +1820,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Array.GetValue(System.Int32[])">
-            <summary>Получает значение, хранящееся в указанной позиции многомерного массива<see cref="T:System.Array"/>
+            <summary>Получает значение, хранящееся в указанной позиции многомерного массива
+                <see cref="T:System.Array"/>
                 .Индексы задаются как массив 32-битовых целых чисел.
             </summary>
             <returns>Значение, хранящееся в указанной позиции многомерного массива<see cref="T:System.Array"/>.
@@ -3096,7 +3098,8 @@
                 исключение.
             </summary>
             <returns>Добавление значений в массив не поддерживается.Возвращаемое значение отсутствует.</returns>
-            <param name="value">Объект, который должен быть добавлен в коллекцию<see cref="T:System.Collections.IList"/>
+            <param name="value">Объект, который должен быть добавлен в коллекцию
+                <see cref="T:System.Collections.IList"/>
                 .
             </param>
             <exception cref="T:System.NotSupportedException">Коллекция
@@ -3335,7 +3338,8 @@
             <summary>Возвращает положение первого элемента в диапазоне, ограниченном фрагментом массива, относительно
                 начала исходного массива.
             </summary>
-            <returns>Положение первого элемента в диапазоне, ограниченном оболочкой<see cref="T:System.ArraySegment`1"/>
+            <returns>Положение первого элемента в диапазоне, ограниченном оболочкой
+                <see cref="T:System.ArraySegment`1"/>
                 , относительно начала исходного массива.
             </returns>
             <filterpriority>1</filterpriority>
@@ -5937,7 +5941,8 @@
             </summary>
             <returns>Число со знаком, представляющее результат сравнения значений этого экземпляра и параметра<paramref
                     name="value"/>.Значение Описание Меньше нуля Данный экземпляр раньше<paramref name="value"/>. Нуль
-                Данный экземпляр равен<paramref name="value"/>. Больше нуля Этот экземпляр позже<paramref name="value"/>
+                Данный экземпляр равен<paramref name="value"/>. Больше нуля Этот экземпляр позже
+                <paramref name="value"/>
                 .
             </returns>
             <param name="value">Объект, сравниваемый с текущим экземпляром.</param>
@@ -7438,7 +7443,8 @@
             <returns>Знаковое целое число, позволяющее определить, наступает ли момент, указанный в параметре<paramref
                     name="first"/>, раньше или одновременно с моментом, указанным в параметре<paramref name="second"/>,
                 как показано в следующей таблице.Возвращаемое значениеЗначениеМеньше нуляМомент, указанный в параметре
-                <paramref name="first"/>, наступает раньше, чем момент, указанный в параметре<paramref name="second"/>
+                <paramref name="first"/>, наступает раньше, чем момент, указанный в параметре
+                <paramref name="second"/>
                 .Нуль
                 <paramref name="first"/>
                 равно<paramref name="second"/>.Больше нуляМомент, указанный в параметре<paramref name="first"/>,
@@ -7548,7 +7554,8 @@
                 и представляет тот же момент времени, что и текущий объект<see cref="T:System.DateTimeOffset"/>; в
                 противном случае — значение false.
             </returns>
-            <param name="obj">Объект, который требуется сравнить с текущим объектом<see cref="T:System.DateTimeOffset"/>
+            <param name="obj">Объект, который требуется сравнить с текущим объектом
+                <see cref="T:System.DateTimeOffset"/>
                 .
             </param>
         </member>
@@ -9046,7 +9053,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.Decimal.op_Implicit(System.Byte)~System.Decimal">
-            <summary>Определяет явное преобразование 8-разрядного целого числа без знака в<see cref="T:System.Decimal"/>
+            <summary>Определяет явное преобразование 8-разрядного целого числа без знака в
+                <see cref="T:System.Decimal"/>
                 .
             </summary>
             <returns>Преобразованное 8-битное целое число без знака.</returns>
@@ -9085,7 +9093,8 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.Decimal.op_Implicit(System.SByte)~System.Decimal">
-            <summary>Определяет явное преобразование 8-разрядного целого числа со знаком в<see cref="T:System.Decimal"/>
+            <summary>Определяет явное преобразование 8-разрядного целого числа со знаком в
+                <see cref="T:System.Decimal"/>
                 .
             </summary>
             <returns>Преобразованное 8-битное целое число со знаком.</returns>
@@ -9801,7 +9810,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Decimal.TryParse(System.String,System.Decimal@)">
-            <summary>Преобразует строковое представление числа в его эквивалент типа<see cref="T:System.Decimal"/>
+            <summary>Преобразует строковое представление числа в его эквивалент типа
+                <see cref="T:System.Decimal"/>
                 .Возвращает значение, указывающее, успешно ли выполнено преобразование.
             </summary>
             <returns>Значение true, если параметр
@@ -11156,7 +11166,8 @@
                 значение не должно быть членом перечисления<paramref name="TEnum"/>.Этот параметр передается
                 неинициализированным.
             </param>
-            <typeparam name="TEnum">Тип перечисления, в который требуется преобразовать параметр<paramref name="value"/>
+            <typeparam name="TEnum">Тип перечисления, в который требуется преобразовать параметр
+                <paramref name="value"/>
                 .
             </typeparam>
             <exception cref="T:System.ArgumentException">
@@ -11184,7 +11195,8 @@
                 значение не должно быть членом перечисления<paramref name="TEnum"/>.Этот параметр передается
                 неинициализированным.
             </param>
-            <typeparam name="TEnum">Тип перечисления, в который требуется преобразовать параметр<paramref name="value"/>
+            <typeparam name="TEnum">Тип перечисления, в который требуется преобразовать параметр
+                <paramref name="value"/>
                 .
             </typeparam>
             <exception cref="T:System.ArgumentException">
@@ -11974,7 +11986,8 @@
                 или<see cref="F:System.GCCollectionMode.Forced"/>) или оптимизированной (<see
                         cref="F:System.GCCollectionMode.Optimized"/>).
             </param>
-            <exception cref="T:System.ArgumentOutOfRangeException">Недопустимый параметр<paramref name="generation"/>
+            <exception cref="T:System.ArgumentOutOfRangeException">Недопустимый параметр
+                <paramref name="generation"/>
                 .-или-Параметр
                 <paramref name="mode"/>
                 не является одним из значений<see cref="T:System.GCCollectionMode"/>.
@@ -11993,7 +12006,8 @@
             <param name="blocking">Значение true для выполнения блокирующей сборки мусора; значение false для выполнения
                 фоновой сборки мусора, где это возможно.
             </param>
-            <exception cref="T:System.ArgumentOutOfRangeException">Недопустимый параметр<paramref name="generation"/>
+            <exception cref="T:System.ArgumentOutOfRangeException">Недопустимый параметр
+                <paramref name="generation"/>
                 .-или-Параметр
                 <paramref name="mode"/>
                 не является одним из значений<see cref="T:System.GCCollectionMode"/>.
@@ -15922,7 +15936,8 @@
             </returns>
             <param name="left">Объект, сравниваемый с<paramref name="right"/>.
             </param>
-            <param name="right">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с<paramref name="left"/>
+            <param name="right">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с
+                <paramref name="left"/>
                 .
             </param>
             <filterpriority>3</filterpriority>
@@ -15937,7 +15952,8 @@
                 является структурой<see cref="T:System.RuntimeTypeHandle"/>, равной<paramref name="left"/>; в противном
                 случае — false.
             </returns>
-            <param name="left">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с<paramref name="right"/>
+            <param name="left">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с
+                <paramref name="right"/>
                 .
             </param>
             <param name="right">Объект, сравниваемый с<paramref name="left"/>.
@@ -15956,7 +15972,8 @@
             </returns>
             <param name="left">Объект, сравниваемый с<paramref name="right"/>.
             </param>
-            <param name="right">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с<paramref name="left"/>
+            <param name="right">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с
+                <paramref name="left"/>
                 .
             </param>
             <filterpriority>3</filterpriority>
@@ -15971,7 +15988,8 @@
                 является структурой<see cref="T:System.RuntimeTypeHandle"/>, не равной<paramref name="left"/>; в
                 противном случае — false.
             </returns>
-            <param name="left">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с<paramref name="right"/>
+            <param name="left">Структура<see cref="T:System.RuntimeTypeHandle"/>, сравниваемая с
+                <paramref name="right"/>
                 .
             </param>
             <param name="right">Объект, сравниваемый с<paramref name="left"/>.
@@ -16039,7 +16057,8 @@
         <member name="M:System.SByte.Parse(System.String)">
             <summary>Преобразует строковое представление числа в эквивалентное ему 8-битовое целое число со знаком.
             </summary>
-            <returns>8-битовое целое число со знаком, эквивалентное числу, содержащемуся в параметре<paramref name="s"/>
+            <returns>8-битовое целое число со знаком, эквивалентное числу, содержащемуся в параметре
+                <paramref name="s"/>
                 .
             </returns>
             <param name="s">Строка, представляющая преобразуемое число.Данная строка интерпретируется с использованием
@@ -17413,7 +17432,8 @@
             <returns>32-битовое целое число со знаком, которое показывает, расположен ли данный экземпляр перед, после
                 или на той же позиции в порядке сортировки, что и параметр<paramref name="strB"/>.Value Condition Less
                 than zero This instance precedes<paramref name="strB"/>. Zero This instance has the same position in the
-                sort order as<paramref name="strB"/>. Greater than zero This instance follows<paramref name="strB"/>
+                sort order as<paramref name="strB"/>. Greater than zero This instance follows
+                <paramref name="strB"/>
                 .-or-
                 <paramref name="strB"/>
                 is null.
@@ -17707,7 +17727,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Equals(System.String,System.StringComparison)">
-            <summary>Определяет, равны ли значения этой строки и указанного объекта<see cref="T:System.String"/>
+            <summary>Определяет, равны ли значения этой строки и указанного объекта
+                <see cref="T:System.String"/>
                 .Параметр определяет язык и региональные параметры, учет регистра и правила сортировки, используемые при
                 сравнении.
             </summary>
@@ -20576,7 +20597,8 @@
             <summary>Преобразует время во время в заданном часовом поясе.</summary>
             <returns>Дата и время в часовом поясе назначения.</returns>
             <param name="dateTime">Преобразовываемые дата и время.</param>
-            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать<paramref name="dateTime"/>
+            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать
+                <paramref name="dateTime"/>
                 .
             </param>
             <exception cref="T:System.ArgumentException">Значение параметра
@@ -20597,7 +20619,8 @@
             <param name="dateTime">Преобразовываемые дата и время.</param>
             <param name="sourceTimeZone">Часовой пояс, соответствующий значению<paramref name="dateTime"/>.
             </param>
-            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать<paramref name="dateTime"/>
+            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать
+                <paramref name="dateTime"/>
                 .
             </param>
             <exception cref="T:System.ArgumentException">Значение свойства
@@ -20629,7 +20652,8 @@
             <summary>Преобразует время во время в заданном часовом поясе.</summary>
             <returns>Дата и время в часовом поясе назначения.</returns>
             <param name="dateTimeOffset">Преобразовываемые дата и время.</param>
-            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать<paramref name="dateTime"/>
+            <param name="destinationTimeZone">Часовой пояс, в который требуется преобразовать
+                <paramref name="dateTime"/>
                 .
             </param>
             <exception cref="T:System.ArgumentNullException">Параметр
@@ -22383,7 +22407,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -22402,7 +22427,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -22420,7 +22446,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -22476,7 +22503,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -26489,7 +26517,8 @@
                 <paramref name="item"/>
                 найден в<see cref="T:System.Collections.Generic.ICollection`1"/>; в противном случае — значение false.
             </returns>
-            <param name="item">Объект, который требуется найти в<see cref="T:System.Collections.Generic.ICollection`1"/>
+            <param name="item">Объект, который требуется найти в
+                <see cref="T:System.Collections.Generic.ICollection`1"/>
                 .
             </param>
         </member>
@@ -27786,7 +27815,8 @@
             <exception cref="T:System.NotSupportedException">Always thrown if the property is set.</exception>
         </member>
         <member name="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Remove(System.Object)">
-            <summary>Удаляет первый экземпляр указанного объекта из коллекции<see cref="T:System.Collections.IList"/>
+            <summary>Удаляет первый экземпляр указанного объекта из коллекции
+                <see cref="T:System.Collections.IList"/>
                 .Данная реализация всегда выдает исключение<see cref="T:System.NotSupportedException"/>.
             </summary>
             <param name="value">Элемент<see cref="T:System.Object"/>, который требуется удалить из<see
@@ -27904,7 +27934,8 @@
             </summary>
         </member>
         <member name="M:System.ComponentModel.EditorBrowsableAttribute.#ctor(System.ComponentModel.EditorBrowsableState)">
-            <summary>Инициализирует новый экземпляр класса<see cref="T:System.ComponentModel.EditorBrowsableAttribute"/>
+            <summary>Инициализирует новый экземпляр класса
+                <see cref="T:System.ComponentModel.EditorBrowsableAttribute"/>
                 , используя объект<see cref="T:System.ComponentModel.EditorBrowsableState"/>.
             </summary>
             <param name="state">Состояние<see cref="T:System.ComponentModel.EditorBrowsableState"/>, устанавливаемое
@@ -28661,7 +28692,8 @@
             <summary>Предоставляет текстовое описание для сборки.</summary>
         </member>
         <member name="M:System.Reflection.AssemblyDescriptionAttribute.#ctor(System.String)">
-            <summary>Инициализирует новый экземпляр класса<see cref="T:System.Reflection.AssemblyDescriptionAttribute"/>
+            <summary>Инициализирует новый экземпляр класса
+                <see cref="T:System.Reflection.AssemblyDescriptionAttribute"/>
                 .
             </summary>
             <param name="description">Описание сборки.</param>
@@ -28676,7 +28708,8 @@
             </summary>
         </member>
         <member name="M:System.Reflection.AssemblyFileVersionAttribute.#ctor(System.String)">
-            <summary>Инициализирует новый экземпляр класса<see cref="T:System.Reflection.AssemblyFileVersionAttribute"/>
+            <summary>Инициализирует новый экземпляр класса
+                <see cref="T:System.Reflection.AssemblyFileVersionAttribute"/>
                 , определяющий версию файла.
             </summary>
             <param name="version">Версия файла.</param>
@@ -28870,8 +28903,9 @@
             <returns>Строка, содержащая номер версии сборки.</returns>
         </member>
         <member name="T:System.Reflection.DefaultMemberAttribute">
-            <summary>Описывает члена типа, являющегося членом по умолчанию, который используется методом<see
-                    cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
+            <summary>Описывает члена типа, являющегося членом по умолчанию, который используется методом
+                <see
+                        cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
                 .
             </summary>
         </member>
@@ -29042,7 +29076,8 @@
             <summary>Возвращает релаксации компиляции, заданные при построении текущего объекта.</summary>
             <returns>Релаксации компиляции, заданные при построении текущего объекта.Перечисление
                 <see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>
-                используется со свойством<see
+                используется со свойством
+                <see
                         cref="P:System.Runtime.CompilerServices.CompilationRelaxationsAttribute.CompilationRelaxations"/>
                 .
             </returns>

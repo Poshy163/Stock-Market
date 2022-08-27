@@ -457,7 +457,8 @@
                 <see cref="T:System.RuntimeArgumentHandle"/>
                 o di matrici di tali tipi non è supportata. -oppure-L'assembly che contiene
                 <paramref name="type"/>
-                è un assembly dinamico creato con<see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save"/>
+                è un assembly dinamico creato con
+                <see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save"/>
                 .-oppure-Il costruttore che maggiormente corrisponde a
                 <paramref name="args"/>
                 presenta gli argomenti varargs.
@@ -1855,7 +1856,8 @@
         </member>
         <member name="M:System.Array.FindLastIndex``1(``0[],System.Predicate{``0})">
             <summary>Cerca un elemento che soddisfi le condizioni definite dal predicato specificato e restituisce
-                l'indice in base zero dell'ultima occorrenza all'interno dell'intero oggetto<see cref="T:System.Array"/>
+                l'indice in base zero dell'ultima occorrenza all'interno dell'intero oggetto
+                <see cref="T:System.Array"/>
                 .
             </summary>
             <returns>Indice in base zero dell'ultima occorrenza di un elemento che corrisponde alle condizioni definite
@@ -3345,7 +3347,8 @@
             </returns>
         </member>
         <member name="M:System.Array.System#Collections#IList#Add(System.Object)">
-            <summary>La chiamata di questo metodo genera sempre un'eccezione<see cref="T:System.NotSupportedException"/>
+            <summary>La chiamata di questo metodo genera sempre un'eccezione
+                <see cref="T:System.NotSupportedException"/>
                 .
             </summary>
             <returns>L'aggiunta di valori alla matrice non è supportata.Non vengono restituiti valori.</returns>
@@ -3474,7 +3477,8 @@
                 nell'ordinamento.
             </summary>
             <returns>Intero che indica la relazione tra l'oggetto raccolta corrente e other, come illustrato nella
-                tabella seguente.Valore restituitoDescrizione-1L'istanza corrente precede<paramref name="other"/>
+                tabella seguente.Valore restituitoDescrizione-1L'istanza corrente precede
+                <paramref name="other"/>
                 .0L'istanza corrente è uguale a<paramref name="other"/>.1L'istanza corrente segue<paramref
                         name="other"/>.
             </returns>
@@ -8015,7 +8019,8 @@
                 <see cref="T:System.DateTimeOffset"/>
                 corrente e il parametro
                 <paramref name="other"/>
-                presentano lo stesso valore di data e ora e lo stesso valore<see cref="P:System.DateTimeOffset.Offset"/>
+                presentano lo stesso valore di data e ora e lo stesso valore
+                <see cref="P:System.DateTimeOffset.Offset"/>
                 ; in caso contrario, false.
             </returns>
             <param name="other">Oggetto da confrontare con l'oggetto
@@ -8846,7 +8851,8 @@
                 è stato convertito correttamente; in caso contrario, false.
             </returns>
             <param name="input">Stringa contenente una data e un'ora da convertire.</param>
-            <param name="format">Identificatore di formato che definisce il formato richiesto di<paramref name="input"/>
+            <param name="format">Identificatore di formato che definisce il formato richiesto di
+                <paramref name="input"/>
                 .
             </param>
             <param name="formatProvider">Oggetto che fornisce informazioni di formattazione specifiche delle
@@ -13066,7 +13072,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Guid.ToString(System.String)">
-            <summary>Restituisce una rappresentazione di stringa del valore di questa istanza<see cref="T:System.Guid"/>
+            <summary>Restituisce una rappresentazione di stringa del valore di questa istanza
+                <see cref="T:System.Guid"/>
                 , in base all'identificatore di formato specificato.
             </summary>
             <returns>Valore dell'oggetto<see cref="T:System.Guid"/>, rappresentato come una serie di cifre esadecimali
@@ -18282,7 +18289,8 @@
             </exception>
         </member>
         <member name="M:System.String.Concat``1(System.Collections.Generic.IEnumerable{``0})">
-            <summary>Concatena i membri di un'implementazione di<see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            <summary>Concatena i membri di un'implementazione di
+                <see cref="T:System.Collections.Generic.IEnumerable`1"/>
                 .
             </summary>
             <returns>Membri concatenati in<paramref name="values"/>.
@@ -21792,7 +21800,8 @@
         <member name="M:System.TimeZoneInfo.GetHashCode">
             <summary>Funge da funzione hash per algoritmi di hash e strutture dei dati quali ad esempio tabelle hash.
             </summary>
-            <returns>Intero con segno a 32 bit che funge da codice hash per l'oggetto<see cref="T:System.TimeZoneInfo"/>
+            <returns>Intero con segno a 32 bit che funge da codice hash per l'oggetto
+                <see cref="T:System.TimeZoneInfo"/>
                 .
             </returns>
             <filterpriority>2</filterpriority>
@@ -23722,7 +23731,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23743,7 +23753,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -23765,7 +23776,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23826,7 +23838,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -28150,7 +28163,8 @@
                 <see cref="T:System.Collections.Generic.ICollection`1"/>
                 originale.
             </returns>
-            <param name="item">Oggetto da rimuovere dall'oggetto<see cref="T:System.Collections.Generic.ICollection`1"/>
+            <param name="item">Oggetto da rimuovere dall'oggetto
+                <see cref="T:System.Collections.Generic.ICollection`1"/>
                 .
             </param>
             <exception cref="T:System.NotSupportedException">
@@ -29469,7 +29483,8 @@
             <exception cref="T:System.NotSupportedException">Always thrown if the property is set.</exception>
         </member>
         <member name="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Remove(System.Object)">
-            <summary>Rimuove la prima occorrenza di un oggetto specifico da<see cref="T:System.Collections.IList"/>
+            <summary>Rimuove la prima occorrenza di un oggetto specifico da
+                <see cref="T:System.Collections.IList"/>
                 .Questa implementazione genera sempre<see cref="T:System.NotSupportedException"/>.
             </summary>
             <param name="value">
@@ -29767,7 +29782,8 @@
         </member>
         <member name="F:System.Globalization.DateTimeStyles.AllowWhiteSpaces">
             <summary>Gli spazi in qualunque posizione della stringa devono essere ignorati durante l'analisi, a meno che
-                non siano presenti nei modelli di formato di<see cref="T:System.Globalization.DateTimeFormatInfo"/>
+                non siano presenti nei modelli di formato di
+                <see cref="T:System.Globalization.DateTimeFormatInfo"/>
                 .Questo valore è una combinazione dei valori<see
                         cref="F:System.Globalization.DateTimeStyles.AllowLeadingWhite"/>,
                 <see cref="F:System.Globalization.DateTimeStyles.AllowTrailingWhite"/>
@@ -30634,8 +30650,9 @@
             <returns>Stringa che contiene il numero di versione dell'assembly.</returns>
         </member>
         <member name="T:System.Reflection.DefaultMemberAttribute">
-            <summary>Definisce il membro di un tipo che è il membro predefinito utilizzato dal metodo<see
-                    cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
+            <summary>Definisce il membro di un tipo che è il membro predefinito utilizzato dal metodo
+                <see
+                        cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
                 .
             </summary>
         </member>
@@ -30816,7 +30833,8 @@
             <returns>Allentamenti di compilazione specificati quando è stato creato l'oggetto corrente.Utilizzare
                 l'enumerazione
                 <see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>
-                con la proprietà<see
+                con la proprietà
+                <see
                         cref="P:System.Runtime.CompilerServices.CompilationRelaxationsAttribute.CompilationRelaxations"/>
                 .
             </returns>
@@ -31599,7 +31617,8 @@
             <summary>Specifica che il codice o un assembly esegue operazioni critiche per la sicurezza.</summary>
         </member>
         <member name="M:System.Security.SecurityCriticalAttribute.#ctor">
-            <summary>Inizializza una nuova istanza della classe<see cref="T:System.Security.SecurityCriticalAttribute"/>
+            <summary>Inizializza una nuova istanza della classe
+                <see cref="T:System.Security.SecurityCriticalAttribute"/>
                 .
             </summary>
         </member>
@@ -32889,7 +32908,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.ToString(System.Int32,System.Int32)">
-            <summary>Converte il valore di una sottostringa di questa istanza in un oggetto<see cref="T:System.String"/>
+            <summary>Converte il valore di una sottostringa di questa istanza in un oggetto
+                <see cref="T:System.String"/>
                 .
             </summary>
             <returns>Stringa il cui valore è lo stesso della sottostringa specificata di questa istanza.</returns>

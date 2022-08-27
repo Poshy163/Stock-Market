@@ -837,7 +837,8 @@
         </member>
         <member name="M:System.IO.MemoryStream.#ctor(System.Byte[],System.Int32,System.Int32,System.Boolean,System.Boolean)">
             <summary>Initialisiert eine neue Instanz der<see cref="T:System.IO.MemoryStream"/>-Klasse auf der Grundlage
-                des angegebenen Bereichs eines Bytearrays, wobei die<see cref="P:System.IO.MemoryStream.CanWrite"/>
+                des angegebenen Bereichs eines Bytearrays, wobei die
+                <see cref="P:System.IO.MemoryStream.CanWrite"/>
                 -Eigenschaft und die Möglichkeit zum Aufruf von
                 <see cref="M:System.IO.MemoryStream.GetBuffer"/>
                 wie angegeben festgelegt werden.
@@ -1007,7 +1008,8 @@
             <summary>Liest eine Folge von Bytes asynchron aus dem aktuellen Stream, erhöht die Position im Stream um die
                 Anzahl der gelesenen Bytes und überwacht Abbruchanfragen.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Datenstromende erreicht
@@ -1059,7 +1061,8 @@
             <returns>Die neue Position im Stream, die durch Kombinieren des anfänglichen Verweispunktes und des Offsets
                 berechnet wird.
             </returns>
-            <param name="offset">Die neue Position innerhalb des Streams.Diese ist relativ zum<paramref name="loc"/>
+            <param name="offset">Die neue Position innerhalb des Streams.Diese ist relativ zum
+                <paramref name="loc"/>
                 -Parameter und kann positiv oder negativ sein.
             </param>
             <param name="loc">Ein Wert vom Typ<see cref="T:System.IO.SeekOrigin"/>, der den Bezugspunkt für die Suche
@@ -1482,7 +1485,8 @@
             <summary>Liest eine Bytesequenz asynchron aus dem aktuellen Stream und setzt die Position in diesem Stream
                 um die Anzahl der gelesenen Bytes nach vorn.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Datenstromende erreicht
@@ -1520,7 +1524,8 @@
             <summary>Liest eine Folge von Bytes asynchron aus dem aktuellen Stream, erhöht die Position im Stream um die
                 Anzahl der gelesenen Bytes und überwacht Abbruchanfragen.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Datenstromende erreicht
@@ -1745,7 +1750,8 @@
             <returns>Ein Wert in Millisekunden, der bestimmt, wie lange der Stream versucht, Schreibvorgänge
                 durchzuführen, bevor ein Timeout auftritt.
             </returns>
-            <exception cref="T:System.InvalidOperationException">Die<see cref="P:System.IO.Stream.WriteTimeout"/>
+            <exception cref="T:System.InvalidOperationException">Die
+                <see cref="P:System.IO.Stream.WriteTimeout"/>
                 -Methode löst immer eine
                 <see cref="T:System.InvalidOperationException"/>
                 aus.
@@ -1872,7 +1878,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="P:System.IO.StreamReader.CurrentEncoding">
-            <summary>Ruft die aktuelle Zeichencodierung ab, die das aktuelle<see cref="T:System.IO.StreamReader"/>
+            <summary>Ruft die aktuelle Zeichencodierung ab, die das aktuelle
+                <see cref="T:System.IO.StreamReader"/>
                 -Objekt verwendet.
             </summary>
             <returns>Die durch das aktuelle Leseprogramm verwendete aktuelle Zeichencodierung.Der Wert kann sich nach
@@ -1967,7 +1974,8 @@
             <summary>Liest eine angegebene Höchstanzahl von Zeichen asynchron aus dem aktuellen Stream und schreibt die
                 Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Datenstromende erreicht
@@ -2049,7 +2057,8 @@
             <summary>Liest eine angegebene Höchstanzahl von Zeichen asynchron aus dem aktuellen Stream und schreibt die
                 Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Datenstromende erreicht
@@ -2105,7 +2114,8 @@
             <summary>Liest eine Zeile von Zeichen asynchron aus dem aktuellen Stream und gibt die Daten als Zeichenfolge
                 zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die nächste Zeile aus dem Stream oder ist null, wenn alle Zeichen gelesen wurden.
             </returns>
             <exception cref="T:System.ArgumentOutOfRangeException">Die Anzahl der Zeichen in der nächsten Zeile ist
@@ -2131,7 +2141,8 @@
             <summary>Liest alle Zeichen asynchron von der aktuellen Position bis zum Ende des Streams und gibt diese als
                 einzelne Zeichenfolge zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält eine Zeichenfolge mit den Zeichen von der aktuellen Position bis zum Ende des
                 Streams.
             </returns>
@@ -2586,7 +2597,8 @@
             <summary>Liest eine angegebene Höchstanzahl von Zeichen asynchron aus der aktuellen Zeichenkette und
                 schreibt die Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Zeichenfolgenende
@@ -2631,7 +2643,8 @@
             <summary>Liest eine angegebene Höchstanzahl von Zeichen asynchron aus der aktuellen Zeichenkette und
                 schreibt die Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Zeichenfolgenende
@@ -2689,7 +2702,8 @@
             <summary>Liest eine Zeile von Zeichen asynchron aus der aktuellen Zeichenkette und gibt die Daten als
                 Zeichenfolge zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die nächste Zeile aus dem Zeichenfolgenreader oder null, wenn alle Zeichen gelesen
                 wurden.
             </returns>
@@ -2716,7 +2730,8 @@
             <summary>Liest alle Zeichen asynchron von der aktuellen Position bis zum Ende des Streams und gibt diese als
                 einzelne Zeichenfolge zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält eine Zeichenfolge mit den Zeichen von der aktuellen Position bis zum Ende der
                 Zeichenfolge.
             </returns>
@@ -3047,7 +3062,8 @@
             <summary>Liest asynchron eine angegebene Höchstanzahl von Zeichen aus dem aktuellen Textreader und schreibt
                 die Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Textende erreicht ist.
@@ -3131,7 +3147,8 @@
             <summary>Liest asynchron eine angegebene Höchstanzahl von Zeichen aus dem aktuellen Textreader und schreibt
                 die Daten in einen Puffer, wobei am angegebenen Index begonnen wird.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die Gesamtzahl der Bytes, die in den Puffer gelesen werden.Der Ergebniswert kann
                 niedriger als die Anzahl der angeforderten Bytes sein, wenn die Anzahl an derzeit verfügbaren Bytes
                 kleiner ist als die angeforderte Anzahl, oder sie kann 0 (null) sein, wenn das Textende erreicht ist.
@@ -3192,7 +3209,8 @@
             <summary>Liest eine Zeile von asynchron Zeichen aus dem aktuellen Stream und gibt die Daten als Zeichenfolge
                 zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält die nächste Zeile aus dem Textreader oder null, wenn alle Zeichen gelesen wurden.
             </returns>
             <exception cref="T:System.ArgumentOutOfRangeException">Die Anzahl der Zeichen in der nächsten Zeile ist
@@ -3226,7 +3244,8 @@
             <summary>Liest alle Zeichen asynchron von der aktuellen Position bis zum Ende des Text-Readers und gibt
                 diese als eine Zeichenfolge zurück.
             </summary>
-            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des<paramref name="TResult"/>
+            <returns>Eine Aufgabe, die den asynchronen Lesevorgang darstellt.Der Wert des
+                <paramref name="TResult"/>
                 -Parameters enthält eine Zeichenfolge mit den Zeichen von der aktuellen Position bis zum Ende des
                 Textreaders.
             </returns>
@@ -3473,7 +3492,8 @@
         </member>
         <member name="M:System.IO.TextWriter.Write(System.String,System.Object,System.Object)">
             <summary>Schreibt eine formatierte Zeichenfolge in die Textzeichenfolge oder den Stream unter Verwendung der
-                gleichen Semantik wie die<see cref="M:System.String.Format(System.String,System.Object,System.Object)"/>
+                gleichen Semantik wie die
+                <see cref="M:System.String.Format(System.String,System.Object,System.Object)"/>
                 -Methode.
             </summary>
             <param name="format">Eine kombinierte Formatierungszeichenfolge (siehe Hinweise).</param>
@@ -3497,7 +3517,8 @@
         </member>
         <member name="M:System.IO.TextWriter.Write(System.String,System.Object,System.Object,System.Object)">
             <summary>Schreibt eine formatierte Zeichenfolge in die Textzeichenfolge oder den Stream unter Verwendung der
-                gleichen Semantik wie die<see
+                gleichen Semantik wie die
+                <see
                         cref="M:System.String.Format(System.String,System.Object,System.Object,System.Object)"/>
                 -Methode.
             </summary>

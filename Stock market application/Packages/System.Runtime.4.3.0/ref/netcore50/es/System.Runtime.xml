@@ -3439,7 +3439,8 @@
                 ordenación, o aparece en la misma posición que él.
             </summary>
             <returns>Un entero que indica la relación del objeto de la colección actual con otros, tal y como se muestra
-                en la tabla siguiente.Valor devueltoDescripción -1La instancia actual precede a<paramref name="other"/>
+                en la tabla siguiente.Valor devueltoDescripción -1La instancia actual precede a
+                <paramref name="other"/>
                 .0La instancia actual y
                 <paramref name="other"/>
                 son iguales.1La instancia actual se encuentra detrás de<paramref name="other"/>.
@@ -3970,7 +3971,8 @@
                 <see cref="T:System.Boolean"/>
                 especificado y devuelve un entero que indica la relación entre ambos.
             </summary>
-            <returns>Entero con signo que indica el orden relativo de esta instancia y el valor<paramref name="value"/>
+            <returns>Entero con signo que indica el orden relativo de esta instancia y el valor
+                <paramref name="value"/>
                 .Valor devuelto Condición Menor que cero Esta instancia es false y
                 <paramref name="value"/>
                 es true. Cero Esta instancia y
@@ -5406,7 +5408,8 @@
                 +1 va de U+DC00 a U+DFFF; en caso contrario, false.
             </returns>
             <param name="s">Una cadena.</param>
-            <param name="index">Posición inicial del par de caracteres que se va a evaluar dentro de<paramref name="s"/>
+            <param name="index">Posición inicial del par de caracteres que se va a evaluar dentro de
+                <paramref name="s"/>
                 .
             </param>
             <exception cref="T:System.ArgumentNullException">El valor de
@@ -6262,7 +6265,8 @@
                 especificado.
             </summary>
             <returns>Número con signo que indica los valores relativos de esta instancia y del parámetro<paramref
-                    name="value"/>.Valor Descripción Menor que cero Esta instancia es anterior a<paramref name="value"/>
+                    name="value"/>.Valor Descripción Menor que cero Esta instancia es anterior a
+                <paramref name="value"/>
                 . Cero Esta instancia es la misma que<paramref name="value"/>. Mayor que cero Esta instancia es
                 posterior a<paramref name="value"/>.
             </returns>
@@ -7529,7 +7533,8 @@
             </summary>
             <param name="dateTime">Fecha y hora.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">La fecha y hora de la hora universal coordinada (UTC)
-                resultantes de aplicar el desplazamiento son anteriores a<see cref="F:System.DateTimeOffset.MinValue"/>
+                resultantes de aplicar el desplazamiento son anteriores a
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .o bienLa fecha y hora de la hora UTC resultantes de aplicar el desplazamiento son posteriores a<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -8215,7 +8220,8 @@
             <returns>El objeto convertido.</returns>
             <param name="dateTime">Objeto que se va a convertir.</param>
             <exception cref="T:System.ArgumentOutOfRangeException">La fecha y hora de la hora universal coordinada (UTC)
-                resultantes de aplicar el desplazamiento son anteriores a<see cref="F:System.DateTimeOffset.MinValue"/>
+                resultantes de aplicar el desplazamiento son anteriores a
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 .o bienLa fecha y hora de la hora UTC resultantes de aplicar el desplazamiento son posteriores a<see
                         cref="F:System.DateTimeOffset.MaxValue"/>.
             </exception>
@@ -9110,7 +9116,8 @@
                 <see cref="T:System.Decimal"/>
                 especificado y devuelve una comparación de los valores relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return value Meaning Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -9907,7 +9914,8 @@
             </summary>
             <returns>Número
                 <see cref="T:System.Decimal"/>
-                equivalente al número contenido en<paramref name="s"/>, tal y como especifica<paramref name="provider"/>
+                equivalente al número contenido en<paramref name="s"/>, tal y como especifica
+                <paramref name="provider"/>
                 .
             </returns>
             <param name="s">Representación de cadena del número que va a convertirse.</param>
@@ -10103,7 +10111,8 @@
             </summary>
             <returns>Valor de la instancia actual, convertido en<paramref name="type"/>.
             </returns>
-            <param name="type">Tipo al que se va a convertir el valor de esta instancia de<see cref="T:System.Decimal"/>
+            <param name="type">Tipo al que se va a convertir el valor de esta instancia de
+                <see cref="T:System.Decimal"/>
                 .
             </param>
             <param name="provider">Implementación de
@@ -10673,7 +10682,8 @@
                 un entero que indica si el valor de esta instancia es mayor, menor o igual que el valor del número de
                 punto flotante de precisión doble especificado.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>.-or- This
                 instance is not a number (<see cref="F:System.Double.NaN"/>) and
                 <paramref name="value"/>
@@ -11280,7 +11290,8 @@
             <summary>Compara esta instancia con un objeto especificado y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="target"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="target"/>
                 .Valor Significado Menor que cero El valor de esta instancia es menor que el valor de<paramref
                         name="target"/>. Cero El valor de esta instancia es igual al valor de<paramref name="target"/>.
                 Mayor que cero El valor de esta instancia es mayor que el valor de<paramref name="target"/>.O bien
@@ -13499,7 +13510,8 @@
                 indica si el valor de esta instancia es menor, igual o mayor que el valor del entero con signo de 16
                 bits especificado.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -13954,7 +13966,8 @@
             <summary>Compara esta instancia con un entero de 32 bits con signo y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -14352,7 +14365,8 @@
                 equivalente al número contenido en
                 <paramref name="s"/>
                 si la conversión se realizó correctamente, o bien, cero si no se realizó correctamente.La conversión no
-                se realiza correctamente si el parámetro es<paramref name="s"/>null o<see cref="F:System.String.Empty"/>
+                se realiza correctamente si el parámetro es<paramref name="s"/>null o
+                <see cref="F:System.String.Empty"/>
                 , no tiene un formato compatible con
                 <paramref name="style"/>
                 o representa un número menor que
@@ -14410,7 +14424,8 @@
             <summary>Compara esta instancia con un entero de 64 bits con signo y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -14819,7 +14834,8 @@
                 equivalente al número contenido en
                 <paramref name="s"/>
                 si la conversión se realizó correctamente, o bien, cero si no se realizó correctamente.La conversión no
-                se realiza correctamente si el parámetro es<paramref name="s"/>null o<see cref="F:System.String.Empty"/>
+                se realiza correctamente si el parámetro es<paramref name="s"/>null o
+                <see cref="F:System.String.Empty"/>
                 , no tiene un formato compatible con
                 <paramref name="style"/>
                 o representa un número menor que
@@ -16006,7 +16022,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Nullable`1.GetHashCode">
-            <summary>Recupera el código hash del objeto devuelto por la propiedad<see cref="P:System.Nullable`1.Value"/>
+            <summary>Recupera el código hash del objeto devuelto por la propiedad
+                <see cref="P:System.Nullable`1.Value"/>
                 .
             </summary>
             <returns>Código hash del objeto devuelto por la propiedad
@@ -17211,7 +17228,8 @@
                 devuelve un entero que indica si el valor de esta instancia es menor, igual o mayor que el valor del
                 número de punto flotante de precisión sencilla especificado.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>.-or- This
                 instance is not a number (<see cref="F:System.Single.NaN"/>) and
                 <paramref name="value"/>
@@ -19603,7 +19621,8 @@
             <returns>Nueva cadena que es equivalente a esta instancia, pero que se alinea a la derecha y en la que se
                 insertan a la izquierda los caracteres de
                 <paramref name="paddingChar"/>
-                que sean necesarios para crear la longitud especificada por el parámetro<paramref name="totalWidth"/>
+                que sean necesarios para crear la longitud especificada por el parámetro
+                <paramref name="totalWidth"/>
                 .Sin embargo, si
                 <paramref name="totalWidth"/>
                 es menor que la longitud de esta instancia, el método devuelve una referencia a la instancia
@@ -19652,7 +19671,8 @@
             <returns>Nueva cadena que es equivalente a esta instancia, pero que se alinea a la izquierda y en la que se
                 insertan a la derecha los caracteres de
                 <paramref name="paddingChar"/>
-                que sean necesarios para crear la longitud especificada por el parámetro<paramref name="totalWidth"/>
+                que sean necesarios para crear la longitud especificada por el parámetro
+                <paramref name="totalWidth"/>
                 .Sin embargo, si
                 <paramref name="totalWidth"/>
                 es menor que la longitud de esta instancia, el método devuelve una referencia a la instancia
@@ -23681,7 +23701,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23702,7 +23723,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -23722,7 +23744,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23784,7 +23807,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -24011,7 +24035,8 @@
             <summary>Compara esta instancia con un entero de 16 bits sin signo y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -24415,7 +24440,8 @@
                 equivalente al número contenido en
                 <paramref name="s"/>
                 si la conversión se realizó correctamente, o bien, cero si no se realizó correctamente.La conversión no
-                se realiza correctamente si el parámetro es<paramref name="s"/>null o<see cref="F:System.String.Empty"/>
+                se realiza correctamente si el parámetro es<paramref name="s"/>null o
+                <see cref="F:System.String.Empty"/>
                 , no tiene un formato compatible con
                 <paramref name="style"/>
                 o representa un número menor que
@@ -24473,7 +24499,8 @@
             <summary>Compara esta instancia con un entero de 32 bits sin signo y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -24937,7 +24964,8 @@
             <summary>Compara esta instancia con un entero de 64 bits sin signo y devuelve una indicación de los valores
                 relativos.
             </summary>
-            <returns>Número con signo que indica los valores relativos de esta instancia y<paramref name="value"/>
+            <returns>Número con signo que indica los valores relativos de esta instancia y
+                <paramref name="value"/>
                 .Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
@@ -25345,7 +25373,8 @@
                 equivalente al número contenido en
                 <paramref name="s"/>
                 si la conversión se realizó correctamente, o bien, cero si no se realizó correctamente.La conversión no
-                se realiza correctamente si el parámetro es<paramref name="s"/>null o<see cref="F:System.String.Empty"/>
+                se realiza correctamente si el parámetro es<paramref name="s"/>null o
+                <see cref="F:System.String.Empty"/>
                 , no tiene un formato compatible con
                 <paramref name="style"/>
                 o representa un número menor que
@@ -26364,7 +26393,8 @@
                 <paramref name="uri"/>
                 son iguales, este método devuelve un
                 <see cref="T:System.Uri"/>
-                relativo que, cuando se anexa a la instancia de identificador URI actual, genera<paramref name="uri"/>
+                relativo que, cuando se anexa a la instancia de identificador URI actual, genera
+                <paramref name="uri"/>
                 .Si el nombre de host o el esquema son diferentes, este método devuelve un
                 <see cref="T:System.Uri"/>
                 que representa el parámetro<paramref name="uri"/>.
@@ -28090,7 +28120,8 @@
             </exception>
         </member>
         <member name="P:System.Collections.Generic.ICollection`1.Count">
-            <summary>Obtiene el número de elementos incluidos en<see cref="T:System.Collections.Generic.ICollection`1"/>
+            <summary>Obtiene el número de elementos incluidos en
+                <see cref="T:System.Collections.Generic.ICollection`1"/>
                 .
             </summary>
             <returns>Número de elementos incluidos en<see cref="T:System.Collections.Generic.ICollection`1"/>.
@@ -28688,7 +28719,8 @@
                 se encuentra en la colección<see cref="T:System.Collections.ObjectModel.Collection`1"/>; en caso
                 contrario, false.
             </returns>
-            <param name="item">Objeto que se va a buscar en<see cref="T:System.Collections.ObjectModel.Collection`1"/>
+            <param name="item">Objeto que se va a buscar en
+                <see cref="T:System.Collections.ObjectModel.Collection`1"/>
                 .El valor puede ser null para los tipos de referencia.
             </param>
         </member>
@@ -28820,7 +28852,8 @@
                 <see cref="T:System.Collections.ObjectModel.Collection`1"/>
                 original.
             </returns>
-            <param name="item">Objeto que se va a quitar de<see cref="T:System.Collections.ObjectModel.Collection`1"/>
+            <param name="item">Objeto que se va a quitar de
+                <see cref="T:System.Collections.ObjectModel.Collection`1"/>
                 .El valor puede ser null para los tipos de referencia.
             </param>
         </member>
@@ -29292,7 +29325,8 @@
             <summary>Obtiene un objeto que se puede usar para sincronizar el acceso a<see
                     cref="T:System.Collections.ICollection"/>.
             </summary>
-            <returns>Objeto que se puede usar para sincronizar el acceso a<see cref="T:System.Collections.ICollection"/>
+            <returns>Objeto que se puede usar para sincronizar el acceso a
+                <see cref="T:System.Collections.ICollection"/>
                 .En la implementación predeterminada de<see
                         cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/>, esta propiedad siempre devuelve
                 la instancia actual.
@@ -29757,7 +29791,8 @@
                 y la cadena analizada incluye un símbolo de divisa, la propiedad
                 <see cref="P:System.Globalization.NumberFormatInfo.CurrencyDecimalSeparator"/>
                 determina el carácter del separador decimal.De lo contrario, el carácter separador decimal viene
-                determinado por la propiedad<see cref="P:System.Globalization.NumberFormatInfo.NumberDecimalSeparator"/>
+                determinado por la propiedad
+                <see cref="P:System.Globalization.NumberFormatInfo.NumberDecimalSeparator"/>
                 .
             </summary>
         </member>
@@ -30559,8 +30594,9 @@
             <returns>Cadena que contiene el número de versión del ensamblado.</returns>
         </member>
         <member name="T:System.Reflection.DefaultMemberAttribute">
-            <summary>Define el miembro de un tipo que es el miembro predeterminado utilizado por<see
-                    cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
+            <summary>Define el miembro de un tipo que es el miembro predeterminado utilizado por
+                <see
+                        cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
                 .
             </summary>
         </member>
@@ -30752,7 +30788,8 @@
             <returns>Relajaciones de compilación especificadas cuando se construye el objeto actual.Utilice la
                 enumeración
                 <see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>
-                con la propiedad<see
+                con la propiedad
+                <see
                         cref="P:System.Runtime.CompilerServices.CompilationRelaxationsAttribute.CompilationRelaxations"/>
                 .
             </returns>
@@ -31534,7 +31571,8 @@
             </summary>
         </member>
         <member name="M:System.Security.SecurityCriticalAttribute.#ctor">
-            <summary>Inicializa una nueva instancia de la clase<see cref="T:System.Security.SecurityCriticalAttribute"/>
+            <summary>Inicializa una nueva instancia de la clase
+                <see cref="T:System.Security.SecurityCriticalAttribute"/>
                 .
             </summary>
         </member>
@@ -32862,7 +32900,8 @@
                 podría inicializar correctamente la instancia de<see cref="T:System.Lazy`1"/>.Si el método de
                 inicialización tiene acceso de forma recursiva a la propiedad
                 <see cref="P:System.Lazy`1.Value"/>
-                de la instancia<see cref="T:System.Lazy`1"/>, se produce<see cref="T:System.InvalidOperationException"/>
+                de la instancia<see cref="T:System.Lazy`1"/>, se produce
+                <see cref="T:System.InvalidOperationException"/>
                 .
             </summary>
         </member>
@@ -32888,7 +32927,8 @@
                 podría inicializar correctamente la instancia de<see cref="T:System.Lazy`1"/>.Si el método de
                 inicialización tiene acceso de forma recursiva a la propiedad
                 <see cref="P:System.Lazy`1.Value"/>
-                de la instancia<see cref="T:System.Lazy`1"/>, se produce<see cref="T:System.InvalidOperationException"/>
+                de la instancia<see cref="T:System.Lazy`1"/>, se produce
+                <see cref="T:System.InvalidOperationException"/>
                 .
             </summary>
         </member>

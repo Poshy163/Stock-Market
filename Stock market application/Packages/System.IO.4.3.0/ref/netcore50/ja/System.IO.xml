@@ -93,7 +93,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.BinaryReader.Read">
-            <summary>基になるストリームから文字を読み取り、使用した Encoding とストリームから読み取った特定の文字に従ってストリームの現在位置を進めます。</summary>
+            <summary>基になるストリームから文字を読み取り、使用した Encoding とストリームから読み取った特定の文字に従ってストリームの現在位置を進めます。
+            </summary>
             <returns>入力ストリームの次の文字。現在読み取り可能な文字がない場合は -1。</returns>
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.ObjectDisposedException">ストリームが閉じられました。</exception>
@@ -103,7 +104,8 @@
             <summary>バイト配列内の指定された位置を開始点として、ストリームから指定されたバイト数を読み取ります。</summary>
             <returns>
                 <paramref name="buffer"/>
-                に読み取るバイト数。要求したバイト数分のバイトを読み取れなかった場合、この値は要求したバイト数より小さくなります。ストリームの末尾に到達した場合は 0 になることがあります。
+                に読み取るバイト数。要求したバイト数分のバイトを読み取れなかった場合、この値は要求したバイト数より小さくなります。ストリームの末尾に到達した場合は 0
+                になることがあります。
             </returns>
             <param name="buffer">データを読み取るバッファー。</param>
             <param name="index">バッファー内の、バッファーへの読み取り開始点。</param>
@@ -132,7 +134,8 @@
         </member>
         <member name="M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)">
             <summary>文字配列内の指定された位置を開始点として、ストリームから指定された文字数を読み取ります。</summary>
-            <returns>バッファーに読み取られた合計文字数。要求した文字数分の文字を読み取れなかった場合、この値は要求した文字数より小さくなります。また、ストリームの末尾に到達した場合は 0 になることがあります。
+            <returns>バッファーに読み取られた合計文字数。要求した文字数分の文字を読み取れなかった場合、この値は要求した文字数より小さくなります。また、ストリームの末尾に到達した場合は
+                0 になることがあります。
             </returns>
             <param name="buffer">データを読み取るバッファー。</param>
             <param name="index">バッファー内の、バッファーへの読み取り開始点。</param>
@@ -200,7 +203,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.BinaryReader.ReadChar">
-            <summary>現在のストリームの次の文字を読み取り、使用した Encoding とストリームから読み取った特定の文字に従ってストリームの現在位置を進めます。</summary>
+            <summary>現在のストリームの次の文字を読み取り、使用した Encoding とストリームから読み取った特定の文字に従ってストリームの現在位置を進めます。
+            </summary>
             <returns>現在のストリームから読み取った文字。</returns>
             <exception cref="T:System.IO.EndOfStreamException">ストリームの末尾に到達しました。</exception>
             <exception cref="T:System.ObjectDisposedException">ストリームが閉じられました。</exception>
@@ -209,9 +213,11 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.BinaryReader.ReadChars(System.Int32)">
-            <summary>現在のストリームから指定された文字数を読み取り、そのデータを文字配列として返します。また、使用した Encoding とストリームから読み取った特定の文字に従って現在位置を進めます。
+            <summary>現在のストリームから指定された文字数を読み取り、そのデータを文字配列として返します。また、使用した Encoding
+                とストリームから読み取った特定の文字に従って現在位置を進めます。
             </summary>
-            <returns>基になるストリームから読み取ったデータが格納されている文字配列。ストリームの末尾に到達した場合は、要求された文字数より小さくなることがあります。</returns>
+            <returns>基になるストリームから読み取ったデータが格納されている文字配列。ストリームの末尾に到達した場合は、要求された文字数より小さくなることがあります。
+            </returns>
             <param name="count">読み取る文字の数。</param>
             <exception cref="T:System.ArgumentException">デコードされた文字の数が
                 <paramref name="count"/>
@@ -282,7 +288,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.BinaryReader.ReadString">
-            <summary>現在のストリームから 1 つの文字列を読み取ります。ストリームの文字列は、7 ビットごとにエンコードされた文字列の長さが先頭に付加されています。</summary>
+            <summary>現在のストリームから 1 つの文字列を読み取ります。ストリームの文字列は、7 ビットごとにエンコードされた文字列の長さが先頭に付加されています。
+            </summary>
             <returns>読み取った文字列。</returns>
             <exception cref="T:System.IO.EndOfStreamException">ストリームの末尾に到達しました。</exception>
             <exception cref="T:System.ObjectDisposedException">ストリームが閉じられました。</exception>
@@ -476,7 +483,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.BinaryWriter.Write(System.Char)">
-            <summary>現在のストリームに Unicode 文字を書き込み、使用した Encoding とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。</summary>
+            <summary>現在のストリームに Unicode 文字を書き込み、使用した Encoding とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。
+            </summary>
             <param name="ch">書き込む非サロゲート Unicode 文字。</param>
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.ObjectDisposedException">ストリームが閉じられました。</exception>
@@ -487,7 +495,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.BinaryWriter.Write(System.Char[])">
-            <summary>現在のストリームに文字配列を書き込み、使用した Encoding とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。</summary>
+            <summary>現在のストリームに文字配列を書き込み、使用した Encoding とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。
+            </summary>
             <param name="chars">書き込むデータを格納する文字配列。</param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="chars"/>
@@ -498,7 +507,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)">
-            <summary>現在のストリームに文字配列の特定の領域を書き込み、使用した Encoding とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。</summary>
+            <summary>現在のストリームに文字配列の特定の領域を書き込み、使用した Encoding
+                とストリームに書き込んだ特定の文字に従ってストリームの現在位置を進めます。
+            </summary>
             <param name="chars">書き込むデータを格納する文字配列。</param>
             <param name="index">
                 <paramref name="chars"/>
@@ -850,13 +861,15 @@
         <member name="P:System.IO.MemoryStream.Capacity">
             <summary>ストリームに割り当てられたバイト数を取得または設定します。</summary>
             <returns>ストリームに対してバッファーが使用できる部分の長さ。</returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">容量が負の値または現在のストリーム長より小さい値に設定されています。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">容量が負の値または現在のストリーム長より小さい値に設定されています。
+            </exception>
             <exception cref="T:System.ObjectDisposedException">現在のストリームが閉じています。</exception>
             <exception cref="T:System.NotSupportedException">容量を変更できないストリームに対して set が呼び出されました。</exception>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.MemoryStream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)">
-            <summary>指定されたバッファー サイズを使用して、現在のストリームからすべてのバイトを非同期に読み取り、指定されたバッファー サイズとキャンセル トークンを使用して、別のストリームに書き込みます。
+            <summary>指定されたバッファー サイズを使用して、現在のストリームからすべてのバイトを非同期に読み取り、指定されたバッファー サイズとキャンセル
+                トークンを使用して、別のストリームに書き込みます。
             </summary>
             <returns>非同期のコピー操作を表すタスク。</returns>
             <param name="destination">現在のストリームの内容のコピー先のストリーム。</param>
@@ -948,7 +961,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.MemoryStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
-            <summary>現在のストリームから非同期的にバイト シーケンスを非同期に読み取り、読み取ったバイト数だけストリーム内の位置を進め、キャンセル要求を監視します。</summary>
+            <summary>現在のストリームから非同期的にバイト シーケンスを非同期に読み取り、読み取ったバイト数だけストリーム内の位置を進め、キャンセル要求を監視します。
+            </summary>
             <returns>非同期の読み取り操作を表すタスク。
                 <paramref name="TResult"/>
                 パラメーターの値には、バッファーに読み込まれるバイトの合計数が含まれます。現在使用できるバイト数が要求した数より小さい場合、結果の値は要求したバイト数より小さくなることがあります。また、ストリームの末尾に到達した場合は
@@ -1151,7 +1165,8 @@
             <summary>ストリームの末尾を指定します。</summary>
         </member>
         <member name="T:System.IO.Stream">
-            <summary>バイト シーケンスのジェネリック ビューを提供します。これは抽象クラスです。この種類の .NET Framework ソース コードを参照して、次を参照してください。、 Reference
+            <summary>バイト シーケンスのジェネリック ビューを提供します。これは抽象クラスです。この種類の .NET Framework ソース コードを参照して、次を参照してください。、
+                Reference
                 Sourceです。
             </summary>
             <filterpriority>2</filterpriority>
@@ -1255,7 +1270,9 @@
             </exception>
         </member>
         <member name="M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)">
-            <summary>指定されたバッファー サイズを使用して、現在のストリームからバイトを非同期に読み取り、指定されたバッファー サイズとキャンセル トークンを使用して、別のストリームに書き込みます。</summary>
+            <summary>指定されたバッファー サイズを使用して、現在のストリームからバイトを非同期に読み取り、指定されたバッファー サイズとキャンセル
+                トークンを使用して、別のストリームに書き込みます。
+            </summary>
             <returns>非同期のコピー操作を表すタスク。</returns>
             <param name="destination">現在のストリームの内容のコピー先のストリーム。</param>
             <param name="bufferSize">バッファーのサイズ (バイト数)。これは、0 より大きい値である必要があります。既定のサイズは 81920 です。</param>
@@ -1327,8 +1344,10 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)">
-            <summary>派生クラスによってオーバーライドされた場合は、現在のストリームからバイト シーケンスを読み取り、読み取ったバイト数の分だけストリームの位置を進めます。</summary>
-            <returns>バッファーに読み取られた合計バイト数。要求しただけのバイト数を読み取ることができなかった場合、この値は要求したバイト数より小さくなります。ストリームの末尾に到達した場合は 0 (ゼロ)
+            <summary>派生クラスによってオーバーライドされた場合は、現在のストリームからバイト シーケンスを読み取り、読み取ったバイト数の分だけストリームの位置を進めます。
+            </summary>
+            <returns>バッファーに読み取られた合計バイト数。要求しただけのバイト数を読み取ることができなかった場合、この値は要求したバイト数より小さくなります。ストリームの末尾に到達した場合は
+                0 (ゼロ)
                 になることがあります。
             </returns>
             <param name="buffer">バイト配列。このメソッドが戻るとき、指定したバイト配列の
@@ -1399,7 +1418,8 @@
             <exception cref="T:System.InvalidOperationException">ストリームは現在、前の読み取り操作で使用中です。</exception>
         </member>
         <member name="M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">
-            <summary>現在のストリームから非同期的にバイト シーケンスを非同期に読み取り、読み取ったバイト数だけストリーム内の位置を進め、キャンセル要求を監視します。</summary>
+            <summary>現在のストリームから非同期的にバイト シーケンスを非同期に読み取り、読み取ったバイト数だけストリーム内の位置を進め、キャンセル要求を監視します。
+            </summary>
             <returns>非同期の読み取り操作を表すタスク。
                 <paramref name="TResult"/>
                 パラメーターの値には、バッファーに読み込まれるバイトの合計数が含まれます。現在使用できるバイト数が要求した数より小さい場合、結果の値は要求したバイト数より小さくなることがあります。また、ストリームの末尾に到達した場合は
@@ -1482,7 +1502,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)">
-            <summary>派生クラスによってオーバーライドされた場合は、現在のストリームにバイト シーケンスを書き込み、書き込んだバイト数の分だけストリームの現在位置を進めます。</summary>
+            <summary>派生クラスによってオーバーライドされた場合は、現在のストリームにバイト シーケンスを書き込み、書き込んだバイト数の分だけストリームの現在位置を進めます。
+            </summary>
             <param name="buffer">バイト配列。このメソッドは、
                 <paramref name="buffer"/>
                 から現在のストリームに、
@@ -1701,7 +1722,8 @@
             </summary>
             <param name="stream">読み取るストリーム。</param>
             <param name="encoding">使用する文字エンコーディング。</param>
-            <param name="detectEncodingFromByteOrderMarks">ファイルの先頭にあるバイト順序マークを検索する場合は true。それ以外の場合は false。</param>
+            <param name="detectEncodingFromByteOrderMarks">ファイルの先頭にあるバイト順序マークを検索する場合は true。それ以外の場合は false。
+            </param>
             <param name="bufferSize">最小バッファー サイズ。</param>
             <param name="leaveOpen">
                 <see cref="T:System.IO.StreamReader"/>
@@ -1820,7 +1842,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前にストリームの末尾に到達した場合は現在のメソッドが返ります。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前にストリームの末尾に到達した場合は現在のメソッドが返ります。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null です。
@@ -1896,7 +1920,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前にストリームの末尾に到達した場合、メソッドは制御を返します。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前にストリームの末尾に到達した場合、メソッドは制御を返します。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null です。
@@ -1938,7 +1964,9 @@
         </member>
         <member name="M:System.IO.StreamReader.ReadToEnd">
             <summary>すべての文字の現在位置から末尾までを読み込みます。</summary>
-            <returns>ストリームの現在位置から末尾までのストリームの残り部分 (文字列)。現在の位置がストリームの末尾である場合は、空の文字列 ("") が返されます。</returns>
+            <returns>ストリームの現在位置から末尾までのストリームの残り部分 (文字列)。現在の位置がストリームの末尾である場合は、空の文字列 ("")
+                が返されます。
+            </returns>
             <exception cref="T:System.OutOfMemoryException">返される文字列用のバッファーを割り当てるためにはメモリが不足しています。</exception>
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <filterpriority>1</filterpriority>
@@ -2336,7 +2364,8 @@
                 <paramref name="count"/>
                 だけ文字位置を進めます。
             </summary>
-            <returns>バッファーに読み取られた合計文字数。要求しただけの文字数を読み取ることができなかった場合、この値は要求した文字数より小さくなります。基になる文字列の末尾に到達した場合は 0
+            <returns>バッファーに読み取られた合計文字数。要求しただけの文字数を読み取ることができなかった場合、この値は要求した文字数より小さくなります。基になる文字列の末尾に到達した場合は
+                0
                 になることがあります。
             </returns>
             <param name="buffer">このメソッドが戻るとき、指定した文字配列の
@@ -2387,7 +2416,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前に文字列の末尾に到達した場合、メソッドは制御を返します。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前に文字列の末尾に到達した場合、メソッドは制御を返します。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null なので、
@@ -2426,7 +2457,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前に文字列の末尾に到達した場合、メソッドは制御を返します。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに書き込む前に文字列の末尾に到達した場合、メソッドは制御を返します。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null なので、
@@ -2753,7 +2786,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にリーダーの末尾に到達した場合、メソッドは制御を返します。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にリーダーの末尾に到達した場合、メソッドは制御を返します。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null です。
@@ -2796,7 +2831,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にテキストの末尾に到達した場合は、現在のメソッドが返ります。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にテキストの末尾に到達した場合は、現在のメソッドが返ります。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null です。
@@ -2877,7 +2914,9 @@
                 <paramref name="buffer"/>
                 内の位置。
             </param>
-            <param name="count">読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にテキストの末尾に到達した場合は、現在のメソッドが返ります。</param>
+            <param name="count">
+                読み取り対象の最大文字数。指定された文字数をバッファーに読み取る前にテキストの末尾に到達した場合は、現在のメソッドが返ります。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 は null です。
@@ -3167,7 +3206,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 1) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 1) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -3190,7 +3230,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 2) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 2) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -3214,7 +3255,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 3) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 3) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -3427,7 +3469,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.TextWriter.WriteLine(System.Object)">
-            <summary>オブジェクトで ToString メソッドを呼び出して、そのオブジェクトのテキスト形式をテキスト文字列またはストリームに書き込み、続けて行終端記号を書き込みます。</summary>
+            <summary>オブジェクトで ToString
+                メソッドを呼び出して、そのオブジェクトのテキスト形式をテキスト文字列またはストリームに書き込み、続けて行終端記号を書き込みます。
+            </summary>
             <param name="value">書き込むオブジェクト。
                 <paramref name="value"/>
                 が null の場合は、行終端記号だけを書き込みます。
@@ -3480,7 +3524,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 1) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 1) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -3503,7 +3548,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 2) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 2) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -3527,7 +3573,8 @@
             <exception cref="T:System.IO.IOException">I/O エラーが発生しました。</exception>
             <exception cref="T:System.FormatException">
                 <paramref name="format"/>
-                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド オーバーロードでは 3) 以上です。
+                は有効な復号書式指定文字列ではありません。または 書式指定項目のインデックスが、0 (ゼロ) より小さいか、書式設定されるオブジェクトの数 (このメソッド
+                オーバーロードでは 3) 以上です。
             </exception>
             <filterpriority>1</filterpriority>
         </member>

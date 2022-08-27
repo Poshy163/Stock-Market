@@ -12,8 +12,11 @@
         <member name="M:System.Action.EndInvoke(System.IAsyncResult)"></member>
         <member name="M:System.Action.Invoke"></member>
         <member name="T:System.Action`1">
-            <summary>封装一个方法，该方法只有一个参数并且不返回值。若要浏览此类型的 .NET Framework 源代码，请参阅引用源。</summary>
-            <typeparam name="T">此委托封装的方法的参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <summary>封装一个方法，该方法只有一个参数并且不返回值。若要浏览此类型的 .NET Framework 源代码，请参阅引用源。
+            </summary>
+            <typeparam name="T">此委托封装的方法的参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Action`1.#ctor(System.Object,System.IntPtr)"></member>
@@ -22,7 +25,9 @@
         <member name="M:System.Action`1.Invoke(`0)"></member>
         <member name="T:System.Action`10">
             <summary>封装一个方法，该方法具有 10 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -40,7 +45,9 @@
         <member name="M:System.Action`10.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)"></member>
         <member name="T:System.Action`11">
             <summary>封装一个方法，该方法具有 11 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -59,7 +66,9 @@
         <member name="M:System.Action`11.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)"></member>
         <member name="T:System.Action`12">
             <summary>封装一个方法，该方法具有 12 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -79,7 +88,9 @@
         <member name="M:System.Action`12.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)"></member>
         <member name="T:System.Action`13">
             <summary>封装一个方法，该方法具有 13 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -100,7 +111,9 @@
         <member name="M:System.Action`13.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)"></member>
         <member name="T:System.Action`14">
             <summary>封装一个方法，该方法具有 14 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -122,7 +135,9 @@
         <member name="M:System.Action`14.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)"></member>
         <member name="T:System.Action`15">
             <summary>封装一个方法，该方法具有 15 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -145,7 +160,9 @@
         <member name="M:System.Action`15.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)"></member>
         <member name="T:System.Action`16">
             <summary>封装一个方法，该方法具有 16 个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -169,7 +186,9 @@
         <member name="M:System.Action`16.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)"></member>
         <member name="T:System.Action`2">
             <summary>封装一个方法，该方法具有两个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -179,7 +198,9 @@
         <member name="M:System.Action`2.Invoke(`0,`1)"></member>
         <member name="T:System.Action`3">
             <summary>封装一个方法，该方法具有三个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <filterpriority>2</filterpriority>
@@ -190,7 +211,9 @@
         <member name="M:System.Action`3.Invoke(`0,`1,`2)"></member>
         <member name="T:System.Action`4">
             <summary>封装一个方法，该方法具有四个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -202,7 +225,9 @@
         <member name="M:System.Action`4.Invoke(`0,`1,`2,`3)"></member>
         <member name="T:System.Action`5">
             <summary>封装一个方法，该方法具有五个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -215,7 +240,9 @@
         <member name="M:System.Action`5.Invoke(`0,`1,`2,`3,`4)"></member>
         <member name="T:System.Action`6">
             <summary>封装一个方法，该方法具有六个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -229,7 +256,9 @@
         <member name="M:System.Action`6.Invoke(`0,`1,`2,`3,`4,`5)"></member>
         <member name="T:System.Action`7">
             <summary>封装一个方法，该方法具有七个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -244,7 +273,9 @@
         <member name="M:System.Action`7.Invoke(`0,`1,`2,`3,`4,`5,`6)"></member>
         <member name="T:System.Action`8">
             <summary>封装一个方法，该方法具有八个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -260,7 +291,9 @@
         <member name="M:System.Action`8.Invoke(`0,`1,`2,`3,`4,`5,`6,`7)"></member>
         <member name="T:System.Action`9">
             <summary>封装一个方法，该方法具有九个参数并且不返回值。</summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -283,8 +316,9 @@
             <summary>使用无参数构造函数，创建指定泛型类型参数所指定类型的实例。</summary>
             <returns>对新创建对象的引用。</returns>
             <typeparam name="T">要创建的类型。</typeparam>
-            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.MissingMemberException"/>, 、 相反。为
+            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.MissingMemberException"/>, 、 相反。为
                 <paramref name="T"/>
                 指定的类型没有无参数构造函数。
             </exception>
@@ -307,7 +341,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">
                 <paramref name="type"/>
-                不能为<see cref="T:System.Reflection.Emit.TypeBuilder"/>。- 或 - 不支持创建<see cref="T:System.TypedReference"/>、
+                不能为<see cref="T:System.Reflection.Emit.TypeBuilder"/>。- 或 - 不支持创建<see
+                    cref="T:System.TypedReference"/>、
                 <see cref="T:System.ArgIterator"/>、
                 <see cref="T:System.Void"/>
                 和
@@ -319,18 +354,21 @@
                 创建。
             </exception>
             <exception cref="T:System.Reflection.TargetInvocationException">被调用的构造函数引发异常。</exception>
-            <exception cref="T:System.MethodAccessException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.MemberAccessException"/>, 、 相反。调用方没有调用此构造函数的权限。
+            <exception cref="T:System.MethodAccessException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.MemberAccessException"/>, 、 相反。调用方没有调用此构造函数的权限。
             </exception>
-            <exception cref="T:System.MemberAccessException">无法创建抽象类的实例，或者用后期绑定机制调用了该成员。</exception>
+            <exception cref="T:System.MemberAccessException">无法创建抽象类的实例，或者用后期绑定机制调用了该成员。
+            </exception>
             <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">COM 类型不是通过
                 <see cref="Overload:System.Type.GetTypeFromProgID"/>
                 或
                 <see cref="Overload:System.Type.GetTypeFromCLSID"/>
                 获得的。
             </exception>
-            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.MissingMemberException"/>, 、 相反。找不到匹配的公共构造函数。
+            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.MissingMemberException"/>, 、 相反。找不到匹配的公共构造函数。
             </exception>
             <exception cref="T:System.Runtime.InteropServices.COMException">
                 <paramref name="type"/>
@@ -369,7 +407,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">
                 <paramref name="type"/>
-                不能为<see cref="T:System.Reflection.Emit.TypeBuilder"/>。- 或 - 不支持创建<see cref="T:System.TypedReference"/>、
+                不能为<see cref="T:System.Reflection.Emit.TypeBuilder"/>。- 或 - 不支持创建<see
+                    cref="T:System.TypedReference"/>、
                 <see cref="T:System.ArgIterator"/>、
                 <see cref="T:System.Void"/>
                 和
@@ -383,18 +422,21 @@
                 匹配程度最高的构造函数具有 varargs 参数。
             </exception>
             <exception cref="T:System.Reflection.TargetInvocationException">被调用的构造函数引发异常。</exception>
-            <exception cref="T:System.MethodAccessException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.MemberAccessException"/>, 、 相反。调用方没有调用此构造函数的权限。
+            <exception cref="T:System.MethodAccessException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.MemberAccessException"/>, 、 相反。调用方没有调用此构造函数的权限。
             </exception>
-            <exception cref="T:System.MemberAccessException">无法创建抽象类的实例，或者用后期绑定机制调用了该成员。</exception>
+            <exception cref="T:System.MemberAccessException">无法创建抽象类的实例，或者用后期绑定机制调用了该成员。
+            </exception>
             <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">COM 类型不是通过
                 <see cref="Overload:System.Type.GetTypeFromProgID"/>
                 或
                 <see cref="Overload:System.Type.GetTypeFromCLSID"/>
                 获得的。
             </exception>
-            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.MissingMemberException"/>, 、 相反。找不到匹配的公共构造函数。
+            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.MissingMemberException"/>, 、 相反。找不到匹配的公共构造函数。
             </exception>
             <exception cref="T:System.Runtime.InteropServices.COMException">
                 <paramref name="type"/>
@@ -507,7 +549,9 @@
                 类的新实例。
             </summary>
             <param name="message">说明发生此异常的原因的错误消息。</param>
-            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为 Nothing）。</param>
+            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为
+                Nothing）。
+            </param>
         </member>
         <member name="M:System.ArgumentNullException.#ctor(System.String,System.String)">
             <summary>使用指定的错误消息和导致此异常的参数的名称来初始化
@@ -540,7 +584,9 @@
                 类的新实例。
             </summary>
             <param name="message">说明发生此异常的原因的错误消息。</param>
-            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为 Nothing）。</param>
+            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为
+                Nothing）。
+            </param>
         </member>
         <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)">
             <summary>使用指定的错误消息、参数名和参数值来初始化
@@ -611,7 +657,9 @@
             </param>
         </member>
         <member name="T:System.Array">
-            <summary>提供一些方法，用于创建、处理、搜索数组并对数组进行排序，从而充当公共语言运行时中所有数组的基类。若要浏览此类型的.NET Framework 源代码，请参阅参考源。</summary>
+            <summary>提供一些方法，用于创建、处理、搜索数组并对数组进行排序，从而充当公共语言运行时中所有数组的基类。若要浏览此类型的.NET
+                Framework 源代码，请参阅参考源。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)">
@@ -1346,7 +1394,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.CopyTo(System.Array,System.Int32)">
-            <summary>从指定的目标数组索引处开始，将当前一维数组的所有元素复制到指定的一维数组中。索引指定为 32 位整数。</summary>
+            <summary>从指定的目标数组索引处开始，将当前一维数组的所有元素复制到指定的一维数组中。索引指定为 32 位整数。
+            </summary>
             <param name="array">一维数组，它是从当前数组复制的元素的目标。</param>
             <param name="index">一个 32 位整数，它表示
                 <paramref name="array"/>
@@ -1559,7 +1608,8 @@
         </member>
         <member name="M:System.Array.FindAll``1(``0[],System.Predicate{``0})">
             <summary>检索与指定谓词定义的条件匹配的所有元素。</summary>
-            <returns>如果找到一个其中所有元素均与指定谓词定义的条件匹配的<see cref="T:System.Array"/>，则为该数组；否则为一个空<see cref="T:System.Array"/>。
+            <returns>如果找到一个其中所有元素均与指定谓词定义的条件匹配的<see cref="T:System.Array"/>，则为该数组；否则为一个空
+                <see cref="T:System.Array"/>。
             </returns>
             <param name="array">要搜索的从零开始的一维<see cref="T:System.Array"/>。
             </param>
@@ -1903,8 +1953,11 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.IndexOf(System.Array,System.Object,System.Int32)">
-            <summary>在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围为从指定索引到该数组结尾。</summary>
-            <returns>第一个匹配项的索引<paramref name="value"/>，如果找到了），并让它在范围中的元素内<paramref name="array"/>用于扩展从<paramref
+            <summary>
+                在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围为从指定索引到该数组结尾。
+            </summary>
+            <returns>第一个匹配项的索引<paramref name="value"/>，如果找到了），并让它在范围中的元素内<paramref
+                    name="array"/>用于扩展从<paramref
                     name="startIndex"/>到最后一个元素 ；否则的下限减 1 的数组。
             </returns>
             <param name="array">要搜索的一维数组。</param>
@@ -1930,8 +1983,11 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)">
-            <summary>在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围从指定数量的元素的指定索引开始。</summary>
-            <returns>第一个匹配项的索引<paramref name="value"/>，如果它找到，则在<paramref name="array"/>从索引<paramref name="startIndex"/>到
+            <summary>
+                在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围从指定数量的元素的指定索引开始。
+            </summary>
+            <returns>第一个匹配项的索引<paramref name="value"/>，如果它找到，则在<paramref name="array"/>从索引<paramref
+                    name="startIndex"/>到
                 <paramref name="startIndex"/>+
                 <paramref name="count"/>
                 -1 ；否则的下限减 1 的数组。
@@ -1969,7 +2025,8 @@
         </member>
         <member name="M:System.Array.IndexOf``1(``0[],``0)">
             <summary>在一个一维数组中搜索指定对象，并返回其首个匹配项的索引。</summary>
-            <returns>第一个匹配项的从零开始的索引<paramref name="value"/>在整个<paramref name="array"/>，如果找到，则否则为 – 1。
+            <returns>第一个匹配项的从零开始的索引<paramref name="value"/>在整个<paramref name="array"/>，如果找到，则否则为
+                – 1。
             </returns>
             <param name="array">要搜索的从零开始的一维数组。</param>
             <param name="value">要在
@@ -1983,7 +2040,9 @@
             </exception>
         </member>
         <member name="M:System.Array.IndexOf``1(``0[],``0,System.Int32)">
-            <summary>在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围为从指定索引到该数组结尾。</summary>
+            <summary>
+                在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围为从指定索引到该数组结尾。
+            </summary>
             <returns>如果在
                 <paramref name="array"/>
                 中从
@@ -2011,7 +2070,9 @@
             </exception>
         </member>
         <member name="M:System.Array.IndexOf``1(``0[],``0,System.Int32,System.Int32)">
-            <summary>在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围从指定数量的元素的指定索引开始。</summary>
+            <summary>
+                在一个一维数组的一系列元素中搜索指定对象，然后返回其首个匹配项的索引。该元素系列的范围从指定数量的元素的指定索引开始。
+            </summary>
             <returns>如果在
                 <paramref name="array"/>
                 中从
@@ -3648,7 +3709,8 @@
         </member>
         <member name="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Remove(`0)">
             <summary>从数组段中移除特定对象的第一个匹配项。</summary>
-            <returns>如果从数组段中成功移除了<paramref name="item"/>，则为 true；否则为 false。如果在数组段中找不到<paramref name="item"/>，此方法也会返回
+            <returns>如果从数组段中成功移除了<paramref name="item"/>，则为 true；否则为 false。如果在数组段中找不到
+                <paramref name="item"/>，此方法也会返回
                 false。
             </returns>
             <param name="item">要从数组段中移除的对象。</param>
@@ -4035,7 +4097,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Boolean.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="obj"/>
                 的相对顺序。返回值条件小于零此实例为 false 而
@@ -4131,7 +4195,8 @@
         </member>
         <member name="M:System.Boolean.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.Boolean.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>一个指定类型的对象，其值与 Boolean 对象的值相等。</returns>
             <param name="type">所需类型。</param>
@@ -4346,7 +4411,8 @@
             <summary>将此实例与指定的 8 位无符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
-                的相对顺序。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对顺序。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -4553,7 +4619,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Byte.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Description Less than zero This instance precedes
@@ -4649,7 +4717,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Byte.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -4767,7 +4836,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Byte.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Byte@)">
-            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效<see cref="T:System.Byte"/>。一个指示转换是否成功的返回值。
+            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效<see cref="T:System.Byte"/>
+                。一个指示转换是否成功的返回值。
             </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
@@ -5318,7 +5388,8 @@
                 <paramref name="index"/>
                 + 1 位置处的相邻字符，并且
                 <paramref name="index"/>
-                位置处字符的数值范围从 U+D800 到 U+DBFF，<paramref name="index"/>+1 位置处字符的数值范围从 U+DC00 到 U+DFFF，则为<paramref
+                位置处字符的数值范围从 U+D800 到 U+DBFF，<paramref name="index"/>+1 位置处字符的数值范围从 U+DC00 到
+                U+DFFF，则为<paramref
                         name="index"/>；否则为 false。
             </returns>
             <param name="s">一个字符串。</param>
@@ -5460,7 +5531,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Char.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号整数，指示此实例在排序顺序中相对于
                 <paramref name="value"/>
                 参数的位置。返回值 描述 小于零 此实例在排序顺序中位于
@@ -5573,7 +5646,8 @@
         </member>
         <member name="M:System.Char.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.Char.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>指定类型的对象。</returns>
             <param name="type">一个
@@ -5730,7 +5804,9 @@
         </member>
         <member name="T:System.Comparison`1">
             <summary>表示比较同一类型的两个对象的方法。</summary>
-            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Comparison`1.#ctor(System.Object,System.IntPtr)"></member>
@@ -5738,7 +5814,9 @@
         <member name="M:System.Comparison`1.EndInvoke(System.IAsyncResult)"></member>
         <member name="M:System.Comparison`1.Invoke(`0,`0)"></member>
         <member name="T:System.DateTime">
-            <summary>表示时间上的一刻，通常以日期和当天的时间表示。若要浏览此类型的.NET Framework 源代码，请参阅 Reference Source。</summary>
+            <summary>表示时间上的一刻，通常以日期和当天的时间表示。若要浏览此类型的.NET Framework 源代码，请参阅 Reference
+                Source。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.#ctor(System.Int32,System.Int32,System.Int32)">
@@ -5808,7 +5886,8 @@
             <param name="hour">小时（0 到 23）。</param>
             <param name="minute">分（0 到 59）。</param>
             <param name="second">秒（0 到 59）。</param>
-            <param name="kind">枚举值之一，该值指示<paramref name="year"/>、<paramref name="month"/>、<paramref name="day"/>、
+            <param name="kind">枚举值之一，该值指示<paramref name="year"/>、<paramref name="month"/>、<paramref
+                    name="day"/>、
                 <paramref name="hour"/>、
                 <paramref name="minute"/>
                 和
@@ -5887,7 +5966,8 @@
             <param name="minute">分（0 到 59）。</param>
             <param name="second">秒（0 到 59）。</param>
             <param name="millisecond">毫秒（0 到 999）。</param>
-            <param name="kind">枚举值之一，该值指示<paramref name="year"/>、<paramref name="month"/>、<paramref name="day"/>,
+            <param name="kind">枚举值之一，该值指示<paramref name="year"/>、<paramref name="month"/>、<paramref
+                    name="day"/>,
                 <paramref name="hour"/>、<paramref name="minute"/>、
                 <paramref name="second"/>
                 和
@@ -5924,7 +6004,9 @@
                 <see cref="T:System.DateTime"/>
                 结构的新实例初始化为指定的刻度数。
             </summary>
-            <param name="ticks">一个日期和时间，以公历 0001 年 1 月 1 日 00:00:00.000 以来所经历的以 100 纳秒为间隔的间隔数来表示。</param>
+            <param name="ticks">一个日期和时间，以公历 0001 年 1 月 1 日 00:00:00.000 以来所经历的以 100
+                纳秒为间隔的间隔数来表示。
+            </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="ticks"/>
                 小于
@@ -5937,7 +6019,9 @@
                 <see cref="T:System.DateTime"/>
                 结构的新实例初始化为指定的计时周期数以及协调世界时 (UTC) 或本地时间。
             </summary>
-            <param name="ticks">一个日期和时间，以公历 0001 年 1 月 1 日 00:00:00.000 以来所经历的以 100 纳秒为间隔的间隔数来表示。</param>
+            <param name="ticks">一个日期和时间，以公历 0001 年 1 月 1 日 00:00:00.000 以来所经历的以 100
+                纳秒为间隔的间隔数来表示。
+            </param>
             <param name="kind">枚举值之一，该值指示
                 <paramref name="ticks"/>
                 是指定了本地时间、协调世界时 (UTC)，还是两者皆未指定。
@@ -6316,7 +6400,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.GetDateTimeFormats(System.Char,System.IFormatProvider)">
-            <summary>将此实例的值转换为指定的标准日期和时间格式说明符和区域性特定格式信息支持的所有字符串表示形式。</summary>
+            <summary>将此实例的值转换为指定的标准日期和时间格式说明符和区域性特定格式信息支持的所有字符串表示形式。
+            </summary>
             <returns>字符串数组，其中每个元素都表示此实例的以标准日期和时间格式说明符之一进行格式设置的一个值。</returns>
             <param name="format">日期和时间格式字符串（请参见注解）。</param>
             <param name="provider">一个对象，它提供有关此实例的区域性特定格式设置信息。</param>
@@ -6327,7 +6412,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.GetDateTimeFormats(System.IFormatProvider)">
-            <summary>将此实例的值转换为标准日期和时间格式说明符和指定的区域性特定格式信息支持的所有字符串表示形式。</summary>
+            <summary>将此实例的值转换为标准日期和时间格式说明符和指定的区域性特定格式信息支持的所有字符串表示形式。
+            </summary>
             <returns>字符串数组，其中每个元素都表示此实例的以标准日期和时间格式说明符之一进行格式设置的一个值。</returns>
             <param name="provider">一个对象，它提供有关此实例的区域性特定格式设置信息。</param>
             <filterpriority>2</filterpriority>
@@ -6351,7 +6437,8 @@
                 <see cref="P:System.DateTime.Kind"/>
                 或<see cref="F:System.DateTimeKind.Local"/>，并且
                 <see cref="F:System.DateTimeKind.Unspecified"/>
-                的此实例的值在当前时区的夏时制范围内，则为<see cref="T:System.DateTime"/>；如果 false 为<see cref="P:System.DateTime.Kind"/>，则为
+                的此实例的值在当前时区的夏时制范围内，则为<see cref="T:System.DateTime"/>；如果 false 为<see
+                        cref="P:System.DateTime.Kind"/>，则为
                 <see cref="F:System.DateTimeKind.Utc"/>。
             </returns>
             <filterpriority>2</filterpriority>
@@ -6549,7 +6636,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.Parse(System.String,System.IFormatProvider)">
-            <summary>使用指定的区域性特定格式设置信息，将日期和时间的字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>。
+            <summary>使用指定的区域性特定格式设置信息，将日期和时间的字符串表示形式转换为其等效的<see
+                    cref="T:System.DateTime"/>。
             </summary>
             <returns>一个对象，它等效于
                 <paramref name="s"/>
@@ -6573,7 +6661,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的区域性特定格式设置信息和格式类型，将日期和时间的字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>。
+            <summary>使用指定的区域性特定格式设置信息和格式类型，将日期和时间的字符串表示形式转换为其等效的<see
+                    cref="T:System.DateTime"/>。
             </summary>
             <returns>一个对象，它等效于
                 <paramref name="s"/>
@@ -6590,7 +6679,8 @@
             </param>
             <param name="styles">枚举值的按位组合，用于指示
                 <paramref name="s"/>
-                成功执行分析操作所需的样式元素以及定义如何根据当前时区或当前日期解释已分析日期的样式元素。要指定的一个典型值为<see
+                成功执行分析操作所需的样式元素以及定义如何根据当前时区或当前日期解释已分析日期的样式元素。要指定的一个典型值为
+                <see
                         cref="F:System.Globalization.DateTimeStyles.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -6612,7 +6702,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.ParseExact(System.String,System.String,System.IFormatProvider)">
-            <summary>使用指定的格式和区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>。字符串表示形式的格式必须与指定的格式完全匹配。
+            <summary>使用指定的格式和区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的<see
+                    cref="T:System.DateTime"/>。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>一个对象，它等效于
                 <paramref name="s"/>
@@ -6652,7 +6743,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>
+            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTime"/>
                 。字符串表示形式的格式必须与指定的格式完全匹配，否则会引发异常。
             </summary>
             <returns>一个对象，它等效于
@@ -6709,7 +6801,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>
+            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTime"/>
                 。字符串表示形式的格式必须至少与指定的格式之一完全匹配，否则会引发异常。
             </summary>
             <returns>一个对象，它等效于
@@ -6814,7 +6907,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.DateTime.System#IComparable#CompareTo(System.Object)">
-            <summary>将实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号数字，指示此实例和
                 <paramref name="value"/>
                 的相对顺序。值 描述 小于零 此实例在排序顺序中位于
@@ -7002,7 +7097,9 @@
         </member>
         <member name="P:System.DateTime.Ticks">
             <summary>获取表示此实例的日期和时间的计时周期数。</summary>
-            <returns>表示此实例的日期和时间的计时周期数。该值介于 DateTime.MinValue.Ticks 和 DateTime.MaxValue.Ticks 之间。</returns>
+            <returns>表示此实例的日期和时间的计时周期数。该值介于 DateTime.MinValue.Ticks 和 DateTime.MaxValue.Ticks
+                之间。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="P:System.DateTime.TimeOfDay">
@@ -7039,7 +7136,8 @@
                 <see cref="T:System.DateTime"/>
                 对象的值。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时公元 1601 年 1 月 1 日午夜 12:00 之前的日期和时间。
+            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时公元 1601 年 1 月 1
+                日午夜 12:00 之前的日期和时间。
             </exception>
             <filterpriority>2</filterpriority>
         </member>
@@ -7052,7 +7150,8 @@
                 <see cref="T:System.DateTime"/>
                 对象的值。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时公元 1601 年 1 月 1 日午夜 12:00 之前的日期和时间。
+            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时公元 1601 年 1 月 1
+                日午夜 12:00 之前的日期和时间。
             </exception>
             <filterpriority>2</filterpriority>
         </member>
@@ -7082,7 +7181,9 @@
                 <see cref="T:System.DateTime"/>
                 对象的值的字符串表示形式。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">当前区域性所使用的日历支持的日期范围之外的日期和时间。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                当前区域性所使用的日历支持的日期范围之外的日期和时间。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.ToString(System.IFormatProvider)">
@@ -7123,7 +7224,9 @@
                 <paramref name="format"/>
                 中不包含有效的自定义格式模式。
             </exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">当前区域性所使用的日历支持的日期范围之外的日期和时间。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                当前区域性所使用的日历支持的日期范围之外的日期和时间。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.ToString(System.String,System.IFormatProvider)">
@@ -7202,8 +7305,9 @@
                 <paramref name="s"/>
                 的区域性特定格式设置信息。
             </param>
-            <param name="styles">枚举值的按位组合，该组合定义如何根据当前时区或当前日期解释已分析日期。要指定的一个典型值为<see
-                    cref="F:System.Globalization.DateTimeStyles.None"/>。
+            <param name="styles">枚举值的按位组合，该组合定义如何根据当前时区或当前日期解释已分析日期。要指定的一个典型值为
+                <see
+                        cref="F:System.Globalization.DateTimeStyles.None"/>。
             </param>
             <param name="result">当此方法返回时，如果转换成功，则包含与
                 <see cref="T:System.DateTime"/>
@@ -7232,7 +7336,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)">
-            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>
+            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTime"/>
                 。字符串表示形式的格式必须与指定的格式完全匹配。该方法返回一个指示转换是否成功的值。
             </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
@@ -7277,7 +7382,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.DateTime.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)">
-            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTime"/>
+            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTime"/>
                 。字符串表示形式的格式必须至少与指定的格式之一完全匹配。该方法返回一个指示转换是否成功的值。
             </summary>
             <returns>如果 true 参数成功转换，则为<paramref name="s"/>；否则为 false。
@@ -7368,9 +7474,10 @@
                 结构的新实例。
             </summary>
             <param name="dateTime">日期和时间。</param>
-            <exception cref="T:System.ArgumentOutOfRangeException">通过应用偏移量所产生的协调世界时 (UTC) 的日期和时间早于<see
-                    cref="F:System.DateTimeOffset.MinValue"/>。- 或 -通过应用偏移量所产生的 UTC 日期和时间晚于<see
-                    cref="F:System.DateTimeOffset.MaxValue"/>。
+            <exception cref="T:System.ArgumentOutOfRangeException">通过应用偏移量所产生的协调世界时 (UTC) 的日期和时间早于
+                <see
+                        cref="F:System.DateTimeOffset.MinValue"/>。- 或 -通过应用偏移量所产生的 UTC 日期和时间晚于<see
+                        cref="F:System.DateTimeOffset.MaxValue"/>。
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.#ctor(System.DateTime,System.TimeSpan)">
@@ -7493,7 +7600,9 @@
                 <see cref="T:System.DateTimeOffset"/>
                 结构的新实例。
             </summary>
-            <param name="ticks">一个日期和时间，以 0001 年 1 月 1 日午夜 12:00:00 以来所经历的以 100 纳秒为间隔的间隔数来表示。</param>
+            <param name="ticks">一个日期和时间，以 0001 年 1 月 1 日午夜 12:00:00 以来所经历的以 100
+                纳秒为间隔的间隔数来表示。
+            </param>
             <param name="offset">与协调世界时 (UTC) 之间的时间偏移量。</param>
             <exception cref="T:System.ArgumentException">未采用整分钟数指定<paramref name="offset"/>。
             </exception>
@@ -7853,7 +7962,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.FromUnixTimeMilliseconds(System.Int64)">
-            <summary>将表示为自 1970 年 1 经过的毫秒数 Unix 时间转换为-01-到 01T00:00:00Z<see cref="T:System.DateTimeOffset"/>值。
+            <summary>将表示为自 1970 年 1 经过的毫秒数 Unix 时间转换为-01-到 01T00:00:00Z<see
+                    cref="T:System.DateTimeOffset"/>值。
             </summary>
             <returns>日期和时间值，该值表示为 Unix 时间的时间在同一时刻。</returns>
             <param name="milliseconds">一个 Unix 时间，它表示为从 1970-01-01T00:00:00Z（1970 年 1 月 1 日，UTC 时间上午
@@ -7867,10 +7977,12 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.FromUnixTimeSeconds(System.Int64)">
-            <summary>将 Unix 时间表示为自 1970 年 1 已过去的秒数转换-01-到 01T00:00:00Z<see cref="T:System.DateTimeOffset"/>值。
+            <summary>将 Unix 时间表示为自 1970 年 1 已过去的秒数转换-01-到 01T00:00:00Z<see
+                    cref="T:System.DateTimeOffset"/>值。
             </summary>
             <returns>日期和时间值，该值表示为 Unix 时间的时间在同一时刻。</returns>
-            <param name="seconds">一个 Unix 时间，它表示为从 1970-01-01T00:00:00Z（1970 年 1 月 1 日，UTC 时间上午 12:00）开始已经过的秒数。对于在此日期之前的
+            <param name="seconds">一个 Unix 时间，它表示为从 1970-01-01T00:00:00Z（1970 年 1 月 1 日，UTC 时间上午
+                12:00）开始已经过的秒数。对于在此日期之前的
                 Unix 时间，其值为负数。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -8057,9 +8169,10 @@
             </summary>
             <returns>被转换的对象。</returns>
             <param name="dateTime">要转换的对象。</param>
-            <exception cref="T:System.ArgumentOutOfRangeException">通过应用偏移量所产生的协调世界时 (UTC) 的日期和时间早于<see
-                    cref="F:System.DateTimeOffset.MinValue"/>。- 或 -通过应用偏移量所产生的 UTC 日期和时间晚于<see
-                    cref="F:System.DateTimeOffset.MaxValue"/>。
+            <exception cref="T:System.ArgumentOutOfRangeException">通过应用偏移量所产生的协调世界时 (UTC) 的日期和时间早于
+                <see
+                        cref="F:System.DateTimeOffset.MinValue"/>。- 或 -通过应用偏移量所产生的 UTC 日期和时间晚于<see
+                        cref="F:System.DateTimeOffset.MaxValue"/>。
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.op_Inequality(System.DateTimeOffset,System.DateTimeOffset)">
@@ -8170,7 +8283,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.Parse(System.String,System.IFormatProvider)">
-            <summary>使用指定的区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>。
+            <summary>使用指定的区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的<see
+                    cref="T:System.DateTimeOffset"/>。
             </summary>
             <returns>一个对象，它等效于
                 <paramref name="input"/>
@@ -8196,7 +8310,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.Parse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的区域性特定格式信息和格式设置样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>。
+            <summary>使用指定的区域性特定格式信息和格式设置样式将日期和时间的指定字符串表示形式转换为其等效的<see
+                    cref="T:System.DateTimeOffset"/>。
             </summary>
             <returns>一个对象，它等效于
                 <paramref name="input"/>
@@ -8241,7 +8356,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.ParseExact(System.String,System.String,System.IFormatProvider)">
-            <summary>使用指定的格式和区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>
+            <summary>使用指定的格式和区域性特定格式信息，将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTimeOffset"/>
                 。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>一个对象，它等效于
@@ -8280,7 +8396,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>
+            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTimeOffset"/>
                 。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>一个对象，它等效于
@@ -8330,7 +8447,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles)">
-            <summary>使用指定的格式、区域性特定格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>
+            <summary>使用指定的格式、区域性特定格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTimeOffset"/>
                 。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>一个对象，它等效于
@@ -8467,7 +8585,8 @@
                 <see cref="T:System.DateTimeOffset"/>
                 对象的值。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时 (UTC) 公元 1601 年 1 月 1
+            <exception cref="T:System.ArgumentOutOfRangeException">所生成的文件时间将表示协调世界时 (UTC) 公元 1601 年 1
+                月 1
                 日午夜之前的日期和时间协调世界时 (UTC)。
             </exception>
         </member>
@@ -8526,7 +8645,9 @@
                 <see cref="T:System.DateTimeOffset"/>
                 对象的字符串表示形式，并在字符串末尾追加了偏移量。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">当前区域性所使用的日历支持的日期范围之外的日期和时间。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                当前区域性所使用的日历支持的日期范围之外的日期和时间。
+            </exception>
         </member>
         <member name="M:System.DateTimeOffset.ToString(System.IFormatProvider)">
             <summary>使用指定的区域性特定格式设置信息将当前
@@ -8563,7 +8684,9 @@
                 <paramref name="format"/>
                 中不包含有效的自定义格式模式。
             </exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">当前区域性所使用的日历支持的日期范围之外的日期和时间。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                当前区域性所使用的日历支持的日期范围之外的日期和时间。
+            </exception>
         </member>
         <member name="M:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)">
             <summary>使用指定的格式和区域性特定格式信息将当前
@@ -8614,7 +8737,8 @@
             <returns>自 1970 年 1 已过去的秒数-01-01T00:00:00Z。</returns>
         </member>
         <member name="M:System.DateTimeOffset.TryParse(System.String,System.DateTimeOffset@)">
-            <summary>尝试将日期和时间的指定字符串表示形式转换为它的等效<see cref="T:System.DateTimeOffset"/>，并返回一个指示转换是否成功的值。
+            <summary>尝试将日期和时间的指定字符串表示形式转换为它的等效<see cref="T:System.DateTimeOffset"/>
+                ，并返回一个指示转换是否成功的值。
             </summary>
             <returns>如果
                 <paramref name="input"/>
@@ -8623,14 +8747,16 @@
             <param name="input">包含要转换的日期和时间的字符串。</param>
             <param name="result">当此方法返回时，如果转换成功，则包含与
                 <paramref name="input"/>
-                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含<see cref="F:System.DateTimeOffset.MinValue"/>
+                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 。如果
                 <paramref name="input"/>
                 参数为 null，或者不包含日期和时间的有效字符串表示形式，则转换失败。此参数未经初始化即被传递。
             </param>
         </member>
         <member name="M:System.DateTimeOffset.TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)">
-            <summary>尝试将日期和时间的指定字符串表示形式转换为它的等效<see cref="T:System.DateTimeOffset"/>，并返回一个指示转换是否成功的值。
+            <summary>尝试将日期和时间的指定字符串表示形式转换为它的等效<see cref="T:System.DateTimeOffset"/>
+                ，并返回一个指示转换是否成功的值。
             </summary>
             <returns>如果
                 <paramref name="input"/>
@@ -8665,7 +8791,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)">
-            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>
+            <summary>使用指定的格式、区域性特定的格式信息和样式将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTimeOffset"/>
                 。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -8684,7 +8811,8 @@
             <param name="styles">枚举值的一个按位组合，指示输入所允许的格式。要指定的一个典型值为 None。</param>
             <param name="result">当此方法返回时，如果转换成功，则包含与
                 <paramref name="input"/>
-                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含<see cref="F:System.DateTimeOffset.MinValue"/>
+                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 。如果
                 <paramref name="input"/>
                 参数为 null，或者该参数不包含
@@ -8705,7 +8833,8 @@
             </exception>
         </member>
         <member name="M:System.DateTimeOffset.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTimeOffset@)">
-            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的<see cref="T:System.DateTimeOffset"/>
+            <summary>使用指定的格式数组、区域性特定格式信息和样式，将日期和时间的指定字符串表示形式转换为其等效的
+                <see cref="T:System.DateTimeOffset"/>
                 。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -8724,7 +8853,8 @@
             <param name="styles">枚举值的一个按位组合，指示输入所允许的格式。要指定的一个典型值为 None。</param>
             <param name="result">当此方法返回时，如果转换成功，则包含与
                 <paramref name="input"/>
-                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含<see cref="F:System.DateTimeOffset.MinValue"/>
+                的日期和时间等效的<see cref="T:System.DateTimeOffset"/>；如果转换失败，则包含
+                <see cref="F:System.DateTimeOffset.MinValue"/>
                 。如果
                 <paramref name="input"/>
                 不包含日期和时间的有效字符串表示形式，或者不包含
@@ -8985,7 +9115,8 @@
             </summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return value Meaning Less than zero This instance is less than<paramref name="value"/>. Zero This
+                的相对值。Return value Meaning Less than zero This instance is less than<paramref name="value"/>. Zero
+                This
                 instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than<paramref
                         name="value"/>.
             </returns>
@@ -9863,7 +9994,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Decimal.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -9979,7 +10112,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Decimal.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -10549,7 +10683,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.CompareTo(System.Double)">
-            <summary>将此实例与指定的双精度浮点数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定双精度浮点数的值。</summary>
+            <summary>
+                将此实例与指定的双精度浮点数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定双精度浮点数的值。
+            </summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
                 的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.-or-
@@ -10880,7 +11016,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -10976,7 +11114,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -11067,7 +11206,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)">
-            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效双精度浮点数。一个指示转换是否成功的返回值。</summary>
+            <summary>
+                将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效双精度浮点数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">包含要转换的数字的字符串。</param>
@@ -11354,7 +11495,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Enum.Parse(System.Type,System.String,System.Boolean)">
-            <summary>将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。一个参数指定该操作是否不区分大小写。</summary>
+            <summary>
+                将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。一个参数指定该操作是否不区分大小写。
+            </summary>
             <returns>
                 <paramref name="enumType"/>
                 类型的对象，其值由
@@ -11538,7 +11681,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Enum.TryParse``1(System.String,System.Boolean,``0@)">
-            <summary>将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。一个参数指定该操作是否区分大小写。用于指示转换是否成功的返回值。</summary>
+            <summary>
+                将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。一个参数指定该操作是否区分大小写。用于指示转换是否成功的返回值。
+            </summary>
             <returns>如果
                 <paramref name="value"/>
                 参数成功转换，则为 true；否则为 false。
@@ -11567,7 +11712,8 @@
             </exception>
         </member>
         <member name="M:System.Enum.TryParse``1(System.String,``0@)">
-            <summary>将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。用于指示转换是否成功的返回值。</summary>
+            <summary>将一个或多个枚举常数的名称或数字值的字符串表示转换成等效的枚举对象。用于指示转换是否成功的返回值。
+            </summary>
             <returns>如果
                 <paramref name="value"/>
                 参数成功转换，则为 true；否则为 false。
@@ -11654,7 +11800,9 @@
                 类的新实例。
             </summary>
             <param name="message">解释异常原因的错误消息。</param>
-            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为 Nothing）。</param>
+            <param name="innerException">导致当前异常的异常；如果未指定内部异常，则是一个 null 引用（在 Visual Basic 中为
+                Nothing）。
+            </param>
         </member>
         <member name="P:System.Exception.Data">
             <summary>获取提供有关异常的其他用户定义信息的键/值对集合。</summary>
@@ -11815,7 +11963,8 @@
         <member name="M:System.FormattableString.GetArgument(System.Int32)">
             <summary>返回指定的索引位置处的参数。</summary>
             <returns>参数。</returns>
-            <param name="index">参数的索引。其值可以介于 0 到减 1 所得的值<see cref="P:System.FormattableString.ArgumentCount"/>。
+            <param name="index">参数的索引。其值可以介于 0 到减 1 所得的值<see
+                    cref="P:System.FormattableString.ArgumentCount"/>。
             </param>
         </member>
         <member name="M:System.FormattableString.GetArguments">
@@ -11853,7 +12002,8 @@
                 <paramref name="TResult"/>
                 参数指定的类型值的方法。
             </summary>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>1</filterpriority>
         </member>
@@ -11866,7 +12016,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -11875,7 +12027,8 @@
             <typeparam name="T7">此委托封装的方法的第七个参数的类型。</typeparam>
             <typeparam name="T8">此委托封装的方法的第八个参数的类型。</typeparam>
             <typeparam name="T9">此委托封装的方法的第九个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -11888,7 +12041,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -11898,7 +12053,8 @@
             <typeparam name="T8">此委托封装的方法的第八个参数的类型。</typeparam>
             <typeparam name="T9">此委托封装的方法的第九个参数的类型。</typeparam>
             <typeparam name="T10">此委托封装的方法的第十个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -11911,7 +12067,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -11922,7 +12080,8 @@
             <typeparam name="T9">此委托封装的方法的第九个参数的类型。</typeparam>
             <typeparam name="T10">此委托封装的方法的第十个参数的类型。</typeparam>
             <typeparam name="T11">此委托封装的方法的第十一个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -11935,7 +12094,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -11947,7 +12108,8 @@
             <typeparam name="T10">此委托封装的方法的第十个参数的类型。</typeparam>
             <typeparam name="T11">此委托封装的方法的第十一个参数的类型。</typeparam>
             <typeparam name="T12">此委托封装的方法的第十二个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -11960,7 +12122,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -11973,7 +12137,8 @@
             <typeparam name="T11">此委托封装的方法的第十一个参数的类型。</typeparam>
             <typeparam name="T12">此委托封装的方法的第十二个参数的类型。</typeparam>
             <typeparam name="T13">此委托封装的方法的第十三个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -11986,7 +12151,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -12000,7 +12167,8 @@
             <typeparam name="T12">此委托封装的方法的第十二个参数的类型。</typeparam>
             <typeparam name="T13">此委托封装的方法的第十三个参数的类型。</typeparam>
             <typeparam name="T14">此委托封装的方法的第十四个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12013,7 +12181,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -12028,7 +12198,8 @@
             <typeparam name="T13">此委托封装的方法的第十三个参数的类型。</typeparam>
             <typeparam name="T14">此委托封装的方法的第十四个参数的类型。</typeparam>
             <typeparam name="T15">此委托封装的方法的第十五个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12041,7 +12212,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -12057,7 +12230,8 @@
             <typeparam name="T14">此委托封装的方法的第十四个参数的类型。</typeparam>
             <typeparam name="T15">此委托封装的方法的第十五个参数的类型。</typeparam>
             <typeparam name="T16">此委托封装的方法的第十六个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12070,8 +12244,11 @@
                 <paramref name="TResult"/>
                 参数指定的类型值的方法。若要浏览此类型的 .NET Framework 源代码，请参阅引用源。
             </summary>
-            <typeparam name="T">此委托封装的方法的参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="T">此委托封装的方法的参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12084,9 +12261,12 @@
                 <paramref name="TResult"/>
                 参数指定的类型值的方法。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12099,10 +12279,13 @@
                 <paramref name="TResult"/>
                 参数指定的类型值的方法。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12115,11 +12298,14 @@
                 <paramref name="TResult"/>
                 参数指定的类型值的方法。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12132,12 +12318,15 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
             <typeparam name="T5">此委托封装的方法的第五个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12150,13 +12339,16 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
             <typeparam name="T5">此委托封装的方法的第五个参数的类型。</typeparam>
             <typeparam name="T6">此委托封装的方法的第六个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12169,14 +12361,17 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
             <typeparam name="T5">此委托封装的方法的第五个参数的类型。</typeparam>
             <typeparam name="T6">此委托封装的方法的第六个参数的类型。</typeparam>
             <typeparam name="T7">此委托封装的方法的第七个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12189,7 +12384,9 @@
                 <paramref name="TResult"/>
                 参数所指定的类型的值。
             </summary>
-            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T1">此委托封装的方法的第一个参数类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <typeparam name="T2">此委托封装的方法的第二个参数类型。</typeparam>
             <typeparam name="T3">此委托封装的方法的第三个参数类型。</typeparam>
             <typeparam name="T4">此委托封装的方法的第四个参数类型。</typeparam>
@@ -12197,7 +12394,8 @@
             <typeparam name="T6">此委托封装的方法的第六个参数的类型。</typeparam>
             <typeparam name="T7">此委托封装的方法的第七个参数的类型。</typeparam>
             <typeparam name="T8">此委托封装的方法的第八个参数的类型。</typeparam>
-            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。
+            <typeparam name="TResult">此委托封装的方法的返回值类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
             </typeparam>
             <filterpriority>2</filterpriority>
         </member>
@@ -12246,7 +12444,8 @@
             <param name="generation">最后一代进行垃圾回收次数。</param>
             <param name="mode">一个枚举值，指定垃圾回收是强制进行（
                 <see cref="F:System.GCCollectionMode.Default"/>
-                或<see cref="F:System.GCCollectionMode.Forced"/>）还是优化 (<see cref="F:System.GCCollectionMode.Optimized"/>
+                或<see cref="F:System.GCCollectionMode.Forced"/>）还是优化 (
+                <see cref="F:System.GCCollectionMode.Optimized"/>
                 )。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -12266,7 +12465,8 @@
             <param name="generation">最后一代进行垃圾回收次数。</param>
             <param name="mode">一个枚举值，指定垃圾回收是强制进行（
                 <see cref="F:System.GCCollectionMode.Default"/>
-                或<see cref="F:System.GCCollectionMode.Forced"/>）还是优化 (<see cref="F:System.GCCollectionMode.Optimized"/>
+                或<see cref="F:System.GCCollectionMode.Forced"/>）还是优化 (
+                <see cref="F:System.GCCollectionMode.Optimized"/>
                 )。
             </param>
             <param name="blocking">true 执行阻碍性垃圾回收；false 在可能的情况下执行后台垃圾回收。</param>
@@ -12299,7 +12499,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.GC.GetTotalMemory(System.Boolean)">
-            <summary>检索当前认为要分配的字节数。一个参数，指示此方法是否可以等待较短间隔再返回，以便系统回收垃圾和终结对象。</summary>
+            <summary>
+                检索当前认为要分配的字节数。一个参数，指示此方法是否可以等待较短间隔再返回，以便系统回收垃圾和终结对象。
+            </summary>
             <returns>一个数字，它是托管内存中当前所分配字节数的可用的最佳近似值。</returns>
             <param name="forceFullCollection">如果此方法可以在返回之前等待垃圾回收发生，则为 true；否则为 false。</param>
             <filterpriority>1</filterpriority>
@@ -12331,7 +12533,8 @@
             </PermissionSet>
         </member>
         <member name="M:System.GC.ReRegisterForFinalize(System.Object)">
-            <summary>请求系统调用指定对象的终结器，此前已为该对象调用<see cref="M:System.GC.SuppressFinalize(System.Object)"/>。
+            <summary>请求系统调用指定对象的终结器，此前已为该对象调用<see
+                    cref="M:System.GC.SuppressFinalize(System.Object)"/>。
             </summary>
             <param name="obj">必须为其调用终结器的对象。</param>
             <exception cref="T:System.ArgumentNullException">
@@ -12426,10 +12629,13 @@
                 <see cref="T:System.Guid"/>
                 类的新实例。
             </summary>
-            <param name="g">包含下面任一格式的 GUID 的字符串（“d”表示忽略大小写的十六进制数字）：32 个连续的数字：dddddddddddddddddddddddddddddddd- 或
-                -8、4、4、4 和 12 位数字的分组，各组之间有连线符。也可以用一对大括号或者圆括号将整个 GUID 括起来：dddddddd-dddd-dddd-dddd-dddddddddddd- 或
+            <param name="g">包含下面任一格式的 GUID 的字符串（“d”表示忽略大小写的十六进制数字）：32
+                个连续的数字：dddddddddddddddddddddddddddddddd- 或
+                -8、4、4、4 和 12 位数字的分组，各组之间有连线符。也可以用一对大括号或者圆括号将整个 GUID
+                括起来：dddddddd-dddd-dddd-dddd-dddddddddddd- 或
                 -{dddddddd-dddd-dddd-dddd-dddddddddddd}- 或 -(dddddddd-dddd-dddd-dddd-dddddddddddd)- 或 -8、4 和 4
-                位数字的分组，和一个 8 组 2 位数字的子集，每组都带有前缀“0x”或“0X”，以逗号分隔。整个 GUID 和子集用大括号括起来：{0xdddddddd, 0xdddd,
+                位数字的分组，和一个 8 组 2 位数字的子集，每组都带有前缀“0x”或“0X”，以逗号分隔。整个 GUID
+                和子集用大括号括起来：{0xdddddddd, 0xdddd,
                 0xdddd,{0xdd,0xdd,0xdd,0xdd,0xdd,0xdd,0xdd,0xdd}}所有大括号、逗号和“0x”前缀都是必需的。所有内置的空格都将被忽略。组中的所有前导零都将被忽略。组中显示的数字为可在该组显示的有意义数字的最大数目。你可以指定从
                 1 到为组显示的位数。指定的位数被认为是该组低序位的位数。
             </param>
@@ -12470,7 +12676,8 @@
             </summary>
             <returns>一个有符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。返回值描述负整数此实例小于<paramref name="value"/>。零此实例等于<paramref name="value"/>。正整数此实例大于<paramref
+                的相对值。返回值描述负整数此实例小于<paramref name="value"/>。零此实例等于<paramref name="value"/>
+                。正整数此实例大于<paramref
                         name="value"/>。
             </returns>
             <param name="value">要与此实例进行比较的对象。</param>
@@ -12588,7 +12795,8 @@
             <summary>将此实例与指定对象进行比较并返回一个对二者的相对值的指示。</summary>
             <returns>一个有符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。返回值描述负整数此实例小于<paramref name="value"/>。零此实例等于<paramref name="value"/>。正整数此实例大于<paramref
+                的相对值。返回值描述负整数此实例小于<paramref name="value"/>。零此实例等于<paramref name="value"/>
+                。正整数此实例大于<paramref
                         name="value"/>，或
                 <paramref name="value"/>
                 为 null。
@@ -12626,9 +12834,11 @@
         </member>
         <member name="M:System.Guid.ToString">
             <summary>返回注册表格式的此实例值的字符串表示形式。</summary>
-            <returns>这<see cref="T:System.Guid"/>的值，格式化通过使用“D”格式说明符如下所示: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 其中 GUID
+            <returns>这<see cref="T:System.Guid"/>的值，格式化通过使用“D”格式说明符如下所示:
+                xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx 其中 GUID
                 的值表示为一系列小写的十六进制位，这些十六进制位分别以 8 个、4 个、4 个、4 个和 12
-                个位为一组并由连字符分隔开。例如，返回值可以是“382c74c3-721d-4f34-80e5-57657b6cbc27”。若要将从 a 到 f 的十六进制数转换为大写，请对返回的字符串调用
+                个位为一组并由连字符分隔开。例如，返回值可以是“382c74c3-721d-4f34-80e5-57657b6cbc27”。若要将从 a 到 f
+                的十六进制数转换为大写，请对返回的字符串调用
                 <see cref="M:System.String.ToUpper"/>
                 方法。
             </returns>
@@ -12720,7 +12930,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IComparable.CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个值，指示要比较的对象的相对顺序。返回值的含义如下：值含义小于零此实例在排序顺序中位于
                 <paramref name="obj"/>
                 之前。零此实例在排序顺序中的位置与
@@ -12738,11 +12950,15 @@
         </member>
         <member name="T:System.IComparable`1">
             <summary>定义由值类型或类实现的通用比较方法，以为排序实例创建类型特定的比较方法。</summary>
-            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IComparable`1.CompareTo(`0)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个值，指示要比较的对象的相对顺序。返回值的含义如下：值含义小于零此实例在排序顺序中位于
                 <paramref name="other"/>
                 之前。零此实例在排序顺序中的位置与
@@ -12997,7 +13213,8 @@
                 <see cref="T:System.IFormattable"/>
                 实现的类型所定义的默认格式。
             </param>
-            <param name="formatProvider">要用于设置值格式的提供程序。- 或 -null 引用（Visual Basic 中为 Nothing）将从操作系统的当前区域设置中获取数字格式信息。
+            <param name="formatProvider">要用于设置值格式的提供程序。- 或 -null 引用（Visual Basic 中为
+                Nothing）将从操作系统的当前区域设置中获取数字格式信息。
             </param>
             <filterpriority>2</filterpriority>
         </member>
@@ -13061,10 +13278,13 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.CompareTo(System.Int16)">
-            <summary>将此实例与指定的 16 位有符号整数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定的 16 位有符号整数的值。</summary>
+            <summary>将此实例与指定的 16 位有符号整数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定的
+                16 位有符号整数的值。
+            </summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -13249,7 +13469,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -13345,7 +13567,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Int16.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -13415,7 +13638,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int16@)">
-            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 16 位有符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 16
+                位有符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">包含要转换的数字的字符串。该字符串使用由
@@ -13479,7 +13704,8 @@
             <summary>将此实例与指定的 32 位有符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -13664,7 +13890,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int32.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -13760,7 +13988,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -13835,7 +14064,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)">
-            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 32 位有符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 32
+                位有符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">包含要转换的数字的字符串。该字符串使用由
@@ -13899,7 +14130,8 @@
             <summary>将此实例与指定的 64 位有符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -14084,7 +14316,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int64.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -14180,7 +14414,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Int64.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -14259,7 +14494,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Int64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int64@)">
-            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 64 位有符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>将指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效 64
+                位有符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">包含要转换的数字的字符串。该字符串使用由
@@ -14495,7 +14732,8 @@
         </member>
         <member name="P:System.IntPtr.Size">
             <summary>获得此实例的大小。</summary>
-            <returns>此进程中的指针或句柄的大小，按字节计。此属性的值在 32 位进程中为 4，在 64 位进程中为 8。通过 C# 和 Visual Basic 编译器编译代码时，可以通过设置 /platform
+            <returns>此进程中的指针或句柄的大小，按字节计。此属性的值在 32 位进程中为 4，在 64 位进程中为 8。通过 C# 和
+                Visual Basic 编译器编译代码时，可以通过设置 /platform
                 开关定义该进程类型。
             </returns>
             <filterpriority>1</filterpriority>
@@ -14512,7 +14750,9 @@
         <member name="M:System.IntPtr.ToInt32">
             <summary>将此实例的值转换为 32 位有符号整数。</summary>
             <returns>与此实例的值相等的 32 位有符号整数。</returns>
-            <exception cref="T:System.OverflowException">在 64 位平台上，此实例的值太大或太小，无法表示为一个 32 位有符号的整数。</exception>
+            <exception cref="T:System.OverflowException">在 64 位平台上，此实例的值太大或太小，无法表示为一个 32
+                位有符号的整数。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IntPtr.ToInt64">
@@ -14620,7 +14860,9 @@
             </param>
         </member>
         <member name="T:System.InvalidProgramException">
-            <summary>当程序包含无效的 Microsoft 中间语言 (MSIL) 或元数据时引发的异常。这通常表示生成程序的编译器中有 bug。</summary>
+            <summary>当程序包含无效的 Microsoft 中间语言 (MSIL) 或元数据时引发的异常。这通常表示生成程序的编译器中有
+                bug。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.InvalidProgramException.#ctor">
@@ -14673,7 +14915,9 @@
         </member>
         <member name="T:System.IObservable`1">
             <summary>定义基于推送的通知的提供程序。</summary>
-            <typeparam name="T">提供通知信息的对象。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">提供通知信息的对象。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="M:System.IObservable`1.Subscribe(System.IObserver{`0})">
             <summary>通知提供程序：某观察程序将要接收通知。</summary>
@@ -14682,7 +14926,9 @@
         </member>
         <member name="T:System.IObserver`1">
             <summary>提供用于接收基于推送的通知的机制。</summary>
-            <typeparam name="T">提供通知信息的对象。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">提供通知信息的对象。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="M:System.IObserver`1.OnCompleted">
             <summary>通知观察者，提供程序已完成发送基于推送的通知。</summary>
@@ -14697,7 +14943,9 @@
         </member>
         <member name="T:System.IProgress`1">
             <summary>定义进度更新的提供程序。</summary>
-            <typeparam name="T">进度更新值的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">进度更新值的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="M:System.IProgress`1.Report(`0)">
             <summary>报告进度更新。</summary>
@@ -14718,7 +14966,8 @@
                 <see cref="T:System.Lazy`1"/>
                 类的新实例。发生延迟初始化时，使用目标类型的默认构造函数和指定的初始化模式。
             </summary>
-            <param name="isThreadSafe">true 表示此示例可由多个线程同时使用；false 表示此实例一次只能由一个线程使用。</param>
+            <param name="isThreadSafe">true 表示此示例可由多个线程同时使用；false 表示此实例一次只能由一个线程使用。
+            </param>
         </member>
         <member name="M:System.Lazy`1.#ctor(System.Func{`0})">
             <summary>初始化
@@ -14737,7 +14986,8 @@
                 类的新实例。发生延迟初始化时，使用指定的初始化函数和初始化模式。
             </summary>
             <param name="valueFactory">在需要时被调用以产生延迟初始化值的委托。</param>
-            <param name="isThreadSafe">true 表示此示例可由多个线程同时使用；false 表示此实例一次只能由一个线程使用。</param>
+            <param name="isThreadSafe">true 表示此示例可由多个线程同时使用；false 表示此实例一次只能由一个线程使用。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="valueFactory"/>
                 为 null。
@@ -14817,7 +15067,8 @@
                 <see cref="T:System.Lazy`1"/>
                 实例初始化为使用正在惰性初始化的类型的默认构造函数，并且该类型没有无参数的公共构造函数。
             </exception>
-            <exception cref="T:System.InvalidOperationException">初始化函数尝试访问此实例上的<see cref="P:System.Lazy`1.Value"/>。
+            <exception cref="T:System.InvalidOperationException">初始化函数尝试访问此实例上的<see
+                    cref="P:System.Lazy`1.Value"/>。
             </exception>
         </member>
         <member name="T:System.Lazy`2">
@@ -15565,7 +15816,8 @@
             </param>
         </member>
         <member name="T:System.Object">
-            <summary>支持 .NET Framework 类层次结构中的所有类，并为派生类提供低级别服务。这是 .NET Framework 中所有类的最终基类；它是类型层次结构的根。若要浏览此类型的 .NET
+            <summary>支持 .NET Framework 类层次结构中的所有类，并为派生类提供低级别服务。这是 .NET Framework
+                中所有类的最终基类；它是类型层次结构的根。若要浏览此类型的 .NET
                 Framework 源代码，请参阅引用源。
             </summary>
             <filterpriority>1</filterpriority>
@@ -15809,7 +16061,9 @@
         </member>
         <member name="T:System.Predicate`1">
             <summary>表示定义一组条件并确定指定对象是否符合这些条件的方法。</summary>
-            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Predicate`1.#ctor(System.Object,System.IntPtr)"></member>
@@ -16139,7 +16393,8 @@
             <summary>将此实例与指定的 8 位有符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
-                的相对顺序。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对顺序。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -16338,7 +16593,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.SByte.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -16434,7 +16691,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.SByte.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>转换为
                 <paramref name="type"/>
@@ -16576,7 +16834,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.CompareTo(System.Single)">
-            <summary>将此实例与指定的单精度浮点数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定单精度浮点数的值。</summary>
+            <summary>
+                将此实例与指定的单精度浮点数进行比较，并返回一个整数，该整数指示此实例的值是小于、等于还是大于指定单精度浮点数的值。
+            </summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
                 的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.-or-
@@ -16904,7 +17164,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -17000,7 +17262,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.Single.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -17071,7 +17334,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Single.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)">
-            <summary>将具有指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效单精度浮点数。一个指示转换是否成功的返回值。</summary>
+            <summary>
+                将具有指定样式和区域性特定格式的数字的字符串表示形式转换为它的等效单精度浮点数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">表示要转换的数字的字符串。</param>
@@ -17510,7 +17775,8 @@
             </summary>
             <returns>一个 32 位带符号整数，该整数指示此实例在排序顺序中是位于
                 <paramref name="strB"/>
-                参数之前、之后还是与其出现在同一位置。Value Condition Less than zero This instance precedes<paramref name="strB"/>. Zero
+                参数之前、之后还是与其出现在同一位置。Value Condition Less than zero This instance precedes<paramref
+                        name="strB"/>. Zero
                 This instance has the same position in the sort order as<paramref name="strB"/>. Greater than zero This
                 instance follows<paramref name="strB"/>.-or-
                 <paramref name="strB"/>
@@ -17530,8 +17796,9 @@
                 <paramref name="values"/>
                 中的串联字符串。
             </returns>
-            <param name="values">一个集合对象，该对象实现<see cref="T:System.Collections.Generic.IEnumerable`1"/>，且其泛型类型参数为<see
-                    cref="T:System.String"/>。
+            <param name="values">一个集合对象，该对象实现<see cref="T:System.Collections.Generic.IEnumerable`1"/>
+                ，且其泛型类型参数为<see
+                        cref="T:System.String"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="values"/>
@@ -17847,7 +18114,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object)">
-            <summary>将指定字符串中的一个或多个格式项替换为对应对象的字符串表示形式。参数提供区域性特定的格式设置信息。</summary>
+            <summary>将指定字符串中的一个或多个格式项替换为对应对象的字符串表示形式。参数提供区域性特定的格式设置信息。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 的副本，其中的一个或多个格式项已替换为
@@ -17869,7 +18137,8 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object)">
-            <summary>将指定字符串中的格式项替换为两个指定对象的字符串表示形式。参数提供区域性特定的格式设置信息。</summary>
+            <summary>将指定字符串中的格式项替换为两个指定对象的字符串表示形式。参数提供区域性特定的格式设置信息。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 的副本，其中的格式项替换为
@@ -17893,7 +18162,8 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)">
-            <summary>将指定字符串中的格式项替换为三个指定对象的字符串表示形式。参数提供区域性特定的格式设置信息。</summary>
+            <summary>将指定字符串中的格式项替换为三个指定对象的字符串表示形式。参数提供区域性特定的格式设置信息。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 的副本，其中的格式项已替换为<paramref name="arg0"/>、
@@ -17918,7 +18188,8 @@
             </exception>
         </member>
         <member name="M:System.String.Format(System.IFormatProvider,System.String,System.Object[])">
-            <summary>将指定字符串中的格式项替换为指定数组中相应对象的字符串表示形式。参数提供区域性特定的格式设置信息。</summary>
+            <summary>将指定字符串中的格式项替换为指定数组中相应对象的字符串表示形式。参数提供区域性特定的格式设置信息。
+            </summary>
             <returns>
                 <paramref name="format"/>
                 的副本，其中格式项已替换为
@@ -18064,7 +18335,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.Char,System.Int32,System.Int32)">
-            <summary>报告指定字符在此实例中的第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。</summary>
+            <summary>
+                报告指定字符在此实例中的第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。
+            </summary>
             <returns>如果找到该字符，则为
                 <paramref name="value"/>
                 的从零开始的索引位置；如果未找到，则为 -1。
@@ -18120,7 +18393,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.IndexOf(System.String,System.Int32,System.Int32)">
-            <summary>报告指定字符串在此实例中的第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。</summary>
+            <summary>
+                报告指定字符串在此实例中的第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。
+            </summary>
             <returns>如果找到该字符串，则为
                 <paramref name="value"/>
                 的从零开始的索引位置；如果未找到该字符串，则为 -1。如果
@@ -18251,7 +18526,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.IndexOfAny(System.Char[],System.Int32)">
-            <summary>报告指定 Unicode 字符数组中的任意字符在此实例中第一个匹配项的从零开始的索引。该搜索从指定字符位置开始。</summary>
+            <summary>报告指定 Unicode
+                字符数组中的任意字符在此实例中第一个匹配项的从零开始的索引。该搜索从指定字符位置开始。
+            </summary>
             <returns>在此实例中第一次找到
                 <paramref name="anyOf"/>
                 中的任意字符的索引位置（从零开始）；如果未找到
@@ -18273,7 +18550,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.IndexOfAny(System.Char[],System.Int32,System.Int32)">
-            <summary>报告指定 Unicode 字符数组中的任意字符在此实例中第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。</summary>
+            <summary>报告指定 Unicode
+                字符数组中的任意字符在此实例中第一个匹配项的从零开始的索引。搜索从指定字符位置开始，并检查指定数量的字符位置。
+            </summary>
             <returns>在此实例中第一次找到
                 <paramref name="anyOf"/>
                 中的任意字符的索引位置（从零开始）；如果未找到
@@ -18495,7 +18774,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.Char,System.Int32)">
-            <summary>报告指定 Unicode 字符在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。</summary>
+            <summary>报告指定 Unicode
+                字符在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。
+            </summary>
             <returns>如果找到该字符，则为
                 <paramref name="value"/>
                 的从零开始的索引位置；如果未找到该字符或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。
@@ -18513,7 +18794,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.Char,System.Int32,System.Int32)">
-            <summary>报告指定的 Unicode 字符在此实例内的子字符串中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。</summary>
+            <summary>报告指定的 Unicode
+                字符在此实例内的子字符串中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。
+            </summary>
             <returns>如果找到该字符，则为
                 <paramref name="value"/>
                 的从零开始的索引位置；如果未找到该字符或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。
@@ -18552,7 +18835,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.String,System.Int32)">
-            <summary>报告指定字符串在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。</summary>
+            <summary>
+                报告指定字符串在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。
+            </summary>
             <returns>如果找到该字符串，则为
                 <paramref name="value"/>
                 的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。如果
@@ -18581,7 +18866,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOf(System.String,System.Int32,System.Int32)">
-            <summary>报告指定字符串在此实例中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。</summary>
+            <summary>
+                报告指定字符串在此实例中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。
+            </summary>
             <returns>如果找到该字符串，则为
                 <paramref name="value"/>
                 的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。如果
@@ -18628,7 +18915,8 @@
             </summary>
             <returns>如果找到该字符串，则为
                 <paramref name="value"/>
-                参数的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。如果
+                参数的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为
+                -1。如果
                 <paramref name="value"/>
                 为<see cref="F:System.String.Empty"/>，则返回值为
                 <paramref name="startIndex"/>
@@ -18680,7 +18968,8 @@
             </summary>
             <returns>如果找到该字符串，则为
                 <paramref name="value"/>
-                参数的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为 -1。如果
+                参数的从零开始的起始索引位置；如果未找到该字符串或当前实例等于<see cref="F:System.String.Empty"/>，则为
+                -1。如果
                 <paramref name="value"/>
                 为<see cref="F:System.String.Empty"/>，则返回值为
                 <paramref name="startIndex"/>
@@ -18736,7 +19025,8 @@
             </exception>
         </member>
         <member name="M:System.String.LastIndexOfAny(System.Char[])">
-            <summary>报告在 Unicode 数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。</summary>
+            <summary>报告在 Unicode 数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。
+            </summary>
             <returns>最后一次在此实例中找到
                 <paramref name="anyOf"/>
                 中的任意字符的索引位置；如果未找到
@@ -18751,7 +19041,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOfAny(System.Char[],System.Int32)">
-            <summary>报告在 Unicode 数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。</summary>
+            <summary>报告在 Unicode
+                数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。在指定的字符位置开始和在向后的右边该字符串的开头处理的搜索。
+            </summary>
             <returns>最后一次在此实例中找到
                 <paramref name="anyOf"/>
                 中的任意字符的索引位置；如果未找到
@@ -18775,7 +19067,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32)">
-            <summary>报告在 Unicode 数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。</summary>
+            <summary>报告在 Unicode
+                数组中指定的一个或多个字符在此实例中的最后一个匹配项的从零开始的索引的位置。搜索在指定字符位置的数目的字符串开始时，开始指定字符和其后面的位置。
+            </summary>
             <returns>最后一次在此实例中找到
                 <paramref name="anyOf"/>
                 中的任意字符的索引位置；如果未找到
@@ -18834,8 +19128,10 @@
             <filterpriority>3</filterpriority>
         </member>
         <member name="M:System.String.PadLeft(System.Int32)">
-            <summary>返回一个新字符串，该字符串通过在此实例中的字符左侧填充空格来达到指定的总长度，从而实现右对齐。</summary>
-            <returns>与此实例等效的一个新字符串，但该字符串为右对齐，因此，在左侧填充所需任意数量的空格，使长度达到<paramref name="totalWidth"/>。但是，如果
+            <summary>返回一个新字符串，该字符串通过在此实例中的字符左侧填充空格来达到指定的总长度，从而实现右对齐。
+            </summary>
+            <returns>与此实例等效的一个新字符串，但该字符串为右对齐，因此，在左侧填充所需任意数量的空格，使长度达到<paramref
+                    name="totalWidth"/>。但是，如果
                 <paramref name="totalWidth"/>
                 小于此实例的长度，则此方法返回对现有实例的引用。如果
                 <paramref name="totalWidth"/>
@@ -18849,7 +19145,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.PadLeft(System.Int32,System.Char)">
-            <summary>返回一个新字符串，该字符串通过在此实例中的字符左侧填充指定的 Unicode 字符来达到指定的总长度，从而使这些字符右对齐。</summary>
+            <summary>返回一个新字符串，该字符串通过在此实例中的字符左侧填充指定的 Unicode
+                字符来达到指定的总长度，从而使这些字符右对齐。
+            </summary>
             <returns>与此实例等效的一个新字符串，但该字符串为右对齐，因此，在左侧填充所需任意数量的
                 <paramref name="paddingChar"/>
                 字符，使长度达到<paramref name="totalWidth"/>。但是，如果
@@ -18867,8 +19165,11 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.PadRight(System.Int32)">
-            <summary>返回一个新字符串，该字符串通过在此字符串中的字符右侧填充空格来达到指定的总长度，从而使这些字符左对齐。</summary>
-            <returns>与此实例等效的一个新字符串，但该字符串为左对齐，因此，在右侧填充所需任意数量的空格，使长度达到<paramref name="totalWidth"/>。但是，如果
+            <summary>
+                返回一个新字符串，该字符串通过在此字符串中的字符右侧填充空格来达到指定的总长度，从而使这些字符左对齐。
+            </summary>
+            <returns>与此实例等效的一个新字符串，但该字符串为左对齐，因此，在右侧填充所需任意数量的空格，使长度达到<paramref
+                    name="totalWidth"/>。但是，如果
                 <paramref name="totalWidth"/>
                 小于此实例的长度，则此方法返回对现有实例的引用。如果
                 <paramref name="totalWidth"/>
@@ -18882,7 +19183,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.String.PadRight(System.Int32,System.Char)">
-            <summary>返回一个新字符串，该字符串通过在此字符串中的字符右侧填充指定的 Unicode 字符来达到指定的总长度，从而使这些字符左对齐。</summary>
+            <summary>返回一个新字符串，该字符串通过在此字符串中的字符右侧填充指定的 Unicode
+                字符来达到指定的总长度，从而使这些字符左对齐。
+            </summary>
             <returns>与此实例等效的一个新字符串，但该字符串为左对齐，因此，在右侧填充所需任意数量的
                 <paramref name="paddingChar"/>
                 字符，使长度达到<paramref name="totalWidth"/>。但是，如果
@@ -18929,7 +19232,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Replace(System.Char,System.Char)">
-            <summary>返回一个新字符串，其中此实例中出现的所有指定 Unicode 字符都替换为另一个指定的 Unicode 字符。</summary>
+            <summary>返回一个新字符串，其中此实例中出现的所有指定 Unicode 字符都替换为另一个指定的 Unicode 字符。
+            </summary>
             <returns>等效于此实例（除了
                 <paramref name="oldChar"/>
                 的所有实例都已替换为
@@ -18976,7 +19280,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.Char[],System.Int32)">
-            <summary>返回的字符串数组包含此实例中的子字符串（由指定 Unicode 字符数组的元素分隔）。参数指定返回的子字符串的最大数量。</summary>
+            <summary>返回的字符串数组包含此实例中的子字符串（由指定 Unicode
+                字符数组的元素分隔）。参数指定返回的子字符串的最大数量。
+            </summary>
             <returns>一个数组，其元素包含此实例中的子字符串，这些子字符串由
                 <paramref name="separator"/>
                 中的一个或多个字符分隔。有关详细信息，请参阅“备注”部分。
@@ -18990,14 +19296,17 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions)">
-            <summary>返回的字符串数组包含此字符串中的子字符串（由指定 Unicode 字符数组的元素分隔）。参数指定要返回子字符串的最大数量，以及是否返回空数组元素。</summary>
+            <summary>返回的字符串数组包含此字符串中的子字符串（由指定 Unicode
+                字符数组的元素分隔）。参数指定要返回子字符串的最大数量，以及是否返回空数组元素。
+            </summary>
             <returns>一个数组，其元素包含此字符串中的子字符串，这些子字符串由
                 <paramref name="separator"/>
                 中的一个或多个字符分隔。有关详细信息，请参阅“备注”部分。
             </returns>
             <param name="separator">分隔此字符串中子字符串的 Unicode 字符数组、不包含分隔符的空数组或 null。</param>
             <param name="count">要返回的子字符串的最大数量。</param>
-            <param name="options">要省略返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">要省略返回的数组中的空数组元素，则为
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 ；要包含返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -19013,13 +19322,16 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.Char[],System.StringSplitOptions)">
-            <summary>返回的字符串数组包含此字符串中的子字符串（由指定 Unicode 字符数组的元素分隔）。参数指定是否返回空数组元素。</summary>
+            <summary>返回的字符串数组包含此字符串中的子字符串（由指定 Unicode
+                字符数组的元素分隔）。参数指定是否返回空数组元素。
+            </summary>
             <returns>一个数组，其元素包含此字符串中的子字符串，这些子字符串由
                 <paramref name="separator"/>
                 中的一个或多个字符分隔。有关详细信息，请参阅“备注”部分。
             </returns>
             <param name="separator">分隔此字符串中子字符串的 Unicode 字符数组、不包含分隔符的空数组或 null。</param>
-            <param name="options">要省略返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">要省略返回的数组中的空数组元素，则为
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 ；要包含返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentException">
@@ -19031,14 +19343,17 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions)">
-            <summary>返回的字符串数组包含此字符串中的子字符串（由指定字符串数组的元素分隔）。参数指定要返回子字符串的最大数量，以及是否返回空数组元素。</summary>
+            <summary>
+                返回的字符串数组包含此字符串中的子字符串（由指定字符串数组的元素分隔）。参数指定要返回子字符串的最大数量，以及是否返回空数组元素。
+            </summary>
             <returns>一个数组，其元素包含此字符串中的子字符串，这些子字符串由
                 <paramref name="separator"/>
                 中的一个或多个字符串分隔。有关详细信息，请参阅“备注”部分。
             </returns>
             <param name="separator">分隔此字符串中子字符串的字符串数组、不包含分隔符的空数组或 null。</param>
             <param name="count">要返回的子字符串的最大数量。</param>
-            <param name="options">要省略返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">要省略返回的数组中的空数组元素，则为
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 ；要包含返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentOutOfRangeException">
@@ -19054,13 +19369,15 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Split(System.String[],System.StringSplitOptions)">
-            <summary>返回的字符串数组包含此字符串中的子字符串（由指定字符串数组的元素分隔）。参数指定是否返回空数组元素。</summary>
+            <summary>返回的字符串数组包含此字符串中的子字符串（由指定字符串数组的元素分隔）。参数指定是否返回空数组元素。
+            </summary>
             <returns>一个数组，其元素包含此字符串中的子字符串，这些子字符串由
                 <paramref name="separator"/>
                 中的一个或多个字符串分隔。有关详细信息，请参阅“备注”部分。
             </returns>
             <param name="separator">分隔此字符串中子字符串的字符串数组、不包含分隔符的空数组或 null。</param>
-            <param name="options">要省略返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
+            <param name="options">要省略返回的数组中的空数组元素，则为
+                <see cref="F:System.StringSplitOptions.RemoveEmptyEntries"/>
                 ；要包含返回的数组中的空数组元素，则为<see cref="F:System.StringSplitOptions.None"/>。
             </param>
             <exception cref="T:System.ArgumentException">
@@ -19161,7 +19478,9 @@
             <returns>一个枚举器，可用于循环访问当前的字符串。</returns>
         </member>
         <member name="M:System.String.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -19184,8 +19503,9 @@
         <member name="M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider)">
             <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToBoolean(System.IFormatProvider)"/>。
             </summary>
-            <returns>如果当前字符串的值为 true，则为<see cref="F:System.Boolean.TrueString"/>；如果当前字符串的值为 false，则为<see
-                    cref="F:System.Boolean.FalseString"/>。
+            <returns>如果当前字符串的值为 true，则为<see cref="F:System.Boolean.TrueString"/>；如果当前字符串的值为
+                false，则为<see
+                        cref="F:System.Boolean.FalseString"/>。
             </returns>
             <param name="provider">忽略此参数。</param>
             <exception cref="T:System.FormatException">The value of the current string is not
@@ -19337,7 +19657,8 @@
         </member>
         <member name="M:System.String.System#IConvertible#ToString(System.IFormatProvider)"></member>
         <member name="M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前
                 <see cref="T:System.String"/>
@@ -19490,7 +19811,9 @@
                 <see cref="T:System.String"/>
                 对象移除所有前导空白字符和尾部空白字符。
             </summary>
-            <returns>从当前字符串的开头和结尾删除所有空白字符后剩余的字符串。如果从当前实例无法删除字符，此方法返回未更改的当前实例。</returns>
+            <returns>
+                从当前字符串的开头和结尾删除所有空白字符后剩余的字符串。如果从当前实例无法删除字符，此方法返回未更改的当前实例。
+            </returns>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.String.Trim(System.Char[])">
@@ -19712,7 +20035,8 @@
             </summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。值描述负整数此实例短于<paramref name="value"/>。零此实例等于<paramref name="value"/>。正整数此实例长于<paramref name="value"/>
+                的相对值。值描述负整数此实例短于<paramref name="value"/>。零此实例等于<paramref name="value"/>。正整数此实例长于
+                <paramref name="value"/>
                 。
             </returns>
             <param name="value">要与此实例进行比较的对象。</param>
@@ -20155,7 +20479,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.Parse(System.String,System.IFormatProvider)">
-            <summary>使用指定的区域性特定格式信息，将时间间隔的字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>。
+            <summary>使用指定的区域性特定格式信息，将时间间隔的字符串表示形式转换为其等效的<see
+                    cref="T:System.TimeSpan"/>。
             </summary>
             <returns>与
                 <paramref name="input"/>
@@ -20184,7 +20509,8 @@
             </exception>
         </member>
         <member name="M:System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider)">
-            <summary>使用指定的格式和区域性特定格式设置信息，将时间间隔的字符串表示形式转换为等效的<see cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与指定的格式完全匹配。
+            <summary>使用指定的格式和区域性特定格式设置信息，将时间间隔的字符串表示形式转换为等效的<see
+                    cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>与
                 <paramref name="input"/>
@@ -20219,7 +20545,8 @@
             </exception>
         </member>
         <member name="M:System.TimeSpan.ParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles)">
-            <summary>使用指定的格式、区域性特定格式设置信息和样式，将时间间隔的字符串表示形式转换为等效的<see cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与指定的格式完全匹配。
+            <summary>使用指定的格式、区域性特定格式设置信息和样式，将时间间隔的字符串表示形式转换为等效的<see
+                    cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>与
                 <paramref name="input"/>
@@ -20264,7 +20591,8 @@
             </exception>
         </member>
         <member name="M:System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider)">
-            <summary>使用指定的格式字符串数组和区域性特定格式信息，将时间间隔的字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>
+            <summary>使用指定的格式字符串数组和区域性特定格式信息，将时间间隔的字符串表示形式转换为其等效的
+                <see cref="T:System.TimeSpan"/>
                 。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>与
@@ -20300,7 +20628,8 @@
             </exception>
         </member>
         <member name="M:System.TimeSpan.ParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles)">
-            <summary>使用指定的格式、区域性特定格式设置信息和样式，将时间间隔的字符串表示形式转换为等效的<see cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与一种指定的格式完全匹配。
+            <summary>使用指定的格式、区域性特定格式设置信息和样式，将时间间隔的字符串表示形式转换为等效的<see
+                    cref="T:System.TimeSpan"/>。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>与
                 <paramref name="input"/>
@@ -20371,7 +20700,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。返回值含义小于零此实例在排序顺序中位于
@@ -20515,7 +20846,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.TryParse(System.String,System.IFormatProvider,System.TimeSpan@)">
-            <summary>使用指定的区域性特定格式设置信息，将时间间隔的字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>，并返回一个指示转换是否成功的值。
+            <summary>使用指定的区域性特定格式设置信息，将时间间隔的字符串表示形式转换为其等效的<see
+                    cref="T:System.TimeSpan"/>，并返回一个指示转换是否成功的值。
             </summary>
             <returns>如果
                 <paramref name="input"/>
@@ -20523,7 +20855,8 @@
                 <paramref name="input"/>
                 参数为 null 或<see cref="F:System.String.Empty"/>，格式无效，表示的时间间隔小于
                 <see cref="F:System.TimeSpan.MinValue"/>
-                或大于<see cref="F:System.TimeSpan.MaxValue"/>，或者天、小时、分钟或秒分量中至少有一个超出其有效范围，则此运算返回 false。
+                或大于<see cref="F:System.TimeSpan.MaxValue"/>，或者天、小时、分钟或秒分量中至少有一个超出其有效范围，则此运算返回
+                false。
             </returns>
             <param name="input">一个字符串，用于指定进行转换的时间间隔。</param>
             <param name="formatProvider">一个提供区域性特定的格式设置信息的对象。</param>
@@ -20541,7 +20874,8 @@
                 <paramref name="s"/>
                 参数为 null 或<see cref="F:System.String.Empty"/>，格式无效，表示的时间间隔小于
                 <see cref="F:System.TimeSpan.MinValue"/>
-                或大于<see cref="F:System.TimeSpan.MaxValue"/>，或者天、小时、分钟或秒分量中至少有一个超出其有效范围，则此运算返回 false。
+                或大于<see cref="F:System.TimeSpan.MaxValue"/>，或者天、小时、分钟或秒分量中至少有一个超出其有效范围，则此运算返回
+                false。
             </returns>
             <param name="s">一个字符串，用于指定进行转换的时间间隔。</param>
             <param name="result">此方法返回时，包含表示由
@@ -20551,7 +20885,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)">
-            <summary>使用指定的格式、区域性特定格式信息和样式，将时间间隔的字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>
+            <summary>使用指定的格式、区域性特定格式信息和样式，将时间间隔的字符串表示形式转换为其等效的
+                <see cref="T:System.TimeSpan"/>
                 ，并返回一个指示转换是否成功的值。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -20574,7 +20909,8 @@
             </param>
         </member>
         <member name="M:System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.TimeSpan@)">
-            <summary>使用指定的区域性特定格式设置信息，将时间间隔的字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>
+            <summary>使用指定的区域性特定格式设置信息，将时间间隔的字符串表示形式转换为其等效的
+                <see cref="T:System.TimeSpan"/>
                 ，并返回一个指示转换是否成功的值。字符串表示形式的格式必须与指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -20593,7 +20929,8 @@
             </param>
         </member>
         <member name="M:System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)">
-            <summary>使用指定的格式、区域性特定格式信息和样式，将时间间隔的指定字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>
+            <summary>使用指定的格式、区域性特定格式信息和样式，将时间间隔的指定字符串表示形式转换为其等效的
+                <see cref="T:System.TimeSpan"/>
                 ，并返回一个指示转换是否成功的值。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -20616,7 +20953,8 @@
             </param>
         </member>
         <member name="M:System.TimeSpan.TryParseExact(System.String,System.String[],System.IFormatProvider,System.TimeSpan@)">
-            <summary>使用指定的格式和区域性特定格式信息，将时间间隔的指定字符串表示形式转换为其等效的<see cref="T:System.TimeSpan"/>
+            <summary>使用指定的格式和区域性特定格式信息，将时间间隔的指定字符串表示形式转换为其等效的
+                <see cref="T:System.TimeSpan"/>
                 ，并返回一个指示转换是否成功的值。字符串表示形式的格式必须与一种指定的格式完全匹配。
             </summary>
             <returns>如果
@@ -20762,7 +21100,8 @@
                 <paramref name="id"/>
                 匹配的注册表项不存在，或者该项存在但不包含任何时区数据。
             </exception>
-            <exception cref="T:System.Security.SecurityException">进程没有读取包含时区信息的注册表项所需的权限。</exception>
+            <exception cref="T:System.Security.SecurityException">进程没有读取包含时区信息的注册表项所需的权限。
+            </exception>
             <exception cref="T:System.InvalidTimeZoneException">已找到时区标识符，但注册表数据已损坏。</exception>
         </member>
         <member name="M:System.TimeZoneInfo.GetAmbiguousTimeOffsets(System.DateTime)">
@@ -20800,7 +21139,8 @@
                 对象的只读集合。
             </returns>
             <exception cref="T:System.OutOfMemoryException">内存不足，无法存储所有时区信息。</exception>
-            <exception cref="T:System.Security.SecurityException">用户没有读取包含时区信息的注册表项所需的权限。</exception>
+            <exception cref="T:System.Security.SecurityException">用户没有读取包含时区信息的注册表项所需的权限。
+            </exception>
         </member>
         <member name="M:System.TimeZoneInfo.GetUtcOffset(System.DateTime)">
             <summary>计算此时区中的时间与协调世界时 (UTC) 之间针对特定日期和时间的偏移量或差值。</summary>
@@ -20817,7 +21157,8 @@
             <returns>时区标识符。</returns>
         </member>
         <member name="M:System.TimeZoneInfo.IsAmbiguousTime(System.DateTime)">
-            <summary>确定特定时区中的特定日期和时间是否不明确以及是否可以映射至两个或多个协调世界时 (UTC) 时间。</summary>
+            <summary>确定特定时区中的特定日期和时间是否不明确以及是否可以映射至两个或多个协调世界时 (UTC) 时间。
+            </summary>
             <returns>如果
                 <paramref name="dateTime"/>
                 参数不明确，则为 true；否则为 false。
@@ -20834,7 +21175,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.TimeZoneInfo.IsAmbiguousTime(System.DateTimeOffset)">
-            <summary>确定特定时区中的特定日期和时间是否不明确以及是否可以映射至两个或多个协调世界时 (UTC) 时间。</summary>
+            <summary>确定特定时区中的特定日期和时间是否不明确以及是否可以映射至两个或多个协调世界时 (UTC) 时间。
+            </summary>
             <returns>如果
                 <paramref name="dateTimeOffset"/>
                 参数在当前时区中不明确，则为 true；否则为 false。
@@ -22305,7 +22647,8 @@
             </returns>
         </member>
         <member name="T:System.Type">
-            <summary>表示类型声明：类类型、接口类型、数组类型、值类型、枚举类型、类型参数、泛型类型定义，以及开放或封闭构造的泛型类型。若要浏览此类型的 .NET Framework 源代码，请参阅引用源。
+            <summary>表示类型声明：类类型、接口类型、数组类型、值类型、枚举类型、类型参数、泛型类型定义，以及开放或封闭构造的泛型类型。若要浏览此类型的
+                .NET Framework 源代码，请参阅引用源。
             </summary>
             <filterpriority>1</filterpriority>
         </member>
@@ -22326,7 +22669,8 @@
             <summary>获取用来声明当前的嵌套类型或泛型类型参数的类型。</summary>
             <returns>如果当前的类型是嵌套类型，则为表示封闭类型的
                 <see cref="T:System.Type"/>
-                对象；如果当前的类型是泛型类型的类型参数，则为泛型类型的定义；如果当前的类型是泛型方法的类型参数，则为用来声明泛型方法的类型；否则为 null。
+                对象；如果当前的类型是泛型类型的类型参数，则为泛型类型的定义；如果当前的类型是泛型方法的类型参数，则为用来声明泛型方法的类型；否则为
+                null。
             </returns>
             <filterpriority>1</filterpriority>
         </member>
@@ -22346,7 +22690,8 @@
             </summary>
             <returns>如果 true 的基础系统类型与当前
                 <paramref name="o"/>
-                的基础系统类型相同，则为<see cref="T:System.Type"/>；否则为 false。如果 false 参数指定的对象不是<paramref name="o"/>，此方法也会返回 Type。
+                的基础系统类型相同，则为<see cref="T:System.Type"/>；否则为 false。如果 false 参数指定的对象不是<paramref
+                        name="o"/>，此方法也会返回 Type。
             </returns>
             <param name="o">该对象，其基础系统类型将与当前
                 <see cref="T:System.Type"/>
@@ -22373,7 +22718,8 @@
         </member>
         <member name="P:System.Type.FullName">
             <summary>获取该类型的完全限定名称，包括其命名空间，但不包括程序集。</summary>
-            <returns>该类型的完全限定名，包括其命名空间，但不包括程序集；如果当前实例表示泛型类型参数、数组类型、指针类型或基于类型参数的 null 类型，或表示不属于泛型类型定义但包含无法解析的类型参数的泛型类型，则为
+            <returns>该类型的完全限定名，包括其命名空间，但不包括程序集；如果当前实例表示泛型类型参数、数组类型、指针类型或基于类型参数的
+                null 类型，或表示不属于泛型类型定义但包含无法解析的类型参数的泛型类型，则为
                 byref。
             </returns>
             <filterpriority>1</filterpriority>
@@ -22408,7 +22754,8 @@
             <summary>当在派生类中重写时，返回当前数组、指针或引用类型包含的或引用的对象的<see cref="T:System.Type"/>。
             </summary>
             <returns>当前数组、指针或引用类型包含或引用的对象的<see cref="T:System.Type"/>；如果当前 null
-                不是数组或指针，不是按引用传递，或者表示泛型类型或泛型方法的定义中的泛型类型或类型参数，则为<see cref="T:System.Type"/>。
+                不是数组或指针，不是按引用传递，或者表示泛型类型或泛型方法的定义中的泛型类型或类型参数，则为<see
+                        cref="T:System.Type"/>。
             </returns>
             <filterpriority>2</filterpriority>
         </member>
@@ -22439,7 +22786,8 @@
             <summary>获取具有指定名称的<see cref="T:System.Type"/>，执行区分大小写的搜索。
             </summary>
             <returns>具有指定名称的类型（如果找到的话）；否则为 null。</returns>
-            <param name="typeName">要获取的类型的程序集限定名称。请参阅<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">要获取的类型的程序集限定名称。请参阅
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 。如果该类型位于当前正在执行的程序集中或者 Mscorlib.dll 中，则提供由命名空间限定的类型名称就足够了。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -22483,7 +22831,8 @@
                 <paramref name="throwOnError"/>
                 的值。请参见“异常”部分。
             </returns>
-            <param name="typeName">要获取的类型的程序集限定名称。请参阅<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">要获取的类型的程序集限定名称。请参阅
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 。如果该类型位于当前正在执行的程序集中或者 Mscorlib.dll 中，则提供由命名空间限定的类型名称就足够了。
             </param>
             <param name="throwOnError">如果为 true，则在找不到该类型时引发异常；如果为 false，则返回 null。指定 false
@@ -22552,14 +22901,16 @@
                 <paramref name="throwOnError"/>
                 的值。请参见“异常”部分。
             </returns>
-            <param name="typeName">要获取的类型的程序集限定名称。请参阅<see cref="P:System.Type.AssemblyQualifiedName"/>
+            <param name="typeName">要获取的类型的程序集限定名称。请参阅
+                <see cref="P:System.Type.AssemblyQualifiedName"/>
                 。如果该类型位于当前正在执行的程序集中或者 Mscorlib.dll 中，则提供由命名空间限定的类型名称就足够了。
             </param>
             <param name="throwOnError">true 则引发异常（如果找不到类型）；false 则返回 null.Specifying
                 false，也抑制了其他一些异常情况，但不是所有异常。请参见“异常”部分。
             </param>
-            <param name="ignoreCase">对 true 执行的搜索不区分大小写，则为<paramref name="typeName"/>；对 false 执行的搜索区分大小写，则为<paramref
-                    name="typeName"/>。
+            <param name="ignoreCase">对 true 执行的搜索不区分大小写，则为<paramref name="typeName"/>；对 false
+                执行的搜索区分大小写，则为<paramref
+                        name="typeName"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="typeName"/>
@@ -22662,7 +23013,8 @@
                 <see cref="T:System.Type"/>
                 是否表示泛型类型或方法的定义中的类型参数。
             </summary>
-            <returns>如果 true 对象表示泛型类型定义或泛型方法定义的类型参数，则为<see cref="T:System.Type"/>；否则为 false。
+            <returns>如果 true 对象表示泛型类型定义或泛型方法定义的类型参数，则为<see cref="T:System.Type"/>；否则为
+                false。
             </returns>
             <filterpriority>2</filterpriority>
         </member>
@@ -22696,7 +23048,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -22716,7 +23069,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -22736,7 +23090,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -22795,7 +23150,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -22857,14 +23213,16 @@
                 <see cref="T:System.TypeAccessException"/>
                 类的新实例。
             </summary>
-            <param name="message">描述该异常的消息。此构造函数的调用方必须确保此字符串已针对当前系统区域性进行了本地化。</param>
+            <param name="message">描述该异常的消息。此构造函数的调用方必须确保此字符串已针对当前系统区域性进行了本地化。
+            </param>
         </member>
         <member name="M:System.TypeAccessException.#ctor(System.String,System.Exception)">
             <summary>使用指定的错误消息和对作为此异常原因的内部异常的引用来初始化
                 <see cref="T:System.TypeAccessException"/>
                 类的新实例。
             </summary>
-            <param name="message">描述该异常的消息。此构造函数的调用方必须确保此字符串已针对当前系统区域性进行了本地化。</param>
+            <param name="message">描述该异常的消息。此构造函数的调用方必须确保此字符串已针对当前系统区域性进行了本地化。
+            </param>
             <param name="inner">导致当前异常的异常。如果
                 <paramref name="inner"/>
                 参数不为 null，则当前异常将在处理内部异常的 catch 块中引发。
@@ -22994,7 +23352,8 @@
             <summary>将此实例与指定的 16 位无符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -23182,7 +23541,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt16.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -23295,7 +23656,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.UInt16.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>转换为
                 <paramref name="type"/>
@@ -23375,7 +23737,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16@)">
-            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 16 位无符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 16
+                位无符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">表示要转换的数字的字符串。该字符串使用由
@@ -23443,7 +23807,8 @@
             <summary>将此实例与指定的 32 位无符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -23631,7 +23996,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt32.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -23730,7 +24097,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.UInt32.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -23804,7 +24172,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)">
-            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 32 位无符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 32
+                位无符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">表示要转换的数字的字符串。该字符串使用由
@@ -23868,7 +24238,8 @@
             <summary>将此实例与指定的 64 位无符号整数进行比较并返回对其相对值的指示。</summary>
             <returns>一个带符号数字，指示此实例和
                 <paramref name="value"/>
-                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>. Zero
+                的相对值。Return Value Description Less than zero This instance is less than<paramref name="value"/>.
+                Zero
                 This instance is equal to<paramref name="value"/>. Greater than zero This instance is greater than
                 <paramref name="value"/>.
             </returns>
@@ -24059,7 +24430,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt64.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。Return value Meaning Less than zero This instance precedes
@@ -24158,7 +24531,8 @@
             <param name="provider">忽略此参数。</param>
         </member>
         <member name="M:System.UInt64.System#IConvertible#ToType(System.Type,System.IFormatProvider)">
-            <summary>有关此成员的说明，请参阅<see cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
+            <summary>有关此成员的说明，请参阅<see
+                    cref="M:System.IConvertible.ToType(System.Type,System.IFormatProvider)"/>。
             </summary>
             <returns>当前实例的值，已转换为<paramref name="type"/>。
             </returns>
@@ -24232,7 +24606,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UInt64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt64@)">
-            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 64 位无符号整数。一个指示转换是否成功的返回值。</summary>
+            <summary>尝试将数字的指定样式和区域性特定格式的字符串表示形式转换为其等效的 64
+                位无符号整数。一个指示转换是否成功的返回值。
+            </summary>
             <returns>如果 true 成功转换，则为<paramref name="s"/>；否则为 false。
             </returns>
             <param name="s">表示要转换的数字的字符串。该字符串使用由
@@ -24504,7 +24880,8 @@
         <member name="M:System.UIntPtr.ToUInt32">
             <summary>将此实例的值转换成 32 位无符号整数。</summary>
             <returns>等于此实例的值的 32 位无符号整数。</returns>
-            <exception cref="T:System.OverflowException">在 64 位平台上，此实例的值太大，无法表示为 32 位无符号整数。</exception>
+            <exception cref="T:System.OverflowException">在 64 位平台上，此实例的值太大，无法表示为 32 位无符号整数。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.UIntPtr.ToUInt64">
@@ -24558,8 +24935,9 @@
                 <paramref name="uriString"/>
                 为 null。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。
                 <paramref name="uriString"/>
                 为空。- 或 -
                 <paramref name="uriString"/>
@@ -24606,8 +24984,9 @@
                 <paramref name="uriString"/>
                 为 null。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。
                 <paramref name="uriString"/>
                 包含相对 URI，而
                 <paramref name="uriKind"/>
@@ -24661,8 +25040,9 @@
                 <see cref="T:System.Uri"/>
                 实例。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。
                 <paramref name="baseUri"/>
                 和
                 <paramref name="relativeUri"/>
@@ -24750,8 +25130,9 @@
                 <see cref="T:System.Uri"/>
                 实例。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。
                 <paramref name="baseUri"/>
                 和
                 <paramref name="relativeUri"/>
@@ -24808,7 +25189,8 @@
             <summary>获取 URI 的绝对路径。</summary>
             <returns>包含资源的绝对路径的<see cref="T:System.String"/>。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -24820,7 +25202,8 @@
             <summary>获取绝对 URI。</summary>
             <returns>包含整个 URI 的<see cref="T:System.String"/>。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -24832,7 +25215,8 @@
             <summary>获取服务器的域名系统 (DNS) 主机名或 IP 地址和端口号。</summary>
             <returns>包含此实例所表示的 URI 的证书颁发机构部分的<see cref="T:System.String"/>。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -24842,8 +25226,9 @@
         </member>
         <member name="M:System.Uri.CheckHostName(System.String)">
             <summary>确定指定的主机名是否为有效的 DNS 名称。</summary>
-            <returns>指示主机名类型的<see cref="T:System.UriHostNameType"/>。如果无法确定主机名的类型，或者主机名为 null 或零长度字符串，则此方法返回<see
-                    cref="F:System.UriHostNameType.Unknown"/>。
+            <returns>指示主机名类型的<see cref="T:System.UriHostNameType"/>。如果无法确定主机名的类型，或者主机名为 null
+                或零长度字符串，则此方法返回<see
+                        cref="F:System.UriHostNameType.Unknown"/>。
             </returns>
             <param name="name">要验证的主机名。可以是 IPv4 或 IPv6 地址或 Internet 主机名。</param>
             <filterpriority>1</filterpriority>
@@ -24901,9 +25286,11 @@
         </member>
         <member name="P:System.Uri.DnsSafeHost">
             <summary>获得可安全用于 DNS 解析的未转义主机名。</summary>
-            <returns>一个包含适用于 DNS 解析的未转义 URI 主机部分的<see cref="T:System.String"/>；或者，如果原始的未转义主机字符串已适用于解析，则为原始的未转义主机字符串。
+            <returns>一个包含适用于 DNS 解析的未转义 URI 主机部分的<see cref="T:System.String"/>
+                ；或者，如果原始的未转义主机字符串已适用于解析，则为原始的未转义主机字符串。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -24937,8 +25324,9 @@
                 <paramref name="stringToEscape"/>
                 为 null。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。长度
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。长度
                 <paramref name="stringToEscape"/>
                 超过 32766 个字符。
             </exception>
@@ -24954,8 +25342,9 @@
                 <paramref name="stringToEscape"/>
                 为 null。
             </exception>
-            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，<see
-                    cref="T:System.FormatException"/>, 、 相反。长度
+            <exception cref="T:System.UriFormatException">在 .NET for Windows Store apps 或 可移植类库, ，捕获该基类异常，
+                <see
+                        cref="T:System.FormatException"/>, 、 相反。长度
                 <paramref name="stringToEscape"/>
                 超过 32766 个字符。
             </exception>
@@ -24964,7 +25353,8 @@
             <summary>获取转义 URI 片段。</summary>
             <returns>一个包含任意 URI 片段信息的<see cref="T:System.String"/>。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25011,7 +25401,8 @@
             <summary>获取此实例的主机部分。</summary>
             <returns>一个包含主机名的<see cref="T:System.String"/>。这通常是服务器的 DNS 主机名或 IP 地址。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25025,7 +25416,8 @@
                 <see cref="T:System.UriHostNameType"/>
                 枚举的一个成员。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25081,7 +25473,8 @@
                 <see cref="T:System.Boolean"/>
                 值。如果 true 属性中的值是此方案的默认端口，则该值为<see cref="P:System.Uri.Port"/>；否则为 false。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25098,7 +25491,8 @@
                 <see cref="T:System.Boolean"/>
                 值。如果 true 是文件 URI，则该值为<see cref="T:System.Uri"/>；否则为 false。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25115,7 +25509,8 @@
                 <see cref="T:System.Boolean"/>
                 值。如果此 true 引用了本地主机，则该值为<see cref="T:System.Uri"/>；否则为 false。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25132,7 +25527,8 @@
                 <see cref="T:System.Boolean"/>
                 值。如果 true 是 UNC 路径，则该值为<see cref="T:System.Uri"/>；否则为 false。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25171,7 +25567,8 @@
             <summary>获取文件名的本地操作系统表示形式。</summary>
             <returns>一个<see cref="T:System.String"/>，包含文件名的本地操作系统表示形式。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25186,7 +25583,8 @@
             </summary>
             <returns>如果此 URI 实例与
                 <paramref name="uri"/>
-                的主机名和方案相同，则此方法返回一个相对<see cref="T:System.Uri"/>。若将此相对 URI 追加到当前 URI 实例，就可以得到<paramref name="uri"/>
+                的主机名和方案相同，则此方法返回一个相对<see cref="T:System.Uri"/>。若将此相对 URI 追加到当前 URI 实例，就可以得到
+                <paramref name="uri"/>
                 。如果主机名或方案不同，则此方法返回一个表示
                 <see cref="T:System.Uri"/>
                 参数的<paramref name="uri"/>。
@@ -25196,7 +25594,8 @@
                 <paramref name="uri"/>
                 为 null。
             </exception>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
         </member>
         <member name="M:System.Uri.op_Equality(System.Uri,System.Uri)">
             <summary>确定两个
@@ -25233,7 +25632,8 @@
             </summary>
             <returns>一个
                 <see cref="T:System.Boolean"/>
-                值。如果两个 true 实例不相等，则该值为<see cref="T:System.Uri"/>；否则为 false。如果两者中任意一个参数为 null，则此方法返回 true。
+                值。如果两个 true 实例不相等，则该值为<see cref="T:System.Uri"/>；否则为 false。如果两者中任意一个参数为
+                null，则此方法返回 true。
             </returns>
             <param name="uri1">要与
                 <see cref="T:System.Uri"/>
@@ -25259,9 +25659,11 @@
                 <see cref="T:System.Uri"/>
                 构造函数的原始 URI 字符串。
             </summary>
-            <returns>包含构造此实例时指定的同一 URI，则为<see cref="T:System.String"/>；否则，为<see cref="F:System.String.Empty"/>。
+            <returns>包含构造此实例时指定的同一 URI，则为<see cref="T:System.String"/>；否则，为<see
+                    cref="F:System.String.Empty"/>。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25282,7 +25684,8 @@
                 <see cref="P:System.Uri.Query"/>
                 属性。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25296,7 +25699,8 @@
                 <see cref="T:System.Int32"/>
                 值。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25308,7 +25712,8 @@
             <summary>获取指定 URI 中包括的任何查询信息。</summary>
             <returns>一个<see cref="T:System.String"/>，包含指定 URI 中包括的任何查询信息。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25320,7 +25725,8 @@
             <summary>获取此 URI 的方案名称。</summary>
             <returns>一个<see cref="T:System.String"/>，包含此 URI 的方案（已转换为小写形式）。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25334,7 +25740,8 @@
                 <see cref="T:System.String"/>
                 数组，包含构成指定 URI 的路径段。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>2</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25455,9 +25862,11 @@
         </member>
         <member name="P:System.Uri.UserInfo">
             <summary>获取用户名、密码或其他与指定 URI 关联的特定于用户的信息。</summary>
-            <returns>一个<see cref="T:System.String"/>，包含与该 URI 关联的用户信息。返回值不包括“@”字符，该字符是一个保留字符，用于分隔 URI 的用户信息部分。
+            <returns>一个<see cref="T:System.String"/>，包含与该 URI 关联的用户信息。返回值不包括“@”字符，该字符是一个保留字符，用于分隔
+                URI 的用户信息部分。
             </returns>
-            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。</exception>
+            <exception cref="T:System.InvalidOperationException">此实例代表一个相对 URI，而此属性仅对绝对 URI 有效。
+            </exception>
             <filterpriority>1</filterpriority>
             <PermissionSet>
                 <IPermission
@@ -25603,7 +26012,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="F:System.UriFormat.SafeUnescaped">
-            <summary>在请求的 URI 组成部分中具有保留意义的字符将仍然进行转义。所有其他字符不进行转义。请参阅“备注”。</summary>
+            <summary>在请求的 URI 组成部分中具有保留意义的字符将仍然进行转义。所有其他字符不进行转义。请参阅“备注”。
+            </summary>
         </member>
         <member name="F:System.UriFormat.Unescaped">
             <summary>未执行任何转义。</summary>
@@ -25633,7 +26043,9 @@
                 <see cref="T:System.UriFormatException"/>
                 类的新实例。
             </summary>
-            <param name="textString">描述该异常的消息。此构造函数的调用方需要确保此字符串已针对当前系统区域性进行了本地化。</param>
+            <param name="textString">
+                描述该异常的消息。此构造函数的调用方需要确保此字符串已针对当前系统区域性进行了本地化。
+            </param>
             <param name="e">导致当前异常的异常。如果
                 <paramref name="innerException"/>
                 参数不为 null，则当前异常将在处理内部异常的 catch 块中引发。
@@ -25762,7 +26174,9 @@
                 <see cref="T:System.Version"/>
                 类的新实例。
             </summary>
-            <param name="version">一个包含主要版本号、次要版本号、内部版本号和修订号的字符串，其中的各个号之间以句点字符（“.”）分隔。</param>
+            <param name="version">
+                一个包含主要版本号、次要版本号、内部版本号和修订号的字符串，其中的各个号之间以句点字符（“.”）分隔。
+            </param>
             <exception cref="T:System.ArgumentException">
                 <paramref name="version"/>
                 has fewer than two components or more than four components.
@@ -26068,7 +26482,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Version.System#IComparable#CompareTo(System.Object)">
-            <summary>将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。</summary>
+            <summary>
+                将当前实例与同一类型的另一个对象进行比较，并返回一个整数，该整数指示当前实例在排序顺序中的位置是位于另一个对象之前、之后还是与其位置相同。
+            </summary>
             <returns>一个有符号的整数，它指示此实例和
                 <paramref name="value"/>
                 的相对顺序。返回值含义小于零此实例在排序顺序中位于
@@ -26122,7 +26538,8 @@
                 <see cref="T:System.Version"/>
                 表示形式，各部分之间用句点字符（“.”）分隔。
                 <paramref name="fieldCount"/>
-                参数确定返回多少个部分。fieldCount返回值0 空字符串 ("")。1 主要版本号2 主要版本号.次要版本号3 主要版本号.次要版本号.内部版本号4
+                参数确定返回多少个部分。fieldCount返回值0 空字符串 ("")。1 主要版本号2 主要版本号.次要版本号3
+                主要版本号.次要版本号.内部版本号4
                 主要版本号.次要版本号.内部版本号.修订号例如，如果使用构造函数 Version(1,3,5) 创建
                 <see cref="T:System.Version"/>
                 对象，则 ToString(2) 返回“1.3”，并且 ToString(4) 引发异常。
@@ -26183,7 +26600,9 @@
                 类的新实例，引用指定的对象并使用指定的复活跟踪。
             </summary>
             <param name="target">要跟踪的对象。</param>
-            <param name="trackResurrection">指示何时停止跟踪对象。如果为 true，则在终结后跟踪对象；如果为 false，则仅在终结前跟踪对象。</param>
+            <param name="trackResurrection">指示何时停止跟踪对象。如果为 true，则在终结后跟踪对象；如果为
+                false，则仅在终结前跟踪对象。
+            </param>
         </member>
         <member name="M:System.WeakReference.Finalize">
             <summary>丢弃对当前
@@ -26605,7 +27024,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.Collections.IEnumerable">
-            <summary>公开枚举数，该枚举数支持在非泛型集合上进行简单迭代。若要浏览此类型的 .NET Framework 源代码，请参阅引用源。</summary>
+            <summary>公开枚举数，该枚举数支持在非泛型集合上进行简单迭代。若要浏览此类型的 .NET Framework
+                源代码，请参阅引用源。
+            </summary>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Collections.IEnumerable.GetEnumerator">
@@ -26998,7 +27419,9 @@
         </member>
         <member name="T:System.Collections.Generic.IComparer`1">
             <summary>定义类型为比较两个对象而实现的方法。</summary>
-            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Collections.Generic.IComparer`1.Compare(`0,`0)">
@@ -27070,7 +27493,8 @@
                 <paramref name="key"/>
                 为 null。
             </exception>
-            <exception cref="T:System.Collections.Generic.KeyNotFoundException">检索了属性但没有找到<paramref name="key"/>。
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">检索了属性但没有找到<paramref
+                    name="key"/>。
             </exception>
             <exception cref="T:System.NotSupportedException">设置该属性，而且
                 <see cref="T:System.Collections.Generic.IDictionary`2"/>
@@ -27133,8 +27557,12 @@
             </returns>
         </member>
         <member name="T:System.Collections.Generic.IEnumerable`1">
-            <summary>公开枚举数，该枚举数支持在指定类型的集合上进行简单迭代。若要浏览此类型的.NET Framework 源代码，请参阅参考源。</summary>
-            <typeparam name="T">要枚举的对象的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <summary>公开枚举数，该枚举数支持在指定类型的集合上进行简单迭代。若要浏览此类型的.NET Framework
+                源代码，请参阅参考源。
+            </summary>
+            <typeparam name="T">要枚举的对象的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Collections.Generic.IEnumerable`1.GetEnumerator">
@@ -27144,7 +27572,9 @@
         </member>
         <member name="T:System.Collections.Generic.IEnumerator`1">
             <summary>支持在泛型集合上进行简单迭代。</summary>
-            <typeparam name="T">要枚举的对象的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要枚举的对象的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
             <filterpriority>1</filterpriority>
         </member>
         <member name="P:System.Collections.Generic.IEnumerator`1.Current">
@@ -27153,7 +27583,9 @@
         </member>
         <member name="T:System.Collections.Generic.IEqualityComparer`1">
             <summary>定义方法以支持对象的相等比较。</summary>
-            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">要比较的对象的类型。此类型参数是逆变。即可以使用指定的类型或派生程度更低的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)">
             <summary>确定指定的对象是否相等。</summary>
@@ -27253,7 +27685,9 @@
         </member>
         <member name="T:System.Collections.Generic.IReadOnlyCollection`1">
             <summary>表示元素的强类型的只读集合。</summary>
-            <typeparam name="T">元素的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">元素的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="P:System.Collections.Generic.IReadOnlyCollection`1.Count">
             <summary>获取集合中的元素数。</summary>
@@ -27281,7 +27715,8 @@
                 <paramref name="key"/>
                 为 null。
             </exception>
-            <exception cref="T:System.Collections.Generic.KeyNotFoundException">检索了属性但没有找到<paramref name="key"/>。
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">检索了属性但没有找到<paramref
+                    name="key"/>。
             </exception>
         </member>
         <member name="P:System.Collections.Generic.IReadOnlyDictionary`2.Keys">
@@ -27310,7 +27745,9 @@
         </member>
         <member name="T:System.Collections.Generic.IReadOnlyList`1">
             <summary>表示可按照索引访问的元素的只读集合。</summary>
-            <typeparam name="T">只读列表中元素的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅 泛型中的协变和逆变。</typeparam>
+            <typeparam name="T">只读列表中元素的类型。此类型参数是协变。即可以使用指定的类型或派生程度更高的类型。有关协变和逆变的详细信息，请参阅
+                泛型中的协变和逆变。
+            </typeparam>
         </member>
         <member name="P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)">
             <summary>获取位于只读列表中指定索引处的元素。</summary>
@@ -28125,7 +28562,8 @@
             <exception cref="T:System.NotSupportedException">Always thrown.</exception>
         </member>
         <member name="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Item(System.Int32)">
-            <summary>获取指定索引处的元素。如果您尝试设置指定索引处的项，则会发生<see cref="T:System.NotSupportedException"/>。
+            <summary>获取指定索引处的元素。如果您尝试设置指定索引处的项，则会发生<see
+                    cref="T:System.NotSupportedException"/>。
             </summary>
             <returns>指定索引处的元素。</returns>
             <param name="index">要获取的元素的索引（索引从零开始）。</param>
@@ -28300,7 +28738,8 @@
             </returns>
         </member>
         <member name="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Item(System.Int32)">
-            <summary>获取指定索引处的元素。如果您尝试设置指定索引处的项，则会发生<see cref="T:System.NotSupportedException"/>。
+            <summary>获取指定索引处的元素。如果您尝试设置指定索引处的项，则会发生<see
+                    cref="T:System.NotSupportedException"/>。
             </summary>
             <returns>指定索引处的元素。</returns>
             <param name="index">要获取的元素的索引（索引从零开始）。</param>
@@ -28514,20 +28953,25 @@
             <summary>指定实时 (JIT) 编译器的调试模式。</summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.Default">
-            <summary>指示实时 (JIT) 编译器使用其默认行为，包括启用优化、禁用“编辑并继续”支持以及使用符号存储区序列点（如果存在）。在 .NET Framework 2.0 版本中，始终生成 JIT
+            <summary>指示实时 (JIT) 编译器使用其默认行为，包括启用优化、禁用“编辑并继续”支持以及使用符号存储区序列点（如果存在）。在
+                .NET Framework 2.0 版本中，始终生成 JIT
                 跟踪信息，即方法中本机代码偏移量的 Microsoft 中间语言 (MSIL) 偏移量。
             </summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.DisableOptimizations">
-            <summary>禁用编译器为使输出文件更小、更快、更有效而执行的优化。优化会导致输出文件中的代码重排，这会增加调试的难度。通常在调试时应禁用优化。在 2.0 或更高版本中，将这个值与 Default
+            <summary>禁用编译器为使输出文件更小、更快、更有效而执行的优化。优化会导致输出文件中的代码重排，这会增加调试的难度。通常在调试时应禁用优化。在
+                2.0 或更高版本中，将这个值与 Default
                 (Default | DisableOptimizations) 组合在一起可启用 JIT 跟踪和禁用优化。
             </summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.EnableEditAndContinue">
-            <summary>启用“编辑并继续”。借助“编辑并继续”，你可以在程序处于中断模式时对源代码进行更改。“编辑并继续”的能力取决于编译器。</summary>
+            <summary>
+                启用“编辑并继续”。借助“编辑并继续”，你可以在程序处于中断模式时对源代码进行更改。“编辑并继续”的能力取决于编译器。
+            </summary>
         </member>
         <member name="F:System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints">
-            <summary>使用隐式 MSIL 序列点，而非程序数据库 (PDB) 序列点。符号信息中的每个源行通常至少包含一个 Microsoft 中间语言 (MSIL) 偏移量。当实时 (JIT)
+            <summary>使用隐式 MSIL 序列点，而非程序数据库 (PDB) 序列点。符号信息中的每个源行通常至少包含一个 Microsoft
+                中间语言 (MSIL) 偏移量。当实时 (JIT)
                 编译器要编译方法时，它会请求分析服务提供应保留的 MSIL 偏移量列表。这些 MSIL 偏移量称为序列点。
             </summary>
         </member>
@@ -28543,8 +28987,10 @@
         </member>
         <member name="F:System.Globalization.DateTimeStyles.AdjustToUniversal">
             <summary>以协调世界时 (UTC) 形式返回日期和时间。如果输入字符串表示本地时间（通过时区说明符或<see
-                    cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>），则会将日期和时间从本地时间转换为 UTC。如果输入字符串表示 UTC
-                时间（通过时区说明符或<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>），则不进行任何转换。如果输入字符串不表示本地时间或
+                    cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>），则会将日期和时间从本地时间转换为
+                UTC。如果输入字符串表示 UTC
+                时间（通过时区说明符或<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>
+                ），则不进行任何转换。如果输入字符串不表示本地时间或
                 UTC 时间，则不进行任何转换，并且生成的
                 <see cref="P:System.DateTime.Kind"/>
                 属性为<see cref="F:System.DateTimeKind.Unspecified"/>。
@@ -28585,7 +29031,9 @@
             <summary>如果分析的字符串中未指定任何时区，则假定该字符串表示 UTC。</summary>
         </member>
         <member name="F:System.Globalization.DateTimeStyles.NoCurrentDateDefault">
-            <summary>如果分析的字符串只包含时间而不包含日期，则分析方法会假定以下公历日期：年 = 1、月 = 1 并且日 = 1。如果没有使用此值，则假定为当前日期。</summary>
+            <summary>如果分析的字符串只包含时间而不包含日期，则分析方法会假定以下公历日期：年 = 1、月 = 1 并且日 =
+                1。如果没有使用此值，则假定为当前日期。
+            </summary>
         </member>
         <member name="F:System.Globalization.DateTimeStyles.None">
             <summary>必须使用默认格式设置选项。此值表示<see cref="M:System.DateTime.Parse(System.String)"/>、
@@ -28629,7 +29077,8 @@
         <member name="F:System.Globalization.NumberStyles.AllowExponent">
             <summary>指示数字字符串用于指数符号中。该
                 <see cref="F:System.Globalization.NumberStyles.AllowExponent"/>
-                标志允许分析的字符串包含以“E”或“e”字符开始并且后接可选的正号或负号以及整数的指数。换句话说，它成功地分析 nnnExx， nnnE +xx，以及 nnnE-xx
+                标志允许分析的字符串包含以“E”或“e”字符开始并且后接可选的正号或负号以及整数的指数。换句话说，它成功地分析
+                nnnExx， nnnE +xx，以及 nnnE-xx
                 格式的字符串。它不允许有效位数或尾数中有小数分隔符或小数符号；若要允许分析字符串中的这些元素，请使用
                 <see cref="F:System.Globalization.NumberStyles.AllowDecimalPoint"/>
                 和
@@ -28638,7 +29087,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowHexSpecifier">
-            <summary>指示数值字符串表示一个十六进制值。有效的十六进制值包括数字 0-9 和十六进制数字 A-F 和 a-f。使用此样式分析的字符串不能带有“0x”或“&amp;h”前缀。使用
+            <summary>指示数值字符串表示一个十六进制值。有效的十六进制值包括数字 0-9 和十六进制数字 A-F 和
+                a-f。使用此样式分析的字符串不能带有“0x”或“&amp;h”前缀。使用
                 <see cref="F:System.Globalization.NumberStyles.AllowHexSpecifier"/>
                 样式分析的字符串总是被解释为一个十六进制值。可与
                 <see cref="F:System.Globalization.NumberStyles.AllowHexSpecifier"/>
@@ -28658,7 +29108,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowLeadingWhite">
-            <summary>指示所分析的字符串中可以存在前导空白字符。有效的空白字符具有 Unicode 值 U+0009、U+000A、U+000B、U+000C、U+000D 和 U+0020。请注意，这是
+            <summary>指示所分析的字符串中可以存在前导空白字符。有效的空白字符具有 Unicode 值
+                U+0009、U+000A、U+000B、U+000C、U+000D 和 U+0020。请注意，这是
                 <see cref="M:System.Char.IsWhiteSpace(System.Char)"/>
                 方法针对其返回 true 的字符的子集。
             </summary>
@@ -28691,7 +29142,8 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.AllowTrailingWhite">
-            <summary>指示所分析的字符串中可以存在结尾空白字符。有效的空白字符具有 Unicode 值 U+0009、U+000A、U+000B、U+000C、U+000D 和 U+0020。请注意，这是
+            <summary>指示所分析的字符串中可以存在结尾空白字符。有效的空白字符具有 Unicode 值
+                U+0009、U+000A、U+000B、U+000C、U+000D 和 U+0020。请注意，这是
                 <see cref="M:System.Char.IsWhiteSpace(System.Char)"/>
                 方法针对其返回 true 的字符的子集。
             </summary>
@@ -28737,7 +29189,9 @@
             </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.None">
-            <summary>指示没有样式元素（比如前导或尾随空白、千位分隔符或小数分隔符）可出现在分析的字符串中。要分析的字符串只能包含整型小数位数。</summary>
+            <summary>
+                指示没有样式元素（比如前导或尾随空白、千位分隔符或小数分隔符）可出现在分析的字符串中。要分析的字符串只能包含整型小数位数。
+            </summary>
         </member>
         <member name="F:System.Globalization.NumberStyles.Number">
             <summary>指示使用<see cref="F:System.Globalization.NumberStyles.AllowLeadingWhite"/>、<see
@@ -28920,7 +29374,8 @@
         <member name="M:System.IO.FileNotFoundException.#ctor(System.String,System.String)">
             <summary>初始化
                 <see cref="T:System.IO.FileNotFoundException"/>
-                类的新实例，使其消息字符串设置为<paramref name="message"/>（用于指定无法找到的文件名），其 HRESULT 设置为 COR_E_FILENOTFOUND。
+                类的新实例，使其消息字符串设置为<paramref name="message"/>（用于指定无法找到的文件名），其 HRESULT 设置为
+                COR_E_FILENOTFOUND。
             </summary>
             <param name="message">错误说明。
                 <paramref name="message"/>
@@ -28973,7 +29428,8 @@
         <member name="M:System.IO.IOException.#ctor(System.String)">
             <summary>初始化
                 <see cref="T:System.IO.IOException"/>
-                类的新实例，使其消息字符串设置为<paramref name="message"/>，其 HRESULT 设置为 COR_E_IO，而其内部异常设置为 null。
+                类的新实例，使其消息字符串设置为<paramref name="message"/>，其 HRESULT 设置为 COR_E_IO，而其内部异常设置为
+                null。
             </summary>
             <param name="message">描述该错误的<see cref="T:System.String"/>。
                 <paramref name="message"/>
@@ -29198,7 +29654,9 @@
             <summary>指定包含用于生成强名称的密钥对的文件名称。</summary>
         </member>
         <member name="M:System.Reflection.AssemblyKeyFileAttribute.#ctor(System.String)">
-            <summary>使用文件的名称初始化 AssemblyKeyFileAttribute 类的新实例，该文件包含为正在属性化的程序集生成强名称的密钥对。</summary>
+            <summary>使用文件的名称初始化 AssemblyKeyFileAttribute
+                类的新实例，该文件包含为正在属性化的程序集生成强名称的密钥对。
+            </summary>
             <param name="keyFile">包含密钥对的文件的名称。</param>
         </member>
         <member name="P:System.Reflection.AssemblyKeyFileAttribute.KeyFile">
@@ -29251,7 +29709,9 @@
             <summary>指定公钥基于完整公钥而不是公钥标记构成。</summary>
         </member>
         <member name="F:System.Reflection.AssemblyNameFlags.Retargetable">
-            <summary>指定可以在运行时将程序集重定向到来自其他发行者的程序集。此值支持 .NET Framework 基础结构，但不适合在代码中直接使用。</summary>
+            <summary>指定可以在运行时将程序集重定向到来自其他发行者的程序集。此值支持 .NET Framework
+                基础结构，但不适合在代码中直接使用。
+            </summary>
         </member>
         <member name="T:System.Reflection.AssemblyProductAttribute">
             <summary>定义程序集清单的产品名称自定义属性。</summary>
@@ -29336,8 +29796,10 @@
                 <see cref="T:System.Reflection.DefaultMemberAttribute"/>
                 类的新实例。
             </summary>
-            <param name="memberName">包含要调用的成员名称的 String。这可能是一个构造函数、方法、属性或字段。在调用成员时必须指定合适的调用属性。通过传递一个空 String
-                作为成员名称，可以指定类的默认成员。类型的默认成员由 DefaultMemberAttribute 自定义属性标记，或按通常的方法在 COM 中标记。
+            <param name="memberName">包含要调用的成员名称的 String。这可能是一个构造函数、方法、属性或字段。在调用成员时必须指定合适的调用属性。通过传递一个空
+                String
+                作为成员名称，可以指定类的默认成员。类型的默认成员由 DefaultMemberAttribute 自定义属性标记，或按通常的方法在
+                COM 中标记。
             </param>
         </member>
         <member name="P:System.Reflection.DefaultMemberAttribute.MemberName">
@@ -29366,7 +29828,8 @@
             <summary>32 位 Intel 处理器，位于本机上或位于 64 位平台（WOW64）的 Windows on Windows 环境中。</summary>
         </member>
         <member name="T:System.Runtime.GCLargeObjectHeapCompactionMode">
-            <summary>[在 .NET Framework 4.5.1 和更高版本中受支持]指示下一个阻塞垃圾回收是否压缩大型对象堆 (LOH)。</summary>
+            <summary>[在 .NET Framework 4.5.1 和更高版本中受支持]指示下一个阻塞垃圾回收是否压缩大型对象堆 (LOH)。
+            </summary>
         </member>
         <member name="F:System.Runtime.GCLargeObjectHeapCompactionMode.CompactOnce">
             <summary>下一次阻止第 2 代垃圾回收期间将压缩大型对象堆 (LOH)。</summary>
@@ -29387,10 +29850,14 @@
             </summary>
         </member>
         <member name="F:System.Runtime.GCLatencyMode.LowLatency">
-            <summary>启用回收对象时比较保守的垃圾回收。仅在系统遇到内存压力时才发生完全回收，而通常情况下发生 0 代和 1 代回收</summary>
+            <summary>启用回收对象时比较保守的垃圾回收。仅在系统遇到内存压力时才发生完全回收，而通常情况下发生 0 代和 1
+                代回收
+            </summary>
         </member>
         <member name="F:System.Runtime.GCLatencyMode.SustainedLowLatency">
-            <summary>启用尝试减少延长时期的延迟的垃圾回收。回收器尝试只执行生成 0、生成 1，以及并发只生成 2 个集合。如果系统处于内存压力之下，则完整的阻碍性回收还是会出现。</summary>
+            <summary>启用尝试减少延长时期的延迟的垃圾回收。回收器尝试只执行生成 0、生成 1，以及并发只生成 2
+                个集合。如果系统处于内存压力之下，则完整的阻碍性回收还是会出现。
+            </summary>
         </member>
         <member name="T:System.Runtime.GCSettings">
             <summary>指定当前进程的垃圾回收设置。</summary>
@@ -29400,7 +29867,9 @@
             <returns>如果启用了服务器垃圾回收，则为 true；否则为 false。</returns>
         </member>
         <member name="P:System.Runtime.GCSettings.LargeObjectHeapCompactionMode">
-            <summary>[在 .NET Framework 4.5.1 和更高版本中受支持]获取或设置指示完全阻止垃圾回收是否压缩大型对象堆 (LOH) 的值。</summary>
+            <summary>[在 .NET Framework 4.5.1 和更高版本中受支持]获取或设置指示完全阻止垃圾回收是否压缩大型对象堆 (LOH)
+                的值。
+            </summary>
             <returns>指示完全阻止垃圾回收是否压缩 LOH 的枚举值之一。</returns>
         </member>
         <member name="P:System.Runtime.GCSettings.LatencyMode">
@@ -29516,11 +29985,14 @@
             </exception>
         </member>
         <member name="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.Finalize">
-            <summary>确保释放资源并在垃圾回收器回收时执行其他清理操作<see cref="T:System.Runtime.CompilerServices.ConditionalWeakTable`2"/>对象。
+            <summary>确保释放资源并在垃圾回收器回收时执行其他清理操作<see
+                    cref="T:System.Runtime.CompilerServices.ConditionalWeakTable`2"/>对象。
             </summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetOrCreateValue(`0)">
-            <summary>以原子方式在表中搜索指定键，并返回对应的值。如果表中不存在该键，此方法将调用表示表值的类的默认构造函数，以创建绑定到指定键的值。</summary>
+            <summary>
+                以原子方式在表中搜索指定键，并返回对应的值。如果表中不存在该键，此方法将调用表示表值的类的默认构造函数，以创建绑定到指定键的值。
+            </summary>
             <returns>如果表中已存在<paramref name="key"/>，则为对应于
                 <paramref name="key"/>
                 的值；否则为
@@ -29535,12 +30007,15 @@
                 <paramref name="key"/>
                 为 null。
             </exception>
-            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store 应用程序 或 可移植类库 中，请改为捕获基类异常<see
-                    cref="T:System.MissingMemberException"/>。表示表中值的类未定义默认构造函数。
+            <exception cref="T:System.MissingMethodException">在 .NET for Windows Store 应用程序 或 可移植类库
+                中，请改为捕获基类异常<see
+                        cref="T:System.MissingMemberException"/>。表示表中值的类未定义默认构造函数。
             </exception>
         </member>
         <member name="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)">
-            <summary>以原子方式在表中搜索指定键，并返回对应的值。如果表中不存在该键，此方法将调用一个回调方法来创建绑定到指定键的值。</summary>
+            <summary>
+                以原子方式在表中搜索指定键，并返回对应的值。如果表中不存在该键，此方法将调用一个回调方法来创建绑定到指定键的值。
+            </summary>
             <returns>如果表中已存在<paramref name="key"/>，则为附加到
                 <paramref name="key"/>
                 的值；否则为
@@ -29619,7 +30094,8 @@
             </summary>
         </member>
         <member name="M:System.Runtime.CompilerServices.DateTimeConstantAttribute.#ctor(System.Int64)">
-            <summary>用表示此实例日期和时间的以 100 毫微秒为单位的数字初始化 DateTimeConstantAttribute 类的新实例。</summary>
+            <summary>用表示此实例日期和时间的以 100 毫微秒为单位的数字初始化 DateTimeConstantAttribute 类的新实例。
+            </summary>
             <param name="ticks">表示此实例日期和时间的以 100 毫微秒为单位的数字。</param>
         </member>
         <member name="P:System.Runtime.CompilerServices.DateTimeConstantAttribute.Value">
@@ -29876,7 +30352,9 @@
         </member>
         <member name="M:System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack">
             <summary>确保剩余的堆栈空间足够大，可以执行一般的 .NET Framework 函数。</summary>
-            <exception cref="T:System.InsufficientExecutionStackException">可用堆栈空间足以执行一般的 .NET Framework 函数。</exception>
+            <exception cref="T:System.InsufficientExecutionStackException">可用堆栈空间足以执行一般的 .NET Framework
+                函数。
+            </exception>
         </member>
         <member name="M:System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(System.Object)">
             <summary>用作特定对象的哈希函数，适合在使用哈希代码的算法和数据结构（如哈希表）中使用。</summary>
@@ -30077,7 +30555,9 @@
             <summary>控制当导出到非托管代码时对象的布局。</summary>
         </member>
         <member name="F:System.Runtime.InteropServices.LayoutKind.Auto">
-            <summary>运行库自动为非托管内存中的对象的成员选择适当的布局。使用此枚举成员定义的对象不能在托管代码的外部公开。尝试这样做将引发异常。</summary>
+            <summary>
+                运行库自动为非托管内存中的对象的成员选择适当的布局。使用此枚举成员定义的对象不能在托管代码的外部公开。尝试这样做将引发异常。
+            </summary>
         </member>
         <member name="F:System.Runtime.InteropServices.LayoutKind.Explicit">
             <summary>在未管理内存中的每一个对象成员的精确位置是被显式控制的，服从于
@@ -30153,7 +30633,9 @@
             <returns>编译该程序集时针对的 .NET Framework 版本的名称。</returns>
         </member>
         <member name="T:System.Security.AllowPartiallyTrustedCallersAttribute">
-            <summary>允许部分受信任的代码调用某个程序集。如果没有此声明，则只有完全受信任的调用方才可以使用该程序集。此类不能被继承。</summary>
+            <summary>
+                允许部分受信任的代码调用某个程序集。如果没有此声明，则只有完全受信任的调用方才可以使用该程序集。此类不能被继承。
+            </summary>
         </member>
         <member name="M:System.Security.AllowPartiallyTrustedCallersAttribute.#ctor">
             <summary>初始化
@@ -30237,7 +30719,9 @@
             </summary>
         </member>
         <member name="T:System.Security.VerificationException">
-            <summary>在以下情况引发的异常：安全策略要求代码为类型安全的代码，并且验证过程无法验证该代码是否为类型安全的代码。</summary>
+            <summary>
+                在以下情况引发的异常：安全策略要求代码为类型安全的代码，并且验证过程无法验证该代码是否为类型安全的代码。
+            </summary>
         </member>
         <member name="M:System.Security.VerificationException.#ctor">
             <summary>使用默认属性初始化
@@ -30604,8 +31088,11 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为单个参数的字符串表示形式。</summary>
-            <returns>完成追加操作后对此实例的引用。追加操作后，此实例包含执行操作，加上后缀的副本之前已存在的任何数据<paramref name="format"/>规范由字符串表示形式中的任何格式的替换
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为单个参数的字符串表示形式。
+            </summary>
+            <returns>完成追加操作后对此实例的引用。追加操作后，此实例包含执行操作，加上后缀的副本之前已存在的任何数据
+                <paramref name="format"/>规范由字符串表示形式中的任何格式的替换
                 <paramref name="arg0"/>。
             </returns>
             <param name="provider">一个提供区域性特定的格式设置信息的对象。</param>
@@ -30624,7 +31111,9 @@
             </exception>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为两个参数中任一个的字符串表示形式。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为两个参数中任一个的字符串表示形式。
+            </summary>
             <returns>完成追加操作后对此实例的引用。完成追加操作后，此实例包含执行该操作之前已存在的任何数据，并且有一个
                 <paramref name="format"/>
                 的副本作为后缀，其中任何格式规范都由相应对象参数的字符串表示形式替换。
@@ -30646,7 +31135,9 @@
             </exception>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为三个参数中任一个的字符串表示形式。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序替换为三个参数中任一个的字符串表示形式。
+            </summary>
             <returns>完成追加操作后对此实例的引用。完成追加操作后，此实例包含执行该操作之前已存在的任何数据，并且有一个
                 <paramref name="format"/>
                 的副本作为后缀，其中任何格式规范都由相应对象参数的字符串表示形式替换。
@@ -30669,7 +31160,9 @@
             </exception>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[])">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序由参数数组中相应参数的字符串表示形式替换。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都使用指定的格式提供程序由参数数组中相应参数的字符串表示形式替换。
+            </summary>
             <returns>完成追加操作后对此实例的引用。完成追加操作后，此实例包含执行该操作之前已存在的任何数据，并且有一个
                 <paramref name="format"/>
                 的副本作为后缀，其中任何格式规范都由相应对象参数的字符串表示形式替换。
@@ -30693,7 +31186,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为一个参数的字符串表示形式。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为一个参数的字符串表示形式。
+            </summary>
             <returns>对追加了
                 <paramref name="format"/>
                 的此实例的引用。
@@ -30718,7 +31213,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为这两个参数中任意一个参数的字符串表示形式。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为这两个参数中任意一个参数的字符串表示形式。
+            </summary>
             <returns>对追加了
                 <paramref name="format"/>
                 的此实例的引用。
@@ -30742,7 +31239,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object)">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为这三个参数中任意一个参数的字符串表示形式。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都替换为这三个参数中任意一个参数的字符串表示形式。
+            </summary>
             <returns>对追加了
                 <paramref name="format"/>
                 的此实例的引用。
@@ -30767,7 +31266,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[])">
-            <summary>向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都由参数数组中相应参数的字符串表示形式替换。</summary>
+            <summary>
+                向此实例追加通过处理复合格式字符串（包含零个或更多格式项）而返回的字符串。每个格式项都由参数数组中相应参数的字符串表示形式替换。
+            </summary>
             <returns>对追加了
                 <paramref name="format"/>
                 的此实例的引用。
@@ -30818,10 +31319,13 @@
         </member>
         <member name="P:System.Text.StringBuilder.Capacity">
             <summary>获取或设置可包含在当前实例所分配的内存中的最大字符数。</summary>
-            <returns>可包含在当前实例所分配的内存中的最大字符数。其值可以介于<see cref="P:System.Text.StringBuilder.Length"/>到<see
+            <returns>可包含在当前实例所分配的内存中的最大字符数。其值可以介于<see
+                    cref="P:System.Text.StringBuilder.Length"/>到<see
                     cref="P:System.Text.StringBuilder.MaxCapacity"/>。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">为设置操作指定的值小于此实例的当前长度。- 或 -为设置操作指定的值大于最大容量。</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">为设置操作指定的值小于此实例的当前长度。- 或
+                -为设置操作指定的值大于最大容量。
+            </exception>
             <filterpriority>2</filterpriority>
         </member>
         <member name="P:System.Text.StringBuilder.Chars(System.Int32)">
@@ -30949,7 +31453,8 @@
             <param name="value">要插入的值。</param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="index"/>
-                小于零或大于此实例的长度。- 或 -增大此实例的值将超过<see cref="P:System.Text.StringBuilder.MaxCapacity"/>。
+                小于零或大于此实例的长度。- 或 -增大此实例的值将超过<see cref="P:System.Text.StringBuilder.MaxCapacity"/>
+                。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -30960,7 +31465,8 @@
             <param name="value">要插入的字符数组。</param>
             <exception cref="T:System.ArgumentOutOfRangeException">
                 <paramref name="index"/>
-                小于零或大于此实例的长度。- 或 -增大此实例的值将超过<see cref="P:System.Text.StringBuilder.MaxCapacity"/>。
+                小于零或大于此实例的长度。- 或 -增大此实例的值将超过<see cref="P:System.Text.StringBuilder.MaxCapacity"/>
+                。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -31330,7 +31836,8 @@
                 <paramref name="startIndex"/>
                 与
                 <paramref name="count"/>
-                之和指示一个不在此实例内的字符位置。- 或 -增大此实例的值将超过<see cref="P:System.Text.StringBuilder.MaxCapacity"/>。
+                之和指示一个不在此实例内的字符位置。- 或 -增大此实例的值将超过<see
+                    cref="P:System.Text.StringBuilder.MaxCapacity"/>。
             </exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -31476,7 +31983,8 @@
                 <see cref="T:System.Threading.WaitHandle"/>
                 使用的非托管资源，并且可选择释放托管资源。
             </summary>
-            <param name="explicitDisposing">若要释放托管资源和非托管资源，则为 true；若仅释放非托管资源，则为 false。</param>
+            <param name="explicitDisposing">若要释放托管资源和非托管资源，则为 true；若仅释放非托管资源，则为 false。
+            </param>
         </member>
         <member name="F:System.Threading.WaitHandle.InvalidHandle">
             <summary>表示无效的本机操作系统句柄。此字段为只读。</summary>
@@ -31485,7 +31993,9 @@
             <summary>等待指定数组中的所有元素都收到信号。</summary>
             <returns>如果 true 中的每个元素都收到信号，则返回<paramref name="waitHandles"/>；否则该方法永不返回。
             </returns>
-            <param name="waitHandles">一个 WaitHandle 数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用。</param>
+            <param name="waitHandles">一个 WaitHandle
+                数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用。
+            </param>
             <exception cref="T:System.ArgumentNullException">The
                 <paramref name="waitHandles"/>
                 parameter is null.-or-One or more of the objects in the
@@ -31531,7 +32041,9 @@
                 <paramref name="waitHandles"/>
                 中的每个元素都已收到信号，则为 true；否则为 false。
             </returns>
-            <param name="waitHandles">一个 WaitHandle 数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用（重复的元素）。</param>
+            <param name="waitHandles">一个 WaitHandle
+                数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用（重复的元素）。
+            </param>
             <param name="millisecondsTimeout">等待的毫秒数，或为
                 <see cref="F:System.Threading.Timeout.Infinite"/>
                 (-1)，表示无限期等待。
@@ -31580,7 +32092,9 @@
                 <paramref name="waitHandles"/>
                 中的每个元素都已收到信号，则为 true；否则为 false。
             </returns>
-            <param name="waitHandles">一个 WaitHandle 数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用。</param>
+            <param name="waitHandles">一个 WaitHandle
+                数组，包含当前实例将等待的对象。此数组不能包含对同一对象的多个引用。
+            </param>
             <param name="timeout">表示等待毫秒数的<see cref="T:System.TimeSpan"/>，或表示 -1 毫秒（无限期等待）的<see
                     cref="T:System.TimeSpan"/>。
             </param>

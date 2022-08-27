@@ -110,7 +110,8 @@
             <param name="count">要读取的字节数。</param>
             <exception cref="T:System.ArgumentException">缓冲区长度减去
                 <paramref name="index"/>
-                小于<paramref name="count"/>。- 或 -要读取的解码字符数大于<paramref name="count"/>。如果 Unicode 解码器返回回退字符或代理项对，则可能发生此情况。
+                小于<paramref name="count"/>。- 或 -要读取的解码字符数大于<paramref name="count"/>。如果 Unicode
+                解码器返回回退字符或代理项对，则可能发生此情况。
             </exception>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -128,13 +129,16 @@
         </member>
         <member name="M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)">
             <summary>从字符数组中的指定点开始，从流中读取指定的字符数。</summary>
-            <returns>读入缓冲区的总字符数。如果当前可用的字节没有请求的那么多，此数可能小于所请求的字符数；如果到达了流的末尾，此数可能为零。</returns>
+            <returns>
+                读入缓冲区的总字符数。如果当前可用的字节没有请求的那么多，此数可能小于所请求的字符数；如果到达了流的末尾，此数可能为零。
+            </returns>
             <param name="buffer">将数据读入的缓冲区。</param>
             <param name="index">缓冲区中的起始点，在该处开始读入缓冲区。</param>
             <param name="count">要读取的字符数。</param>
             <exception cref="T:System.ArgumentException">缓冲区长度减去
                 <paramref name="index"/>
-                小于<paramref name="count"/>。- 或 -要读取的解码字符数大于<paramref name="count"/>。如果 Unicode 解码器返回回退字符或代理项对，则可能发生此情况。
+                小于<paramref name="count"/>。- 或 -要读取的解码字符数大于<paramref name="count"/>。如果 Unicode
+                解码器返回回退字符或代理项对，则可能发生此情况。
             </exception>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -199,7 +203,9 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.BinaryReader.ReadChars(System.Int32)">
-            <summary>从当前流中读取指定的字符数，并以字符数组的形式返回数据，然后根据所使用的 Encoding 和从流中读取的特定字符，将当前位置前移。</summary>
+            <summary>从当前流中读取指定的字符数，并以字符数组的形式返回数据，然后根据所使用的 Encoding
+                和从流中读取的特定字符，将当前位置前移。
+            </summary>
             <returns>包含从基础流中读取的数据的字节数组。如果到达了流的末尾，则该字符数组可能小于所请求的字符数。</returns>
             <param name="count">要读取的字符数。</param>
             <exception cref="T:System.ArgumentException">要读取的解码字符数大于<paramref name="count"/>。如果 Unicode
@@ -460,7 +466,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.BinaryWriter.Write(System.Char)">
-            <summary>将 Unicode 字符写入当前流，并根据所使用的 Encoding 和向流中写入的特定字符，提升流的当前位置。</summary>
+            <summary>将 Unicode 字符写入当前流，并根据所使用的 Encoding 和向流中写入的特定字符，提升流的当前位置。
+            </summary>
             <param name="ch">要写入的非代理项 Unicode 字符。</param>
             <exception cref="T:System.IO.IOException">发生 I/O 错误。</exception>
             <exception cref="T:System.ObjectDisposedException">流已关闭。</exception>
@@ -482,7 +489,9 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.BinaryWriter.Write(System.Char[],System.Int32,System.Int32)">
-            <summary>将字符数组部分写入当前流，并根据所使用的 Encoding（可能还根据向流中写入的特定字符），提升流的当前位置。</summary>
+            <summary>将字符数组部分写入当前流，并根据所使用的
+                Encoding（可能还根据向流中写入的特定字符），提升流的当前位置。
+            </summary>
             <param name="chars">包含要写入的数据的字符数组。</param>
             <param name="index">
                 <paramref name="chars"/>
@@ -660,7 +669,8 @@
             </param>
         </member>
         <member name="T:System.IO.MemoryStream">
-            <summary>创建一个流，其后备存储为内存。若要浏览此类型的.NET Framework 源代码，请参阅 Reference Source。</summary>
+            <summary>创建一个流，其后备存储为内存。若要浏览此类型的.NET Framework 源代码，请参阅 Reference Source。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.MemoryStream.#ctor">
@@ -774,7 +784,8 @@
                 <see cref="P:System.IO.MemoryStream.CanWrite"/>
                 属性的设置，确定该流是否支持写入。
             </param>
-            <param name="publiclyVisible">设置为 true 可以启用<see cref="M:System.IO.MemoryStream.GetBuffer"/>
+            <param name="publiclyVisible">设置为 true 可以启用
+                <see cref="M:System.IO.MemoryStream.GetBuffer"/>
                 ，它返回无符号字节数组，流从该数组创建；否则为 false。
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -881,7 +892,9 @@
         </member>
         <member name="M:System.IO.MemoryStream.Read(System.Byte[],System.Int32,System.Int32)">
             <summary>从当前流中读取字节块并将数据写入缓冲区。</summary>
-            <returns>写入缓冲区中的总字节数。如果字节数当前不可用，则总字节数可能小于所请求的字节数；如果在读取到任何字节前已到达流结尾，则为零。</returns>
+            <returns>
+                写入缓冲区中的总字节数。如果字节数当前不可用，则总字节数可能小于所请求的字节数；如果在读取到任何字节前已到达流结尾，则为零。
+            </returns>
             <param name="buffer">当此方法返回时，包含指定的字节数组，该数组中从
                 <paramref name="offset"/>
                 到 (
@@ -916,7 +929,8 @@
             <summary>从当前流异步读取字节的序列，将流中的位置提升读取的字节数，并监视取消请求。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">数据写入的缓冲区。</param>
             <param name="offset">
@@ -924,7 +938,8 @@
                 中的字节偏移量，从该偏移量开始写入从流中读取的数据。
             </param>
             <param name="count">最多读取的字节数。</param>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -1020,7 +1035,8 @@
                 <paramref name="buffer"/>
                 为 null。
             </exception>
-            <exception cref="T:System.NotSupportedException">流不支持写入。有关其他信息，请参见<see cref="P:System.IO.Stream.CanWrite"/>
+            <exception cref="T:System.NotSupportedException">流不支持写入。有关其他信息，请参见
+                <see cref="P:System.IO.Stream.CanWrite"/>
                 。- 或 - 当前位置到流结尾的距离小于
                 <paramref name="count"/>
                 字节，并且无法修改容量。
@@ -1048,7 +1064,8 @@
                 中的从零开始的字节偏移量，从此处开始将字节复制到该流。
             </param>
             <param name="count">最多写入的字节数。</param>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -1073,7 +1090,8 @@
         <member name="M:System.IO.MemoryStream.WriteByte(System.Byte)">
             <summary>将一个字节写入当前位置上的当前流。</summary>
             <param name="value">要写入的字节。</param>
-            <exception cref="T:System.NotSupportedException">流不支持写入。有关其他信息，请参见<see cref="P:System.IO.Stream.CanWrite"/>
+            <exception cref="T:System.NotSupportedException">流不支持写入。有关其他信息，请参见
+                <see cref="P:System.IO.Stream.CanWrite"/>
                 。- 或 - 当前位置位于流的末尾，而且容量不能被修改。
             </exception>
             <exception cref="T:System.ObjectDisposedException">当前流已关闭。</exception>
@@ -1103,7 +1121,9 @@
             <summary>指定流的结尾。</summary>
         </member>
         <member name="T:System.IO.Stream">
-            <summary>提供字节序列的一般视图。这是一个抽象类。若要浏览此类型的.NET Framework 源代码，请参阅 Reference Source。</summary>
+            <summary>提供字节序列的一般视图。这是一个抽象类。若要浏览此类型的.NET Framework 源代码，请参阅 Reference
+                Source。
+            </summary>
             <filterpriority>2</filterpriority>
         </member>
         <member name="M:System.IO.Stream.#ctor">
@@ -1207,7 +1227,8 @@
             <returns>表示异步复制操作的任务。</returns>
             <param name="destination">当前流的内容将复制到的流。</param>
             <param name="bufferSize">缓冲区的大小（以字节为单位）。此值必须大于零。默认大小为 81920。</param>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="destination"/>
@@ -1246,7 +1267,8 @@
         <member name="M:System.IO.Stream.FlushAsync(System.Threading.CancellationToken)">
             <summary>异步清理这个流的所有缓冲区，并使所有缓冲数据写入基础设备，并且监控取消请求。</summary>
             <returns>表示异步刷新操作的任务。</returns>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ObjectDisposedException">流已被释放。</exception>
         </member>
@@ -1271,7 +1293,9 @@
         </member>
         <member name="M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)">
             <summary>当在派生类中重写时，从当前流读取字节序列，并将此流中的位置提升读取的字节数。</summary>
-            <returns>读入缓冲区中的总字节数。如果很多字节当前不可用，则总字节数可能小于请求的字节数；如果已到达流结尾，则为零 (0)。</returns>
+            <returns>读入缓冲区中的总字节数。如果很多字节当前不可用，则总字节数可能小于请求的字节数；如果已到达流结尾，则为零
+                (0)。
+            </returns>
             <param name="buffer">字节数组。此方法返回时，该缓冲区包含指定的字符数组，该数组的
                 <paramref name="offset"/>
                 和 (
@@ -1310,7 +1334,8 @@
             <summary>从当前流异步读取字节序列，并将流中的位置提升读取的字节数。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">数据写入的缓冲区。</param>
             <param name="offset">
@@ -1342,7 +1367,8 @@
             <summary>从当前流异步读取字节的序列，将流中的位置提升读取的字节数，并监视取消请求。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">数据写入的缓冲区。</param>
             <param name="offset">
@@ -1350,7 +1376,8 @@
                 中的字节偏移量，从该偏移量开始写入从流中读取的数据。
             </param>
             <param name="count">最多读取的字节数。</param>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -1400,7 +1427,9 @@
                 类型的值，指示用于获取新位置的参考点。
             </param>
             <exception cref="T:System.IO.IOException">发生 I/O 错误。</exception>
-            <exception cref="T:System.NotSupportedException">流不支持查找，例如在流通过管道或控制台输出构造的情况下即为如此。</exception>
+            <exception cref="T:System.NotSupportedException">
+                流不支持查找，例如在流通过管道或控制台输出构造的情况下即为如此。
+            </exception>
             <exception cref="T:System.ObjectDisposedException">在流关闭后调用方法。</exception>
             <filterpriority>1</filterpriority>
         </member>
@@ -1408,7 +1437,9 @@
             <summary>当在派生类中重写时，设置当前流的长度。</summary>
             <param name="value">所需的当前流的长度（以字节表示）。</param>
             <exception cref="T:System.IO.IOException">发生 I/O 错误。</exception>
-            <exception cref="T:System.NotSupportedException">流不支持写入和查找，例如在流通过管道或控制台输出构造的情况下即为如此。</exception>
+            <exception cref="T:System.NotSupportedException">
+                流不支持写入和查找，例如在流通过管道或控制台输出构造的情况下即为如此。
+            </exception>
             <exception cref="T:System.ObjectDisposedException">在流关闭后调用方法。</exception>
             <filterpriority>2</filterpriority>
         </member>
@@ -1487,7 +1518,8 @@
                 中的从零开始的字节偏移量，从此处开始将字节复制到该流。
             </param>
             <param name="count">最多写入的字节数。</param>
-            <param name="cancellationToken">要监视取消请求的标记。默认值为<see cref="P:System.Threading.CancellationToken.None"/>。
+            <param name="cancellationToken">要监视取消请求的标记。默认值为<see
+                    cref="P:System.Threading.CancellationToken.None"/>。
             </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
@@ -1527,7 +1559,8 @@
             <filterpriority>2</filterpriority>
         </member>
         <member name="T:System.IO.StreamReader">
-            <summary>实现一个<see cref="T:System.IO.TextReader"/>，使其以一种特定的编码从字节流中读取字符。若要浏览此类型的.NET Framework 源代码，请参阅
+            <summary>实现一个<see cref="T:System.IO.TextReader"/>，使其以一种特定的编码从字节流中读取字符。若要浏览此类型的.NET
+                Framework 源代码，请参阅
                 Reference Source。
             </summary>
             <filterpriority>1</filterpriority>
@@ -1628,7 +1661,8 @@
             </summary>
             <param name="stream">要读取的流。</param>
             <param name="encoding">要使用的字符编码。</param>
-            <param name="detectEncodingFromByteOrderMarks">如果要在文件开头查找字节顺序标记，则为 true；否则为 false。</param>
+            <param name="detectEncodingFromByteOrderMarks">如果要在文件开头查找字节顺序标记，则为 true；否则为 false。
+            </param>
             <param name="bufferSize">最小缓冲区大小。</param>
             <param name="leaveOpen">如果在释放
                 <see cref="T:System.IO.StreamReader"/>
@@ -1728,7 +1762,8 @@
             <summary>从当前流中异步读取指定的最大字符，并且从指定的索引位置开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -1742,7 +1777,8 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">要读取的最大字符数。如果在将指定的字符数写入缓冲区之前已到达流结尾，则将返回当前方法。</param>
+            <param name="count">要读取的最大字符数。如果在将指定的字符数写入缓冲区之前已到达流结尾，则将返回当前方法。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -1799,7 +1835,8 @@
             <summary>从当前流中异步读取指定的最大字符，并且从指定的索引位置开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可小于所请求的字节数；如果已到达流结尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -1813,7 +1850,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">要读取的最大字符数。如果在将指定的字符数写入到缓冲区之前就已经达到流结尾，则将返回此方法。</param>
+            <param name="count">
+                要读取的最大字符数。如果在将指定的字符数写入到缓冲区之前就已经达到流结尾，则将返回此方法。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -1846,7 +1885,8 @@
                 <paramref name="TResult"/>
                 参数的值包含来自流的下一行；如果读取了所有字符，则为 null。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see cref="F:System.Int32.MaxValue"/>。
+            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see
+                    cref="F:System.Int32.MaxValue"/>。
             </exception>
             <exception cref="T:System.ObjectDisposedException">流已被释放。</exception>
             <exception cref="T:System.InvalidOperationException">编写器正在由其前一次读取操作使用。</exception>
@@ -1870,7 +1910,8 @@
             <exception cref="T:System.InvalidOperationException">编写器正在由其前一次读取操作使用。</exception>
         </member>
         <member name="T:System.IO.StreamWriter">
-            <summary>实现一个<see cref="T:System.IO.TextWriter"/>，使其以一种特定的编码向流中写入字符。若要浏览此类型的.NET Framework 源代码，请参阅参考源。
+            <summary>实现一个<see cref="T:System.IO.TextWriter"/>，使其以一种特定的编码向流中写入字符。若要浏览此类型的.NET
+                Framework 源代码，请参阅参考源。
             </summary>
             <filterpriority>1</filterpriority>
         </member>
@@ -1983,7 +2024,8 @@
             <param name="disposing">true to release both managed and unmanaged resources; false to release only
                 unmanaged resources.
             </param>
-            <exception cref="T:System.Text.EncoderFallbackException">当前编码不支持显示半个 Unicode 代理项对。</exception>
+            <exception cref="T:System.Text.EncoderFallbackException">当前编码不支持显示半个 Unicode 代理项对。
+            </exception>
         </member>
         <member name="P:System.IO.StreamWriter.Encoding">
             <summary>获取将输出写入到其中的<see cref="T:System.Text.Encoding"/>。
@@ -1997,7 +2039,8 @@
             <summary>清理当前写入器的所有缓冲区，并使所有缓冲数据写入基础流。</summary>
             <exception cref="T:System.ObjectDisposedException">当前编写器已关闭。</exception>
             <exception cref="T:System.IO.IOException">出现 I/O 错误。</exception>
-            <exception cref="T:System.Text.EncoderFallbackException">当前编码不支持显示半个 Unicode 代理项对。</exception>
+            <exception cref="T:System.Text.EncoderFallbackException">当前编码不支持显示半个 Unicode 代理项对。
+            </exception>
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.StreamWriter.FlushAsync">
@@ -2239,7 +2282,9 @@
         <member name="M:System.IO.StringReader.Read(System.Char[],System.Int32,System.Int32)">
             <summary>读取输入字符串中的字符块，并将字符位置提升<paramref name="count"/>。
             </summary>
-            <returns>读入缓冲区的总字符数。如果当前没有那么多字符可用，则总字符数可能会少于所请求的字符数，或者如果已到达基础字符串的结尾，则总字符数为零。</returns>
+            <returns>
+                读入缓冲区的总字符数。如果当前没有那么多字符可用，则总字符数可能会少于所请求的字符数，或者如果已到达基础字符串的结尾，则总字符数为零。
+            </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
                 和 (
@@ -2271,7 +2316,8 @@
             <summary>异步从当前字符串中读取指定数目的字符并从指定索引开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已到达字符串的末尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已到达字符串的末尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -2285,7 +2331,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">最多读取的字符数。如果在写入指定数目的字符到缓冲区之前，就已经达到字符串的末尾，则方法返回。</param>
+            <param name="count">
+                最多读取的字符数。如果在写入指定数目的字符到缓冲区之前，就已经达到字符串的末尾，则方法返回。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -2309,7 +2357,8 @@
             <summary>异步从当前字符串中读取指定数目的字符并从指定索引开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已到达字符串的末尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已到达字符串的末尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -2323,7 +2372,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">最多读取的字符数。如果在写入指定数目的字符到缓冲区之前，就已经达到字符串的末尾，则方法返回。</param>
+            <param name="count">
+                最多读取的字符数。如果在写入指定数目的字符到缓冲区之前，就已经达到字符串的末尾，则方法返回。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -2356,7 +2407,8 @@
                 <paramref name="TResult"/>
                 参数的值包含来自字符串读取器的下一行或为 null 如果读取所有字符。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see cref="F:System.Int32.MaxValue"/>。
+            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see
+                    cref="F:System.Int32.MaxValue"/>。
             </exception>
             <exception cref="T:System.ObjectDisposedException">字符串读取器已被释放。</exception>
             <exception cref="T:System.InvalidOperationException">编写器正在由其前一次读取操作使用。</exception>
@@ -2605,7 +2657,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.IO.TextReader.Peek">
-            <summary>读取下一个字符，而不更改读取器状态或字符源。返回下一个可用字符，而实际上并不从读取器中读取此字符。</summary>
+            <summary>读取下一个字符，而不更改读取器状态或字符源。返回下一个可用字符，而实际上并不从读取器中读取此字符。
+            </summary>
             <returns>一个表示下一个要读取的字符的整数；如果没有更多可读取的字符或该读取器不支持查找，则为 -1。</returns>
             <exception cref="T:System.ObjectDisposedException">
                 <see cref="T:System.IO.TextReader"/>
@@ -2626,7 +2679,8 @@
         </member>
         <member name="M:System.IO.TextReader.Read(System.Char[],System.Int32,System.Int32)">
             <summary>从当前读取器中读取指定数目的字符并从指定索引开始将该数据写入缓冲区。</summary>
-            <returns>已读取的字符数。该数会小于或等于<paramref name="count"/>，具体取决于读取器中是否有可用的数据。如果调用此方法时没有留下更多的字符供读取，则此方法返回 0（零）。
+            <returns>已读取的字符数。该数会小于或等于<paramref name="count"/>
+                ，具体取决于读取器中是否有可用的数据。如果调用此方法时没有留下更多的字符供读取，则此方法返回 0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -2640,7 +2694,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前就已达读取器的末尾，则返回该方法。</param>
+            <param name="count">
+                要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前就已达读取器的末尾，则返回该方法。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -2666,7 +2722,8 @@
             <summary>异步从当前文本读取器中读取指定最大字符数并从指定索引开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已达到文本的末尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已达到文本的末尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -2680,7 +2737,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前已到达文本的末尾，则当前方法将返回。</param>
+            <param name="count">
+                要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前已到达文本的末尾，则当前方法将返回。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -2742,7 +2801,8 @@
             <summary>异步从当前文本读取器中读取指定最大字符数并从指定索引开始将该数据写入缓冲区。</summary>
             <returns>表示异步读取操作的任务。
                 <paramref name="TResult"/>
-                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已达到文本的末尾时，则为 0（零）。
+                参数的值包含读入缓冲区的总字节数。如果当前可用字节数少于所请求的字节数，则该结果值可能小于所请求的字节数，或者如果已达到文本的末尾时，则为
+                0（零）。
             </returns>
             <param name="buffer">此方法返回时，包含指定的字符数组，该数组的
                 <paramref name="index"/>
@@ -2756,7 +2816,9 @@
                 <paramref name="buffer"/>
                 中开始写入的位置。
             </param>
-            <param name="count">要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前已到达文本的末尾，则当前方法将返回。</param>
+            <param name="count">
+                要读取的最大字符数。如果在将指定数量的字符读入缓冲区之前已到达文本的末尾，则当前方法将返回。
+            </param>
             <exception cref="T:System.ArgumentNullException">
                 <paramref name="buffer"/>
                 为 null。
@@ -2796,7 +2858,8 @@
                 <paramref name="TResult"/>
                 参数的值包含来自文本读取器的下一行或为 null 如果读取所有字符。
             </returns>
-            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see cref="F:System.Int32.MaxValue"/>。
+            <exception cref="T:System.ArgumentOutOfRangeException">下一行中的字符数大于<see
+                    cref="F:System.Int32.MaxValue"/>。
             </exception>
             <exception cref="T:System.ObjectDisposedException">文本读取器已被释放。</exception>
             <exception cref="T:System.InvalidOperationException">编写器正在由其前一次读取操作使用。</exception>

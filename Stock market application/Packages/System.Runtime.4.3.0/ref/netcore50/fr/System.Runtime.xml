@@ -454,7 +454,8 @@
                 et<see cref="T:System.RuntimeArgumentHandle"/>, ou de tableaux de ces types, n'est pas prise en charge.
                 ouL'assembly qui contient
                 <paramref name="type"/>
-                est un assembly dynamique créé avec<see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save"/>
+                est un assembly dynamique créé avec
+                <see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save"/>
                 .ouLe constructeur qui correspond le mieux à
                 <paramref name="args"/>
                 a des arguments varargs.
@@ -6289,7 +6290,8 @@
         </member>
         <member name="P:System.DateTime.DayOfWeek">
             <summary>Obtient le jour de semaine représenté par cette instance.</summary>
-            <returns>Constante énumérée qui indique le jour de la semaine de cette valeur<see cref="T:System.DateTime"/>
+            <returns>Constante énumérée qui indique le jour de la semaine de cette valeur
+                <see cref="T:System.DateTime"/>
                 .
             </returns>
             <filterpriority>1</filterpriority>
@@ -7306,10 +7308,12 @@
                 <see cref="T:System.DateTime"/>
                 actuel, ou
                 <see cref="F:System.DateTime.MaxValue"/>
-                si la valeur convertie est trop grande pour être représentée par un objet<see cref="T:System.DateTime"/>
+                si la valeur convertie est trop grande pour être représentée par un objet
+                <see cref="T:System.DateTime"/>
                 , ou
                 <see cref="F:System.DateTime.MinValue"/>
-                si la valeur convertie est trop petite pour être représentée par un objet<see cref="T:System.DateTime"/>
+                si la valeur convertie est trop petite pour être représentée par un objet
+                <see cref="T:System.DateTime"/>
                 .
             </returns>
             <filterpriority>2</filterpriority>
@@ -11271,7 +11275,8 @@
             <summary>Compare cette instance à un objet spécifié et retourne une indication sur leurs valeurs
                 relatives.
             </summary>
-            <returns>Nombre signé qui indique les valeurs relatives de cette instance et de<paramref name="target"/>
+            <returns>Nombre signé qui indique les valeurs relatives de cette instance et de
+                <paramref name="target"/>
                 .Valeur Signification Inférieure à zéro La valeur de cette instance est inférieure à celle de<paramref
                         name="target"/>. Zéro La valeur de cette instance est égale à celle de<paramref name="target"/>.
                 Supérieure à zéro La valeur de cette instance est supérieure à celle de<paramref name="target"/>.ou
@@ -23465,7 +23470,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23485,7 +23491,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -23507,7 +23514,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -23569,7 +23577,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -25456,7 +25465,8 @@
                 <paramref name="uriString"/>
                 dépasse 65519 caractères.ou La longueur du schéma spécifiée dans
                 <paramref name="uriString"/>
-                dépasse 1023 caractères.ou Il y a une séquence de caractères non valide dans<paramref name="uriString"/>
+                dépasse 1023 caractères.ou Il y a une séquence de caractères non valide dans
+                <paramref name="uriString"/>
                 .ou Le chemin d'accès MS-DOS spécifié dans
                 <paramref name="uriString"/>
                 doit commencer par c:\\.
@@ -25514,7 +25524,8 @@
                 <paramref name="uriString"/>
                 dépasse 65519 caractères.ou La longueur du schéma spécifiée dans
                 <paramref name="uriString"/>
-                dépasse 1023 caractères.ou Il y a une séquence de caractères non valide dans<paramref name="uriString"/>
+                dépasse 1023 caractères.ou Il y a une séquence de caractères non valide dans
+                <paramref name="uriString"/>
                 .ou Le chemin d'accès MS-DOS spécifié dans
                 <paramref name="uriString"/>
                 doit commencer par c:\\.
@@ -25758,7 +25769,8 @@
             <summary>Compare les parties spécifiées de deux URI à l'aide des règles de comparaison spécifiées.</summary>
             <returns>Valeur
                 <see cref="T:System.Int32"/>
-                qui indique la relation lexicale entre les composants<see cref="T:System.Uri"/>
+                qui indique la relation lexicale entre les composants
+                <see cref="T:System.Uri"/>
                 .ValeurSignificationInférieure à zéro
                 <paramref name="uri1"/>
                 est inférieur à<paramref name="uri2"/>.Zéro
@@ -28837,14 +28849,16 @@
             </exception>
         </member>
         <member name="M:System.Collections.ObjectModel.ReadOnlyCollection`1.Contains(`0)">
-            <summary>Détermine si un élément est dans<see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/>
+            <summary>Détermine si un élément est dans
+                <see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/>
                 .
             </summary>
             <returns>true si
                 <paramref name="value"/>
                 existe dans<see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/> ; sinon, false.
             </returns>
-            <param name="value">Objet à trouver dans<see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/>
+            <param name="value">Objet à trouver dans
+                <see cref="T:System.Collections.ObjectModel.ReadOnlyCollection`1"/>
                 .La valeur peut être null pour les types référence.
             </param>
         </member>
@@ -29178,7 +29192,8 @@
             <exception cref="T:System.NotSupportedException">Always thrown if the property is set.</exception>
         </member>
         <member name="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Remove(System.Object)">
-            <summary>Supprime la première occurrence d'un objet spécifique de<see cref="T:System.Collections.IList"/>
+            <summary>Supprime la première occurrence d'un objet spécifique de
+                <see cref="T:System.Collections.IList"/>
                 .Cette implémentation lève toujours<see cref="T:System.NotSupportedException"/>.
             </summary>
             <param name="value">
@@ -29384,7 +29399,8 @@
             <filterpriority>1</filterpriority>
         </member>
         <member name="M:System.Diagnostics.DebuggableAttribute.#ctor(System.Diagnostics.DebuggableAttribute.DebuggingModes)">
-            <summary>Initialise une nouvelle instance de la classe<see cref="T:System.Diagnostics.DebuggableAttribute"/>
+            <summary>Initialise une nouvelle instance de la classe
+                <see cref="T:System.Diagnostics.DebuggableAttribute"/>
                 , à l'aide des modes de débogage spécifiés pour le compilateur juste-à-temps (JIT).
             </summary>
             <param name="modes">Combinaison d'opérations de bits des valeurs
@@ -29444,7 +29460,8 @@
                 désigne une heure locale par le biais d'un spécificateur de fuseau horaire ou de<see
                         cref="F:System.Globalization.DateTimeStyles.AssumeLocal"/>, la date et l'heure sont converties
                 de l'heure locale en heure UTC.Si la chaîne d'entrée désigne une heure UTC par le biais d'un
-                spécificateur de fuseau horaire ou de<see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>
+                spécificateur de fuseau horaire ou de
+                <see cref="F:System.Globalization.DateTimeStyles.AssumeUniversal"/>
                 , aucune conversion n'est effectuée.Si la chaîne d'entrée ne désigne pas une heure locale ou une heure
                 UTC, aucune conversion n'est effectuée et la propriété
                 <see cref="P:System.DateTime.Kind"/>
@@ -30319,8 +30336,9 @@
             <returns>Chaîne contenant le numéro de version de l'assembly.</returns>
         </member>
         <member name="T:System.Reflection.DefaultMemberAttribute">
-            <summary>Définit le membre d'un type qui est le membre par défaut utilisé par<see
-                    cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
+            <summary>Définit le membre d'un type qui est le membre par défaut utilisé par
+                <see
+                        cref="M:System.Type.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])"/>
                 .
             </summary>
         </member>
@@ -30498,7 +30516,8 @@
             <returns>Relâchements de compilation spécifiés lors de la construction de l'objet actuel.Utilisez
                 l'énumération
                 <see cref="T:System.Runtime.CompilerServices.CompilationRelaxations"/>
-                avec la propriété<see
+                avec la propriété
+                <see
                         cref="P:System.Runtime.CompilerServices.CompilationRelaxationsAttribute.CompilationRelaxations"/>
                 .
             </returns>

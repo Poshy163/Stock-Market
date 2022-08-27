@@ -688,7 +688,8 @@
             </exception>
             <exception cref="T:System.ArgumentException">
                 <paramref name="index"/>
-                및<paramref name="length"/>에서<paramref name="array"/>에 대한 올바른 범위를 지정하지 않은 경우또는<paramref name="comparer"/>
+                및<paramref name="length"/>에서<paramref name="array"/>에 대한 올바른 범위를 지정하지 않은 경우또는
+                <paramref name="comparer"/>
                 가 null이고<paramref name="value"/>의 형식이<paramref name="array"/>의 요소와 호환되지 않는 경우
             </exception>
             <exception cref="T:System.InvalidOperationException">
@@ -832,7 +833,8 @@
             </exception>
             <exception cref="T:System.ArgumentException">
                 <paramref name="index"/>
-                및<paramref name="length"/>에서<paramref name="array"/>에 대한 올바른 범위를 지정하지 않은 경우또는<paramref name="comparer"/>
+                및<paramref name="length"/>에서<paramref name="array"/>에 대한 올바른 범위를 지정하지 않은 경우또는
+                <paramref name="comparer"/>
                 가 null이고<paramref name="value"/>의 형식이<paramref name="array"/>의 요소와 호환되지 않는 경우
             </exception>
             <exception cref="T:System.InvalidOperationException">
@@ -1226,7 +1228,8 @@
                 <paramref name="array"/>가 null인 경우또는<paramref name="match"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -1302,7 +1305,8 @@
                 <paramref name="array"/>가 null인 경우또는<paramref name="match"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -1360,7 +1364,8 @@
             <param name="dimension">길이를 지정해야 하는<see cref="T:System.Array"/>의 0부터 시작하는 차원입니다.
             </param>
             <exception cref="T:System.IndexOutOfRangeException">
-                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가<see cref="P:System.Array.Rank"/>
+                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가
+                <see cref="P:System.Array.Rank"/>
                 보다 크거나 같은 경우
             </exception>
             <filterpriority>1</filterpriority>
@@ -1370,7 +1375,8 @@
             <returns>배열에서 지정된 차원의 첫 번째 요소의 인덱스입니다.</returns>
             <param name="dimension">시작 인덱스를 지정해야 하는 배열의 0부터 시작하는 차원입니다.</param>
             <exception cref="T:System.IndexOutOfRangeException">
-                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가<see cref="P:System.Array.Rank"/>
+                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가
+                <see cref="P:System.Array.Rank"/>
                 보다 크거나 같은 경우
             </exception>
             <filterpriority>1</filterpriority>
@@ -1380,7 +1386,8 @@
             <returns>배열에 있는 지정된 차원의 마지막 요소의 인덱스이거나 지정된 차원이 비어 있는 경우 -1입니다.</returns>
             <param name="dimension">상한을 지정해야 하는 배열의 0부터 시작하는 차원입니다.</param>
             <exception cref="T:System.IndexOutOfRangeException">
-                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가<see cref="P:System.Array.Rank"/>
+                <paramref name="dimension"/>가 0보다 작은 경우또는<paramref name="dimension"/>가
+                <see cref="P:System.Array.Rank"/>
                 보다 크거나 같은 경우
             </exception>
             <filterpriority>1</filterpriority>
@@ -1485,7 +1492,8 @@
                 <paramref name="array"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -1546,7 +1554,8 @@
                 <paramref name="array"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -1623,7 +1632,8 @@
                 <paramref name="array"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -1692,7 +1702,8 @@
                 <paramref name="array"/>가 null인 경우
             </exception>
             <exception cref="T:System.ArgumentOutOfRangeException">
-                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는<paramref name="count"/>
+                <paramref name="startIndex"/>가<paramref name="array"/>에 대한 올바른 인덱스 범위 밖에 있는 경우또는
+                <paramref name="count"/>
                 가 0보다 작은 경우또는
                 <paramref name="startIndex"/>
                 및<paramref name="count"/>에서<paramref name="array"/>에 대한 올바른 섹션을 지정하지 않은 경우
@@ -3748,7 +3759,8 @@
             <param name="result">이 메서드는 변환이 성공한 경우<paramref name="s"/>에 포함된 숫자에 해당하는 8비트 부호 없는 정수 값을 반환하고, 변환이 실패한 경우 0을
                 반환합니다.
                 <paramref name="s"/>
-                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,<see cref="F:System.Byte.MinValue"/>
+                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,
+                <see cref="F:System.Byte.MinValue"/>
                 보다 작거나<see cref="F:System.Byte.MaxValue"/>보다 큰 숫자를 나타내는 경우 변환이 실패합니다.이 매개 변수는 초기화되지 않은 상태로 전달됩니다. 원래
                 <paramref name="result"/>에 제공된 모든 값을 덮어쓰게 됩니다.
             </param>
@@ -5295,7 +5307,8 @@
                 <paramref name="s"/>에 대한 문화권별 형식 지정 정보를 제공하는 개체입니다.
             </param>
             <param name="styles">구문 분석 작업이 성공하기 위해<paramref name="s"/>에 있을 수 있는 스타일 요소를 나타내는 열거형 값의 비트 조합으로, 현재 시간대 또는
-                현재 날짜와 비교하여 구문 분석된 날짜를 해석할 방법을 정의합니다.지정할 일반적인 값은<see cref="F:System.Globalization.DateTimeStyles.None"/>
+                현재 날짜와 비교하여 구문 분석된 날짜를 해석할 방법을 정의합니다.지정할 일반적인 값은
+                <see cref="F:System.Globalization.DateTimeStyles.None"/>
                 입니다.
             </param>
             <exception cref="T:System.ArgumentNullException">
@@ -8563,7 +8576,8 @@
             <summary>대리자 배열의 호출 목록을 연결합니다.</summary>
             <returns>
                 <paramref name="delegates"/>
-                배열 대리자의 호출 목록을 연결하는 호출 목록을 가진 새 대리자입니다.<paramref name="delegates"/>가 null이거나<paramref name="delegates"/>
+                배열 대리자의 호출 목록을 연결하는 호출 목록을 가진 새 대리자입니다.<paramref name="delegates"/>가 null이거나
+                <paramref name="delegates"/>
                 에 요소가 없거나<paramref name="delegates"/>의 모든 항목이 null인 경우 null을 반환합니다.
             </returns>
             <param name="delegates">결합할 대리자의 배열입니다.</param>
@@ -11554,7 +11568,8 @@
             <param name="result">이 메서드는 변환이 성공한 경우<paramref name="s"/>에 포함된 숫자에 해당하는 16비트 부호 있는 정수 값을 반환하고, 변환이 실패한 경우
                 0을 반환합니다.
                 <paramref name="s"/>
-                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,<see cref="F:System.Int16.MinValue"/>
+                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,
+                <see cref="F:System.Int16.MinValue"/>
                 보다 작거나<see cref="F:System.Int16.MaxValue"/>보다 큰 숫자를 나타내는 경우 변환이 실패합니다.이 매개 변수는 초기화되지 않은 상태로 전달됩니다. 원래
                 <paramref name="result"/>에 제공된 모든 값을 덮어쓰게 됩니다.
             </param>
@@ -11959,7 +11974,8 @@
             <param name="result">이 메서드는 변환이 성공한 경우<paramref name="s"/>에 포함된 숫자의 32비트 부호 있는 정수 값을 반환하고, 변환이 실패한 경우 0을
                 반환합니다.
                 <paramref name="s"/>
-                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,<see cref="F:System.Int32.MinValue"/>
+                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,
+                <see cref="F:System.Int32.MinValue"/>
                 보다 작거나<see cref="F:System.Int32.MaxValue"/>보다 큰 숫자를 나타내는 경우 변환이 실패합니다.이 매개 변수는 초기화되지 않은 상태로 전달됩니다. 원래
                 <paramref name="result"/>에 제공된 모든 값을 덮어쓰게 됩니다.
             </param>
@@ -12370,7 +12386,8 @@
             <param name="result">이 메서드는 변환이 성공한 경우<paramref name="s"/>에 포함된 숫자의 64비트 부호 있는 정수 값을 반환하고, 변환이 실패한 경우 0을
                 반환합니다.
                 <paramref name="s"/>
-                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,<see cref="F:System.Int64.MinValue"/>
+                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,
+                <see cref="F:System.Int64.MinValue"/>
                 보다 작거나<see cref="F:System.Int64.MaxValue"/>보다 큰 숫자를 나타내는 경우 변환이 실패합니다.이 매개 변수는 초기화되지 않은 상태로 전달됩니다. 원래
                 <paramref name="result"/>에 제공된 모든 값을 덮어쓰게 됩니다.
             </param>
@@ -14471,7 +14488,8 @@
             <param name="result">이 메서드는 변환이 성공한 경우<paramref name="s"/>에 포함된 숫자에 해당하는 8비트 부호 있는 정수 값을 반환하고, 변환이 실패한 경우 0을
                 반환합니다.
                 <paramref name="s"/>
-                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,<see cref="F:System.SByte.MinValue"/>
+                매개 변수가 null 또는<see cref="F:System.String.Empty"/>이거나, 형식이 올바르지 않거나,
+                <see cref="F:System.SByte.MinValue"/>
                 보다 작거나<see cref="F:System.SByte.MaxValue"/>보다 큰 숫자를 나타내는 경우 변환이 실패합니다.이 매개 변수는 초기화되지 않은 상태로 전달됩니다. 원래
                 <paramref name="result"/>에 제공된 모든 값을 덮어쓰게 됩니다.
             </param>
@@ -16793,7 +16811,8 @@
         </member>
         <member name="M:System.String.Substring(System.Int32)">
             <summary>이 인스턴스에서 부분 문자열을 검색합니다.부분 문자열은 지정된 문자 위치에서 시작하고 문자열 끝까지 계속됩니다.</summary>
-            <returns>이 인스턴스의<paramref name="startIndex"/>에서 시작하는 부분 문자열에 해당하는 문자열이거나,<see cref="F:System.String.Empty"/>
+            <returns>이 인스턴스의<paramref name="startIndex"/>에서 시작하는 부분 문자열에 해당하는 문자열이거나,
+                <see cref="F:System.String.Empty"/>
                 가 이 인스턴스의 길이와 같으면<paramref name="startIndex"/>입니다.
             </returns>
             <param name="startIndex">이 인스턴스의 부분 문자열에 있는 0부터 시작할 문자 위치입니다.</param>
@@ -16807,7 +16826,8 @@
             <summary>이 인스턴스에서 부분 문자열을 검색합니다.부분 문자열은 지정된 문자 위치에서 시작하고 길이도 지정되어 있습니다.</summary>
             <returns>이 인스턴스의<paramref name="length"/>에서 시작하는
                 <paramref name="startIndex"/>
-                길이의 부분 문자열에 해당하는 문자열이거나,<see cref="F:System.String.Empty"/>가 이 인스턴스의 길이와 같고<paramref name="startIndex"/>
+                길이의 부분 문자열에 해당하는 문자열이거나,<see cref="F:System.String.Empty"/>가 이 인스턴스의 길이와 같고
+                <paramref name="startIndex"/>
                 가 0이면<paramref name="length"/>입니다.
             </returns>
             <param name="startIndex">이 인스턴스의 부분 문자열에 있는 0부터 시작할 문자 위치입니다.</param>
@@ -17385,7 +17405,8 @@
                 <see cref="T:System.TimeSpan"/>
                 개체보다 짧은지, 같은지 또는 긴지를 나타내는 정수를 반환합니다.
             </summary>
-            <returns>이 인스턴스와<paramref name="value"/>의 상대 값을 나타내는 부호 있는 숫자입니다.값 설명 음의 정수 이 인스턴스가<paramref name="value"/>
+            <returns>이 인스턴스와<paramref name="value"/>의 상대 값을 나타내는 부호 있는 숫자입니다.값 설명 음의 정수 이 인스턴스가
+                <paramref name="value"/>
                 보다 짧습니다. 0 이 인스턴스가<paramref name="value"/>와 같습니다. 양의 정수 이 인스턴스가<paramref name="value"/>보다 깁니다.
             </returns>
             <param name="value">이 인스턴스와 비교할 개체입니다.</param>
@@ -20135,7 +20156,8 @@
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base
                 class.Derived classes must provide an implementation.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -20155,7 +20177,8 @@
             </exception>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.-or-
@@ -20173,7 +20196,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -20186,7 +20210,8 @@
                 개체를 반환합니다.
             </summary>
             <returns>
-                <see cref="T:System.Type"/>의 요소를 현재 제네릭 형식의 형식 매개 변수로 대체하여 생성된 형식을 나타내는<paramref name="typeArguments"/>
+                <see cref="T:System.Type"/>의 요소를 현재 제네릭 형식의 형식 매개 변수로 대체하여 생성된 형식을 나타내는
+                <paramref name="typeArguments"/>
                 입니다.
             </returns>
             <param name="typeArguments">현재 제네릭 형식의 형식 매개 변수로 대체할 형식 배열입니다.</param>
@@ -20230,7 +20255,8 @@
             </returns>
             <exception cref="T:System.NotSupportedException">The invoked method is not supported in the base class.
             </exception>
-            <exception cref="T:System.TypeLoadException">The current type is<see cref="T:System.TypedReference"/>
+            <exception cref="T:System.TypeLoadException">The current type is
+                <see cref="T:System.TypedReference"/>
                 .-or-The current type is a ByRef type.That is,
                 <see cref="P:System.Type.IsByRef"/>
                 returns true.
@@ -21907,7 +21933,8 @@
                 <paramref name="uriString"/>에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는<paramref name="uriString"/>에 지정된 포트
                 번호가 잘못되었거나 구문 분석될 수 없는 경우또는 길이
                 <paramref name="uriString"/>
-                65519 자를 초과 합니다.또는<paramref name="uriString"/>에 지정된 체계의 길이가 1023자를 초과하는 경우또는<paramref name="uriString"/>
+                65519 자를 초과 합니다.또는<paramref name="uriString"/>에 지정된 체계의 길이가 1023자를 초과하는 경우또는
+                <paramref name="uriString"/>
                 에 잘못된 문자 시퀀스가 있는 경우또는<paramref name="uriString"/>에 지정된 MS-DOS 경로가 c:\\로 시작하지 않는 경우
             </exception>
         </member>
@@ -21938,7 +21965,8 @@
                 <paramref name="uriString"/>에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는<paramref name="uriString"/>에 지정된 포트
                 번호가 잘못되었거나 구문 분석될 수 없는 경우또는 길이
                 <paramref name="uriString"/>
-                65519 자를 초과 합니다.또는<paramref name="uriString"/>에 지정된 체계의 길이가 1023자를 초과하는 경우또는<paramref name="uriString"/>
+                65519 자를 초과 합니다.또는<paramref name="uriString"/>에 지정된 체계의 길이가 1023자를 초과하는 경우또는
+                <paramref name="uriString"/>
                 에 잘못된 문자 시퀀스가 있는 경우또는<paramref name="uriString"/>에 지정된 MS-DOS 경로가 c:\\로 시작하지 않는 경우
             </exception>
         </member>
@@ -21966,7 +21994,8 @@
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 이름이 잘못된 경우또는<paramref name="baseUri"/>와<paramref
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 파일 이름이 잘못된 경우 또는<paramref name="baseUri"/>와<paramref
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 사용자 이름이 잘못된 경우또는<paramref name="baseUri"/>와<paramref
-                        name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는<paramref name="baseUri"/>
+                        name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는
+                <paramref name="baseUri"/>
                 와<paramref name="relativeUri"/>를 조합하여 만든 URI에 지정된 포트 번호가 잘못되었거나 구문 분석될 수 없는 경우또는<paramref
                         name="baseUri"/>와<paramref name="relativeUri"/>를 조합하여 만든 URI의 길이가 65519자를 초과하는 경우또는<paramref
                         name="baseUri"/>와<paramref name="relativeUri"/>를 조합하여 만든 URI에 지정된 체계의 길이가 1023자를 초과하는 경우또는
@@ -22014,7 +22043,8 @@
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 이름이 잘못된 경우또는<paramref name="baseUri"/>와<paramref
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 파일 이름이 잘못된 경우 또는<paramref name="baseUri"/>와<paramref
                         name="relativeUri"/>를 조합하여 만든 URI에 지정된 사용자 이름이 잘못된 경우또는<paramref name="baseUri"/>와<paramref
-                        name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는<paramref name="baseUri"/>
+                        name="relativeUri"/>를 조합하여 만든 URI에 지정된 호스트 또는 인증 기관 이름이 백슬래시로 끝나는 경우또는
+                <paramref name="baseUri"/>
                 와<paramref name="relativeUri"/>를 조합하여 만든 URI에 지정된 포트 번호가 잘못되었거나 구문 분석될 수 없는 경우또는<paramref
                         name="baseUri"/>와<paramref name="relativeUri"/>를 조합하여 만든 URI의 길이가 65519자를 초과하는 경우또는<paramref
                         name="baseUri"/>와<paramref name="relativeUri"/>를 조합하여 만든 URI에 지정된 체계의 길이가 1023자를 초과하는 경우또는
@@ -23952,7 +23982,8 @@
                 복사합니다.
             </summary>
             <param name="array">
-                <see cref="T:System.Collections.Generic.ICollection`1"/>에서 복사한 요소의 대상인 일차원<see cref="T:System.Array"/>
+                <see cref="T:System.Collections.Generic.ICollection`1"/>에서 복사한 요소의 대상인 일차원
+                <see cref="T:System.Array"/>
                 입니다.<see cref="T:System.Array"/>에는 0부터 시작하는 인덱스가 있어야 합니다.
             </param>
             <param name="arrayIndex">
@@ -24014,7 +24045,8 @@
             <returns>다음 표와 같이
                 <paramref name="x"/>
                 및<paramref name="y"/>의 상대 값을 나타내는 부호 있는 정수입니다.값 의미 0보다 작음<paramref name="x"/>가<paramref name="y"/>보다
-                작습니다.Zero<paramref name="x"/>가<paramref name="y"/>와 같습니다.0보다 큼<paramref name="x"/>가<paramref name="y"/>
+                작습니다.Zero<paramref name="x"/>가<paramref name="y"/>와 같습니다.0보다 큼<paramref name="x"/>가
+                <paramref name="y"/>
                 보다 큰 경우
             </returns>
             <param name="x">비교할 첫 번째 개체입니다.</param>
@@ -25021,7 +25053,8 @@
         </member>
         <member name="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Add(System.Object)">
             <summary>
-                <see cref="T:System.Collections.IList"/>에 항목을 추가합니다.이 구현은 항상<see cref="T:System.NotSupportedException"/>
+                <see cref="T:System.Collections.IList"/>에 항목을 추가합니다.이 구현은 항상
+                <see cref="T:System.NotSupportedException"/>
                 을 throw합니다.
             </summary>
             <returns>새 요소가 삽입된 위치입니다.</returns>

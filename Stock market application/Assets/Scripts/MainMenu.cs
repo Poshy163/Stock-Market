@@ -6,29 +6,32 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    [Header("Login")] 
-    public TMP_InputField logUsername;
+    [Header("Login")] public TMP_InputField logUsername;
+
     public TMP_InputField logPincode;
 
-    [Header("Register")] 
-    public TMP_InputField refName;
+    [Header("Register")] public TMP_InputField refName;
+
     public TMP_InputField refUsername;
     public TMP_InputField regPincode;
 
-    [Header("Other")] 
-    public TMP_Text error;
-    public bool needLogin;
+    [Header("Other")] public TMP_Text error;
 
     public void Register()
     {
-        if (!needLogin)
-            NextScene();
         try
         {
-            var tName = refName.text.ToUpper();
-            var tUsername = refUsername.text.ToUpper();
-            var tPincode = regPincode.text.ToUpper();
-            MongoDBDatabase.CommitRegister(tName, tUsername, tPincode);
+            var tName = refName.text;
+            var tUsername = refUsername.text;
+            var tPincode = regPincode.text;
+            if (string.IsNullOrWhiteSpace(tName) || string.IsNullOrWhiteSpace(tUsername) ||
+                string.IsNullOrWhiteSpace(tPincode))
+            {
+                ErrorText("Empty/invaid username or pin code");
+                return;
+            }
+
+            if (!MongoDBDatabase.CommitRegister(tName, tUsername, tPincode)) ErrorText("Username/Name already exists");
         }
         catch
         {
@@ -39,27 +42,27 @@ public class MainMenu : MonoBehaviour
 
     public void Login()
     {
-        if (!needLogin)
-            NextScene();
-        var tUsername = logUsername.text.ToUpper();
-        var tPincode = logPincode.text.ToUpper();
+        var tUsername = logUsername.text;
+        var tPincode = logPincode.text;
         if (string.IsNullOrWhiteSpace(tUsername) || string.IsNullOrWhiteSpace(tPincode))
         {
             ErrorText("Empty/invaid username or pin code");
             return;
         }
-           
-        MongoDBDatabase.CheckLogin(tUsername,tPincode);
+
+        if (MongoDBDatabase.CheckLogin(tUsername, tPincode))
+            NextScene();
+        else
+            ErrorText("Wrong Username/Password");
     }
+
     private void ErrorText(string displaytext)
     {
         error.text = displaytext;
     }
 
-    private static void NextScene()
+    private void NextScene()
     {
-        
+        ErrorText("Your in!");
     }
-
-
 }
