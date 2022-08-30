@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // ReSharper disable IdentifierTypo
 
@@ -31,7 +32,10 @@ public class MainMenu : MonoBehaviour
                 return;
             }
 
-            if (!MongoDBDatabase.CommitRegister(tName, tUsername, tPincode)) ErrorText("Username/Name already exists");
+            if (!MongoDBDatabase.CommitRegister(tName, tUsername, tPincode))
+                ErrorText("Username/Name already exists");
+            else
+              NextScene(1);
         }
         catch
         {
@@ -51,7 +55,7 @@ public class MainMenu : MonoBehaviour
         }
 
         if (MongoDBDatabase.CheckLogin(tUsername, tPincode))
-            NextScene();
+            NextScene(1);
         else
             ErrorText("Wrong Username/Password");
     }
@@ -61,8 +65,8 @@ public class MainMenu : MonoBehaviour
         error.text = displaytext;
     }
 
-    private void NextScene()
+    private static void NextScene(int scene)
     {
-        ErrorText("Your in!");
+        SceneManager.LoadScene(scene);
     }
 }
