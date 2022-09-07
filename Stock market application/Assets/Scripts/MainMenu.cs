@@ -35,7 +35,7 @@ public class MainMenu : MonoBehaviour
             if (!MongoDBDatabase.CommitRegister(tName, tUsername, tPincode))
                 ErrorText("Username/Name already exists");
             else
-              NextScene(1);
+                NextScene(1);
         }
         catch
         {
