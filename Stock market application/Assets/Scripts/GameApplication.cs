@@ -18,6 +18,7 @@ public class GameApplication : MonoBehaviour
     
     [Header("Values")] 
     public double money = 100000;
+    private int day = 1;
     public double Stockvalue;
     public int stockAmount;
     public double tickTimer = 2;
@@ -25,6 +26,7 @@ public class GameApplication : MonoBehaviour
     [Header("Objects")] 
     public GameObject line;
     public TMP_Text Change_Price;
+    public TMP_Text Day;
     public TMP_Text Stock_Value;
     public TMP_Text yourMoney;
     public TMP_Text debugText;
@@ -210,6 +212,12 @@ public class GameApplication : MonoBehaviour
 
     private void Tick()
     {
+        day++;
+        Day.text = "Day "+ day + "/80";
+        
+        if(day == 80)
+            Application.Quit();
+        
         for (var i = 0; i <= _stockPrice.Length - 2; i++)
             tempArray[i] = _stockPrice[i + 1];
         var stockChange = (float) Math.Round(Random.Range(_yPosbounds, _yNegbounds), 2);
