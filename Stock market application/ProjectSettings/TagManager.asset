@@ -19,6 +19,7 @@ TagManager:
   - Delete
   - Reset
   - TuTFloor
+  - Line
   layers:
   - Default
   - TransparentFX

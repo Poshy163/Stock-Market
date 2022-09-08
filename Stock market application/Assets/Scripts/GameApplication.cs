@@ -13,35 +13,59 @@ public class GameApplication : MonoBehaviour
 {
     private const float _xNegbounds = -7.8f;
     private const float _xPosbounds = 7.8f;
-    private const float _yNegbounds = -2.9f;
+    private const float _yNegbounds = -3.14f;
     private const float _yPosbounds = 2.9f;
-
-    [Header("Values")] public double money;
-
+    
+    [Header("Values")] 
+    public double money = 100000;
+    public double Stockvalue;
+    public int stockAmount;
     public double tickTimer = 2;
-
-    [Header("Objects")] public GameObject line;
-
-    public TMP_Text stock_price;
+    public int multiplyer = 10;
+    [Header("Objects")] 
+    public GameObject line;
+    public TMP_Text Change_Price;
+    public TMP_Text Stock_Value;
     public TMP_Text yourMoney;
+    public TMP_Text debugText;
+    public TMP_Text shares_Owned;
+    public GameObject GreenLine;
+    public GameObject RedLine;
+    public GameObject ColourLineParent;
 
     private readonly float[] _presetXpos =
     {
         -7.7f,
-
+        
+        -6.7375f,
+        
         -5.775f,
+        
+        -4.8125f,
 
         -3.85f,
+        
+        -2.8875f,
 
         -1.925f,
+        
+        -0.9625f,
 
         0,
+        
+        0.9625f,
 
         1.925f,
+        
+        2.8875f,
 
         3.85f,
+        
+        4.8125f,
 
         5.775f,
+        
+        6.7375f,
 
         7.7f
     };
@@ -51,21 +75,37 @@ public class GameApplication : MonoBehaviour
 
     [Header("Other")] private float[] _stockPrice =
     {
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f
     };
 
     private float _timer;
 
     private readonly float[] tempArray =
     {
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
+        0f,
         0f,
         0f,
         0f,
@@ -85,7 +125,8 @@ public class GameApplication : MonoBehaviour
 
     private void Update()
     {
-        yourMoney.text = "Money: $" + money;
+        yourMoney.text = "Money: $" + Math.Round(money);
+        
         _timer += Time.deltaTime;
         if (!(_timer >= tickTimer)) return;
         _timer = 0;
@@ -95,10 +136,29 @@ public class GameApplication : MonoBehaviour
 
     public void Buy()
     {
+        switch (money <= Stockvalue)
+        {
+            case true when stockAmount == 0:
+                Application.Quit();
+                break;
+            case true:
+                debugText.text = "No Money";
+                break;
+            default:
+                money -= Stockvalue;
+                stockAmount++;
+                break;
+        }
+
+        shares_Owned.text = "Shares: " + stockAmount;
     }
 
     public void Sell()
     {
+        if (stockAmount <= 0) return;
+        stockAmount--;
+        money += Stockvalue;
+        shares_Owned.text = "Shares: " + stockAmount;
     }
 
     private void Startgame()
@@ -106,14 +166,45 @@ public class GameApplication : MonoBehaviour
         RenderLine();
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private void RenderLine()
     {
-        var count = 0;
+        var taggedObjects = GameObject.FindGameObjectsWithTag("Line");   
+        foreach (var d in taggedObjects) {
+            Destroy(d);
+        }
+        
         _lineRenderer.positionCount = _stockPrice.Length;
-        foreach (var i in _stockPrice)
+        
+        for (var i = 0; i <  _stockPrice.Length; i++)
         {
-            _lineRenderer.SetPosition(count, new Vector3(_presetXpos[count], i, 0));
-            count++;
+            _lineRenderer.SetPosition(i, new Vector3(_presetXpos[i], _stockPrice[i], 0));
+
+
+            try
+            {
+
+                if (_stockPrice[i] > _stockPrice[i + 1])
+                {
+                    var tempLine = Instantiate(RedLine,ColourLineParent.transform).GetComponent<LineRenderer>();
+                    tempLine.positionCount = 2;
+                    tempLine.SetPosition(0, new Vector3(_presetXpos[i], _stockPrice[i], 0));
+                    tempLine.SetPosition(1, new Vector3(_presetXpos[i + 1], _stockPrice[i + 1], 0));
+                }
+                else if (_stockPrice[i] < _stockPrice[i + 1])
+                {
+                    var tempLine = Instantiate(GreenLine,ColourLineParent.transform).GetComponent<LineRenderer>();
+                    tempLine.positionCount = 2;
+                    tempLine.SetPosition(0, new Vector3(_presetXpos[i], _stockPrice[i], 0));
+                    tempLine.SetPosition(1, new Vector3(_presetXpos[i + 1], _stockPrice[i + 1], 0));
+                }
+
+            }
+            catch
+            {
+                // ignored
+            }
+
         }
     }
 
@@ -121,9 +212,18 @@ public class GameApplication : MonoBehaviour
     {
         for (var i = 0; i <= _stockPrice.Length - 2; i++)
             tempArray[i] = _stockPrice[i + 1];
-        tempArray[_stockPrice.Length - 1] = (float) Math.Round(Random.Range(_yPosbounds, _yNegbounds), 2);
+        var stockChange = (float) Math.Round(Random.Range(_yPosbounds, _yNegbounds), 2);
+        
+        tempArray[_stockPrice.Length - 1] = stockChange;
+        Stockvalue += Math.Round(stockChange, 2);
         _stockPrice = tempArray;
-        stock_price.text = "Price: $" + _stockPrice[_stockPrice.Length - 1] * 100;
+        Stock_Value.text = "Value: $" + Stockvalue * multiplyer;
+        Change_Price.text = "Change: $" + _stockPrice[_stockPrice.Length - 1] * multiplyer;
+        
+        if(Stockvalue <= 0)
+            Application.Quit();
+        
+        
         RenderLine();
     }
 }
