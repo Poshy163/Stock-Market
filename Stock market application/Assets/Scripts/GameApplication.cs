@@ -15,10 +15,11 @@ public class GameApplication : MonoBehaviour
     private const float _xPosbounds = 7.8f;
     private const float _yNegbounds = -3.14f;
     private const float _yPosbounds = 2.9f;
-    
+
     [Header("Values")] 
+    public bool gameStarted = false;
     public double money = 100000;
-    private int day = 1;
+    private int day = 0;
     public double Stockvalue;
     public int stockAmount;
     public double tickTimer = 2;
@@ -127,8 +128,8 @@ public class GameApplication : MonoBehaviour
 
     private void Update()
     {
+        if (!gameStarted) return;
         yourMoney.text = "Money: $" + Math.Round(money);
-        
         _timer += Time.deltaTime;
         if (!(_timer >= tickTimer)) return;
         _timer = 0;
@@ -213,7 +214,7 @@ public class GameApplication : MonoBehaviour
     private void Tick()
     {
         day++;
-        Day.text = "Day "+ day + "/80";
+        Day.text = "Day: "+ day + "/80";
         
         if(day == 80)
             Application.Quit();

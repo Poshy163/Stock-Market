@@ -1,16 +1,26 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEditor;
+using UnityEngine;
 
 // ReSharper disable InconsistentNaming
 
 public class gameNavigation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void Start()
-    {
+   [Header("Objects")]
+   public GameObject Pregame;
+
+   public GameObject Game;
+
+   public void Start()
+   {
+      Pregame.SetActive(true);
+      Game.SetActive(false);
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-    }
+   public void StartGame()
+   {
+       Pregame.SetActive(false);
+       Game.SetActive(true);
+       GameObject.Find("EventSystem").GetComponent<GameApplication>().gameStarted = true;
+   }
 }

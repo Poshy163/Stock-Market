@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.SceneManagement;
 // ReSharper disable IdentifierTypo
 
 public class InfoNavagation : MonoBehaviour
@@ -24,7 +24,6 @@ public class InfoNavagation : MonoBehaviour
 
     public void SlideTwoNext()
     {
-        slideOne.SetActive(false);
-        slideTwo.SetActive(true);
+        SceneManager.LoadScene(2);
     }
 }
